@@ -1,0 +1,16 @@
+[Applet Factory]
+Id=Gde2WeatherAppletFactory
+Location=@LIBEXECDIR@/gde2weather-applet
+_Name=Gde2weather Applet Factory
+_Description=Factory for creating the weather applet.
+
+[Gde2WeatherApplet]
+_Name=Weather Report
+_Description=Monitor the current weather conditions, and forecasts
+Icon=weather-storm
+Gde2ComponentId=OAFIID:GDE2_Gde2WeatherApplet
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=gde2-applets
+X-GDE2-Bugzilla-Component=gde2weather
+X-GDE2-Bugzilla-Version=@VERSION@
+X-GDE2-Bugzilla-OtherBinaries=gde2weather-applet-2

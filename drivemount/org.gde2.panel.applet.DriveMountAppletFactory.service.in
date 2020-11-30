@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.gde2.panel.applet.DriveMountAppletFactory
+Exec=@LIBEXECDIR@/gde2-drivemount-applet

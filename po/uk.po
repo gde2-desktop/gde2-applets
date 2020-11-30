@@ -1,0 +1,2876 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Микола Ткач <Stuartlittle1970@gmail.com>, 2013
+# Oleh, 2014
+# wanderlust <wanderlust@ukr.net>, 2009
+# Yarema aka Knedlyk <yupadmin@gmail.com>, 2012
+# Yuri Syrota <rasta@renome.rovno.ua>, 2000
+# zubr139, 2013
+# zubr139, 2013
+# Микола Ткач <Stuartlittle1970@gmail.com>, 2014-2016
+# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: GDE2 Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-01 10:25+0300\n"
+"PO-Revision-Date: 2016-08-01 07:27+0000\n"
+"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Language-Team: Ukrainian (http://www.transifex.com/gde2/GDE2/language/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../accessx-status/applet.c:147
+msgid "Shows the state of AccessX features such as latched modifiers"
+msgstr "Показує стан особливостей AccessX, наприклад, увімкнутих модифікаторів"
+
+#. about.set_authors("Raphael Slinckx <raphael@slinckx.net>\nEnrico Minack
+#. <enrico-minack@gmx.de>")
+#. about.set_artists([])
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#: ../accessx-status/applet.c:151 ../battstat/battstat_applet.c:1215
+#: ../charpick/charpick.c:666 ../command/command.c:119
+#: ../cpufreq/src/cpufreq-applet.c:704 ../drivemount/drivemount.c:125
+#: ../geyes/geyes.c:200 ../gde2weather/gde2weather-about.c:56
+#: ../invest-applet/invest/about.py:34 ../multiload/main.c:69
+#: ../netspeed/src/netspeed.c:816
+#: ../stickynotes/stickynotes_applet_callbacks.c:382
+#: ../timerapplet/timerapplet.c:264 ../trashapplet/src/trashapplet.c:441
+msgid "translator-credits"
+msgstr "Юрій Сирота <yuri@beer.com>\nМаксим Дзюманенко <dziumanenko@gmail.com>\nWanderlust <wanderlust@ukr.net>\nМикола Ткач <Stuartlittle1970@gmail.com>"
+
+#: ../accessx-status/applet.c:167
+#, c-format
+msgid "There was an error launching the help viewer: %s"
+msgstr "Помилка при запуску переглядача довідки: %s"
+
+#: ../accessx-status/applet.c:195
+msgid "Open the keyboard preferences dialog"
+msgstr "Відкрити діялоґ налаштування набірниці"
+
+#: ../accessx-status/applet.c:214
+#, c-format
+msgid "There was an error launching the keyboard preferences dialog: %s"
+msgstr "Помилка під час запуску діялоґу параметрів набірниці: %s"
+
+#: ../accessx-status/applet.c:229
+msgid "_Keyboard Accessibility Preferences"
+msgstr "Параметри спеціяльних можливостей _набірниці"
+
+#: ../accessx-status/applet.c:230 ../battstat/battstat_applet.c:69
+#: ../charpick/charpick.c:747 ../cpufreq/src/cpufreq-applet.c:137
+#: ../drivemount/drivemount.c:163 ../geyes/geyes.c:383
+#: ../gde2weather/gde2weather-applet.c:122 ../multiload/main.c:463
+#: ../stickynotes/stickynotes_applet.c:45 ../trashapplet/src/trashapplet.c:79
+msgid "_Help"
+msgstr "_Довідка"
+
+#: ../accessx-status/applet.c:231 ../battstat/battstat_applet.c:72
+#: ../charpick/charpick.c:750 ../command/command.c:78
+#: ../cpufreq/src/cpufreq-applet.c:140 ../drivemount/drivemount.c:166
+#: ../geyes/geyes.c:386 ../gde2weather/gde2weather-applet.c:125
+#: ../multiload/main.c:466 ../stickynotes/stickynotes_applet.c:48
+#: ../timerapplet/timerapplet.c:86 ../trashapplet/src/trashapplet.c:82
+msgid "_About"
+msgstr "_Про проґраму"
+
+#. Note to translators: the first letter of the alphabet, not the indefinite
+#. article
+#: ../accessx-status/applet.c:508 ../accessx-status/applet.c:546
+msgid "a"
+msgstr "а"
+
+#: ../accessx-status/applet.c:1057 ../accessx-status/applet.c:1123
+#: ../accessx-status/applet.c:1196 ../accessx-status/applet.c:1370
+msgid "AccessX Status"
+msgstr "Стан AccessX"
+
+#: ../accessx-status/applet.c:1058 ../accessx-status/applet.c:1197
+msgid "Shows keyboard status when accessibility features are used."
+msgstr "Показує стан набірниці при використанні спеціяльних можливостей"
+
+#: ../accessx-status/applet.c:1093
+msgid "XKB Extension is not enabled"
+msgstr "XKB розширення не увімкнено"
+
+#: ../accessx-status/applet.c:1098
+msgid "Unknown error"
+msgstr "Невідома помилка"
+
+#: ../accessx-status/applet.c:1102
+#, c-format
+msgid "Error: %s"
+msgstr "Помилка: %s"
+
+#: ../accessx-status/applet.c:1367
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:3
+msgid "Keyboard Accessibility Status"
+msgstr "Стан спеціяльних можливостей набірниці"
+
+#: ../accessx-status/applet.c:1371
+msgid "Displays current state of keyboard accessibility features"
+msgstr "Показує поточний стан спеціяльних можливостей набірниці"
+
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:1
+msgid "AccessX Status Applet Factory"
+msgstr "Фабрика аплету стану AccessX"
+
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:2
+msgid "Keyboard Accessibility Status Applet Factory"
+msgstr "Фабрика стану спеціяльних можливостей набірниці"
+
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:4
+msgid "Shows the status of keyboard accessibility features"
+msgstr "Показує стан спеціяльних можливостей набірниці"
+
+#: ../battstat/battstat_applet.c:66 ../charpick/charpick.c:744
+#: ../command/command.c:77 ../cpufreq/src/cpufreq-applet.c:134
+#: ../geyes/geyes.c:380 ../gde2weather/gde2weather-applet.c:119
+#: ../multiload/main.c:457 ../stickynotes/stickynotes_applet.c:42
+#: ../timerapplet/timerapplet.c:85
+msgid "_Preferences"
+msgstr "П_араметри"
+
+#: ../battstat/battstat_applet.c:77
+msgid "System is running on AC power"
+msgstr "Система працює від мережі змінного струму"
+
+#: ../battstat/battstat_applet.c:78
+msgid "System is running on battery power"
+msgstr "Система працює від акумулятора"
+
+#: ../battstat/battstat_applet.c:344
+#, c-format
+msgid "Battery charged (%d%%)"
+msgstr "Акумулятор повністю заряджений (%d%%)"
+
+#: ../battstat/battstat_applet.c:346
+#, c-format
+msgid "Unknown time (%d%%) remaining"
+msgstr "Час завершення невідомий (%d%%)"
+
+#: ../battstat/battstat_applet.c:348
+#, c-format
+msgid "Unknown time (%d%%) until charged"
+msgstr "Час до повного зарядження (%d%%) невідомий"
+
+#: ../battstat/battstat_applet.c:353
+#, c-format
+msgid "%d minute (%d%%) remaining"
+msgid_plural "%d minutes (%d%%) remaining"
+msgstr[0] "залишилася %d хвилина (%d%%)"
+msgstr[1] "залишилося %d хвилини (%d%%)"
+msgstr[2] "залишилося %d хвилин (%d%%)"
+
+#: ../battstat/battstat_applet.c:358
+#, c-format
+msgid "%d minute until charged (%d%%)"
+msgid_plural "%d minutes until charged (%d%%)"
+msgstr[0] "%d хвилина (%d%%) до повного зарядження"
+msgstr[1] "%d хвилини (%d%%) до повного зарядження"
+msgstr[2] "%d хвилин (%d%%) до повного зарядження"
+
+#: ../battstat/battstat_applet.c:364
+#, c-format
+msgid "%d hour (%d%%) remaining"
+msgid_plural "%d hours (%d%%) remaining"
+msgstr[0] "залишилася %d година (%d%%)"
+msgstr[1] "залишилося %d години (%d%%)"
+msgstr[2] "залишилося %d годин (%d%%)"
+
+#: ../battstat/battstat_applet.c:369
+#, c-format
+msgid "%d hour until charged (%d%%)"
+msgid_plural "%d hours until charged (%d%%)"
+msgstr[0] "%d година (%d%%) до повного зарядження"
+msgstr[1] "%d години (%d%%) до повного зарядження"
+msgstr[2] "%d годин (%d%%) до повного зарядження"
+
+#. TRANSLATOR: "%d %s %d %s" are "%d hours %d minutes"
+#. * Swap order with "%2$s %2$d %1$s %1$d if needed
+#: ../battstat/battstat_applet.c:376
+#, c-format
+msgid "%d %s %d %s (%d%%) remaining"
+msgstr "залишилося %d %s %d %s (%d%%)"
+
+#: ../battstat/battstat_applet.c:377 ../battstat/battstat_applet.c:384
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "година"
+msgstr[1] "години"
+msgstr[2] "годин"
+
+#: ../battstat/battstat_applet.c:378 ../battstat/battstat_applet.c:385
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "хвилина"
+msgstr[1] "хвилини"
+msgstr[2] "хвилин"
+
+#. TRANSLATOR: "%d %s %d %s" are "%d hours %d minutes"
+#. * Swap order with "%2$s %2$d %1$s %1$d if needed
+#: ../battstat/battstat_applet.c:383
+#, c-format
+msgid "%d %s %d %s until charged (%d%%)"
+msgstr "%d %s %d %s до повного зарядження (%d%%)"
+
+#: ../battstat/battstat_applet.c:397
+msgid "Battery Monitor"
+msgstr "Індикатор заряду акумулятора"
+
+#: ../battstat/battstat_applet.c:407 ../battstat/battstat_applet.c:466
+msgid "Your battery is now fully recharged"
+msgstr "Акумулятор повністю заряджено"
+
+#: ../battstat/battstat_applet.c:443 ../battstat/battstat_applet.c:602
+msgid "Battery Notice"
+msgstr "Інформація про акумулятор"
+
+#. we don't know the remaining time
+#: ../battstat/battstat_applet.c:547
+#, c-format
+msgid "You have %d%% of your total battery capacity remaining."
+msgstr "Залишилося %d%% місткости акумулятора."
+
+#: ../battstat/battstat_applet.c:553
+#, c-format
+msgid ""
+"You have %d minute of battery power remaining (%d%% of the total capacity)."
+msgid_plural ""
+"You have %d minutes of battery power remaining (%d%% of the total capacity)."
+msgstr[0] "Час роботи від акумулятора, що лишився - %d хвилина (%d%% від загальної місткости)."
+msgstr[1] "Час роботи від акумулятора, що лишився - %d хвилини (%d%% від загальної місткости)."
+msgstr[2] "Час роботи від акумулятора, що лишився - %d хвилин (%d%% від загальної місткости)."
+
+#. TRANSLATORS: this is a list, it is left as a single string
+#. * to allow you to make it appear like a list would in your
+#. * locale.  This is if the laptop does not support suspend.
+#: ../battstat/battstat_applet.c:565
+msgid ""
+"To avoid losing your work:\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr "Щоб запобігти втраті Вашої роботи:\n • під’єднайте ноутбук до зовнішнього джерела живлення, або\n • збережіть відкриті документи та завершіть роботу комп'ютера."
+
+#. TRANSLATORS: this is a list, it is left as a single string
+#. * to allow you to make it appear like a list would in your
+#. * locale.  This is if the laptop supports suspend.
+#: ../battstat/battstat_applet.c:573
+msgid ""
+"To avoid losing your work:\n"
+" • suspend your laptop to save power,\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr "Щоб запобігти втраті Вашої роботи:\n • переведіть ноутбук у режим сну,\n • під’єднайте ноутбук до зовнішнього джерела живлення, або\n • збережіть відкриті документи та завершіть роботу комп'ютера."
+
+#: ../battstat/battstat_applet.c:581
+msgid "Your battery is running low"
+msgstr "Заряд акумулятора низький"
+
+#: ../battstat/battstat_applet.c:676
+msgid "No battery present"
+msgstr "Акумулятор відсутній"
+
+#: ../battstat/battstat_applet.c:679
+msgid "Battery status unknown"
+msgstr "Стан акумулятора невідомий"
+
+#: ../battstat/battstat_applet.c:859
+msgid "N/A"
+msgstr "Н/Д"
+
+#: ../battstat/battstat_applet.c:1159 ../drivemount/drivemount.c:151
+#: ../geyes/geyes.c:368 ../geyes/themes.c:227
+#: ../gde2weather/gde2weather-applet.c:68
+#: ../gde2weather/gde2weather-pref.c:750
+#: ../stickynotes/stickynotes_applet_callbacks.c:344
+#: ../stickynotes/stickynotes_applet_callbacks.c:549
+#: ../trashapplet/src/trashapplet.c:403
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "Помилка при показі довідки: %s"
+
+#: ../battstat/battstat_applet.c:1204
+msgid "This utility shows the status of your laptop battery."
+msgstr "Цей засіб показує стан акумулятора Вашого комп'ютера."
+
+#. true
+#: ../battstat/battstat_applet.c:1206
+msgid "upower backend enabled."
+msgstr "Бекенд upower увімкнено."
+
+#. false
+#: ../battstat/battstat_applet.c:1207
+msgid "Legacy backend enabled."
+msgstr "Увімкнено застарілий бекенд."
+
+#: ../battstat/battstat_applet.c:1579 ../battstat/battstat_applet.c:1631
+#: ../battstat/org.gde2.applets.BattstatApplet.gde2-panel-applet.in.in.h:2
+msgid "Battery Charge Monitor"
+msgstr "Індикатор зарядження акумулятора"
+
+#: ../battstat/battstat_applet.c:1632
+#: ../battstat/org.gde2.applets.BattstatApplet.gde2-panel-applet.in.in.h:3
+msgid "Monitor a laptop's remaining power"
+msgstr "Стежить за зарядом акумулятора портативного комп'ютера"
+
+#: ../battstat/battstat_applet.ui.h:1
+msgid "Battery Charge Monitor Preferences"
+msgstr "Параметри індикатора заряду акумулятора"
+
+#: ../battstat/battstat_applet.ui.h:2
+msgid "Appearance"
+msgstr "_Вигляд"
+
+#: ../battstat/battstat_applet.ui.h:3
+msgid "_Compact view"
+msgstr "_Компактний вигляд"
+
+#: ../battstat/battstat_applet.ui.h:4
+msgid "(shows single image for status and charge)"
+msgstr "(показує єдине зображення зміни статусу та заряду)"
+
+#: ../battstat/battstat_applet.ui.h:5
+msgid "_Expanded view"
+msgstr "_Розширений вигляд"
+
+#: ../battstat/battstat_applet.ui.h:6
+msgid "(two images: one for status, one for charge)"
+msgstr "(два зображення: одне для статусу, одне для заряду)"
+
+#: ../battstat/battstat_applet.ui.h:7
+msgid "_Show time/percentage:"
+msgstr "_Показувати час/відсотки:"
+
+#: ../battstat/battstat_applet.ui.h:8
+msgid "Show _time remaining"
+msgstr "Показувати _час, що залишився"
+
+#: ../battstat/battstat_applet.ui.h:9
+msgid "Show _percentage remaining"
+msgstr "Показувати _відсотки, що залишилися"
+
+#: ../battstat/battstat_applet.ui.h:10
+msgid "Notifications"
+msgstr "Сповіщення"
+
+#. TRANSLATOR: This is the beginning of the sentence 'Warn when battery charge
+#. drops to: [XX] percent/minutes remaining'
+#: ../battstat/battstat_applet.ui.h:12
+msgid "_Warn when battery charge drops to:"
+msgstr "_Попереджувати коли заряд спадає до:"
+
+#: ../battstat/battstat_applet.ui.h:13
+msgid "_Notify when battery is fully recharged"
+msgstr "_Сповіщати про повний заряд акумулятора"
+
+#: ../battstat/org.gde2.applets.BattstatApplet.gde2-panel-applet.in.in.h:1
+msgid "Battstat Factory"
+msgstr "Фабрика стану акумулятора"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:1
+msgid "Red value level"
+msgstr "Рівень червоного кольору"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:2
+msgid ""
+"The battery level below which the battery is displayed as red. Also the "
+"value at which the low battery warning is displayed."
+msgstr "Рівень зарядження, нижче якого батарея зображується червоною. Також значення, при якому виводиться попередження про низький заряд."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:3
+msgid "Warn on low time rather than low percentage"
+msgstr "Попереджувати при маленькому часі, а не при низькому відсотку"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:4
+msgid ""
+"Use the value defined in red_value as a time remaining to show the warning "
+"dialog rather than a percentage."
+msgstr "Встановлене у параметрі red_value значення є часом, що залишився до показу діялоґу попередження, а не відсотком заряду"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:5
+msgid "Low Battery Notification"
+msgstr "Сповіщення про низький рівень заряду"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:6
+msgid "Notify user when the battery is low."
+msgstr "Сповіщати про низький рівень заряду акумулятора."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:7
+msgid "Full Battery Notification"
+msgstr "Сповіщення про повний заряд"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:8
+msgid "Notify user when the battery is full."
+msgstr "Сповіщати про повний рівень заряду акумулятора."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:9
+msgid "Beep for warnings"
+msgstr "Попередження звуковим сигналом"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:10
+msgid "Beep when displaying a warning."
+msgstr "Супроводжувати вивід попереджень звуковим сигналом."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:11
+msgid "Drain from top"
+msgstr "Зменшується згори"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:12
+msgid ""
+"Show the battery meter draining from the top of the battery. Only "
+"implemented for traditional battery view."
+msgstr "При розряді акумулятора індикатор спускається згори"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:13
+msgid "Upright (small) battery"
+msgstr "Вертикальний (маленький) акумулятор"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:14
+msgid "Show the upright, smaller battery on the panel."
+msgstr "Вертикальний вигляд, менший акумулятор на панелі."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:15
+msgid "Show the horizontal battery"
+msgstr "Показувати акумулятор горизонтально"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:16
+msgid "Show the traditional, horizontal battery on the panel."
+msgstr "Традиційний вигляд, горизонтальний акумулятор на панелі."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:17
+msgid "Show the time/percent label"
+msgstr "Показувати позначку часу/заряду"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:18
+msgid "0 for no label, 1 for percentage and 2 for time remaining."
+msgstr "0 - без позначки, 1 - відсотки, та  2 - залишок часу"
+
+#. TRANSLATOR: this is a selectable item in a drop-down menu to end
+#. * this sentence:
+#. *   "Warn when battery charge drops to: [XX] percent".
+#: ../battstat/properties.c:287
+msgid "Percent"
+msgstr "Відсоток"
+
+#. TRANSLATOR: this is a selectable item in a drop-down menu to end
+#. * this sentence:
+#. *   "Warn when battery charge drops to: [XX] minutes remaining"
+#: ../battstat/properties.c:293
+msgid "Minutes Remaining"
+msgstr "Залишилося часу"
+
+#: ../battstat/sounds/gde2-battstat_applet.soundlist.in.h:1
+msgid "Battery Status Utility"
+msgstr "Засіб індикації стану акумулятора"
+
+#: ../battstat/sounds/gde2-battstat_applet.soundlist.in.h:2
+msgid "Battery power low"
+msgstr "Акумулятор розряджений"
+
+#: ../battstat/sounds/gde2-battstat_applet.soundlist.in.h:3
+msgid "Battery fully re-charged"
+msgstr "Акумулятор повністю заряджено"
+
+#: ../charpick/charpick.c:469
+msgid "Available palettes"
+msgstr "Наявні палітри"
+
+#. TRANSLATOR: This sentance reads something like 'Insert "PILCROW SIGN"'
+#. *             hopefully, the name of the unicode character has already
+#. *             been translated.
+#: ../charpick/charpick.c:529
+#, c-format
+msgid "Insert \"%s\""
+msgstr "Вставити \"%s\""
+
+#: ../charpick/charpick.c:532
+msgid "Insert special character"
+msgstr "Вставити спеціяльний символ"
+
+#: ../charpick/charpick.c:536
+#, c-format
+msgid "insert special character %s"
+msgstr "вставити спеціяльний символ %s"
+
+#: ../charpick/charpick.c:661
+msgid ""
+"Gde2 Panel applet for selecting strange characters that are not on my "
+"keyboard. Released under GNU General Public Licence."
+msgstr "Аплет для вибору спеціяльних знаків, яких немає на набірниці. Випущено під ліцензією GNU General Public Licence."
+
+#: ../charpick/charpick.c:773 ../charpick/charpick.c:787
+#: ../charpick/org.gde2.applets.CharpickerApplet.gde2-panel-applet.in.in.h:2
+#: ../charpick/properties.c:460
+msgid "Character Palette"
+msgstr "Палітра символів"
+
+#: ../charpick/charpick.c:773
+#: ../charpick/org.gde2.applets.CharpickerApplet.gde2-panel-applet.in.in.h:3
+msgid "Insert characters"
+msgstr "Вставка символів"
+
+#: ../charpick/org.gde2.applets.CharpickerApplet.gde2-panel-applet.in.in.h:1
+msgid "Charpicker Applet Factory"
+msgstr "Фабрика аплету вибору символів"
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:1
+msgid "Characters shown on applet startup"
+msgstr "Символи, що показуються після запуску"
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:2
+msgid ""
+"The string that the user had selected when the applet was last used. This "
+"string will be displayed when the user starts the applet."
+msgstr "Рядок, який вибрав користувач під час останнього використання аплету. Цей рядок показуватиметься після наступного запуску."
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:3
+#: ../charpick/properties.c:383
+msgid "List of available palettes"
+msgstr "Перелік наявних палітр"
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:4
+msgid "List of strings containing the available palettes."
+msgstr "Перелік рядків, що містять доступні шаблони."
+
+#: ../charpick/properties.c:33
+msgid "_Edit"
+msgstr "_Зміни"
+
+#: ../charpick/properties.c:121
+msgid "_Palette:"
+msgstr "_Палітра:"
+
+#: ../charpick/properties.c:129
+msgid "Palette entry"
+msgstr "Поле палітри"
+
+#: ../charpick/properties.c:130
+msgid "Modify a palette by adding or removing characters"
+msgstr "Змініть палітру додаючи чи забираючи символи"
+
+#: ../charpick/properties.c:244
+msgid "Add Palette"
+msgstr "Додавання палітри"
+
+#: ../charpick/properties.c:281
+msgid "Edit Palette"
+msgstr "Редагування палітри"
+
+#: ../charpick/properties.c:382
+msgid "Palettes list"
+msgstr "Перелік палітр"
+
+#: ../charpick/properties.c:465
+msgid "_Palettes:"
+msgstr "_Палітри:"
+
+#: ../charpick/properties.c:485
+msgid "Add button"
+msgstr "Додати"
+
+#: ../charpick/properties.c:486
+msgid "Click to add a new palette"
+msgstr "Натисніть кнопку для додавання нової палітри"
+
+#: ../charpick/properties.c:493
+msgid "Edit button"
+msgstr "Кнопка оновлення"
+
+#: ../charpick/properties.c:494
+msgid "Click to edit the selected palette"
+msgstr "Клацніть для зміни вибраної палітри"
+
+#: ../charpick/properties.c:501
+msgid "Delete button"
+msgstr "Кнопка вилучення"
+
+#: ../charpick/properties.c:502
+msgid "Click to delete the selected palette"
+msgstr "Клацніть для вилучення вибраної палітри"
+
+#: ../charpick/properties.c:553
+msgid "Character Palette Preferences"
+msgstr "Параметри палітри символів"
+
+#: ../command/command.c:118
+#: ../command/org.gde2.applets.CommandApplet.gde2-panel-applet.in.in.h:3
+msgid "Shows the output of a command"
+msgstr "Показати вивід команди"
+
+#: ../command/command.c:136
+msgid "Command Applet Preferences"
+msgstr "Уподобання команди Applet"
+
+#: ../command/command.c:149
+msgid "Command:"
+msgstr "Команда:"
+
+#: ../command/command.c:165
+msgid "Interval (seconds):"
+msgstr "Інтервал (у секундах):"
+
+#: ../command/command.c:181
+msgid "Maximum width (chars):"
+msgstr "Максимальна ширина (символів):"
+
+#: ../command/command.c:197
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:7
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:7
+msgid "Show icon"
+msgstr "Показати піктограму"
+
+#: ../command/command.c:347
+msgid "Command Applet"
+msgstr "Команда Applet"
+
+#: ../command/org.gde2.applets.CommandApplet.gde2-panel-applet.in.in.h:1
+msgid "Command Factory"
+msgstr "Фабрика команди"
+
+#: ../command/org.gde2.applets.CommandApplet.gde2-panel-applet.in.in.h:2
+msgid "Command"
+msgstr "Команда"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:1
+msgid "Command to execute"
+msgstr "Команда для виконання"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:2
+msgid "Command/script to execute to get the output"
+msgstr "Команда / скрипт для виконання, щоб отримати вихід"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:3
+msgid "Interval for the command"
+msgstr "Інтервал для команди"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:4
+msgid "Interval to execute the command (in seconds)"
+msgstr "Інтервал для виконання команди (у секундах)"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:5
+msgid "Width of output"
+msgstr "Ширина виводу"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:6
+msgid "Number of characters to display"
+msgstr "Кількість символів для відображення"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:8
+msgid "If applet icon is shown or not"
+msgstr "Якщо піктограма applet показується чи ні"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:1
+msgid "CPU Frequency Monitor Preferences"
+msgstr "Параметри індикатора частоти ЦПП"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:2
+msgid "Monitor Settings"
+msgstr "Параметри монітору"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:3
+msgid "_Monitored CPU:"
+msgstr "_Контрольований процесор:"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:4
+msgid "Display Settings"
+msgstr "Параметри екрану"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:5
+msgid "_Appearance:"
+msgstr "_Вигляд:"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:6
+msgid "Show CPU frequency as _frequency"
+msgstr "Показувати частоту ЦПП як _частоту"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:7
+msgid "Show frequency _units"
+msgstr "Показувати _одиниці частоти"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:8
+msgid "Show CPU frequency as _percentage"
+msgstr "Показувати частоту ЦПП у _відсотках"
+
+#: ../cpufreq/org.gde2.applets.CPUFreqApplet.gde2-panel-applet.in.in.h:1
+#: ../cpufreq/src/cpufreq-applet.c:1060 ../cpufreq/src/cpufreq-applet.c:1115
+msgid "CPU Frequency Scaling Monitor"
+msgstr "Індикатор зміни частоти процесора"
+
+#: ../cpufreq/org.gde2.applets.CPUFreqApplet.gde2-panel-applet.in.in.h:2
+msgid "Monitor the CPU Frequency Scaling"
+msgstr "Відстежує зміну частоти процесора"
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:1
+msgid "CPU to Monitor"
+msgstr "Процесор, що відстежується"
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:2
+msgid ""
+"Set the CPU to monitor. In a single processor system you don't have to "
+"change it."
+msgstr "Встановіть процесор для відстежування. На однопроцесорній системі змінювати не треба."
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:3
+msgid "Mode to show CPU usage"
+msgstr "Режим показу використання ЦПП"
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:4
+msgid ""
+"A 0 value means to show the applet in graphic mode (pixmap only), 1 to show "
+"the applet in text mode (not to show the pixmap) and 2 to show the applet in"
+" graphic and text mode."
+msgstr "Значення 0 означає відображення аплету у графічному режимі (лише зображення), 1 - текстовий режим (не показувати зображення), 2 - показувати текст та зображення."
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:5
+msgid "The type of text to display (if the text is enabled)."
+msgstr "Тип тексту для показу (якщо текст увімкнено)."
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:6
+msgid ""
+"A 0 value means to show CPU frequency, 1 to show frequency and units, and 2 "
+"to show percentage instead of frequency."
+msgstr "0 - показувати частоту ЦПП, 1 - частоту й одиниці, 2 - відсотки замість частоти."
+
+#: ../cpufreq/src/cpufreq-applet.c:668 ../cpufreq/src/cpufreq-prefs.c:365
+msgid "Could not open help document"
+msgstr "Не вдається відкрити документ довідки"
+
+#: ../cpufreq/src/cpufreq-applet.c:699
+msgid "This utility shows the current CPU Frequency Scaling."
+msgstr "Цей засіб показує поточну частоту процесора."
+
+#: ../cpufreq/src/cpufreq-applet.c:1116
+msgid "This utility shows the current CPU Frequency"
+msgstr "Цей засіб показує поточну частоту ЦПП"
+
+#: ../cpufreq/src/cpufreq-prefs.c:500
+msgid "Graphic"
+msgstr "Графічний"
+
+#: ../cpufreq/src/cpufreq-prefs.c:505
+msgid "Text"
+msgstr "Текст"
+
+#: ../cpufreq/src/cpufreq-prefs.c:510
+msgid "Graphic and Text"
+msgstr "Графічний та текст"
+
+#: ../cpufreq/src/cpufreq-monitor-cpuinfo.c:121
+msgid "Frequency Scaling Unsupported"
+msgstr "Зміна частоти не підтримується"
+
+#. If there is no cpufreq support it shows only the cpu frequency,
+#. * I think is better than do nothing. I have to notify it to the user,
+#. because
+#. * he could think that cpufreq is supported but it doesn't work succesfully
+#: ../cpufreq/src/cpufreq-monitor-factory.c:59
+msgid "CPU frequency scaling unsupported"
+msgstr "Зміна частоти процесора не підтримується"
+
+#: ../cpufreq/src/cpufreq-monitor-factory.c:60
+msgid ""
+"You will not be able to modify the frequency of your machine.  Your machine "
+"may be misconfigured or not have hardware support for CPU frequency scaling."
+msgstr "Ви не зможете змінити частоту процесора на Вашому комп'ютері. Можливо, Ваш комп'ютер неправильно налаштований, або не має апаратної підтримки зміни частоти."
+
+#: ../cpufreq/src/cpufreq-selector/org.gde2.cpufreqselector.policy.in.h:1
+msgid "Change CPU Frequency scaling"
+msgstr "Змінити частоту процесора"
+
+#: ../cpufreq/src/cpufreq-selector/org.gde2.cpufreqselector.policy.in.h:2
+msgid "Privileges are required to change the CPU Frequency scaling."
+msgstr "Для зміни частоти процесора потрібні привілеї адміністратора."
+
+#: ../drivemount/drive-button.c:364 ../drivemount/drive-button.c:377
+msgid "(mounted)"
+msgstr "(змонтовано)"
+
+#: ../drivemount/drive-button.c:366
+msgid "(not mounted)"
+msgstr " (не змонтовано)"
+
+#: ../drivemount/drive-button.c:634
+msgid "Cannot execute Caja"
+msgstr "Неможливо виконати Caja"
+
+#: ../drivemount/drive-button.c:636
+#, c-format
+msgid "Cannot execute '%s'"
+msgstr "Не вдається виконати \"%s\""
+
+#: ../drivemount/drive-button.c:961
+msgid "_Play DVD"
+msgstr "_Грати DVD"
+
+#: ../drivemount/drive-button.c:965
+msgid "_Play CD"
+msgstr "_Грати КД"
+
+#: ../drivemount/drive-button.c:968
+#, c-format
+msgid "_Open %s"
+msgstr "_Відкрити %s"
+
+#: ../drivemount/drive-button.c:976
+#, c-format
+msgid "Un_mount %s"
+msgstr "Де_монтувати %s"
+
+#: ../drivemount/drive-button.c:982
+#, c-format
+msgid "_Mount %s"
+msgstr "_Змонтувати %s"
+
+#: ../drivemount/drive-button.c:990
+#, c-format
+msgid "_Eject %s"
+msgstr "Ви_тягнути %s"
+
+#: ../drivemount/drivemount.c:122
+msgid "Applet for mounting and unmounting block volumes."
+msgstr "Аплет для монтування та демонтування блочних томів."
+
+#: ../drivemount/drivemount.c:183 ../drivemount/drivemount.c:217
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:3
+msgid "Disk Mounter"
+msgstr "Монтування дисків"
+
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:1
+msgid "Drive Mount Applet Factory"
+msgstr "Фабрика аплету монтування"
+
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:2
+msgid "Factory for drive mount applet"
+msgstr "Фабрика для аплету монтування дисків"
+
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:4
+msgid "Mount local disks and devices"
+msgstr "Монтування локальних дисків та пристроїв"
+
+#: ../geyes/geyes.c:195
+msgid "A goofy set of eyes for the GDE2 panel. They follow your mouse."
+msgstr "Безґлузді очі для панелі GDE2, що стежать за вказівником миші."
+
+#: ../geyes/geyes.c:413 ../geyes/geyes.c:443 ../geyes/geyes.c:445
+#: ../geyes/org.gde2.applets.GeyesApplet.gde2-panel-applet.in.in.h:2
+msgid "Eyes"
+msgstr "Очі"
+
+#: ../geyes/geyes.c:446
+msgid "The eyes look in the direction of the mouse pointer"
+msgstr "Очі, що дивляться у напрямку вказівника миші"
+
+#: ../geyes/org.gde2.applets.GeyesApplet.gde2-panel-applet.in.in.h:1
+msgid "Geyes Applet Factory"
+msgstr "Фабрика аплету \"Очі\""
+
+#: ../geyes/org.gde2.applets.GeyesApplet.gde2-panel-applet.in.in.h:3
+msgid "A set of eyeballs for your panel"
+msgstr "Встановлює аплет \"Очі\" на Вашу панель"
+
+#: ../geyes/org.gde2.panel.applet.geyes.gschema.xml.in.h:1
+msgid "Directory in which the theme is located"
+msgstr "Каталог, де розташована тема"
+
+#: ../geyes/themes.c:131
+msgid "Can not launch the eyes applet."
+msgstr "Не вдається запустити аплет \"Очі\"."
+
+#: ../geyes/themes.c:132
+msgid "There was a fatal error while trying to load the theme."
+msgstr "Фатальна помилка при спробі завантажити тему."
+
+#: ../geyes/themes.c:286
+msgid "Geyes Preferences"
+msgstr "Параметри аплету \"Очі\""
+
+#: ../geyes/themes.c:319
+msgid "Themes"
+msgstr "Теми"
+
+#: ../geyes/themes.c:344
+msgid "_Select a theme:"
+msgstr "_Виберіть тему:"
+
+#: ../gde2weather/gde2weather-about.c:53
+msgid "A panel application for monitoring local weather conditions."
+msgstr "Аплет показу погодних умов."
+
+#: ../gde2weather/gde2weather-applet.c:113
+msgid "_Details"
+msgstr "Подро_биці"
+
+#: ../gde2weather/gde2weather-applet.c:116
+#: ../gde2weather/gde2weather-dialog.c:191
+msgid "_Update"
+msgstr "_Оновити"
+
+#: ../gde2weather/gde2weather-applet.c:350
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:3
+msgid "Weather Report"
+msgstr "Зведення погоди"
+
+#: ../gde2weather/gde2weather-applet.c:368
+#: ../gde2weather/gde2weather-applet.c:372
+msgid "GDE2 Weather"
+msgstr "Аплет \"Зведення погоди\""
+
+#: ../gde2weather/gde2weather-applet.c:471
+msgid "Weather Forecast"
+msgstr "Прогноз погоди"
+
+#: ../gde2weather/gde2weather-applet.c:483
+#, c-format
+msgid ""
+"City: %s\n"
+"Sky: %s\n"
+"Temperature: %s"
+msgstr "Місто: %s\nНебо: %s\nТемпература: %s"
+
+#: ../gde2weather/gde2weather-applet.c:532
+msgid "Updating..."
+msgstr "Триває оновлення..."
+
+#: ../gde2weather/gde2weather-dialog.c:189
+msgid "Details"
+msgstr "Подробиці"
+
+#: ../gde2weather/gde2weather-dialog.c:231
+msgid "City:"
+msgstr "Місто:"
+
+#: ../gde2weather/gde2weather-dialog.c:243
+msgid "Last update:"
+msgstr "Останнє оновлення:"
+
+#: ../gde2weather/gde2weather-dialog.c:255
+msgid "Conditions:"
+msgstr "Погодні умови:"
+
+#: ../gde2weather/gde2weather-dialog.c:267
+msgid "Sky:"
+msgstr "Небо:"
+
+#: ../gde2weather/gde2weather-dialog.c:279
+msgid "Temperature:"
+msgstr "Температура:"
+
+#: ../gde2weather/gde2weather-dialog.c:291
+msgid "Feels like:"
+msgstr "Комфортність:"
+
+#: ../gde2weather/gde2weather-dialog.c:303
+msgid "Dew point:"
+msgstr "Точка роси:"
+
+#: ../gde2weather/gde2weather-dialog.c:315
+msgid "Relative humidity:"
+msgstr "Відносна вологість:"
+
+#: ../gde2weather/gde2weather-dialog.c:327
+msgid "Wind:"
+msgstr "Вітер:"
+
+#: ../gde2weather/gde2weather-dialog.c:339
+msgid "Pressure:"
+msgstr "Тиск:"
+
+#: ../gde2weather/gde2weather-dialog.c:351
+msgid "Visibility:"
+msgstr "Видимість:"
+
+#: ../gde2weather/gde2weather-dialog.c:363
+msgid "Sunrise:"
+msgstr "Схід сонця:"
+
+#: ../gde2weather/gde2weather-dialog.c:375
+msgid "Sunset:"
+msgstr "Захід сонця:"
+
+#: ../gde2weather/gde2weather-dialog.c:565
+msgid "Current Conditions"
+msgstr "Поточні погодні умови"
+
+#: ../gde2weather/gde2weather-dialog.c:582
+msgid "Forecast Report"
+msgstr "Прогноз погоди"
+
+#: ../gde2weather/gde2weather-dialog.c:582
+msgid "See the ForeCast Details"
+msgstr "Переглянути докладний прогноз"
+
+#: ../gde2weather/gde2weather-dialog.c:592
+msgid "Forecast"
+msgstr "Прогноз"
+
+#: ../gde2weather/gde2weather-dialog.c:600
+msgid "Radar Map"
+msgstr "Радарна мапа"
+
+#: ../gde2weather/gde2weather-dialog.c:631
+msgid "_Visit Weather.com"
+msgstr "_Відвідати Weather.com"
+
+#: ../gde2weather/gde2weather-dialog.c:632
+msgid "Visit Weather.com"
+msgstr "Відвідати Weather.com"
+
+#: ../gde2weather/gde2weather-dialog.c:632
+msgid "Click to Enter Weather.com"
+msgstr "Клацніть, щоб відвідати Weather.com"
+
+#: ../gde2weather/gde2weather-dialog.c:717
+msgid "Forecast not currently available for this location."
+msgstr "Для цієї місцевости прогноз наразі недоступний."
+
+#. Accessible Name and Description for the components in Preference Dialog
+#: ../gde2weather/gde2weather-pref.c:165
+msgid "Location view"
+msgstr "Перегляд місцевости"
+
+#: ../gde2weather/gde2weather-pref.c:165
+msgid "Select Location from the list"
+msgstr "Виберіть місцевість з переліку"
+
+#: ../gde2weather/gde2weather-pref.c:166
+msgid "Update spin button"
+msgstr "Кнопка оновлення"
+
+#: ../gde2weather/gde2weather-pref.c:166
+msgid "Spinbutton for updating"
+msgstr "Кнопка оновлення"
+
+#: ../gde2weather/gde2weather-pref.c:167
+msgid "Address Entry"
+msgstr "Поле адреси"
+
+#: ../gde2weather/gde2weather-pref.c:167
+msgid "Enter the URL"
+msgstr "Уведіть адресу (URL)"
+
+#: ../gde2weather/gde2weather-pref.c:290
+msgid ""
+"Failed to load the Locations XML database.  Please report this as a bug."
+msgstr "Не вдається завантажити XML базу даних місць. Сповістіть про помилку."
+
+#: ../gde2weather/gde2weather-pref.c:812
+msgid "Weather Preferences"
+msgstr "Параметри аплету \"Зведення погоди\""
+
+#: ../gde2weather/gde2weather-pref.c:839
+#: ../gde2weather/gde2weather-pref.c:1053
+msgid "_Automatically update every:"
+msgstr "Автоматично оновлювати _кожні "
+
+#. * Units settings page.
+#. Temperature Unit
+#: ../gde2weather/gde2weather-pref.c:854
+msgid "_Temperature unit:"
+msgstr "_Температурні одиниці:"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (temp_combo), _("Default"));
+#: ../gde2weather/gde2weather-pref.c:868
+msgid "Kelvin"
+msgstr "за Кельвіном"
+
+#. TRANSLATORS: Celsius is sometimes referred Centigrade
+#: ../gde2weather/gde2weather-pref.c:870
+msgid "Celsius"
+msgstr "за Цельсієм"
+
+#: ../gde2weather/gde2weather-pref.c:871
+msgid "Fahrenheit"
+msgstr "за Фаренгейтом"
+
+#. Speed Unit
+#: ../gde2weather/gde2weather-pref.c:880
+msgid "_Wind speed unit:"
+msgstr "Одиниці швидкости _вітру:"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (speed_combo), _("Default"));
+#. TRANSLATOR: The wind speed unit "meters per second"
+#: ../gde2weather/gde2weather-pref.c:895
+msgid "m/s"
+msgstr "м/с"
+
+#. TRANSLATOR: The wind speed unit "kilometers per hour"
+#: ../gde2weather/gde2weather-pref.c:897
+msgid "km/h"
+msgstr "км/с"
+
+#. TRANSLATOR: The wind speed unit "miles per hour"
+#: ../gde2weather/gde2weather-pref.c:899
+msgid "mph"
+msgstr "миль/год"
+
+#. TRANSLATOR: The wind speed unit "knots"
+#: ../gde2weather/gde2weather-pref.c:901
+msgid "knots"
+msgstr "вузол"
+
+#: ../gde2weather/gde2weather-pref.c:902
+msgid "Beaufort scale"
+msgstr "Шкала Бофорта"
+
+#. Pressure Unit
+#: ../gde2weather/gde2weather-pref.c:911
+msgid "_Pressure unit:"
+msgstr "Одиниці т_иску:"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (pres_combo), _("Default"));
+#. TRANSLATOR: The pressure unit "kiloPascals"
+#: ../gde2weather/gde2weather-pref.c:926
+msgid "kPa"
+msgstr "кПа"
+
+#. TRANSLATOR: The pressure unit "hectoPascals"
+#: ../gde2weather/gde2weather-pref.c:928
+msgid "hPa"
+msgstr "ГПа"
+
+#. TRANSLATOR: The pressure unit "millibars"
+#: ../gde2weather/gde2weather-pref.c:930
+msgid "mb"
+msgstr "мбар"
+
+#. TRANSLATOR: The pressure unit "millibars of mercury"
+#: ../gde2weather/gde2weather-pref.c:932
+msgid "mmHg"
+msgstr "мм рт.ст."
+
+#. TRANSLATOR: The pressure unit "inches of mercury"
+#: ../gde2weather/gde2weather-pref.c:934
+msgid "inHg"
+msgstr "дюймів рт.ст."
+
+#. TRANSLATOR: The pressure unit "atmospheres"
+#: ../gde2weather/gde2weather-pref.c:936
+msgid "atm"
+msgstr "атм"
+
+#. Distance Unit
+#: ../gde2weather/gde2weather-pref.c:945
+msgid "_Visibility unit:"
+msgstr "Одиниці види_мости:"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (dist_combo), _("Default"));
+#. TRANSLATOR: The distance unit "meters"
+#: ../gde2weather/gde2weather-pref.c:960
+msgid "meters"
+msgstr "метрів"
+
+#. TRANSLATOR: The distance unit "kilometers"
+#: ../gde2weather/gde2weather-pref.c:962
+msgid "km"
+msgstr "км"
+
+#. TRANSLATOR: The distance unit "miles"
+#: ../gde2weather/gde2weather-pref.c:964
+msgid "miles"
+msgstr "миль"
+
+#: ../gde2weather/gde2weather-pref.c:990
+msgid "Enable _radar map"
+msgstr "Увімкнути _радарну мапу"
+
+#: ../gde2weather/gde2weather-pref.c:1006
+msgid "Use _custom address for radar map"
+msgstr "В_ласна адреса радарної мапи"
+
+#: ../gde2weather/gde2weather-pref.c:1024
+msgid "A_ddress:"
+msgstr "_Адреса:"
+
+#. setup show-notifications button
+#: ../gde2weather/gde2weather-pref.c:1039
+msgid "Show _notifications"
+msgstr "Показати _сповіщення"
+
+#: ../gde2weather/gde2weather-pref.c:1049
+msgid "Update"
+msgstr "Оновлення"
+
+#: ../gde2weather/gde2weather-pref.c:1066
+msgid "minutes"
+msgstr "хв"
+
+#: ../gde2weather/gde2weather-pref.c:1084
+msgid "Display"
+msgstr "Показ"
+
+#: ../gde2weather/gde2weather-pref.c:1103
+msgid "General"
+msgstr "Загальне"
+
+#: ../gde2weather/gde2weather-pref.c:1114
+msgid "_Select a location:"
+msgstr "Вибрати _місцевість:"
+
+#: ../gde2weather/gde2weather-pref.c:1140
+msgid "_Find:"
+msgstr "Зна_йти:"
+
+#: ../gde2weather/gde2weather-pref.c:1146
+msgid "Find _Next"
+msgstr "Знайти _наступний"
+
+#: ../gde2weather/gde2weather-pref.c:1167
+msgid "Location"
+msgstr "Місцевість"
+
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:1
+msgid "Gde2weather Applet Factory"
+msgstr "Фабрика аплету Gde2weather"
+
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:2
+msgid "Factory for creating the weather applet."
+msgstr "Фабрика для створення аплету погоди."
+
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:4
+msgid "Monitor the current weather conditions, and forecasts"
+msgstr "Стежить за поточними погодними умовами та робить прогнози"
+
+#: ../invest-applet/data/financialchart.ui.h:1
+#: ../invest-applet/invest/chart.py:118
+msgid "Financial Chart"
+msgstr "Фінансова діяграма"
+
+#: ../invest-applet/data/financialchart.ui.h:2
+msgid "_Ticker symbol: "
+msgstr "Символ _маятника:"
+
+#: ../invest-applet/data/financialchart.ui.h:3
+msgid "Auto _refresh"
+msgstr "Автоматичне _оновлення"
+
+#: ../invest-applet/data/financialchart.ui.h:4
+msgid "Today"
+msgstr "Сьогодні"
+
+#: ../invest-applet/data/financialchart.ui.h:5
+msgid "5 Days"
+msgstr "5 днів"
+
+#: ../invest-applet/data/financialchart.ui.h:6
+msgid "3 Months"
+msgstr "3 місяці"
+
+#: ../invest-applet/data/financialchart.ui.h:7
+msgid "6 Months"
+msgstr "6 місяців"
+
+#: ../invest-applet/data/financialchart.ui.h:8
+msgid "1 Year"
+msgstr "1 рік"
+
+#: ../invest-applet/data/financialchart.ui.h:9
+msgid "5 Years"
+msgstr "5 років"
+
+#: ../invest-applet/data/financialchart.ui.h:10
+msgid "Maximum"
+msgstr "Максимум"
+
+#: ../invest-applet/data/financialchart.ui.h:11
+msgid "_Graph style: "
+msgstr "Стиль _графіку: "
+
+#. see http://biz.yahoo.com/charts/guide11.html and
+#. http://en.wikipedia.org/wiki/Moving_average
+#: ../invest-applet/data/financialchart.ui.h:13
+msgid "Moving average: "
+msgstr "Середнє переміщення: "
+
+#. see http://biz.yahoo.com/charts/guide12.html and
+#. http://en.wikipedia.org/wiki/Moving_average#Exponential_moving_average
+#: ../invest-applet/data/financialchart.ui.h:15
+msgid "Exponential moving average: "
+msgstr "Експоненціяльне середнє переміщення: "
+
+#: ../invest-applet/data/financialchart.ui.h:16
+msgid "5"
+msgstr "5"
+
+#: ../invest-applet/data/financialchart.ui.h:17
+msgid "10"
+msgstr "10"
+
+#: ../invest-applet/data/financialchart.ui.h:18
+msgid "20"
+msgstr "20"
+
+#: ../invest-applet/data/financialchart.ui.h:19
+msgid "50"
+msgstr "50"
+
+#: ../invest-applet/data/financialchart.ui.h:20
+msgid "100"
+msgstr "100"
+
+#: ../invest-applet/data/financialchart.ui.h:21
+msgid "200"
+msgstr "200"
+
+#. see http://en.wikipedia.org/wiki/Technical_analysis#Overlays
+#: ../invest-applet/data/financialchart.ui.h:23
+msgid "Overlays: "
+msgstr "Оверлеї: "
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide13.html and
+#. http://en.wikipedia.org/wiki/Bollinger_bands
+#: ../invest-applet/data/financialchart.ui.h:25
+msgid "Bollinger"
+msgstr "Боллінґер"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide16.html and
+#. http://en.wikipedia.org/wiki/Parabolic_SAR
+#: ../invest-applet/data/financialchart.ui.h:27
+msgid "SAR"
+msgstr "SAR"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide6.html and
+#. http://en.wikipedia.org/wiki/Stock_split
+#: ../invest-applet/data/financialchart.ui.h:29
+msgid "Splits"
+msgstr "Розділення"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide20.html and
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:31
+msgid "Volumes"
+msgstr "Обсяги"
+
+#. see http://biz.yahoo.com/charts/guide10.html and
+#. http://en.wikipedia.org/wiki/Technical_indicator#Charting_terms_and_indicators
+#: ../invest-applet/data/financialchart.ui.h:33
+msgid "Indicators: "
+msgstr "Індикатори:"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Relative_Strength_Index
+#: ../invest-applet/data/financialchart.ui.h:35
+msgid "RSI"
+msgstr "RSI"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:37
+msgid "Vol"
+msgstr "Vol"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Money_flow_index
+#: ../invest-applet/data/financialchart.ui.h:39
+msgid "MFI"
+msgstr "MFI"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Stochastic_oscillator
+#: ../invest-applet/data/financialchart.ui.h:41
+msgid "Slow stoch"
+msgstr "Повільна осиляція"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:43
+msgid "Vol+MA"
+msgstr "Vol+MA"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Rate_of_change_%28technical_analysis%29
+#: ../invest-applet/data/financialchart.ui.h:45
+msgid "ROC"
+msgstr "ROC"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Stochastic_oscillator
+#: ../invest-applet/data/financialchart.ui.h:47
+msgid "Fast stoch"
+msgstr "Швидка осиляція"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Williams_%25R
+#: ../invest-applet/data/financialchart.ui.h:50
+#, no-c-format
+msgid "W%R"
+msgstr "W%R"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/MACD
+#: ../invest-applet/data/financialchart.ui.h:52
+msgid "MACD"
+msgstr "MACD"
+
+#: ../invest-applet/data/financialchart.ui.h:53
+msgid "Line"
+msgstr "Рядок"
+
+#: ../invest-applet/data/financialchart.ui.h:54
+msgid "Bar"
+msgstr "Прямокутник"
+
+#: ../invest-applet/data/financialchart.ui.h:55
+msgid "Candle"
+msgstr "Свічка"
+
+#: ../invest-applet/data/financialchart.ui.h:56
+msgid "Scale: "
+msgstr "Мірило:"
+
+#: ../invest-applet/data/financialchart.ui.h:57
+msgid "Linear"
+msgstr "Лінійний"
+
+#: ../invest-applet/data/financialchart.ui.h:58
+msgid "Logarithmic"
+msgstr "Логарифмічний"
+
+#: ../invest-applet/data/financialchart.ui.h:59
+msgid "_Options"
+msgstr "_Параметри"
+
+#: ../invest-applet/data/financialchart.ui.h:60
+msgid "Downloading chart from <b>Yahoo!</b>"
+msgstr "Завантажити діяграму з <b>Yahoo!</b>"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:1
+msgid "Invest Preferences"
+msgstr "Параметри інвестицій"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:2
+msgid "label"
+msgstr "позначка"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:3
+msgid "Stocks"
+msgstr "Акції"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:4
+msgid ""
+"<i><small><b>Note:</b> Quotes are delayed at least 15 minutes.\n"
+"<b>Source: </b> Yahoo!</small></i>"
+msgstr "<i><small><b>Нотатка:</b> Котирування затримано на, принаймні, 15 хвилин.\n<b>Джерело: </b> Yahoo!</small></i>"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:6
+msgid "Currency"
+msgstr "Валюта"
+
+#: ../invest-applet/invest/about.py:22
+msgid "Invest"
+msgstr "Інвестиції"
+
+#: ../invest-applet/invest/about.py:25
+msgid "Track your invested money."
+msgstr "Стеження за інвестованими грошима."
+
+#. name, stock_id, label, accellerator, tooltip, callback
+#: ../invest-applet/invest/applet.py:28
+msgid "About"
+msgstr "Про"
+
+#: ../invest-applet/invest/applet.py:29 ../netspeed/src/netspeed.c:1418
+msgid "Help"
+msgstr "Допомога"
+
+#: ../invest-applet/invest/applet.py:30
+msgid "Preferences"
+msgstr "Уподобання"
+
+#: ../invest-applet/invest/applet.py:31
+msgid "Refresh"
+msgstr "Оновити"
+
+#. a) We aren't configured yet
+#: ../invest-applet/invest/applet.py:63
+msgid "<b>You have not entered any stock information yet</b>"
+msgstr "<b>Ви покищо не увели ніякої біржевої інформації</b>"
+
+#: ../invest-applet/invest/applet.py:68
+msgid "<b>No stock quotes are currently available</b>"
+msgstr "<b>Наразі біржеві котирування недоступні</b>"
+
+#: ../invest-applet/invest/applet.py:69
+msgid ""
+"The server could not be contacted. The computer is either offline or the "
+"servers are down. Try again later."
+msgstr "Неможливо зв'язатися з сервером. Або комп'ютер у автономному режимі, або сервери непрацюють. Спробуйте пізніше."
+
+#: ../invest-applet/invest/chart.py:167
+#, python-format
+msgid "Financial Chart - %s"
+msgstr "Фінансова діяграма - %s"
+
+#: ../invest-applet/invest/chart.py:234
+msgid "Opening Chart"
+msgstr "Відкривання діяграми"
+
+#: ../invest-applet/invest/chart.py:249
+msgid "Chart downloaded"
+msgstr "Діяграму завантажено"
+
+#: ../invest-applet/invest/chart.py:251
+msgid "Chart could not be downloaded"
+msgstr "Діяграму неможливо завантажити"
+
+#: ../invest-applet/invest/invest-applet.py:44
+msgid "Invest Applet"
+msgstr "Аплет інвестицій"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Symbol"
+msgstr "Символ"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Label"
+msgstr "Позначка"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Amount"
+msgstr "Кількість"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Price"
+msgstr "Ціна"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Commission"
+msgstr "Комісія"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Currency Rate"
+msgstr "Обмінний курс"
+
+#: ../invest-applet/invest/quotes.py:171
+msgid "Invest could not connect to Yahoo! Finance"
+msgstr "Аплету Інвестиції не вдається з'єднатися з Yahoo! Finance"
+
+#. Translators: This is share-market jargon. It is the average percentage
+#. change of all stock prices. The %s gets replaced with the string value of
+#. the change (localized), including the percent sign.
+#: ../invest-applet/invest/quotes.py:213
+#, python-format
+msgid "Average change: %s"
+msgstr "Середня зміна: %s"
+
+#. Translators: This is share-market jargon. It refers to the total difference
+#. between the current price and purchase price for all the shares put
+#. together for a particular currency. i.e. How much money would be earned if
+#. they were sold right now. The first string is the change value, the second
+#. the currency, and the third value is the percentage of the change,
+#. formatted using user's locale.
+#: ../invest-applet/invest/quotes.py:222
+#, python-format
+msgid "Positions balance: %s %s (%s)"
+msgstr "Стан балансу: %s %s (%s)"
+
+#: ../invest-applet/invest/quotes.py:224
+#, python-format
+msgid "Updated at %s"
+msgstr "Оновлено на %s"
+
+#. model: SYMBOL, LABEL, TICKER_ONLY, BALANCE, BALANCE_PCT, VALUE,
+#. VARIATION_PCT, PB
+#. Translators: these words all refer to a stock. Last is short
+#. for "last price". Gain is referring to the gain since the
+#. stock was purchased.
+#: ../invest-applet/invest/widgets.py:59
+msgid "Ticker"
+msgstr "Лічильник"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Last"
+msgstr "Останнє"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Change %"
+msgstr "Зміна %"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Chart"
+msgstr "Діяграма"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Gain"
+msgstr "Мета"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Gain %"
+msgstr "Мета %"
+
+#: ../multiload/main.c:64
+msgid ""
+"A system load monitor capable of displaying graphs for CPU, ram, and swap "
+"space use, plus network traffic."
+msgstr "Монітор навантаження системи показує графіки використання процесора, пам'яті, файлу підкачки, дискового простору та мережі."
+
+#: ../multiload/main.c:127
+msgid "Start system-monitor"
+msgstr "Запустити системний монітор"
+
+#: ../multiload/main.c:148
+#, c-format
+msgid "There was an error executing '%s': %s"
+msgstr "Помилка при виконанні \"%s\": %s"
+
+#: ../multiload/main.c:276 ../multiload/properties.c:604
+msgid "Processor"
+msgstr "Процесор"
+
+#: ../multiload/main.c:278 ../multiload/properties.c:612
+msgid "Memory"
+msgstr "Пам'ять"
+
+#: ../multiload/main.c:280 ../multiload/properties.c:620
+msgid "Network"
+msgstr "Мережа"
+
+#: ../multiload/main.c:282 ../multiload/properties.c:627
+msgid "Swap Space"
+msgstr "Підкачка"
+
+#: ../multiload/main.c:284 ../multiload/main.c:363
+msgid "Load Average"
+msgstr "Середнє завантаження"
+
+#: ../multiload/main.c:286
+msgid "Disk"
+msgstr "Диск"
+
+#. xgettext: use and cache are > 1 most of the time,
+#. please assume that they always are.
+#: ../multiload/main.c:302
+#, c-format
+msgid ""
+"%s:\n"
+"%u%% in use by programs\n"
+"%u%% in use as cache"
+msgstr "%s:\n%u%% використовується проґрамами\n%u%% використано під кеш"
+
+#: ../multiload/main.c:310
+#, c-format
+msgid "The system load average is %0.02f"
+msgstr "Середнє завантаження системи - %0.02f"
+
+#. xgettext: same as in graphic tab of g-s-m
+#: ../multiload/main.c:318
+#, c-format
+msgid ""
+"%s:\n"
+"Receiving %s\n"
+"Sending %s"
+msgstr "%s:\nОтримую %s\nНадсилаю %s"
+
+#: ../multiload/main.c:334
+#, c-format
+msgid ""
+"%s:\n"
+"%u%% in use"
+msgid_plural ""
+"%s:\n"
+"%u%% in use"
+msgstr[0] "%s:\n%u%% використовується"
+msgstr[1] "%s:\n%u%% використовується"
+msgstr[2] "%s:\n%u%% використовується"
+
+#: ../multiload/main.c:359
+msgid "CPU Load"
+msgstr "Завантаження ЦПП"
+
+#: ../multiload/main.c:360
+msgid "Memory Load"
+msgstr "Використання пам'яті"
+
+#: ../multiload/main.c:361
+msgid "Net Load"
+msgstr "Завантаження мережі"
+
+#: ../multiload/main.c:362
+msgid "Swap Load"
+msgstr "Завантаження підкачки"
+
+#: ../multiload/main.c:364
+msgid "Disk Load"
+msgstr "Завантаження диску"
+
+#: ../multiload/main.c:460
+msgid "_Open System Monitor"
+msgstr "Відкрити _Системний монітор"
+
+#: ../multiload/main.c:488
+#: ../multiload/org.gde2.applets.MultiLoadApplet.gde2-panel-applet.in.in.h:1
+msgid "System Monitor"
+msgstr "Системний монітор"
+
+#: ../multiload/netspeed.c:40
+#, c-format
+msgid "%s/s"
+msgstr "%s/s"
+
+#: ../multiload/org.gde2.applets.MultiLoadApplet.gde2-panel-applet.in.in.h:2
+msgid "A system load indicator"
+msgstr "Індикатор завантаження системи"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:1
+msgid "Enable CPU load graph"
+msgstr "Увімкнути графік використання ЦПП"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:2
+msgid "Enable memory load graph"
+msgstr "Увімкнути графік використання пам'яті"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:3
+msgid "Enable network load graph"
+msgstr "Увімкнути графік використання мережі"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:4
+msgid "Enable swap load graph"
+msgstr "Увімкнути графік використання підкачки"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:5
+msgid "Enable load average graph"
+msgstr "Увімкнути графік середнього завантаження"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:6
+msgid "Enable disk load graph"
+msgstr "Увімкнути графік використання диску"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:7
+msgid "Applet refresh rate in milliseconds"
+msgstr "Частота оновлення аплету у мілісекундах"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:8
+msgid "Graph size"
+msgstr "Розмір графіку"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:9
+msgid ""
+"For horizontal panels, the width of the graphs in pixels. For vertical "
+"panels, this is the height of the graphs."
+msgstr "Для горизонтальних панелей, ширина графіку у точках. Для вертикальних панелей, це висота графіку."
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:10
+msgid "Graph color for user-related CPU activity"
+msgstr "Колір графіку завантажености процесора користувачем"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:11
+msgid "Graph color for system-related CPU activity"
+msgstr "Колір графіку системної активности процесора"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:12
+msgid "Graph color for nice-related CPU activity"
+msgstr "Колір графіку активности ЦПП з урахуванням пріоритету"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:13
+msgid "Graph color for iowait related CPU activity"
+msgstr "Колір графіку для показу активности ЦПП з урахуванням iowait"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:14
+msgid "CPU graph background color"
+msgstr "Колір тла графіку використання ЦПП"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:15
+msgid "Graph color for user-related memory usage"
+msgstr "Колір графіку використання пам'яті користувачем"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:16
+msgid "Graph color for shared memory"
+msgstr "Колір графіку спільної пам'яті"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:17
+msgid "Graph color for buffer memory"
+msgstr "Колір графіку буферу пам'яті"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:18
+msgid "Graph color for cached memory"
+msgstr "Колір графіку кешованої пам'яті"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:19
+msgid "Memory graph background color"
+msgstr "Колір тла графіку пам'яті"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:20
+msgid "Graph color for input network activity"
+msgstr "Колір графіку для показу вхідного трафіку у мережі"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:21
+msgid "Graph color for output network activity"
+msgstr "Колір графіку для показу вихідного трафіку у мережі"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:22
+msgid "Graph color for loopback network usage"
+msgstr "Колір графіку для локального використання мережі"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:23
+msgid "Network graph background color"
+msgstr "Колір тла графіку мережі"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:24
+msgid "Graph color for user-related swap usage"
+msgstr "Колір графіку використання підкачки користувачем"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:25
+msgid "Swap graph background color"
+msgstr "Колір тла графіку підкачки"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:26
+msgid "Graph color for load average"
+msgstr "Колір графіку середньої завантажености"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:27
+msgid "Load graph background color"
+msgstr "Колір тла графіку завантажености"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:28
+msgid "Graph color for disk read"
+msgstr "Колір графіку для читання з диску"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:29
+msgid "Graph color for disk write"
+msgstr "Колір графіку для запису на диск"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:30
+msgid "Background color for disk load graph"
+msgstr "Колір тла для графіку завантаження диску"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:31
+msgid "The desktop description file to execute as the system monitor"
+msgstr "Файл опису для додатку що запускається як системний монітор"
+
+#: ../multiload/properties.c:338
+msgid "Monitored Resources"
+msgstr "Ресурси, що контролюються"
+
+#: ../multiload/properties.c:367
+msgid "_Processor"
+msgstr "П_роцесор"
+
+#: ../multiload/properties.c:380
+msgid "_Memory"
+msgstr "_Пам'ять"
+
+#: ../multiload/properties.c:393
+msgid "_Network"
+msgstr "_Мережа"
+
+#: ../multiload/properties.c:406
+msgid "S_wap Space"
+msgstr "Під_качка"
+
+#: ../multiload/properties.c:419
+msgid "_Load"
+msgstr "З_авантаження"
+
+#: ../multiload/properties.c:432
+msgid "_Harddisk"
+msgstr "_Жорсткий диск"
+
+#: ../multiload/properties.c:447
+msgid "Options"
+msgstr "Параметри"
+
+#: ../multiload/properties.c:481
+msgid "System m_onitor width: "
+msgstr "_Ширина системного монітору:"
+
+#: ../multiload/properties.c:483
+msgid "System m_onitor height: "
+msgstr "_Висота системного монітору:"
+
+#: ../multiload/properties.c:518
+msgid "pixels"
+msgstr "точок"
+
+#: ../multiload/properties.c:530
+msgid "Sys_tem monitor update interval: "
+msgstr "Період _оновлення системного монітору:"
+
+#: ../multiload/properties.c:560
+msgid "milliseconds"
+msgstr "мс"
+
+#: ../multiload/properties.c:575
+msgid "Colors"
+msgstr "Кольори"
+
+#: ../multiload/properties.c:606 ../multiload/properties.c:614
+msgid "_User"
+msgstr "_Користувач"
+
+#: ../multiload/properties.c:607
+msgid "S_ystem"
+msgstr "_Система"
+
+#: ../multiload/properties.c:608
+msgid "N_ice"
+msgstr "Пр_іоритет"
+
+#: ../multiload/properties.c:609
+msgid "I_OWait"
+msgstr "I_OWait"
+
+#: ../multiload/properties.c:610
+msgid "I_dle"
+msgstr "О_чікування"
+
+#: ../multiload/properties.c:615
+msgid "Sh_ared"
+msgstr "_Спільна"
+
+#: ../multiload/properties.c:616
+msgid "_Buffers"
+msgstr "_Буфери"
+
+#: ../multiload/properties.c:617
+msgid "Cach_ed"
+msgstr "Ке_ш"
+
+#: ../multiload/properties.c:618
+msgid "F_ree"
+msgstr "_Вільна"
+
+#: ../multiload/properties.c:622
+msgid "_In"
+msgstr "В_хідний"
+
+#: ../multiload/properties.c:623
+msgid "_Out"
+msgstr "В_ихідний"
+
+#: ../multiload/properties.c:624
+msgid "_Local"
+msgstr "_Локальний"
+
+#: ../multiload/properties.c:625 ../multiload/properties.c:635
+#: ../multiload/properties.c:641
+msgid "_Background"
+msgstr "_Тло"
+
+#: ../multiload/properties.c:629
+msgid "_Used"
+msgstr "В_икористано"
+
+#: ../multiload/properties.c:630
+msgid "_Free"
+msgstr "_Вільно"
+
+#: ../multiload/properties.c:632
+msgid "Load"
+msgstr "Завантаження"
+
+#: ../multiload/properties.c:634
+msgid "_Average"
+msgstr "_Середнє"
+
+#: ../multiload/properties.c:637
+msgid "Harddisk"
+msgstr "Жорсткий диск"
+
+#: ../multiload/properties.c:639
+msgid "_Read"
+msgstr "_Читання"
+
+#: ../multiload/properties.c:640
+msgid "_Write"
+msgstr "_Запис"
+
+#: ../multiload/properties.c:665
+msgid "System Monitor Preferences"
+msgstr "Параметри системного монітору"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:1
+msgid "Device to monitor"
+msgstr "Пристрій, що відстежується"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:2
+msgid "The name of the device to monitor"
+msgstr "Ім'я пристрою, що відстежується"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:3
+msgid "Show sum speed"
+msgstr "Показати сумарну швидкість"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:4
+msgid "If true, show sum of inbound/outbound speed instead of separated ones."
+msgstr "Якщо цей ключ має значення ІСТИНА, показувати сумарну швидкість, а не індивідуальну."
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:5
+msgid "Show bits"
+msgstr "Показати біти"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:6
+msgid "If true, show speed in bits instead of bytes."
+msgstr "Якщо цей ключ має значення ІСТИНА, показувати швидкість у бітах замість байтів."
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:8
+msgid "If true, show main icon."
+msgstr "Якщо цей ключ має значення ІСТИНА, показувати головну піктограму."
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:9
+msgid "Short unit legend"
+msgstr "Скорочена легенда одиниць виміру"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:10
+msgid ""
+"If true, shorten unit legend to one letter: lowercase for bits / uppercase "
+"for Bytes."
+msgstr "Якщо увімкнено, скоротити легенду одиниць виміру до однієї літери: нижній регістр для бітів, а верхній для Байтів."
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:11
+msgid "Change icon"
+msgstr "Змінити піктограму"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:12
+msgid "If true, change the icon due to selected device."
+msgstr "Якщо цей ключ має значення ІСТИНА, автоматично змінити піктограму на вибраному пристрої."
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:13
+msgid "Auto change device"
+msgstr "Змінити пристрій автоматично"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:14
+msgid "If true, change automatically the selected device."
+msgstr "Якщо цей ключ має значення ІСТИНА, автоматично змінити вибраний пристрій."
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:15
+msgid "In color"
+msgstr "Вхідний колір"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:16
+msgid "The color of the graph of the inbound traffic"
+msgstr "Колір діяграми для вхідного трафіку"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:17
+msgid "Out color"
+msgstr "Вихідний колір"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:18
+msgid "The color of the graph of the outbound traffic"
+msgstr "Колір діяграми для вихідного трафіку"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:19
+msgid "Up command"
+msgstr "Команда активації"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:20
+msgid "Command the execute to activate the device"
+msgstr "Команда, яка буде виконана, щоб активувати пристрій"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:21
+msgid "Down command"
+msgstr "Команда деактивації"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:22
+msgid "Command the execute to shut down the device"
+msgstr "Команда, яка буде виконана, щоб деактивувати пристрій"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:23
+msgid "Show signal quality icon"
+msgstr "Показати піктограму якости сигналу "
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:24
+msgid "If true, show signal quality icon for wireless devices."
+msgstr "Якщо цей ключ має значення ІСТИНА, показати піктограму якости сигналу для бездротових пристроїв."
+
+#: ../netspeed/data/org.gde2.applets.NetspeedApplet.gde2-panel-applet.in.in.h:1
+msgid "Netspeed Applet Factory"
+msgstr "Фабрика аплету швидкости мережі"
+
+#: ../netspeed/data/org.gde2.applets.NetspeedApplet.gde2-panel-applet.in.in.h:2
+msgid "Netspeed Applet"
+msgstr "Аплет швидкости мережі"
+
+#: ../netspeed/data/org.gde2.applets.NetspeedApplet.gde2-panel-applet.in.in.h:3
+msgid "Network Monitor"
+msgstr "Мережевий монітор"
+
+#. translators: bits (short)
+#: ../netspeed/src/netspeed.c:394
+msgid "b"
+msgstr "біт"
+
+#. translators: Bytes (short)
+#: ../netspeed/src/netspeed.c:394
+msgid "B"
+msgstr "Б"
+
+#: ../netspeed/src/netspeed.c:396
+msgid "b/s"
+msgstr "біт/с"
+
+#: ../netspeed/src/netspeed.c:396
+msgid "B/s"
+msgstr "Б/с"
+
+#: ../netspeed/src/netspeed.c:399
+msgid "bits"
+msgstr "бітів"
+
+#: ../netspeed/src/netspeed.c:399
+msgid "bytes"
+msgstr "байів"
+
+#. translators: kilobits (short)
+#: ../netspeed/src/netspeed.c:407
+msgid "k"
+msgstr "k"
+
+#. translators: Kilobytes (short)
+#: ../netspeed/src/netspeed.c:407
+msgid "K"
+msgstr "K"
+
+#: ../netspeed/src/netspeed.c:409
+msgid "kb/s"
+msgstr "кбіт/с"
+
+#: ../netspeed/src/netspeed.c:409
+msgid "KiB/s"
+msgstr "КіБ/с"
+
+#: ../netspeed/src/netspeed.c:412
+msgid "kb"
+msgstr "кбіт"
+
+#: ../netspeed/src/netspeed.c:412
+msgid "KiB"
+msgstr "КіБ"
+
+#. translators: megabits (short)
+#: ../netspeed/src/netspeed.c:422
+msgid "m"
+msgstr "м"
+
+#. translators: Megabytes (short)
+#: ../netspeed/src/netspeed.c:422
+msgid "M"
+msgstr "M"
+
+#: ../netspeed/src/netspeed.c:424
+msgid "Mb/s"
+msgstr "Мбіт/с"
+
+#: ../netspeed/src/netspeed.c:424
+msgid "MiB/s"
+msgstr "МіБ/с"
+
+#: ../netspeed/src/netspeed.c:427
+msgid "Mb"
+msgstr "Мбіт"
+
+#: ../netspeed/src/netspeed.c:427
+msgid "MiB"
+msgstr "МіБ"
+
+#: ../netspeed/src/netspeed.c:769
+#, c-format
+msgid ""
+"There was an error displaying help:\n"
+"%s"
+msgstr "Сталася помилка під час перегляду за допомогою:\n%s"
+
+#: ../netspeed/src/netspeed.c:813
+msgid ""
+"A little applet that displays some information on the traffic on the "
+"specified network device"
+msgstr "Індикатор швидкости повідомляє статистичні відомости про потік даних, що проходить через вибраний мережевий пристрій."
+
+#: ../netspeed/src/netspeed.c:974
+msgid "Gde2 Netspeed Preferences"
+msgstr "Налаштування Gde2 Netspeed"
+
+#: ../netspeed/src/netspeed.c:996
+msgid "General Settings"
+msgstr "Загальні параметри"
+
+#: ../netspeed/src/netspeed.c:1022
+msgid "Network _device:"
+msgstr "Мережевий _пристрій:"
+
+#. Default means device with default route set
+#: ../netspeed/src/netspeed.c:1038
+msgid "Default"
+msgstr "Типово"
+
+#: ../netspeed/src/netspeed.c:1051
+msgid "Show _sum instead of in & out"
+msgstr "Показувати _сумарну швидкість вхідного та вихідного трафіку"
+
+#: ../netspeed/src/netspeed.c:1055
+msgid "Show _bits instead of bytes"
+msgstr "Показати _біти замість байтів"
+
+#: ../netspeed/src/netspeed.c:1059
+msgid "Shorten _unit legend"
+msgstr "Скорочена легенда _одиниць виміру"
+
+#: ../netspeed/src/netspeed.c:1063
+msgid "_Change icon according to the selected device"
+msgstr "_Змінити піктограму відповідно до вибраного пристрою  "
+
+#: ../netspeed/src/netspeed.c:1067
+msgid "Show _icon"
+msgstr "Показати _піктограму"
+
+#: ../netspeed/src/netspeed.c:1071
+msgid "Show signal _quality icon for wireless devices"
+msgstr "Показати піктограму  _якости сигналу для бездротових пристроїв"
+
+#: ../netspeed/src/netspeed.c:1202
+#, c-format
+msgid "Device Details for %s"
+msgstr "Інформація про пристрій %s"
+
+#: ../netspeed/src/netspeed.c:1227
+msgid "_In graph color"
+msgstr "Колір графіку _вхідних даних"
+
+#: ../netspeed/src/netspeed.c:1228
+msgid "_Out graph color"
+msgstr "Колір графіку _вихідних даних"
+
+#: ../netspeed/src/netspeed.c:1244
+msgid "Internet Address:"
+msgstr "Інтернет-адреса: "
+
+#: ../netspeed/src/netspeed.c:1245
+msgid "Netmask:"
+msgstr "Маска мережі:"
+
+#: ../netspeed/src/netspeed.c:1246
+msgid "Hardware Address:"
+msgstr "Адреса пристрою:"
+
+#: ../netspeed/src/netspeed.c:1247
+msgid "P-t-P Address:"
+msgstr "P-t-P Адреса:"
+
+#: ../netspeed/src/netspeed.c:1248
+msgid "Bytes in:"
+msgstr "Об’єм вхідного трафіку:"
+
+#: ../netspeed/src/netspeed.c:1249
+msgid "Bytes out:"
+msgstr "Об’єм вихідного трафіку:"
+
+#: ../netspeed/src/netspeed.c:1251 ../netspeed/src/netspeed.c:1252
+#: ../netspeed/src/netspeed.c:1253 ../netspeed/src/netspeed.c:1254
+msgid "none"
+msgstr "немає"
+
+#: ../netspeed/src/netspeed.c:1320
+msgid "IPV6 Address:"
+msgstr "Адреса IPV6:"
+
+#: ../netspeed/src/netspeed.c:1359
+msgid "Signal Strength:"
+msgstr "Сила сигналу"
+
+#: ../netspeed/src/netspeed.c:1360
+msgid "ESSID:"
+msgstr "ESSID:"
+
+#: ../netspeed/src/netspeed.c:1414
+msgid "Device _Details"
+msgstr "_Докладніше про пристрій"
+
+#: ../netspeed/src/netspeed.c:1416
+msgid "Preferences..."
+msgstr "Налаштування..."
+
+#: ../netspeed/src/netspeed.c:1420
+msgid "About..."
+msgstr "Про..."
+
+#: ../netspeed/src/netspeed.c:1461
+#, c-format
+msgid "Do you want to disconnect %s now?"
+msgstr "Від’єднати %s зараз?"
+
+#: ../netspeed/src/netspeed.c:1465
+#, c-format
+msgid "Do you want to connect %s now?"
+msgstr "Під’єднати %s зараз?"
+
+#: ../netspeed/src/netspeed.c:1492
+#, c-format
+msgid ""
+"<b>Running command %s failed</b>\n"
+"%s"
+msgstr "<b>Запуск команди %s не вдався</b>\n%s"
+
+#: ../netspeed/src/netspeed.c:1551
+#, c-format
+msgid "%s is down"
+msgstr "%s відімкнений"
+
+#: ../netspeed/src/netspeed.c:1556
+#, c-format
+msgid ""
+"%s: %s\n"
+"in: %s out: %s"
+msgstr "%s: %s\nвхідний: %s вихідний: %s"
+
+#: ../netspeed/src/netspeed.c:1558 ../netspeed/src/netspeed.c:1567
+msgid "has no ip"
+msgstr "не має IP"
+
+#: ../netspeed/src/netspeed.c:1565
+#, c-format
+msgid ""
+"%s: %s\n"
+"sum: %s"
+msgstr "%s: %s\nсумарна швидкість: %s"
+
+#: ../netspeed/src/netspeed.c:1574
+#, c-format
+msgid ""
+"\n"
+"ESSID: %s\n"
+"Strength: %d %%"
+msgstr "\nESSID: %s\nСила сигналу: %d %%"
+
+#: ../netspeed/src/netspeed.c:1575
+msgid "unknown"
+msgstr "Невідомо"
+
+#: ../netspeed/src/netspeed.c:1626
+msgid "Gde2 Netspeed"
+msgstr "Gde2 Netspeed"
+
+#: ../stickynotes/org.gde2.applets.StickyNotesApplet.gde2-panel-applet.in.in.h:1
+msgid "Sticky Notes Applet Factory"
+msgstr "Фабрика аплету липких нотаток"
+
+#: ../stickynotes/org.gde2.applets.StickyNotesApplet.gde2-panel-applet.in.in.h:2
+#: ../stickynotes/stickynotes_applet.c:163
+#: ../stickynotes/stickynotes_applet.c:405
+msgid "Sticky Notes"
+msgstr "Липкі нотатки"
+
+#: ../stickynotes/org.gde2.applets.StickyNotesApplet.gde2-panel-applet.in.in.h:3
+msgid "Create, view, and manage sticky notes on the desktop"
+msgstr "Створення, показ та керування нотатками на стільниці"
+
+#: ../stickynotes/stickynotes.c:690
+msgid "This note is locked."
+msgstr "Ця нотатка заблокована."
+
+#: ../stickynotes/stickynotes.c:694
+msgid "This note is unlocked."
+msgstr "Ця нотатка розблокована."
+
+#: ../stickynotes/stickynotes.ui.h:1 ../stickynotes/stickynotes_applet.c:33
+msgid "_New Note"
+msgstr "_Створити нотатку"
+
+#: ../stickynotes/stickynotes.ui.h:2
+msgid "_Delete Note..."
+msgstr "_Вилучити нотатку..."
+
+#: ../stickynotes/stickynotes.ui.h:3
+msgid "_Lock Note"
+msgstr "_Зафіксувати нотатку"
+
+#: ../stickynotes/stickynotes.ui.h:4
+msgid "_Properties"
+msgstr "В_ластивости"
+
+#: ../stickynotes/stickynotes.ui.h:5
+msgid "Sticky Notes Preferences"
+msgstr "Параметри липких нотаток"
+
+#: ../stickynotes/stickynotes.ui.h:6
+msgid "Default Note Properties"
+msgstr "Первинні властивости нотатки"
+
+#: ../stickynotes/stickynotes.ui.h:7
+msgid "Choose a font to use for all sticky notes"
+msgstr "Вибрати шрифт для усіх нотаток"
+
+#: ../stickynotes/stickynotes.ui.h:8
+msgid "Pick a default sticky note font"
+msgstr "Вибір типового шрифту для нотаток"
+
+#: ../stickynotes/stickynotes.ui.h:9
+msgid "_Font:"
+msgstr "_Шрифт:"
+
+#: ../stickynotes/stickynotes.ui.h:10
+msgid "Use fo_nt from the system theme"
+msgstr "Використовувати ш_рифт системної теми"
+
+#: ../stickynotes/stickynotes.ui.h:11
+msgid "Note C_olor:"
+msgstr "_Колір нотатки:"
+
+#: ../stickynotes/stickynotes.ui.h:12
+msgid "Font Co_lor:"
+msgstr "К_олір шрифту:"
+
+#: ../stickynotes/stickynotes.ui.h:13
+msgid "Choose a base color to use for all sticky notes"
+msgstr "Вибрати основний колір для усіх нотаток"
+
+#: ../stickynotes/stickynotes.ui.h:14
+msgid "Pick a default sticky note color"
+msgstr "Вибір типового кольору для нотатки"
+
+#: ../stickynotes/stickynotes.ui.h:15
+msgid "Use co_lor from the system theme"
+msgstr "Використовувати ко_лір системної теми"
+
+#: ../stickynotes/stickynotes.ui.h:16
+msgid "Specify the default height (in pixels) of new notes"
+msgstr "Початкова висота нових нотаток (у точках)"
+
+#: ../stickynotes/stickynotes.ui.h:17
+msgid "Specify the default width (in pixels) of new notes"
+msgstr "Початкова ширина нових нотаток (у точках)"
+
+#: ../stickynotes/stickynotes.ui.h:18
+msgid "H_eight:"
+msgstr "_Висота:"
+
+#: ../stickynotes/stickynotes.ui.h:19
+msgid "_Width:"
+msgstr "Ш_ирина:"
+
+#: ../stickynotes/stickynotes.ui.h:20
+msgid "Behavior"
+msgstr "Поведінка"
+
+#: ../stickynotes/stickynotes.ui.h:21
+msgid "Hide notes when the des_ktop is clicked on"
+msgstr "Ховати нотатки при клацанні мишею по _стільниці"
+
+#: ../stickynotes/stickynotes.ui.h:22
+msgid "Choose whether to hide all notes when selecting on the desktop"
+msgstr "Виберіть, чи ховати усі нотатки при виділенні на стільниці"
+
+#: ../stickynotes/stickynotes.ui.h:23
+msgid "Force _default color and font on notes"
+msgstr "С_тандартний колір та шрифт для усіх нотаток"
+
+#: ../stickynotes/stickynotes.ui.h:24
+msgid "Choose if the default style is forced on all notes"
+msgstr "Позначте, щоб стандартний стиль застосовувався до усіх нотаток"
+
+#: ../stickynotes/stickynotes.ui.h:25
+msgid "_Put notes on all workspaces"
+msgstr "_Показувати нотатки на усіх робочих просторах"
+
+#: ../stickynotes/stickynotes.ui.h:26
+msgid "Choose if notes are visible on all workspaces"
+msgstr "Позначте для показу нотаток на усіх робочих просторах"
+
+#: ../stickynotes/stickynotes.ui.h:27
+msgid "Delete this sticky note?"
+msgstr "Вилучити цю липку нотатку?"
+
+#: ../stickynotes/stickynotes.ui.h:28
+msgid "This cannot be undone."
+msgstr "Не можна скасувати."
+
+#: ../stickynotes/stickynotes.ui.h:29
+msgid "Delete all sticky notes?"
+msgstr "Вилучити усі липкі нотатки?"
+
+#: ../stickynotes/stickynotes.ui.h:30
+msgid "_Delete All"
+msgstr "В_илучити усі"
+
+#: ../stickynotes/stickynotes.ui.h:31
+msgid "Sticky Note"
+msgstr "Липка нотатка"
+
+#: ../stickynotes/stickynotes.ui.h:32
+msgid "Lock/Unlock note"
+msgstr "Розблокувати/заблокувати нотатку"
+
+#: ../stickynotes/stickynotes.ui.h:33
+msgid "Delete note"
+msgstr "Вилучити нотатку"
+
+#: ../stickynotes/stickynotes.ui.h:34
+msgid "Resize note"
+msgstr "Змінити розмір нотатки"
+
+#: ../stickynotes/stickynotes.ui.h:35
+msgid "Sticky Note Properties"
+msgstr "Властивости липкої нотатки"
+
+#: ../stickynotes/stickynotes.ui.h:36
+msgid "Properties"
+msgstr "В_ластивости"
+
+#: ../stickynotes/stickynotes.ui.h:37
+msgid "Choose a font for the note"
+msgstr "Вибрати шрифт нотатки"
+
+#: ../stickynotes/stickynotes.ui.h:38
+msgid "Pick a font for the sticky note"
+msgstr "Вибір шрифту нотатки"
+
+#: ../stickynotes/stickynotes.ui.h:39
+msgid "Use default fo_nt"
+msgstr "Використовувати типовий _шрифт"
+
+#: ../stickynotes/stickynotes.ui.h:40
+msgid "Choose a color for the note"
+msgstr "Вибрати колір нотатки"
+
+#: ../stickynotes/stickynotes.ui.h:41
+msgid "Pick a color for the sticky note"
+msgstr "Вибір кольору нотатки"
+
+#: ../stickynotes/stickynotes.ui.h:42
+msgid "Note _Color:"
+msgstr "К_олір нотатки:"
+
+#: ../stickynotes/stickynotes.ui.h:43
+msgid "Font C_olor:"
+msgstr "_Колір шрифту:"
+
+#: ../stickynotes/stickynotes.ui.h:44
+msgid "Use default co_lor"
+msgstr "Використовувати типовий _колір"
+
+#: ../stickynotes/stickynotes.ui.h:45
+msgid "Specify a title for the note"
+msgstr "Вказати заголовок нотатки"
+
+#: ../stickynotes/stickynotes.ui.h:46
+msgid "_Title:"
+msgstr "_Заголовок:"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:1
+msgid "Default width for new notes"
+msgstr "Типова ширина нових нотаток"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:2
+msgid "Default width for new sticky notes in pixels."
+msgstr "Типова ширина нових нотаток у точках."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:3
+msgid "Default height for new notes"
+msgstr "Типова висота нових нотаток"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:4
+msgid "Default height for new sticky notes in pixels."
+msgstr "Початкова висота нових нотаток у точках."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:5
+msgid "Default color for new notes"
+msgstr "Типовий колір нових нотаток"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:6
+msgid ""
+"Default color for new sticky notes. This should be in html hex "
+"specification, for example \"#30FF50\"."
+msgstr "Типовий колір нових нотаток у шістнадцятковому форматі HTML, наприклад, \"#30FF50\"."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:7
+msgid "Default color for font"
+msgstr "Типовий колір шрифту"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:8
+msgid ""
+"Default font color for new sticky notes. This should be in html hex "
+"specification, for example \"#000000\"."
+msgstr "Типовий колір нових нотаток у шістнадцятковому форматі HTML, наприклад, \"#000000\"."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:9
+msgid "Default font for new notes"
+msgstr "Типовий шрифт нових нотаток"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:10
+msgid ""
+"Default font for new sticky notes. This should be a Pango Font Name, for "
+"example \"Sans Italic 10\"."
+msgstr "Типовий шрифт у нових нотатках. Це має бути назва шрифту у форматі Pango, наприклад, \"Sans Italic 10\"."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:11
+msgid "Sticky notes' workspace stickyness"
+msgstr "Липкість нотаток до робочого простору"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:12
+msgid ""
+"Specifies whether the sticky notes are visible on ALL workspaces on the "
+"desktop, or not."
+msgstr "Визначає, чи показуються нотатки на усіх робочих просторах стільниці."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:13
+msgid "Sticky notes' locked state"
+msgstr "Заблокований стан нотаток"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:14
+msgid "Specifies whether the sticky notes are locked (non-editable) or not."
+msgstr "Визначає, чи нотатки заблоковані (їх заборонено редагувати)."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:15
+msgid "Date format of note's title"
+msgstr "Формат дати заголовку нотатки"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:16
+msgid ""
+"By default, sticky notes are given the current date as the title when they "
+"are created. This format is used; anything that can be parsed by strftime() "
+"is valid."
+msgstr "Зазвичай, новим нотаткам призначається заголовок з поточною датою. Використовується формат, який розпізнає функція strftime()."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:17
+msgid "Whether to use the default system color"
+msgstr "Чи використовувати типовий системний колір"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:18
+msgid ""
+"If this option is disabled, a custom color can be used as the default color "
+"for all sticky notes."
+msgstr "Якщо цей параметр вимкнено, то власний колір може бути використано у якости стандартного кольору для усіх нотаток."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:19
+msgid "Whether to use the default system font"
+msgstr "Чи використовувати типовий системний шрифт"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:20
+msgid ""
+"If this option is disabled, a custom font can be used as the default font "
+"for all sticky notes."
+msgstr "Якщо цей параметр вимкнено, то власний шрифт може бути використано у якости стандартного кольору для усіх нотаток."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:21
+msgid "Whether to force the default color and font on all notes"
+msgstr "Чи застосовувати стандартний колір та шрифт до усіх нотаток"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:22
+msgid ""
+"If this option is enabled, the custom colors and fonts that have been "
+"assigned to individual notes will be ignored."
+msgstr "Якщо цей параметр увімкнено, то власні призначені нотаткам кольори та шрифти будуть нехтуватися."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:23
+msgid "Whether to hide all notes when the desktop is selected"
+msgstr "Чи приховувати усі нотатки коли вибирається стільниця"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:24
+msgid ""
+"If this option is enabled, selecting the desktop in any way will "
+"automatically hide all the open notes."
+msgstr "Якщо цей параметр увімкнено, вибір стільниці автоматично сховає усі відкриті нотатки."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:25
+msgid "Whether to ask for confirmation when deleting a note"
+msgstr "Чи запитувати схвалення перед знищенням нотатки"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:26
+msgid "Empty notes are always deleted without confirmation."
+msgstr "Порожні нотатки завжди знищуються без попередження."
+
+#: ../stickynotes/stickynotes_applet.c:36
+msgid "Hi_de Notes"
+msgstr "С_ховати нотатки"
+
+#: ../stickynotes/stickynotes_applet.c:39
+msgid "_Delete Notes"
+msgstr "Вилучити _нотатки"
+
+#: ../stickynotes/stickynotes_applet.c:55
+msgid "_Lock Notes"
+msgstr "_Блокувати нотатки"
+
+#: ../stickynotes/stickynotes_applet.c:595
+#, c-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] "%d нотатка"
+msgstr[1] "%d нотатки"
+msgstr[2] "%d нотаток"
+
+#: ../stickynotes/stickynotes_applet.c:596
+msgid "Show sticky notes"
+msgstr "Показує липкі нотатки"
+
+#: ../stickynotes/stickynotes_applet_callbacks.c:378
+msgid "Sticky Notes for the GDE2 Desktop Environment"
+msgstr "\"Липкі\" нотатки для середовища GDE2"
+
+#: ../timerapplet/org.gde2.applets.TimerApplet.gde2-panel-applet.in.in.h:1
+msgid "Timer Factory"
+msgstr "Фабрика таймера"
+
+#: ../timerapplet/org.gde2.applets.TimerApplet.gde2-panel-applet.in.in.h:2
+msgid "Timer"
+msgstr "Таймер"
+
+#: ../timerapplet/org.gde2.applets.TimerApplet.gde2-panel-applet.in.in.h:3
+#: ../timerapplet/timerapplet.c:263
+msgid "Start a timer and receive a notification when it is finished"
+msgstr "Виставити таймер та отримати сповіщення після закінчення"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:1
+msgid "Name of timer"
+msgstr "Назва таймера"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:2
+msgid "Duration of timer in seconds"
+msgstr "Тривалість таймера у секундах"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:3
+msgid "Show notification popup when timer finish"
+msgstr "Показати виринаюче повідомлення про сповіщення після завершення таймера"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:4
+msgid "Show dialog window when timer finish"
+msgstr "Показати діялоґ, коли час вийде"
+
+#: ../timerapplet/timerapplet.c:82
+msgid "_Start timer"
+msgstr "_Запустити таймер"
+
+#: ../timerapplet/timerapplet.c:83
+msgid "P_ause timer"
+msgstr "При_зупинити таймер"
+
+#: ../timerapplet/timerapplet.c:84
+msgid "S_top timer"
+msgstr "Зу_пинити таймер"
+
+#: ../timerapplet/timerapplet.c:144
+msgid "Finished"
+msgstr "Завершено"
+
+#: ../timerapplet/timerapplet.c:151 ../timerapplet/timerapplet.c:163
+msgid "Timer finished!"
+msgstr "Час вийшов!"
+
+#: ../timerapplet/timerapplet.c:296
+msgid "Timer Applet Preferences"
+msgstr "Параметри аплету Таймера"
+
+#: ../timerapplet/timerapplet.c:309
+msgid "Name:"
+msgstr "Назва:"
+
+#: ../timerapplet/timerapplet.c:326
+msgid "Hours:"
+msgstr "Годин:"
+
+#: ../timerapplet/timerapplet.c:345
+msgid "Minutes:"
+msgstr "Хвилин:"
+
+#: ../timerapplet/timerapplet.c:364
+msgid "Seconds:"
+msgstr "Секунд:"
+
+#: ../timerapplet/timerapplet.c:383
+msgid "Show notification popup"
+msgstr "Показувати виринаюче вікно про сповіщення"
+
+#: ../timerapplet/timerapplet.c:389
+msgid "Show dialog"
+msgstr "Показати діялоґ"
+
+#: ../timerapplet/timerapplet.c:413
+msgid "Timer Applet"
+msgstr "Аплет таймера"
+
+#: ../trashapplet/org.gde2.applets.TrashApplet.gde2-panel-applet.in.in.h:1
+msgid "Trash"
+msgstr "Смітник"
+
+#: ../trashapplet/org.gde2.applets.TrashApplet.gde2-panel-applet.in.in.h:2
+msgid "Go to Trash"
+msgstr "Перейти у смітник"
+
+#: ../trashapplet/src/trashapplet.c:73 ../trashapplet/src/trash-empty.c:353
+msgid "_Empty Trash"
+msgstr "Спо_рожнити смітник"
+
+#: ../trashapplet/src/trashapplet.c:76
+msgid "_Open Trash"
+msgstr "_Відкрити смітник"
+
+#: ../trashapplet/src/trashapplet.c:132
+#, c-format
+msgid "%d Item in Trash"
+msgid_plural "%d Items in Trash"
+msgstr[0] "%d елемент у смітнику"
+msgstr[1] "%d елементи у смітнику"
+msgstr[2] "%d елементів у смітнику"
+
+#: ../trashapplet/src/trashapplet.c:140
+msgid "No Items in Trash"
+msgstr "У смітнику немає елементів"
+
+#: ../trashapplet/src/trashapplet.c:382
+#, c-format
+msgid ""
+"Error while spawning caja:\n"
+"%s"
+msgstr "Помилка запуску caja:\n%s"
+
+#: ../trashapplet/src/trashapplet.c:436
+msgid ""
+"A GDE2 trash bin that lives in your panel. You can use it to view the trash "
+"or drag and drop items into the trash."
+msgstr "Смітник середовища GDE2, який живе у Вашій панелі. Ви можете використовувати його для перегляду смітника або перетягування у нього елементів."
+
+#: ../trashapplet/src/trashapplet.c:461
+msgid "Delete Immediately?"
+msgstr "Вилучити остаточно?"
+
+#: ../trashapplet/src/trashapplet.c:495
+msgid "Cannot move items to trash, do you want to delete them immediately?"
+msgstr "Не вдається перемістити елементи у смітник, вилучити їх остаточно?"
+
+#: ../trashapplet/src/trashapplet.c:500
+msgid ""
+"Cannot move some items to trash, do you want to delete these immediately?"
+msgstr "Не вдається перемістити елементи у смітник, вилучити їх остаточно?"
+
+#: ../trashapplet/src/trashapplet.c:638
+msgid "Trash Applet"
+msgstr "Аплет смітника"
+
+#. Translators: the %s in this string should be read as %d.
+#: ../trashapplet/src/trash-empty.c:80
+#, c-format
+msgid "Removing item %s of %s"
+msgstr "Вилучається елемент %s з %s"
+
+#. Translators: %s is a file name
+#: ../trashapplet/src/trash-empty.c:106
+#, c-format
+msgid "Removing: %s"
+msgstr "Вилучається: %s"
+
+#: ../trashapplet/src/trash-empty.c:332
+msgid "Empty all of the items from the trash?"
+msgstr "Вилучити усі елементи зі смітника?"
+
+#: ../trashapplet/src/trash-empty.c:339
+msgid ""
+"If you choose to empty the trash, all items in it will be permanently lost. "
+"Please note that you can also delete them separately."
+msgstr "Якщо Ви спорожните смітник, елементи будуть вилучені остаточно. Зауважте, їх також можна вилучати по одному."
+
+#: ../trashapplet/trashapplet-empty-progress.ui.h:1
+msgid "Emptying the Trash"
+msgstr "Спорожнення смітника"
+
+#: ../trashapplet/trashapplet-empty-progress.ui.h:2
+msgid "From:"
+msgstr "Від:"

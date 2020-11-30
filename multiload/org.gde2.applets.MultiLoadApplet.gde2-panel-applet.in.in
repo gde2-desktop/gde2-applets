@@ -1,0 +1,16 @@
+[Applet Factory]
+Id=MultiLoadAppletFactory
+Location=@LIBEXECDIR@/gde2-multiload-applet
+Name=MultiLoad Applet Factory
+Description=Factory for creating the load applet.
+
+[MultiLoadApplet]
+_Name=System Monitor
+_Description=A system load indicator
+Icon=utilities-system-monitor
+Gde2ComponentId=OAFIID:GDE2_MultiLoadApplet
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=gde2-applets
+X-GDE2-Bugzilla-Component=multiload
+X-GDE2-Bugzilla-Version=@VERSION@
+X-GDE2-Bugzilla-OtherBinaries=multiload-applet-2

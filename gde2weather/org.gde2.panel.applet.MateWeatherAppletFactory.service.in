@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.gde2.panel.applet.Gde2WeatherAppletFactory
+Exec=@LIBEXECDIR@/gde2weather-applet

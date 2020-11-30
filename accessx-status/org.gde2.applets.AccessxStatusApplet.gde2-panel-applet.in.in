@@ -1,0 +1,16 @@
+[Applet Factory]
+Id=AccessxStatusAppletFactory
+Location=@LIBEXECDIR@/accessx-status-applet
+_Name=AccessX Status Applet Factory
+_Description=Keyboard Accessibility Status Applet Factory
+
+[AccessxStatusApplet]
+_Name=Keyboard Accessibility Status
+_Description=Shows the status of keyboard accessibility features
+Icon=gde2-ax-applet
+Gde2ComponentId=OAFIID:GDE2_AccessxStatusApplet
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=gde2-applets
+X-GDE2-Bugzilla-Component=keyboard-accessibility (accessx-status)
+X-GDE2-Bugzilla-Version=@VERSION@
+X-GDE2-Bugzilla-OtherBinaries=accessx-status-applet

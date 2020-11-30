@@ -1,0 +1,2875 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# alexandros_ <alexandros.venn@gmail.com>, 2014
+# Angelos Chraniotis <chraniotis@gmail.com>, 2016
+# Constantinos Tsakiris, 2016
+# Efstathios Iosifidis <iefstathios@gmail.com>, 2013-2014,2016
+# Efstathios Iosifidis <iosifidis@opensuse.org>, 2012
+# Petros Freris (Πέτρος Φρέρης) <petrosfreris@gmail.com>, 2012
+# geost <george.stefanakis@gmail.com>, 2012
+# Kostas Papadimas <pkst@gnome.org>,  2002,2003, 2004-2006,2008
+# Marios Zindilis <m.zindilis@dmajor.org>, 2009
+# Nikos Charonitakis <charosn@her.forthnet.gr>, 2004
+# Nisok Kosin <nikos.efthimiou@gmail.com>, 2012
+# Petros Freris (Πέτρος Φρέρης) <petrosfreris@gmail.com>, 2013
+# Petros Freris (Πέτρος Φρέρης) <petrosfreris@gmail.com>, 2013
+# Sarantis Paskalis <paskalis@di.uoa.gr>, 2000
+# Simos Xenitellis <simos@gnome.org>, 2005
+# Simos Xenitellis <simos@hellug.gr>, 1999-2002
+# Spiros Papadimitriou <spapadim+@cs.cmu.edu>, 1999
+# thunk <thunk77@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: GDE2 Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-01 10:25+0300\n"
+"PO-Revision-Date: 2016-08-01 07:27+0000\n"
+"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Language-Team: Greek (http://www.transifex.com/gde2/GDE2/language/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../accessx-status/applet.c:147
+msgid "Shows the state of AccessX features such as latched modifiers"
+msgstr "Εμφανίζει την κατάσταση των λειτουργιών AccessX όπως latched modifiers"
+
+#. about.set_authors("Raphael Slinckx <raphael@slinckx.net>\nEnrico Minack
+#. <enrico-minack@gmx.de>")
+#. about.set_artists([])
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#: ../accessx-status/applet.c:151 ../battstat/battstat_applet.c:1215
+#: ../charpick/charpick.c:666 ../command/command.c:119
+#: ../cpufreq/src/cpufreq-applet.c:704 ../drivemount/drivemount.c:125
+#: ../geyes/geyes.c:200 ../gde2weather/gde2weather-about.c:56
+#: ../invest-applet/invest/about.py:34 ../multiload/main.c:69
+#: ../netspeed/src/netspeed.c:816
+#: ../stickynotes/stickynotes_applet_callbacks.c:382
+#: ../timerapplet/timerapplet.c:264 ../trashapplet/src/trashapplet.c:441
+msgid "translator-credits"
+msgstr "Σπύρος Παπαδημητρίου <spapadim+@cs.cmu.edu>\nΣίμος Ξενιτέλλης <simos@gnome.org>\nΣαράντης Πασχάλης <paskalis@di.uoa.gr>\nΚώστας Παπαδήμας <pkst@gnome.org>\nΝίκος Χαρωνιτάκης <charosn@her.forthnet.gr>\nΜάριος Ζηντίλης <m.zindilis@dmajor.org>\nΕυστάθιος Ιωσηφίδης <iosifidis@opensuse.org>"
+
+#: ../accessx-status/applet.c:167
+#, c-format
+msgid "There was an error launching the help viewer: %s"
+msgstr "Υπήρξε σφάλμα κατά την εμφάνιση της βοήθειας: %s"
+
+#: ../accessx-status/applet.c:195
+msgid "Open the keyboard preferences dialog"
+msgstr "Άνοιγμα διαλόγου προτιμήσεων πληκτρολογίου"
+
+#: ../accessx-status/applet.c:214
+#, c-format
+msgid "There was an error launching the keyboard preferences dialog: %s"
+msgstr "Σφάλμα εκκίνησης του διαλόγου προτιμήσεων πληκτρολογίου : %s"
+
+#: ../accessx-status/applet.c:229
+msgid "_Keyboard Accessibility Preferences"
+msgstr "Προτιμήσεις προσιτότητας πλη_κτρολογίου"
+
+#: ../accessx-status/applet.c:230 ../battstat/battstat_applet.c:69
+#: ../charpick/charpick.c:747 ../cpufreq/src/cpufreq-applet.c:137
+#: ../drivemount/drivemount.c:163 ../geyes/geyes.c:383
+#: ../gde2weather/gde2weather-applet.c:122 ../multiload/main.c:463
+#: ../stickynotes/stickynotes_applet.c:45 ../trashapplet/src/trashapplet.c:79
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: ../accessx-status/applet.c:231 ../battstat/battstat_applet.c:72
+#: ../charpick/charpick.c:750 ../command/command.c:78
+#: ../cpufreq/src/cpufreq-applet.c:140 ../drivemount/drivemount.c:166
+#: ../geyes/geyes.c:386 ../gde2weather/gde2weather-applet.c:125
+#: ../multiload/main.c:466 ../stickynotes/stickynotes_applet.c:48
+#: ../timerapplet/timerapplet.c:86 ../trashapplet/src/trashapplet.c:82
+msgid "_About"
+msgstr "_Περί"
+
+#. Note to translators: the first letter of the alphabet, not the indefinite
+#. article
+#: ../accessx-status/applet.c:508 ../accessx-status/applet.c:546
+msgid "a"
+msgstr "a"
+
+#: ../accessx-status/applet.c:1057 ../accessx-status/applet.c:1123
+#: ../accessx-status/applet.c:1196 ../accessx-status/applet.c:1370
+msgid "AccessX Status"
+msgstr "Κατάσταση AccessX"
+
+#: ../accessx-status/applet.c:1058 ../accessx-status/applet.c:1197
+msgid "Shows keyboard status when accessibility features are used."
+msgstr "Εμφανίζει την κατάσταση των λειτουργιών της προσιτότητας πληκτρολογίου."
+
+#: ../accessx-status/applet.c:1093
+msgid "XKB Extension is not enabled"
+msgstr "H επέκταση XKB δεν είναι ενεργή"
+
+#: ../accessx-status/applet.c:1098
+msgid "Unknown error"
+msgstr "Άγνωστο σφάλμα"
+
+#: ../accessx-status/applet.c:1102
+#, c-format
+msgid "Error: %s"
+msgstr "Σφάλμα: %s"
+
+#: ../accessx-status/applet.c:1367
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:3
+msgid "Keyboard Accessibility Status"
+msgstr "Κατάσταση προσιτότητας πληκτρολογίου"
+
+#: ../accessx-status/applet.c:1371
+msgid "Displays current state of keyboard accessibility features"
+msgstr "Εμφανίζει την τρέχουσα κατάσταση των λειτουργιών της προσιτότητας πληκτρολογίου"
+
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:1
+msgid "AccessX Status Applet Factory"
+msgstr "Εργοστάσιο μικροεφαρμογής AccessX"
+
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:2
+msgid "Keyboard Accessibility Status Applet Factory"
+msgstr "Εργοστάσιο μικροεφαρμογής κατάστασης προσιτότητας πληκτρολογίου"
+
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:4
+msgid "Shows the status of keyboard accessibility features"
+msgstr "Εμφανίζει την κατάσταση των λειτουργιών της προσιτότητας πληκτρολογίου"
+
+#: ../battstat/battstat_applet.c:66 ../charpick/charpick.c:744
+#: ../command/command.c:77 ../cpufreq/src/cpufreq-applet.c:134
+#: ../geyes/geyes.c:380 ../gde2weather/gde2weather-applet.c:119
+#: ../multiload/main.c:457 ../stickynotes/stickynotes_applet.c:42
+#: ../timerapplet/timerapplet.c:85
+msgid "_Preferences"
+msgstr "_Προτιμήσεις"
+
+#: ../battstat/battstat_applet.c:77
+msgid "System is running on AC power"
+msgstr "Το σύστημα τροφοδοτείται από ρεύμα AC "
+
+#: ../battstat/battstat_applet.c:78
+msgid "System is running on battery power"
+msgstr "Το σύστημα τροφοδοτείται από μπαταρία"
+
+#: ../battstat/battstat_applet.c:344
+#, c-format
+msgid "Battery charged (%d%%)"
+msgstr "Η μπαταρία φορτίστηκε (%d%%)"
+
+#: ../battstat/battstat_applet.c:346
+#, c-format
+msgid "Unknown time (%d%%) remaining"
+msgstr "Απομένει άγνωστος χρόνος (%d%%) "
+
+#: ../battstat/battstat_applet.c:348
+#, c-format
+msgid "Unknown time (%d%%) until charged"
+msgstr "Άγνωστος χρόνος (%d%%) μέχρι τη φόρτιση"
+
+#: ../battstat/battstat_applet.c:353
+#, c-format
+msgid "%d minute (%d%%) remaining"
+msgid_plural "%d minutes (%d%%) remaining"
+msgstr[0] "απομένει %d λεπτό (%d%%) "
+msgstr[1] "απομένουν %d λεπτά (%d%%)"
+
+#: ../battstat/battstat_applet.c:358
+#, c-format
+msgid "%d minute until charged (%d%%)"
+msgid_plural "%d minutes until charged (%d%%)"
+msgstr[0] "%d λεπτό μέχρι τη φόρτιση (%d%%)"
+msgstr[1] "%d λεπτά μέχρι τη φόρτιση (%d%%)"
+
+#: ../battstat/battstat_applet.c:364
+#, c-format
+msgid "%d hour (%d%%) remaining"
+msgid_plural "%d hours (%d%%) remaining"
+msgstr[0] "απομένει %d ώρα (%d%%)"
+msgstr[1] "απομένουν %d ώρες (%d%%)"
+
+#: ../battstat/battstat_applet.c:369
+#, c-format
+msgid "%d hour until charged (%d%%)"
+msgid_plural "%d hours until charged (%d%%)"
+msgstr[0] "%d ώρα μέχρι τη φόρτιση (%d%%)"
+msgstr[1] "%d ώρες μέχρι τη φόρτιση (%d%%)"
+
+#. TRANSLATOR: "%d %s %d %s" are "%d hours %d minutes"
+#. * Swap order with "%2$s %2$d %1$s %1$d if needed
+#: ../battstat/battstat_applet.c:376
+#, c-format
+msgid "%d %s %d %s (%d%%) remaining"
+msgstr "απομένουν %d %s %d %s (%d%%)"
+
+#: ../battstat/battstat_applet.c:377 ../battstat/battstat_applet.c:384
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "ώρα"
+msgstr[1] "ώρες"
+
+#: ../battstat/battstat_applet.c:378 ../battstat/battstat_applet.c:385
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "λεπτό"
+msgstr[1] "λεπτά"
+
+#. TRANSLATOR: "%d %s %d %s" are "%d hours %d minutes"
+#. * Swap order with "%2$s %2$d %1$s %1$d if needed
+#: ../battstat/battstat_applet.c:383
+#, c-format
+msgid "%d %s %d %s until charged (%d%%)"
+msgstr "%d %s %d %s μέχρι τη φόρτιση (%d%%)"
+
+#: ../battstat/battstat_applet.c:397
+msgid "Battery Monitor"
+msgstr "Παρακολούθηση μπαταρίας"
+
+#: ../battstat/battstat_applet.c:407 ../battstat/battstat_applet.c:466
+msgid "Your battery is now fully recharged"
+msgstr "Η μπαταρία σας είναι πλήρως φορτισμένη."
+
+#: ../battstat/battstat_applet.c:443 ../battstat/battstat_applet.c:602
+msgid "Battery Notice"
+msgstr "Ειδοποίηση μπαταρίας"
+
+#. we don't know the remaining time
+#: ../battstat/battstat_applet.c:547
+#, c-format
+msgid "You have %d%% of your total battery capacity remaining."
+msgstr "Απομένει %d%% από τη συνολική χωρητικότητα της μπαταρίας."
+
+#: ../battstat/battstat_applet.c:553
+#, c-format
+msgid ""
+"You have %d minute of battery power remaining (%d%% of the total capacity)."
+msgid_plural ""
+"You have %d minutes of battery power remaining (%d%% of the total capacity)."
+msgstr[0] "Απομένει %d λεπτό διάρκειας μπαταρίας (%d%% της συνολικής ισχύος)."
+msgstr[1] "Απομένουν %d λεπτά διάρκειας μπαταρίας (%d%% της συνολικής ισχύος)."
+
+#. TRANSLATORS: this is a list, it is left as a single string
+#. * to allow you to make it appear like a list would in your
+#. * locale.  This is if the laptop does not support suspend.
+#: ../battstat/battstat_applet.c:565
+msgid ""
+"To avoid losing your work:\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr "Για να μην χάσετε την εργασία σας:\n • βάλτε στην πρίζα το φορητό σας, ή\n • αποθηκεύστε τα ανοικτά έγγραφα και κλείστε τον φορητό σας."
+
+#. TRANSLATORS: this is a list, it is left as a single string
+#. * to allow you to make it appear like a list would in your
+#. * locale.  This is if the laptop supports suspend.
+#: ../battstat/battstat_applet.c:573
+msgid ""
+"To avoid losing your work:\n"
+" • suspend your laptop to save power,\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr "Για να μην χάσετε την εργασία σας:\n • βάλτε σε αναστολή τον φορητό σας για να εξοικονομήσετε ενέργεια,\n • βάλτε στην πρίζα το φορητό σας, ή\n • αποθηκεύστε τα ανοικτά έγγραφα και κλείστε τον φορητό σας."
+
+#: ../battstat/battstat_applet.c:581
+msgid "Your battery is running low"
+msgstr "Η μπαταρία είναι χαμηλή"
+
+#: ../battstat/battstat_applet.c:676
+msgid "No battery present"
+msgstr "Μπαταρία: δεν υπάρχει"
+
+#: ../battstat/battstat_applet.c:679
+msgid "Battery status unknown"
+msgstr "Άγνωστη κατάσταση μπαταρίας"
+
+#: ../battstat/battstat_applet.c:859
+msgid "N/A"
+msgstr "N/A"
+
+#: ../battstat/battstat_applet.c:1159 ../drivemount/drivemount.c:151
+#: ../geyes/geyes.c:368 ../geyes/themes.c:227
+#: ../gde2weather/gde2weather-applet.c:68
+#: ../gde2weather/gde2weather-pref.c:750
+#: ../stickynotes/stickynotes_applet_callbacks.c:344
+#: ../stickynotes/stickynotes_applet_callbacks.c:549
+#: ../trashapplet/src/trashapplet.c:403
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "Σφάλμα κατά την εμφάνιση βοήθειας: %s"
+
+#: ../battstat/battstat_applet.c:1204
+msgid "This utility shows the status of your laptop battery."
+msgstr "Αυτή η εφαρμογή προβάλλει την κατάσταση της μπαταρίας του φορητού σας υπολογιστή."
+
+#. true
+#: ../battstat/battstat_applet.c:1206
+msgid "upower backend enabled."
+msgstr "upower backend ενεργοποιήθηκε."
+
+#. false
+#: ../battstat/battstat_applet.c:1207
+msgid "Legacy backend enabled."
+msgstr "Legacy backend ενεργοποιήθηκε."
+
+#: ../battstat/battstat_applet.c:1579 ../battstat/battstat_applet.c:1631
+#: ../battstat/org.gde2.applets.BattstatApplet.gde2-panel-applet.in.in.h:2
+msgid "Battery Charge Monitor"
+msgstr "Παρακολούθηση φορτίου μπαταρίας"
+
+#: ../battstat/battstat_applet.c:1632
+#: ../battstat/org.gde2.applets.BattstatApplet.gde2-panel-applet.in.in.h:3
+msgid "Monitor a laptop's remaining power"
+msgstr "Παρακολούθηση υπόλοιπου μπαταρίας φορητού υπολογιστή"
+
+#: ../battstat/battstat_applet.ui.h:1
+msgid "Battery Charge Monitor Preferences"
+msgstr "Προτιμήσεις παρακολούθησης φορτίου μπαταρίας"
+
+#: ../battstat/battstat_applet.ui.h:2
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+#: ../battstat/battstat_applet.ui.h:3
+msgid "_Compact view"
+msgstr "_Συμπαγής προβολή"
+
+#: ../battstat/battstat_applet.ui.h:4
+msgid "(shows single image for status and charge)"
+msgstr "(εμφανίζει κοινή εικόνα για κατάσταση και φόρτιση)"
+
+#: ../battstat/battstat_applet.ui.h:5
+msgid "_Expanded view"
+msgstr "Ανε_πτυγμένη προβολή"
+
+#: ../battstat/battstat_applet.ui.h:6
+msgid "(two images: one for status, one for charge)"
+msgstr "(δύο εικόνες: μία για κατάσταση, μία για φόρτιση)"
+
+#: ../battstat/battstat_applet.ui.h:7
+msgid "_Show time/percentage:"
+msgstr "Εμφάνιση _χρόνου/ποσοστού:"
+
+#: ../battstat/battstat_applet.ui.h:8
+msgid "Show _time remaining"
+msgstr "Εμφάνιση χρόνου που απομένει"
+
+#: ../battstat/battstat_applet.ui.h:9
+msgid "Show _percentage remaining"
+msgstr "Εμφάνιση _ποσοστού που απομένει"
+
+#: ../battstat/battstat_applet.ui.h:10
+msgid "Notifications"
+msgstr "Ειδοποιήσεις"
+
+#. TRANSLATOR: This is the beginning of the sentence 'Warn when battery charge
+#. drops to: [XX] percent/minutes remaining'
+#: ../battstat/battstat_applet.ui.h:12
+msgid "_Warn when battery charge drops to:"
+msgstr "Προει_δοποίηση όταν το φορτίο μπαταρίας είναι χαμηλότερο από:"
+
+#: ../battstat/battstat_applet.ui.h:13
+msgid "_Notify when battery is fully recharged"
+msgstr "Ει_δοποίηση όταν η μπαταρία φορτιστεί πλήρως"
+
+#: ../battstat/org.gde2.applets.BattstatApplet.gde2-panel-applet.in.in.h:1
+msgid "Battstat Factory"
+msgstr "Στατιστικά Μπαταρίας"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:1
+msgid "Red value level"
+msgstr "Κόκκινο επίπεδο τιμής"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:2
+msgid ""
+"The battery level below which the battery is displayed as red. Also the "
+"value at which the low battery warning is displayed."
+msgstr "Το επίπεδο της μπαταρίας κάτω από το οποίο η μπαταρία εμφανίζεται με κόκκινο. Ακόμα η τιμή κάτω από την οποία θα εμφανίζεται η προειδοποίηση μπαταρίας."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:3
+msgid "Warn on low time rather than low percentage"
+msgstr "Προειδοποίηση όταν απομένει λίγος χρόνος αντί για χαμηλό ποσοστό"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:4
+msgid ""
+"Use the value defined in red_value as a time remaining to show the warning "
+"dialog rather than a percentage."
+msgstr "Χρήση της τιμής που καθορίζεται στη red_value ως το χρόνο που απομένει για την εμφάνιση του διαλόγου προειδοποίησης αντί για ποσοστού."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:5
+msgid "Low Battery Notification"
+msgstr "Ειδοποίηση χαμηλής μπαταρίας"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:6
+msgid "Notify user when the battery is low."
+msgstr "Ειδοποίηση του χρήστη όταν το φορτίο της μπαταρίας είναι χαμηλό."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:7
+msgid "Full Battery Notification"
+msgstr "Ειδοποίηση γεμάτης μπαταρίας"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:8
+msgid "Notify user when the battery is full."
+msgstr "Ειδοποίηση του χρήστη όταν η μπαταρία είναι γεμάτη."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:9
+msgid "Beep for warnings"
+msgstr "Ήχος μπιπ για προειδοποιήσεις"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:10
+msgid "Beep when displaying a warning."
+msgstr "Ήχος μπιπ κατά την προβολή ειδοποίησης"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:11
+msgid "Drain from top"
+msgstr "Άδειασμα από την κορυφή"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:12
+msgid ""
+"Show the battery meter draining from the top of the battery. Only "
+"implemented for traditional battery view."
+msgstr "Εμφάνιση της μέτρησης της μπαταρίας να αδειάζει από την κορυφή της μπαταρίας. Μόνο για την παραδοσιακή προβολή της μπαταρίας."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:13
+msgid "Upright (small) battery"
+msgstr "Μικρή (άνω δεξιά) μπαταρία"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:14
+msgid "Show the upright, smaller battery on the panel."
+msgstr "Εμφάνιση της μικρότερης μπαταρίας στο πίνακα εφαρμογών."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:15
+msgid "Show the horizontal battery"
+msgstr "Εμφάνιση της οριζόντιας μπαταρίας"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:16
+msgid "Show the traditional, horizontal battery on the panel."
+msgstr "Εμφάνιση της παραδοσιακής οριζόντιας μπαταρίας στο πίνακα εφαρμογών."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:17
+msgid "Show the time/percent label"
+msgstr "Εμφάνιση ετικέτας ποσοστού/ώρας"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:18
+msgid "0 for no label, 1 for percentage and 2 for time remaining."
+msgstr "0 για χωρίς ετικέτα, 1 για ποσοστό και 2 για χρόνο που απομένει"
+
+#. TRANSLATOR: this is a selectable item in a drop-down menu to end
+#. * this sentence:
+#. *   "Warn when battery charge drops to: [XX] percent".
+#: ../battstat/properties.c:287
+msgid "Percent"
+msgstr "Ποσοστό"
+
+#. TRANSLATOR: this is a selectable item in a drop-down menu to end
+#. * this sentence:
+#. *   "Warn when battery charge drops to: [XX] minutes remaining"
+#: ../battstat/properties.c:293
+msgid "Minutes Remaining"
+msgstr "Λεπτά που απομένουν"
+
+#: ../battstat/sounds/gde2-battstat_applet.soundlist.in.h:1
+msgid "Battery Status Utility"
+msgstr "Εργαλείο κατάστασης μπαταρίας"
+
+#: ../battstat/sounds/gde2-battstat_applet.soundlist.in.h:2
+msgid "Battery power low"
+msgstr "Χαμηλό φορτίο μπαταρίας"
+
+#: ../battstat/sounds/gde2-battstat_applet.soundlist.in.h:3
+msgid "Battery fully re-charged"
+msgstr "Η μπαταρία είναι πλήρως φορτισμένη"
+
+#: ../charpick/charpick.c:469
+msgid "Available palettes"
+msgstr "Διαθέσιμες παλέτες"
+
+#. TRANSLATOR: This sentance reads something like 'Insert "PILCROW SIGN"'
+#. *             hopefully, the name of the unicode character has already
+#. *             been translated.
+#: ../charpick/charpick.c:529
+#, c-format
+msgid "Insert \"%s\""
+msgstr "Εισαγωγή \"%s\""
+
+#: ../charpick/charpick.c:532
+msgid "Insert special character"
+msgstr "Εισαγωγή ειδικού χαρακτήρα"
+
+#: ../charpick/charpick.c:536
+#, c-format
+msgid "insert special character %s"
+msgstr "εισαγωγή ειδικού χαρακτήρα %s"
+
+#: ../charpick/charpick.c:661
+msgid ""
+"Gde2 Panel applet for selecting strange characters that are not on my "
+"keyboard. Released under GNU General Public Licence."
+msgstr "Μικροεφαρμογή για επιλογή περίεργων χαρακτήρων που δεν υπάρχουν στο πληκτρολόγιο μου. Διατίθεται σύμφωνα με την άδεια χρήσης GNU General Public Licence."
+
+#: ../charpick/charpick.c:773 ../charpick/charpick.c:787
+#: ../charpick/org.gde2.applets.CharpickerApplet.gde2-panel-applet.in.in.h:2
+#: ../charpick/properties.c:460
+msgid "Character Palette"
+msgstr "Επιλογέας Χαρακτήρων"
+
+#: ../charpick/charpick.c:773
+#: ../charpick/org.gde2.applets.CharpickerApplet.gde2-panel-applet.in.in.h:3
+msgid "Insert characters"
+msgstr "Εισαγωγή χαρακτήρων"
+
+#: ../charpick/org.gde2.applets.CharpickerApplet.gde2-panel-applet.in.in.h:1
+msgid "Charpicker Applet Factory"
+msgstr "Εργοστάσιο μικροεφαρμογής επιλογέα χαρακτήρων"
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:1
+msgid "Characters shown on applet startup"
+msgstr "Χαρακτήρες που εμφανίζονται κατά την εκκίνηση της μικροεφαρμογής"
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:2
+msgid ""
+"The string that the user had selected when the applet was last used. This "
+"string will be displayed when the user starts the applet."
+msgstr "Το αλφαριθμητικό που ο χρήστης έχει επιλέξει όταν χρησιμοποιήθηκε η μικροεφαρμογή για τελευταία φορά. Αυτό το αλφαριθμητικό θα εμφανίζεται όταν ο χρήστης ξεκινά η μικροεφαρμογή."
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:3
+#: ../charpick/properties.c:383
+msgid "List of available palettes"
+msgstr "Λίστα διαθέσιμων παλετών"
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:4
+msgid "List of strings containing the available palettes."
+msgstr "Λίστα αλφαριθμητικών που περιέχει τις διαθέσιμες παλέτες."
+
+#: ../charpick/properties.c:33
+msgid "_Edit"
+msgstr "_Επεξεργασία"
+
+#: ../charpick/properties.c:121
+msgid "_Palette:"
+msgstr "_Παλέτα:"
+
+#: ../charpick/properties.c:129
+msgid "Palette entry"
+msgstr "Καταχώρηση παλέτας"
+
+#: ../charpick/properties.c:130
+msgid "Modify a palette by adding or removing characters"
+msgstr "Τροποποίηση μια παλέτας με την προσθήκη ή απομάκρυνση χαρακτήρων"
+
+#: ../charpick/properties.c:244
+msgid "Add Palette"
+msgstr "Προσθήκη παλέτας"
+
+#: ../charpick/properties.c:281
+msgid "Edit Palette"
+msgstr "Επεξεργασία παλέτας"
+
+#: ../charpick/properties.c:382
+msgid "Palettes list"
+msgstr "Λίστα παλετών"
+
+#: ../charpick/properties.c:465
+msgid "_Palettes:"
+msgstr "_Παλέτες:"
+
+#: ../charpick/properties.c:485
+msgid "Add button"
+msgstr "Προσθήκη κουμπιού"
+
+#: ../charpick/properties.c:486
+msgid "Click to add a new palette"
+msgstr "Κλικ για να προσθέσετε μια νέα παλέτα"
+
+#: ../charpick/properties.c:493
+msgid "Edit button"
+msgstr "Επεξεργασία κουμπιού"
+
+#: ../charpick/properties.c:494
+msgid "Click to edit the selected palette"
+msgstr "Κλικ για επεξεργασία επιλεγμένης παλέτας"
+
+#: ../charpick/properties.c:501
+msgid "Delete button"
+msgstr "Διαγραφή κουμπιού"
+
+#: ../charpick/properties.c:502
+msgid "Click to delete the selected palette"
+msgstr "Κλικ για διαγραφή επιλεγμένης παλέτας"
+
+#: ../charpick/properties.c:553
+msgid "Character Palette Preferences"
+msgstr "Προτιμήσεις επιλογέα χαρακτήρων"
+
+#: ../command/command.c:118
+#: ../command/org.gde2.applets.CommandApplet.gde2-panel-applet.in.in.h:3
+msgid "Shows the output of a command"
+msgstr "Δείχνει την έξοδο μιας εντολής"
+
+#: ../command/command.c:136
+msgid "Command Applet Preferences"
+msgstr "Προτιμήσεις Μικροεφαρμογής Γραμμής Εντολών"
+
+#: ../command/command.c:149
+msgid "Command:"
+msgstr "Εντολή:"
+
+#: ../command/command.c:165
+msgid "Interval (seconds):"
+msgstr "Διάστημα (σε δευτερόλεπτα):"
+
+#: ../command/command.c:181
+msgid "Maximum width (chars):"
+msgstr "Μέγιστο μήκος (χαρακτήρες):"
+
+#: ../command/command.c:197
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:7
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:7
+msgid "Show icon"
+msgstr "Εμφάνιση Εικονιδίου"
+
+#: ../command/command.c:347
+msgid "Command Applet"
+msgstr "Μικροεφαρμογή Γραμμής Εντολών"
+
+#: ../command/org.gde2.applets.CommandApplet.gde2-panel-applet.in.in.h:1
+msgid "Command Factory"
+msgstr "Εργοστάσιο Εντολών"
+
+#: ../command/org.gde2.applets.CommandApplet.gde2-panel-applet.in.in.h:2
+msgid "Command"
+msgstr "Εντολή"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:1
+msgid "Command to execute"
+msgstr "Εντολή προς εκτέλεση"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:2
+msgid "Command/script to execute to get the output"
+msgstr "Εντολή/Σενάριο Εντολών προς εκτέλεση για παραγωγή του αποτελέσματος"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:3
+msgid "Interval for the command"
+msgstr "Διάστημα για την εντολή"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:4
+msgid "Interval to execute the command (in seconds)"
+msgstr "Διάστημα μέχρι να εκτελεστεί η εντολή (σε δευτερόλεπτα)"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:5
+msgid "Width of output"
+msgstr "Πλάτος της εξόδου"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:6
+msgid "Number of characters to display"
+msgstr "Ο αριθμός σελίδας του εγγράφου προς εμφάνιση."
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:8
+msgid "If applet icon is shown or not"
+msgstr "Αν το εικονίδιο της μικροεφαρμογής θα εμφανίζεται ή όχι"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:1
+msgid "CPU Frequency Monitor Preferences"
+msgstr "Προτιμήσεις παρακολούθησης συχνότητας CPU"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:2
+msgid "Monitor Settings"
+msgstr "Ρυθμίσεις οθόνης"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:3
+msgid "_Monitored CPU:"
+msgstr "Παρα_κολουθούμενη CPU"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:4
+msgid "Display Settings"
+msgstr "Ρυθμίσεις εμφάνισης"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:5
+msgid "_Appearance:"
+msgstr "Ε_μφάνιση"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:6
+msgid "Show CPU frequency as _frequency"
+msgstr "Προβολή συχνότητας CPU ως _συχνότητα"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:7
+msgid "Show frequency _units"
+msgstr "Προβολή μονά_δων συχνότητας"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:8
+msgid "Show CPU frequency as _percentage"
+msgstr "Εμφάνιση συχνότητας CPU ως _ποσοστό"
+
+#: ../cpufreq/org.gde2.applets.CPUFreqApplet.gde2-panel-applet.in.in.h:1
+#: ../cpufreq/src/cpufreq-applet.c:1060 ../cpufreq/src/cpufreq-applet.c:1115
+msgid "CPU Frequency Scaling Monitor"
+msgstr "Παρακολούθηση κλιμάκωσης συχνότητας CPU"
+
+#: ../cpufreq/org.gde2.applets.CPUFreqApplet.gde2-panel-applet.in.in.h:2
+msgid "Monitor the CPU Frequency Scaling"
+msgstr "Παρακολούθηση της κλιμάκωσης συχνότητας CPU"
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:1
+msgid "CPU to Monitor"
+msgstr "CPU για παρακολούθηση"
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:2
+msgid ""
+"Set the CPU to monitor. In a single processor system you don't have to "
+"change it."
+msgstr "Ορισμός της CPU για παρακολούθηση, Σε σύστημα με ένα επεξεργαστή δε χρειάζεται να την αλλάξετε."
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:3
+msgid "Mode to show CPU usage"
+msgstr "Λειτουργία για εμφάνιση χρήσης CPU"
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:4
+msgid ""
+"A 0 value means to show the applet in graphic mode (pixmap only), 1 to show "
+"the applet in text mode (not to show the pixmap) and 2 to show the applet in"
+" graphic and text mode."
+msgstr ""
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:5
+msgid "The type of text to display (if the text is enabled)."
+msgstr ""
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:6
+msgid ""
+"A 0 value means to show CPU frequency, 1 to show frequency and units, and 2 "
+"to show percentage instead of frequency."
+msgstr ""
+
+#: ../cpufreq/src/cpufreq-applet.c:668 ../cpufreq/src/cpufreq-prefs.c:365
+msgid "Could not open help document"
+msgstr "Αποτυχία ανοίγματος εγγράφου βοήθειας"
+
+#: ../cpufreq/src/cpufreq-applet.c:699
+msgid "This utility shows the current CPU Frequency Scaling."
+msgstr "Αυτή η εφαρμογή προβάλλει την τρέχουσα κλιμάκωση συχνότητας της CPU"
+
+#: ../cpufreq/src/cpufreq-applet.c:1116
+msgid "This utility shows the current CPU Frequency"
+msgstr "Αυτή η εφαρμογή προβάλλει την τρέχουσα συχνότητα της CPU"
+
+#: ../cpufreq/src/cpufreq-prefs.c:500
+msgid "Graphic"
+msgstr "Γραφικό"
+
+#: ../cpufreq/src/cpufreq-prefs.c:505
+msgid "Text"
+msgstr "Κείμενο"
+
+#: ../cpufreq/src/cpufreq-prefs.c:510
+msgid "Graphic and Text"
+msgstr "Γραφικό και κείμενο"
+
+#: ../cpufreq/src/cpufreq-monitor-cpuinfo.c:121
+msgid "Frequency Scaling Unsupported"
+msgstr "Δεν υποστηρίζεται η κλιμάκωση συχνότητας"
+
+#. If there is no cpufreq support it shows only the cpu frequency,
+#. * I think is better than do nothing. I have to notify it to the user,
+#. because
+#. * he could think that cpufreq is supported but it doesn't work succesfully
+#: ../cpufreq/src/cpufreq-monitor-factory.c:59
+msgid "CPU frequency scaling unsupported"
+msgstr "Δεν υποστηρίζεται η αλλαγή συχνότητας CPU"
+
+#: ../cpufreq/src/cpufreq-monitor-factory.c:60
+msgid ""
+"You will not be able to modify the frequency of your machine.  Your machine "
+"may be misconfigured or not have hardware support for CPU frequency scaling."
+msgstr "Δεν θα μπορείτε να αλλάξετε τη συχνότητα του συστήματος σας. Το σύστημα σας μπορεί να μην έχει ρυθμιστεί σωστά ή να μην έχετε υποστήριξη υλικού για αλλαγή συχνότητας CPU."
+
+#: ../cpufreq/src/cpufreq-selector/org.gde2.cpufreqselector.policy.in.h:1
+msgid "Change CPU Frequency scaling"
+msgstr "Αλλαγή της κλιμάκωσης συχνότητας CPU"
+
+#: ../cpufreq/src/cpufreq-selector/org.gde2.cpufreqselector.policy.in.h:2
+msgid "Privileges are required to change the CPU Frequency scaling."
+msgstr "Απαιτούνται προνόμια για την παρακολούθηση της κλιμάκωσης συχνότητας CPU"
+
+#: ../drivemount/drive-button.c:364 ../drivemount/drive-button.c:377
+msgid "(mounted)"
+msgstr "(προσαρτημένο)"
+
+#: ../drivemount/drive-button.c:366
+msgid "(not mounted)"
+msgstr "(μη προσαρτημένο)"
+
+#: ../drivemount/drive-button.c:634
+msgid "Cannot execute Caja"
+msgstr "Αδυναμία εκτέλεσης Caja"
+
+#: ../drivemount/drive-button.c:636
+#, c-format
+msgid "Cannot execute '%s'"
+msgstr "Αδυναμία εκτέλεσης '%s'"
+
+#: ../drivemount/drive-button.c:961
+msgid "_Play DVD"
+msgstr "_Αναπαραγωγή DVD"
+
+#: ../drivemount/drive-button.c:965
+msgid "_Play CD"
+msgstr "_Αναπαραγωγή CD"
+
+#: ../drivemount/drive-button.c:968
+#, c-format
+msgid "_Open %s"
+msgstr "Ά_νοιγμα %s"
+
+#: ../drivemount/drive-button.c:976
+#, c-format
+msgid "Un_mount %s"
+msgstr "Απο_προσάρτηση %s"
+
+#: ../drivemount/drive-button.c:982
+#, c-format
+msgid "_Mount %s"
+msgstr "_Προσάρτηση %s"
+
+#: ../drivemount/drive-button.c:990
+#, c-format
+msgid "_Eject %s"
+msgstr "_Εξαγωγή %s"
+
+#: ../drivemount/drivemount.c:122
+msgid "Applet for mounting and unmounting block volumes."
+msgstr "Μικροεφαρμογή για την προσάρτηση και αποπροσάρτηση τόμων."
+
+#: ../drivemount/drivemount.c:183 ../drivemount/drivemount.c:217
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:3
+msgid "Disk Mounter"
+msgstr "Προσάρτηση δίσκων"
+
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:1
+msgid "Drive Mount Applet Factory"
+msgstr "Εργοστάσιο μικροεφαρμογής προσάρτησης δίσκων"
+
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:2
+msgid "Factory for drive mount applet"
+msgstr "Εργοστάσιο για τη μικροεφαρμογή προσάρτησης δίσκων"
+
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:4
+msgid "Mount local disks and devices"
+msgstr "Προσάρτηση τοπικών δίσκων και συσκευών"
+
+#: ../geyes/geyes.c:195
+msgid "A goofy set of eyes for the GDE2 panel. They follow your mouse."
+msgstr "Ένα χαζό ζευγάρι ματιών για τον πίνακα εφαρμογών του GDE2. Ακολουθούν το ποντίκι σας."
+
+#: ../geyes/geyes.c:413 ../geyes/geyes.c:443 ../geyes/geyes.c:445
+#: ../geyes/org.gde2.applets.GeyesApplet.gde2-panel-applet.in.in.h:2
+msgid "Eyes"
+msgstr "Eyes"
+
+#: ../geyes/geyes.c:446
+msgid "The eyes look in the direction of the mouse pointer"
+msgstr "Τα μάτια ακολουθούν την κατεύθυνση της κατάδειξης ποντικιού"
+
+#: ../geyes/org.gde2.applets.GeyesApplet.gde2-panel-applet.in.in.h:1
+msgid "Geyes Applet Factory"
+msgstr "Εργοστάσιο μικροεφαρμογής Geyes"
+
+#: ../geyes/org.gde2.applets.GeyesApplet.gde2-panel-applet.in.in.h:3
+msgid "A set of eyeballs for your panel"
+msgstr "Ένα ζευγάρι μάτια για το πίνακα εφαρμογών σας"
+
+#: ../geyes/org.gde2.panel.applet.geyes.gschema.xml.in.h:1
+msgid "Directory in which the theme is located"
+msgstr "Κάταλογος στον οποίο υπάρχει στο θέμα"
+
+#: ../geyes/themes.c:131
+msgid "Can not launch the eyes applet."
+msgstr "Αδυναμία φόρτωσης της μικροεφαρμογής ματιών."
+
+#: ../geyes/themes.c:132
+msgid "There was a fatal error while trying to load the theme."
+msgstr "Μοιραίο σφάλμα κατά την προσπάθεια φόρτωσης του θέματος."
+
+#: ../geyes/themes.c:286
+msgid "Geyes Preferences"
+msgstr "Προτιμήσεις Geyes"
+
+#: ../geyes/themes.c:319
+msgid "Themes"
+msgstr "Θέματα"
+
+#: ../geyes/themes.c:344
+msgid "_Select a theme:"
+msgstr "Επι_λογή ενός θέματος:"
+
+#: ../gde2weather/gde2weather-about.c:53
+msgid "A panel application for monitoring local weather conditions."
+msgstr "Μια εφαρμογή για την παρακολούθηση των τοπικών καιρικών συνθηκών."
+
+#: ../gde2weather/gde2weather-applet.c:113
+msgid "_Details"
+msgstr "_Λεπτομέρειες"
+
+#: ../gde2weather/gde2weather-applet.c:116
+#: ../gde2weather/gde2weather-dialog.c:191
+msgid "_Update"
+msgstr "_Ενημέρωση"
+
+#: ../gde2weather/gde2weather-applet.c:350
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:3
+msgid "Weather Report"
+msgstr "Δελτίο καιρού"
+
+#: ../gde2weather/gde2weather-applet.c:368
+#: ../gde2weather/gde2weather-applet.c:372
+msgid "GDE2 Weather"
+msgstr "Ο Καιρός του GDE2"
+
+#: ../gde2weather/gde2weather-applet.c:471
+msgid "Weather Forecast"
+msgstr "Πρόγνωση καιρού"
+
+#: ../gde2weather/gde2weather-applet.c:483
+#, c-format
+msgid ""
+"City: %s\n"
+"Sky: %s\n"
+"Temperature: %s"
+msgstr "Πόλη: %s\nΟυρανός: %s\nΘερμοκρασία: %s"
+
+#: ../gde2weather/gde2weather-applet.c:532
+msgid "Updating..."
+msgstr "Ενημέρωση..."
+
+#: ../gde2weather/gde2weather-dialog.c:189
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+#: ../gde2weather/gde2weather-dialog.c:231
+msgid "City:"
+msgstr "Πόλη:"
+
+#: ../gde2weather/gde2weather-dialog.c:243
+msgid "Last update:"
+msgstr "Τελευταία ενημέρωση:"
+
+#: ../gde2weather/gde2weather-dialog.c:255
+msgid "Conditions:"
+msgstr "Συνθήκες:"
+
+#: ../gde2weather/gde2weather-dialog.c:267
+msgid "Sky:"
+msgstr "Ουρανός:"
+
+#: ../gde2weather/gde2weather-dialog.c:279
+msgid "Temperature:"
+msgstr "Θερμοκρασία:"
+
+#: ../gde2weather/gde2weather-dialog.c:291
+msgid "Feels like:"
+msgstr "Μοιάζει με:"
+
+#: ../gde2weather/gde2weather-dialog.c:303
+msgid "Dew point:"
+msgstr "Επίπεδο πάχνης:"
+
+#: ../gde2weather/gde2weather-dialog.c:315
+msgid "Relative humidity:"
+msgstr "Σχετική υγρασία:"
+
+#: ../gde2weather/gde2weather-dialog.c:327
+msgid "Wind:"
+msgstr "Άνεμος:"
+
+#: ../gde2weather/gde2weather-dialog.c:339
+msgid "Pressure:"
+msgstr "Βαρομετρική πίεση:"
+
+#: ../gde2weather/gde2weather-dialog.c:351
+msgid "Visibility:"
+msgstr "Ορατότητα:"
+
+#: ../gde2weather/gde2weather-dialog.c:363
+msgid "Sunrise:"
+msgstr "Ανατολή:"
+
+#: ../gde2weather/gde2weather-dialog.c:375
+msgid "Sunset:"
+msgstr "Δύση:"
+
+#: ../gde2weather/gde2weather-dialog.c:565
+msgid "Current Conditions"
+msgstr "Παρούσες συνθήκες"
+
+#: ../gde2weather/gde2weather-dialog.c:582
+msgid "Forecast Report"
+msgstr "Πρόγνωση καιρού"
+
+#: ../gde2weather/gde2weather-dialog.c:582
+msgid "See the ForeCast Details"
+msgstr "Προβολή λεπτομερειών πρόγνωσης"
+
+#: ../gde2weather/gde2weather-dialog.c:592
+msgid "Forecast"
+msgstr "Πρόγνωση καιρού"
+
+#: ../gde2weather/gde2weather-dialog.c:600
+msgid "Radar Map"
+msgstr "Χάρτης Ραντάρ"
+
+#: ../gde2weather/gde2weather-dialog.c:631
+msgid "_Visit Weather.com"
+msgstr "_Επισκεφθείτε το Weather.com"
+
+#: ../gde2weather/gde2weather-dialog.c:632
+msgid "Visit Weather.com"
+msgstr "Επισκεφθείτε το Weather.com"
+
+#: ../gde2weather/gde2weather-dialog.c:632
+msgid "Click to Enter Weather.com"
+msgstr "Κάντε κλικ για να μπείτε στο Weather.com"
+
+#: ../gde2weather/gde2weather-dialog.c:717
+msgid "Forecast not currently available for this location."
+msgstr "Η πρόγνωση δεν είναι διαθέσιμη για αυτή την τοποθεσία"
+
+#. Accessible Name and Description for the components in Preference Dialog
+#: ../gde2weather/gde2weather-pref.c:165
+msgid "Location view"
+msgstr "Προβολή τοποθεσίας"
+
+#: ../gde2weather/gde2weather-pref.c:165
+msgid "Select Location from the list"
+msgstr "Επιλογή τοποθεσίας από τη λίστα"
+
+#: ../gde2weather/gde2weather-pref.c:166
+msgid "Update spin button"
+msgstr "Ενημέρωση κουμπιού στροβιλισμού (spin)"
+
+#: ../gde2weather/gde2weather-pref.c:166
+msgid "Spinbutton for updating"
+msgstr "Spinbutton για ενημερώσεις"
+
+#: ../gde2weather/gde2weather-pref.c:167
+msgid "Address Entry"
+msgstr "Εισαγωγή διεύθυνσης"
+
+#: ../gde2weather/gde2weather-pref.c:167
+msgid "Enter the URL"
+msgstr "Εισάγετε το URL"
+
+#: ../gde2weather/gde2weather-pref.c:290
+msgid ""
+"Failed to load the Locations XML database.  Please report this as a bug."
+msgstr "Αποτυχία φόρτωσης της βάσης δεδομένων τοποθεσιών XML. Παρακαλώ αναφέρετε το ως σφάλμα."
+
+#: ../gde2weather/gde2weather-pref.c:812
+msgid "Weather Preferences"
+msgstr "Προτιμήσεις καιρού"
+
+#: ../gde2weather/gde2weather-pref.c:839
+#: ../gde2weather/gde2weather-pref.c:1053
+msgid "_Automatically update every:"
+msgstr "_Αυτόματη ανανέωση κάθε:"
+
+#. * Units settings page.
+#. Temperature Unit
+#: ../gde2weather/gde2weather-pref.c:854
+msgid "_Temperature unit:"
+msgstr "Μονάδα _θερμοκρασίας:"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (temp_combo), _("Default"));
+#: ../gde2weather/gde2weather-pref.c:868
+msgid "Kelvin"
+msgstr "Κέλβιν"
+
+#. TRANSLATORS: Celsius is sometimes referred Centigrade
+#: ../gde2weather/gde2weather-pref.c:870
+msgid "Celsius"
+msgstr "Κελσίου"
+
+#: ../gde2weather/gde2weather-pref.c:871
+msgid "Fahrenheit"
+msgstr "Φαρενάϊτ"
+
+#. Speed Unit
+#: ../gde2weather/gde2weather-pref.c:880
+msgid "_Wind speed unit:"
+msgstr "Μονάδα ταχύτητας α_νέμου:"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (speed_combo), _("Default"));
+#. TRANSLATOR: The wind speed unit "meters per second"
+#: ../gde2weather/gde2weather-pref.c:895
+msgid "m/s"
+msgstr "m/s"
+
+#. TRANSLATOR: The wind speed unit "kilometers per hour"
+#: ../gde2weather/gde2weather-pref.c:897
+msgid "km/h"
+msgstr "km/h"
+
+#. TRANSLATOR: The wind speed unit "miles per hour"
+#: ../gde2weather/gde2weather-pref.c:899
+msgid "mph"
+msgstr "mph"
+
+#. TRANSLATOR: The wind speed unit "knots"
+#: ../gde2weather/gde2weather-pref.c:901
+msgid "knots"
+msgstr "κόμβοι"
+
+#: ../gde2weather/gde2weather-pref.c:902
+msgid "Beaufort scale"
+msgstr "Κλίμακα Beaufort"
+
+#. Pressure Unit
+#: ../gde2weather/gde2weather-pref.c:911
+msgid "_Pressure unit:"
+msgstr "Μονάδα βαρομετρικής _πίεσης:"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (pres_combo), _("Default"));
+#. TRANSLATOR: The pressure unit "kiloPascals"
+#: ../gde2weather/gde2weather-pref.c:926
+msgid "kPa"
+msgstr "kPa"
+
+#. TRANSLATOR: The pressure unit "hectoPascals"
+#: ../gde2weather/gde2weather-pref.c:928
+msgid "hPa"
+msgstr "hPa"
+
+#. TRANSLATOR: The pressure unit "millibars"
+#: ../gde2weather/gde2weather-pref.c:930
+msgid "mb"
+msgstr "mb"
+
+#. TRANSLATOR: The pressure unit "millibars of mercury"
+#: ../gde2weather/gde2weather-pref.c:932
+msgid "mmHg"
+msgstr "mmHg"
+
+#. TRANSLATOR: The pressure unit "inches of mercury"
+#: ../gde2weather/gde2weather-pref.c:934
+msgid "inHg"
+msgstr "inHg"
+
+#. TRANSLATOR: The pressure unit "atmospheres"
+#: ../gde2weather/gde2weather-pref.c:936
+msgid "atm"
+msgstr "atm"
+
+#. Distance Unit
+#: ../gde2weather/gde2weather-pref.c:945
+msgid "_Visibility unit:"
+msgstr "Μονάδα Ορα_τότητας:"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (dist_combo), _("Default"));
+#. TRANSLATOR: The distance unit "meters"
+#: ../gde2weather/gde2weather-pref.c:960
+msgid "meters"
+msgstr "μέτρα"
+
+#. TRANSLATOR: The distance unit "kilometers"
+#: ../gde2weather/gde2weather-pref.c:962
+msgid "km"
+msgstr "km"
+
+#. TRANSLATOR: The distance unit "miles"
+#: ../gde2weather/gde2weather-pref.c:964
+msgid "miles"
+msgstr "μίλια"
+
+#: ../gde2weather/gde2weather-pref.c:990
+msgid "Enable _radar map"
+msgstr "Ενεργοποίηση χάρτη _ραντάρ"
+
+#: ../gde2weather/gde2weather-pref.c:1006
+msgid "Use _custom address for radar map"
+msgstr "Χρήση προσαρ_μοσμένης διεύθυνσης για χάρτη radar"
+
+#: ../gde2weather/gde2weather-pref.c:1024
+msgid "A_ddress:"
+msgstr "Δ_ιεύθυνση:"
+
+#. setup show-notifications button
+#: ../gde2weather/gde2weather-pref.c:1039
+msgid "Show _notifications"
+msgstr "Εμφάνιση _ειδοποιήσεων"
+
+#: ../gde2weather/gde2weather-pref.c:1049
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: ../gde2weather/gde2weather-pref.c:1066
+msgid "minutes"
+msgstr "λεπτά"
+
+#: ../gde2weather/gde2weather-pref.c:1084
+msgid "Display"
+msgstr "Εμφάνιση"
+
+#: ../gde2weather/gde2weather-pref.c:1103
+msgid "General"
+msgstr "Γενικά"
+
+#: ../gde2weather/gde2weather-pref.c:1114
+msgid "_Select a location:"
+msgstr "Επιλο_γή μιας τοποθεσίας:"
+
+#: ../gde2weather/gde2weather-pref.c:1140
+msgid "_Find:"
+msgstr "_Εύρεση:"
+
+#: ../gde2weather/gde2weather-pref.c:1146
+msgid "Find _Next"
+msgstr "Έυρεση _επόμενου"
+
+#: ../gde2weather/gde2weather-pref.c:1167
+msgid "Location"
+msgstr "Τοποθεσία"
+
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:1
+msgid "Gde2weather Applet Factory"
+msgstr "Εργοστάσιο μικροεφαρμογής Gde2weather"
+
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:2
+msgid "Factory for creating the weather applet."
+msgstr "Εργοστάσιο για δημιουργία μικροεφαρμογής καιρού."
+
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:4
+msgid "Monitor the current weather conditions, and forecasts"
+msgstr "Παρακολούθηση του καιρού και προβλέψεων"
+
+#: ../invest-applet/data/financialchart.ui.h:1
+#: ../invest-applet/invest/chart.py:118
+msgid "Financial Chart"
+msgstr "Οικονομικό διάγραμμα"
+
+#: ../invest-applet/data/financialchart.ui.h:2
+msgid "_Ticker symbol: "
+msgstr "Σύμβολο μετο_χής"
+
+#: ../invest-applet/data/financialchart.ui.h:3
+msgid "Auto _refresh"
+msgstr "Αυτόματη _ανανέωση"
+
+#: ../invest-applet/data/financialchart.ui.h:4
+msgid "Today"
+msgstr "Σήμερα"
+
+#: ../invest-applet/data/financialchart.ui.h:5
+msgid "5 Days"
+msgstr "5 μέρες"
+
+#: ../invest-applet/data/financialchart.ui.h:6
+msgid "3 Months"
+msgstr "3 μήνες"
+
+#: ../invest-applet/data/financialchart.ui.h:7
+msgid "6 Months"
+msgstr "6 μήνες"
+
+#: ../invest-applet/data/financialchart.ui.h:8
+msgid "1 Year"
+msgstr "1 χρόνο"
+
+#: ../invest-applet/data/financialchart.ui.h:9
+msgid "5 Years"
+msgstr "5 χρόνια"
+
+#: ../invest-applet/data/financialchart.ui.h:10
+msgid "Maximum"
+msgstr "Μέγιστο"
+
+#: ../invest-applet/data/financialchart.ui.h:11
+msgid "_Graph style: "
+msgstr "_Στυλ γραφήματος:"
+
+#. see http://biz.yahoo.com/charts/guide11.html and
+#. http://en.wikipedia.org/wiki/Moving_average
+#: ../invest-applet/data/financialchart.ui.h:13
+msgid "Moving average: "
+msgstr "Κινητός μέσος:"
+
+#. see http://biz.yahoo.com/charts/guide12.html and
+#. http://en.wikipedia.org/wiki/Moving_average#Exponential_moving_average
+#: ../invest-applet/data/financialchart.ui.h:15
+msgid "Exponential moving average: "
+msgstr "Κινητός εκθετικός μέσος:"
+
+#: ../invest-applet/data/financialchart.ui.h:16
+msgid "5"
+msgstr "5"
+
+#: ../invest-applet/data/financialchart.ui.h:17
+msgid "10"
+msgstr "10"
+
+#: ../invest-applet/data/financialchart.ui.h:18
+msgid "20"
+msgstr "20"
+
+#: ../invest-applet/data/financialchart.ui.h:19
+msgid "50"
+msgstr "50"
+
+#: ../invest-applet/data/financialchart.ui.h:20
+msgid "100"
+msgstr "100"
+
+#: ../invest-applet/data/financialchart.ui.h:21
+msgid "200"
+msgstr "200"
+
+#. see http://en.wikipedia.org/wiki/Technical_analysis#Overlays
+#: ../invest-applet/data/financialchart.ui.h:23
+msgid "Overlays: "
+msgstr "Επικαλύψεις:"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide13.html and
+#. http://en.wikipedia.org/wiki/Bollinger_bands
+#: ../invest-applet/data/financialchart.ui.h:25
+msgid "Bollinger"
+msgstr "Bollinger"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide16.html and
+#. http://en.wikipedia.org/wiki/Parabolic_SAR
+#: ../invest-applet/data/financialchart.ui.h:27
+msgid "SAR"
+msgstr "SAR"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide6.html and
+#. http://en.wikipedia.org/wiki/Stock_split
+#: ../invest-applet/data/financialchart.ui.h:29
+msgid "Splits"
+msgstr "Διαιρέσεις"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide20.html and
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:31
+msgid "Volumes"
+msgstr "Volumes"
+
+#. see http://biz.yahoo.com/charts/guide10.html and
+#. http://en.wikipedia.org/wiki/Technical_indicator#Charting_terms_and_indicators
+#: ../invest-applet/data/financialchart.ui.h:33
+msgid "Indicators: "
+msgstr "Δείκτες:"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Relative_Strength_Index
+#: ../invest-applet/data/financialchart.ui.h:35
+msgid "RSI"
+msgstr "RSI"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:37
+msgid "Vol"
+msgstr "Vol"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Money_flow_index
+#: ../invest-applet/data/financialchart.ui.h:39
+msgid "MFI"
+msgstr "MFI"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Stochastic_oscillator
+#: ../invest-applet/data/financialchart.ui.h:41
+msgid "Slow stoch"
+msgstr "Αργός στοχαστικός δείκτης"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:43
+msgid "Vol+MA"
+msgstr "Vol+MA"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Rate_of_change_%28technical_analysis%29
+#: ../invest-applet/data/financialchart.ui.h:45
+msgid "ROC"
+msgstr "ROC"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Stochastic_oscillator
+#: ../invest-applet/data/financialchart.ui.h:47
+msgid "Fast stoch"
+msgstr "Γρήγορος στοχαστικός δείκτης"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Williams_%25R
+#: ../invest-applet/data/financialchart.ui.h:50
+#, no-c-format
+msgid "W%R"
+msgstr "W%R"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/MACD
+#: ../invest-applet/data/financialchart.ui.h:52
+msgid "MACD"
+msgstr "MACD"
+
+#: ../invest-applet/data/financialchart.ui.h:53
+msgid "Line"
+msgstr "Γραμμή"
+
+#: ../invest-applet/data/financialchart.ui.h:54
+msgid "Bar"
+msgstr "Μπάρα"
+
+#: ../invest-applet/data/financialchart.ui.h:55
+msgid "Candle"
+msgstr "Κερί"
+
+#: ../invest-applet/data/financialchart.ui.h:56
+msgid "Scale: "
+msgstr "Κλίμακα:"
+
+#: ../invest-applet/data/financialchart.ui.h:57
+msgid "Linear"
+msgstr "Γραμμικό"
+
+#: ../invest-applet/data/financialchart.ui.h:58
+msgid "Logarithmic"
+msgstr "Λογαριθμικό"
+
+#: ../invest-applet/data/financialchart.ui.h:59
+msgid "_Options"
+msgstr "_Επιλογές"
+
+#: ../invest-applet/data/financialchart.ui.h:60
+msgid "Downloading chart from <b>Yahoo!</b>"
+msgstr "Γίνεται λήψη διαγράμματος από <b>Yahoo!</b>"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:1
+msgid "Invest Preferences"
+msgstr "Προτιμήσεις του Invest"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:2
+msgid "label"
+msgstr "ετικέτα"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:3
+msgid "Stocks"
+msgstr "Μετοχές"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:4
+msgid ""
+"<i><small><b>Note:</b> Quotes are delayed at least 15 minutes.\n"
+"<b>Source: </b> Yahoo!</small></i>"
+msgstr "<i><small><b>Note:</b> Οι τιμές καθυστερούν τουλάχιστον 15 λεπτά.\n<b>Πηγή: </b> Yahoo!</small></i>"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:6
+msgid "Currency"
+msgstr "Νόμισμα"
+
+#: ../invest-applet/invest/about.py:22
+msgid "Invest"
+msgstr "Invest"
+
+#: ../invest-applet/invest/about.py:25
+msgid "Track your invested money."
+msgstr "Παρακολούθηση των επενδύσεων σας"
+
+#. name, stock_id, label, accellerator, tooltip, callback
+#: ../invest-applet/invest/applet.py:28
+msgid "About"
+msgstr "Περί"
+
+#: ../invest-applet/invest/applet.py:29 ../netspeed/src/netspeed.c:1418
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: ../invest-applet/invest/applet.py:30
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: ../invest-applet/invest/applet.py:31
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+#. a) We aren't configured yet
+#: ../invest-applet/invest/applet.py:63
+msgid "<b>You have not entered any stock information yet</b>"
+msgstr "<b>Δεν έχετε ακόμα εισάγει πληροφορίες μετοχών</b>"
+
+#: ../invest-applet/invest/applet.py:68
+msgid "<b>No stock quotes are currently available</b>"
+msgstr "<b>Δεν υπάρχουν τιμές μετοχών διαθέσιμες</b>"
+
+#: ../invest-applet/invest/applet.py:69
+msgid ""
+"The server could not be contacted. The computer is either offline or the "
+"servers are down. Try again later."
+msgstr "Δεν είναι δυνατή η επικοινωνία με τον εξυπηρετητή. 'Η ο υπολογιστής είναι εκτός σύνδεσης ή εξυπηρετητές είναι εκτός λειτουργίας. Προσπαθήστε ξανά αργότερα."
+
+#: ../invest-applet/invest/chart.py:167
+#, python-format
+msgid "Financial Chart - %s"
+msgstr "Οικονομικό διάγραμμα  - %s"
+
+#: ../invest-applet/invest/chart.py:234
+msgid "Opening Chart"
+msgstr "Άνοιγμα διαγράμματος"
+
+#: ../invest-applet/invest/chart.py:249
+msgid "Chart downloaded"
+msgstr "Έγινε λήψη διαγράμματος"
+
+#: ../invest-applet/invest/chart.py:251
+msgid "Chart could not be downloaded"
+msgstr "Δεν είναι δυνατή η λήψη του διαγράμματος"
+
+#: ../invest-applet/invest/invest-applet.py:44
+msgid "Invest Applet"
+msgstr "Μικροεφαρμογή Invest"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Symbol"
+msgstr "Σύμβολo"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Label"
+msgstr "Ετικέτα"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Amount"
+msgstr "Ποσό"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Price"
+msgstr "Τιμή"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Commission"
+msgstr "Προμήθεια"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Currency Rate"
+msgstr "Ισοτιμία"
+
+#: ../invest-applet/invest/quotes.py:171
+msgid "Invest could not connect to Yahoo! Finance"
+msgstr "Δεν είναι δυνατή η σύνδεση με το Yahoo! Finance"
+
+#. Translators: This is share-market jargon. It is the average percentage
+#. change of all stock prices. The %s gets replaced with the string value of
+#. the change (localized), including the percent sign.
+#: ../invest-applet/invest/quotes.py:213
+#, python-format
+msgid "Average change: %s"
+msgstr "Μέσος όρος αλλαγής τιμών : %s"
+
+#. Translators: This is share-market jargon. It refers to the total difference
+#. between the current price and purchase price for all the shares put
+#. together for a particular currency. i.e. How much money would be earned if
+#. they were sold right now. The first string is the change value, the second
+#. the currency, and the third value is the percentage of the change,
+#. formatted using user's locale.
+#: ../invest-applet/invest/quotes.py:222
+#, python-format
+msgid "Positions balance: %s %s (%s)"
+msgstr "Ισοζύγιο θέσεων (επενδύσεων): %s %s (%s)"
+
+#: ../invest-applet/invest/quotes.py:224
+#, python-format
+msgid "Updated at %s"
+msgstr "Ενημέρωση στις %s"
+
+#. model: SYMBOL, LABEL, TICKER_ONLY, BALANCE, BALANCE_PCT, VALUE,
+#. VARIATION_PCT, PB
+#. Translators: these words all refer to a stock. Last is short
+#. for "last price". Gain is referring to the gain since the
+#. stock was purchased.
+#: ../invest-applet/invest/widgets.py:59
+msgid "Ticker"
+msgstr "Ticker"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Last"
+msgstr "Τελευταία"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Change %"
+msgstr "Αλλαγή %"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Chart"
+msgstr "Διάγραμμα"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Gain"
+msgstr "Κέρδος"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Gain %"
+msgstr "Κέρδος %"
+
+#: ../multiload/main.c:64
+msgid ""
+"A system load monitor capable of displaying graphs for CPU, ram, and swap "
+"space use, plus network traffic."
+msgstr "Η εφαρμογή φόρτου συστήματος προβάλλει γραφικά για τη χρήση ΚΜΕ, μνήμης RAM, και αρχείου εναλλαγής, καθώς και το φόρτο δικτύου."
+
+#: ../multiload/main.c:127
+msgid "Start system-monitor"
+msgstr "Έναρξη παρακολούθησης συστήματος"
+
+#: ../multiload/main.c:148
+#, c-format
+msgid "There was an error executing '%s': %s"
+msgstr "Σφάλμα κατά την εκτέλεση '%s' : %s"
+
+#: ../multiload/main.c:276 ../multiload/properties.c:604
+msgid "Processor"
+msgstr "Επεξεργαστής"
+
+#: ../multiload/main.c:278 ../multiload/properties.c:612
+msgid "Memory"
+msgstr "Μνήμη"
+
+#: ../multiload/main.c:280 ../multiload/properties.c:620
+msgid "Network"
+msgstr "Δίκτυο"
+
+#: ../multiload/main.c:282 ../multiload/properties.c:627
+msgid "Swap Space"
+msgstr "Αρχείο Εναλλαγής"
+
+#: ../multiload/main.c:284 ../multiload/main.c:363
+msgid "Load Average"
+msgstr "Μέσος Φόρτος"
+
+#: ../multiload/main.c:286
+msgid "Disk"
+msgstr "Δίσκος"
+
+#. xgettext: use and cache are > 1 most of the time,
+#. please assume that they always are.
+#: ../multiload/main.c:302
+#, c-format
+msgid ""
+"%s:\n"
+"%u%% in use by programs\n"
+"%u%% in use as cache"
+msgstr "%s:\n%u%% σε χρήση από προγράμματα\n%u%% σε χρήση ως λανθάνουσα μνήμη"
+
+#: ../multiload/main.c:310
+#, c-format
+msgid "The system load average is %0.02f"
+msgstr "Ο μέσος φόρτος συστήματος είναι  %0.02f"
+
+#. xgettext: same as in graphic tab of g-s-m
+#: ../multiload/main.c:318
+#, c-format
+msgid ""
+"%s:\n"
+"Receiving %s\n"
+"Sending %s"
+msgstr "%s:\nΛήψη %s\nΑποστολή %s"
+
+#: ../multiload/main.c:334
+#, c-format
+msgid ""
+"%s:\n"
+"%u%% in use"
+msgid_plural ""
+"%s:\n"
+"%u%% in use"
+msgstr[0] "%s:\n%u%% σε χρήση"
+msgstr[1] "%s:\n%u%% σε χρήση"
+
+#: ../multiload/main.c:359
+msgid "CPU Load"
+msgstr "Φόρτος CPU"
+
+#: ../multiload/main.c:360
+msgid "Memory Load"
+msgstr "Φόρτος μνήμης"
+
+#: ../multiload/main.c:361
+msgid "Net Load"
+msgstr "Φόρτος δικτύου"
+
+#: ../multiload/main.c:362
+msgid "Swap Load"
+msgstr "Φόρτος αρχείου  εναλλαγής"
+
+#: ../multiload/main.c:364
+msgid "Disk Load"
+msgstr "Φόρτος δίσκου"
+
+#: ../multiload/main.c:460
+msgid "_Open System Monitor"
+msgstr "Άν_οιγμα Παρακολούθησης Συστήματος"
+
+#: ../multiload/main.c:488
+#: ../multiload/org.gde2.applets.MultiLoadApplet.gde2-panel-applet.in.in.h:1
+msgid "System Monitor"
+msgstr "Παρακολούθηση Συστήματος"
+
+#: ../multiload/netspeed.c:40
+#, c-format
+msgid "%s/s"
+msgstr "%s/s"
+
+#: ../multiload/org.gde2.applets.MultiLoadApplet.gde2-panel-applet.in.in.h:2
+msgid "A system load indicator"
+msgstr "Ένδειξη φόρτου συστήματος"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:1
+msgid "Enable CPU load graph"
+msgstr "Ενεργοποίηση γραφήματος φόρτου CPU"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:2
+msgid "Enable memory load graph"
+msgstr "Ενεργοποίηση γραφήματος φόρτου μνήμης"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:3
+msgid "Enable network load graph"
+msgstr "Ενεργοποίηση γραφήματος φόρτου δικτύου"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:4
+msgid "Enable swap load graph"
+msgstr "Ενεργοποίηση του γραφήματος φόρτου swap"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:5
+msgid "Enable load average graph"
+msgstr "Ενεργοποίηση γραφήματος μέσου φόρτου"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:6
+msgid "Enable disk load graph"
+msgstr "Ενεργοποίηση του γραφήματος φόρτου δίσκου"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:7
+msgid "Applet refresh rate in milliseconds"
+msgstr "Ρυθμός ανανέωσης μικροεφαρμογής σε χιλιοστά δευτερ."
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:8
+msgid "Graph size"
+msgstr "Μέγεθος γραφήματος"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:9
+msgid ""
+"For horizontal panels, the width of the graphs in pixels. For vertical "
+"panels, this is the height of the graphs."
+msgstr "Για οριζόντιο πίνακα εφαρμογών, το πλάτος των γραφημάτων σε εικονοστοιχεία. Για κάθετους πίνακες εφαρμογών αυτό είναι το ύψος των γραφημάτων."
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:10
+msgid "Graph color for user-related CPU activity"
+msgstr "Χρώμα γραφήματος για την user-related δραστηριότητα επεξεργαστή"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:11
+msgid "Graph color for system-related CPU activity"
+msgstr "Χρώμα γραφήματος για την system-related δραστηριότητα επεξεργαστή"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:12
+msgid "Graph color for nice-related CPU activity"
+msgstr "Χρώμα γραφήματος για την nice-related δραστηριότητα επεξεργαστή"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:13
+msgid "Graph color for iowait related CPU activity"
+msgstr "Χρώμα γραφήματος για την  iowait related δραστηριότητα επεξεργαστή"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:14
+msgid "CPU graph background color"
+msgstr "Χρώμα παρασκηνίου γραφήματος CPU"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:15
+msgid "Graph color for user-related memory usage"
+msgstr "Χρώμα γραφήματος για την user-related χρήση μνήμης"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:16
+msgid "Graph color for shared memory"
+msgstr "Χρώμα γραφήματος για την κοινόχρηστη μνήμη"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:17
+msgid "Graph color for buffer memory"
+msgstr "Χρώμα γραφήματος για τη μνήμη buffer."
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:18
+msgid "Graph color for cached memory"
+msgstr "Χρώμα γραφήματος για τη μνήμη cached."
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:19
+msgid "Memory graph background color"
+msgstr "Χρώμα παρασκηνίου γραφήματος μνήμης"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:20
+msgid "Graph color for input network activity"
+msgstr "Χρώμα γραφήματος για τη εισερχόμενη δραστηριότητα δικτύου"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:21
+msgid "Graph color for output network activity"
+msgstr "Χρώμα γραφήματος για την εξερχόμενη δραστηριότητα δικτύου"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:22
+msgid "Graph color for loopback network usage"
+msgstr "Χρώμα γραφήματος για τη loopback δραστηριότητα  δικτύου"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:23
+msgid "Network graph background color"
+msgstr "Χρώμα παρασκηνίου γραφήματος δικτύου"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:24
+msgid "Graph color for user-related swap usage"
+msgstr "Χρώμα γραφήματος για την user-related χρήση εναλλαγής"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:25
+msgid "Swap graph background color"
+msgstr "Χρώμα παρασκηνίου του γραφήματος εναλλαγής"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:26
+msgid "Graph color for load average"
+msgstr "Χρώμα γραφήματος για το μέσο φόρτο."
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:27
+msgid "Load graph background color"
+msgstr "Χρώμα παρασκηνίου γραφήματος φόρτου"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:28
+msgid "Graph color for disk read"
+msgstr "Χρώμα γραφήματος για τον ανάγνωση δίσκου"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:29
+msgid "Graph color for disk write"
+msgstr "Χρώμα γραφήματος για εγγραφή δίσκου"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:30
+msgid "Background color for disk load graph"
+msgstr "Χρώμα παρασκηνίου για το γράφημα φόρτου δίσκου"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:31
+msgid "The desktop description file to execute as the system monitor"
+msgstr "Το αρχείο περιγραφής επιφάνειας εργασίας για εκτέλεση ως παρακολούθηση συστήματος"
+
+#: ../multiload/properties.c:338
+msgid "Monitored Resources"
+msgstr "Παρακολουθούμενοι Πόροι"
+
+#: ../multiload/properties.c:367
+msgid "_Processor"
+msgstr "_Επεξεργαστής"
+
+#: ../multiload/properties.c:380
+msgid "_Memory"
+msgstr "_Μνήμη"
+
+#: ../multiload/properties.c:393
+msgid "_Network"
+msgstr "_Δίκτυο"
+
+#: ../multiload/properties.c:406
+msgid "S_wap Space"
+msgstr "Χώρος S_wap"
+
+#: ../multiload/properties.c:419
+msgid "_Load"
+msgstr "Φό_ρτος"
+
+#: ../multiload/properties.c:432
+msgid "_Harddisk"
+msgstr "_Σκληρός δίσκος"
+
+#: ../multiload/properties.c:447
+msgid "Options"
+msgstr "Επιλογές"
+
+#: ../multiload/properties.c:481
+msgid "System m_onitor width: "
+msgstr "Πλάτος πα_ρακολούθησης συστήματος: "
+
+#: ../multiload/properties.c:483
+msgid "System m_onitor height: "
+msgstr "Ύψος πα_ρακολούθησης συστήματος: "
+
+#: ../multiload/properties.c:518
+msgid "pixels"
+msgstr "εικονοστοιχεία"
+
+#: ../multiload/properties.c:530
+msgid "Sys_tem monitor update interval: "
+msgstr "Μεσοδιάστημα ενημέρωσης παρα_κολούθησης συστήματος: "
+
+#: ../multiload/properties.c:560
+msgid "milliseconds"
+msgstr "χιλιοστά δευτερολέπτου"
+
+#: ../multiload/properties.c:575
+msgid "Colors"
+msgstr "Χρώματα"
+
+#: ../multiload/properties.c:606 ../multiload/properties.c:614
+msgid "_User"
+msgstr "_Χρήστης"
+
+#: ../multiload/properties.c:607
+msgid "S_ystem"
+msgstr "Σ_ύστημα"
+
+#: ../multiload/properties.c:608
+msgid "N_ice"
+msgstr "Ωραιο_ποίηση"
+
+#: ../multiload/properties.c:609
+msgid "I_OWait"
+msgstr "I_OWait"
+
+#: ../multiload/properties.c:610
+msgid "I_dle"
+msgstr "Αδ_ρανής"
+
+#: ../multiload/properties.c:615
+msgid "Sh_ared"
+msgstr "Διαμοιρα_ζόμενο"
+
+#: ../multiload/properties.c:616
+msgid "_Buffers"
+msgstr "_Ενταμιευτές"
+
+#: ../multiload/properties.c:617
+msgid "Cach_ed"
+msgstr "Cach_ed"
+
+#: ../multiload/properties.c:618
+msgid "F_ree"
+msgstr "Ελ_εύθερο"
+
+#: ../multiload/properties.c:622
+msgid "_In"
+msgstr "_In"
+
+#: ../multiload/properties.c:623
+msgid "_Out"
+msgstr "_Out"
+
+#: ../multiload/properties.c:624
+msgid "_Local"
+msgstr "_Τοπικό"
+
+#: ../multiload/properties.c:625 ../multiload/properties.c:635
+#: ../multiload/properties.c:641
+msgid "_Background"
+msgstr "_Παρασκήνιο"
+
+#: ../multiload/properties.c:629
+msgid "_Used"
+msgstr "_Κατειλημμένο"
+
+#: ../multiload/properties.c:630
+msgid "_Free"
+msgstr "_Ελεύθερο"
+
+#: ../multiload/properties.c:632
+msgid "Load"
+msgstr "Φόρτος"
+
+#: ../multiload/properties.c:634
+msgid "_Average"
+msgstr "Μέ_σος Φόρτος"
+
+#: ../multiload/properties.c:637
+msgid "Harddisk"
+msgstr "Σκληρός δίσκος"
+
+#: ../multiload/properties.c:639
+msgid "_Read"
+msgstr "Α_νάγνωση"
+
+#: ../multiload/properties.c:640
+msgid "_Write"
+msgstr "Ε_γγραφή"
+
+#: ../multiload/properties.c:665
+msgid "System Monitor Preferences"
+msgstr "Προτιμήσεις Παρακολούθησης Συστήματος"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:1
+msgid "Device to monitor"
+msgstr "Συσκευή προς εποπτεία"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:2
+msgid "The name of the device to monitor"
+msgstr "Το όνομα της συσκευής προς εποπτεία"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:3
+msgid "Show sum speed"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:4
+msgid "If true, show sum of inbound/outbound speed instead of separated ones."
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:5
+msgid "Show bits"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:6
+msgid "If true, show speed in bits instead of bytes."
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:8
+msgid "If true, show main icon."
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:9
+msgid "Short unit legend"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:10
+msgid ""
+"If true, shorten unit legend to one letter: lowercase for bits / uppercase "
+"for Bytes."
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:11
+msgid "Change icon"
+msgstr "Αλλαγή εικονιδίου"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:12
+msgid "If true, change the icon due to selected device."
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:13
+msgid "Auto change device"
+msgstr "Αυτόματη αλλαγή συσκευής"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:14
+msgid "If true, change automatically the selected device."
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:15
+msgid "In color"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:16
+msgid "The color of the graph of the inbound traffic"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:17
+msgid "Out color"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:18
+msgid "The color of the graph of the outbound traffic"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:19
+msgid "Up command"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:20
+msgid "Command the execute to activate the device"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:21
+msgid "Down command"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:22
+msgid "Command the execute to shut down the device"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:23
+msgid "Show signal quality icon"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:24
+msgid "If true, show signal quality icon for wireless devices."
+msgstr ""
+
+#: ../netspeed/data/org.gde2.applets.NetspeedApplet.gde2-panel-applet.in.in.h:1
+msgid "Netspeed Applet Factory"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.applets.NetspeedApplet.gde2-panel-applet.in.in.h:2
+msgid "Netspeed Applet"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.applets.NetspeedApplet.gde2-panel-applet.in.in.h:3
+msgid "Network Monitor"
+msgstr ""
+
+#. translators: bits (short)
+#: ../netspeed/src/netspeed.c:394
+msgid "b"
+msgstr "bit"
+
+#. translators: Bytes (short)
+#: ../netspeed/src/netspeed.c:394
+msgid "B"
+msgstr "B"
+
+#: ../netspeed/src/netspeed.c:396
+msgid "b/s"
+msgstr "b/s"
+
+#: ../netspeed/src/netspeed.c:396
+msgid "B/s"
+msgstr "B/s"
+
+#: ../netspeed/src/netspeed.c:399
+msgid "bits"
+msgstr "bits"
+
+#: ../netspeed/src/netspeed.c:399
+msgid "bytes"
+msgstr "bytes"
+
+#. translators: kilobits (short)
+#: ../netspeed/src/netspeed.c:407
+msgid "k"
+msgstr "k"
+
+#. translators: Kilobytes (short)
+#: ../netspeed/src/netspeed.c:407
+msgid "K"
+msgstr "K"
+
+#: ../netspeed/src/netspeed.c:409
+msgid "kb/s"
+msgstr "kb/s"
+
+#: ../netspeed/src/netspeed.c:409
+msgid "KiB/s"
+msgstr "KiB/s"
+
+#: ../netspeed/src/netspeed.c:412
+msgid "kb"
+msgstr "kb"
+
+#: ../netspeed/src/netspeed.c:412
+msgid "KiB"
+msgstr "KiB"
+
+#. translators: megabits (short)
+#: ../netspeed/src/netspeed.c:422
+msgid "m"
+msgstr "m"
+
+#. translators: Megabytes (short)
+#: ../netspeed/src/netspeed.c:422
+msgid "M"
+msgstr "M"
+
+#: ../netspeed/src/netspeed.c:424
+msgid "Mb/s"
+msgstr "Mb/s"
+
+#: ../netspeed/src/netspeed.c:424
+msgid "MiB/s"
+msgstr "MiB/s"
+
+#: ../netspeed/src/netspeed.c:427
+msgid "Mb"
+msgstr "Mb"
+
+#: ../netspeed/src/netspeed.c:427
+msgid "MiB"
+msgstr "MiB"
+
+#: ../netspeed/src/netspeed.c:769
+#, c-format
+msgid ""
+"There was an error displaying help:\n"
+"%s"
+msgstr "Υπήρξε ένα σφάλμα κατά την προβολή της βοήθειας:\n%s"
+
+#: ../netspeed/src/netspeed.c:813
+msgid ""
+"A little applet that displays some information on the traffic on the "
+"specified network device"
+msgstr "Μια μικρή εφαρμογή που παρέχει μερικές πληροφορίες για την κυκλοφορία της καθορισμένης συσκευής δικτύου"
+
+#: ../netspeed/src/netspeed.c:974
+msgid "Gde2 Netspeed Preferences"
+msgstr "Προτιμήσεις Gde2 Netspeed"
+
+#: ../netspeed/src/netspeed.c:996
+msgid "General Settings"
+msgstr "Γενικές ρυθμίσεις"
+
+#: ../netspeed/src/netspeed.c:1022
+msgid "Network _device:"
+msgstr ""
+
+#. Default means device with default route set
+#: ../netspeed/src/netspeed.c:1038
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: ../netspeed/src/netspeed.c:1051
+msgid "Show _sum instead of in & out"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1055
+msgid "Show _bits instead of bytes"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1059
+msgid "Shorten _unit legend"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1063
+msgid "_Change icon according to the selected device"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1067
+msgid "Show _icon"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1071
+msgid "Show signal _quality icon for wireless devices"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1202
+#, c-format
+msgid "Device Details for %s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1227
+msgid "_In graph color"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1228
+msgid "_Out graph color"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1244
+msgid "Internet Address:"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1245
+msgid "Netmask:"
+msgstr "Netmask:"
+
+#: ../netspeed/src/netspeed.c:1246
+msgid "Hardware Address:"
+msgstr "Διεύθυνση υλικού:"
+
+#: ../netspeed/src/netspeed.c:1247
+msgid "P-t-P Address:"
+msgstr "Διεύθυνση αμοιβαίας διασύνδεσης υπολογιστών (P-t-P):"
+
+#: ../netspeed/src/netspeed.c:1248
+msgid "Bytes in:"
+msgstr "Εισερχόμενα byte:"
+
+#: ../netspeed/src/netspeed.c:1249
+msgid "Bytes out:"
+msgstr "Εξερχόμενα byte:"
+
+#: ../netspeed/src/netspeed.c:1251 ../netspeed/src/netspeed.c:1252
+#: ../netspeed/src/netspeed.c:1253 ../netspeed/src/netspeed.c:1254
+msgid "none"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1320
+msgid "IPV6 Address:"
+msgstr "Διεύθυνση IPV6:"
+
+#: ../netspeed/src/netspeed.c:1359
+msgid "Signal Strength:"
+msgstr "Ισχύς σήματος:"
+
+#: ../netspeed/src/netspeed.c:1360
+msgid "ESSID:"
+msgstr "ESSID:"
+
+#: ../netspeed/src/netspeed.c:1414
+msgid "Device _Details"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1416
+msgid "Preferences..."
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1420
+msgid "About..."
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1461
+#, c-format
+msgid "Do you want to disconnect %s now?"
+msgstr "Θέλετε να αποσυνδεθείτε από το %s τώρα;"
+
+#: ../netspeed/src/netspeed.c:1465
+#, c-format
+msgid "Do you want to connect %s now?"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1492
+#, c-format
+msgid ""
+"<b>Running command %s failed</b>\n"
+"%s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1551
+#, c-format
+msgid "%s is down"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1556
+#, c-format
+msgid ""
+"%s: %s\n"
+"in: %s out: %s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1558 ../netspeed/src/netspeed.c:1567
+msgid "has no ip"
+msgstr "δεν έχει διεύθυνση IP"
+
+#: ../netspeed/src/netspeed.c:1565
+#, c-format
+msgid ""
+"%s: %s\n"
+"sum: %s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1574
+#, c-format
+msgid ""
+"\n"
+"ESSID: %s\n"
+"Strength: %d %%"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1575
+msgid "unknown"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1626
+msgid "Gde2 Netspeed"
+msgstr ""
+
+#: ../stickynotes/org.gde2.applets.StickyNotesApplet.gde2-panel-applet.in.in.h:1
+msgid "Sticky Notes Applet Factory"
+msgstr "Εργοστάσιο μικροεφαρμογής Sticky Notes"
+
+#: ../stickynotes/org.gde2.applets.StickyNotesApplet.gde2-panel-applet.in.in.h:2
+#: ../stickynotes/stickynotes_applet.c:163
+#: ../stickynotes/stickynotes_applet.c:405
+msgid "Sticky Notes"
+msgstr "Sticky Notes"
+
+#: ../stickynotes/org.gde2.applets.StickyNotesApplet.gde2-panel-applet.in.in.h:3
+msgid "Create, view, and manage sticky notes on the desktop"
+msgstr "Δημιουργία, προβολή και διαχείριση των sticky notes στην επιφάνεια εργασίας"
+
+#: ../stickynotes/stickynotes.c:690
+msgid "This note is locked."
+msgstr "Αυτή η σημείωση είναι κλειδωμένη"
+
+#: ../stickynotes/stickynotes.c:694
+msgid "This note is unlocked."
+msgstr "Αυτή η σημείωση είναι ξεκλείδωτη."
+
+#: ../stickynotes/stickynotes.ui.h:1 ../stickynotes/stickynotes_applet.c:33
+msgid "_New Note"
+msgstr "_Νέα Σημείωση"
+
+#: ../stickynotes/stickynotes.ui.h:2
+msgid "_Delete Note..."
+msgstr "_Διαγραφή σημείωσης..."
+
+#: ../stickynotes/stickynotes.ui.h:3
+msgid "_Lock Note"
+msgstr "Κ_λείδωμα σημείωσης"
+
+#: ../stickynotes/stickynotes.ui.h:4
+msgid "_Properties"
+msgstr "_Ιδιότητες"
+
+#: ../stickynotes/stickynotes.ui.h:5
+msgid "Sticky Notes Preferences"
+msgstr "Προτιμήσεις Sticky Notes"
+
+#: ../stickynotes/stickynotes.ui.h:6
+msgid "Default Note Properties"
+msgstr "Ιδιότητες προεπιλεγμένης σημείωσης"
+
+#: ../stickynotes/stickynotes.ui.h:7
+msgid "Choose a font to use for all sticky notes"
+msgstr "Επιλέξτε μια γραμματοσειρά για όλες τις sticky σημειώσεις"
+
+#: ../stickynotes/stickynotes.ui.h:8
+msgid "Pick a default sticky note font"
+msgstr "Επιλέξτε μια προεπιλεγμένη γραμματοσειρά για την sticky σημείωση"
+
+#: ../stickynotes/stickynotes.ui.h:9
+msgid "_Font:"
+msgstr "_Γραμματοσειρά:"
+
+#: ../stickynotes/stickynotes.ui.h:10
+msgid "Use fo_nt from the system theme"
+msgstr "Χρήση γραμματοσειράς από το _θέμα του συστήματος"
+
+#: ../stickynotes/stickynotes.ui.h:11
+msgid "Note C_olor:"
+msgstr "Χ_ρώμα σημείωσης:"
+
+#: ../stickynotes/stickynotes.ui.h:12
+msgid "Font Co_lor:"
+msgstr "Χρώμα _γραμματοσειράς:"
+
+#: ../stickynotes/stickynotes.ui.h:13
+msgid "Choose a base color to use for all sticky notes"
+msgstr "Επιλέξτε ένα βασικό χρώμα για όλες τις sticky σημειώσεις"
+
+#: ../stickynotes/stickynotes.ui.h:14
+msgid "Pick a default sticky note color"
+msgstr "Επιλογή προεπιλεγμένου χρώματος Sticky Note"
+
+#: ../stickynotes/stickynotes.ui.h:15
+msgid "Use co_lor from the system theme"
+msgstr "Χρήση χρώματος από το _θέμα του συστήματος"
+
+#: ../stickynotes/stickynotes.ui.h:16
+msgid "Specify the default height (in pixels) of new notes"
+msgstr "Προεπιλεγμένο ύψος για νέες σημειώσεις (σε εικονοστοιχεία)"
+
+#: ../stickynotes/stickynotes.ui.h:17
+msgid "Specify the default width (in pixels) of new notes"
+msgstr "Προεπιλεγμένο πλάτος για νέες σημειώσεις (σε εικονοστοιχεία)"
+
+#: ../stickynotes/stickynotes.ui.h:18
+msgid "H_eight:"
+msgstr "Ύ_ψος"
+
+#: ../stickynotes/stickynotes.ui.h:19
+msgid "_Width:"
+msgstr "_Πλάτος"
+
+#: ../stickynotes/stickynotes.ui.h:20
+msgid "Behavior"
+msgstr "Συμπεριφορά"
+
+#: ../stickynotes/stickynotes.ui.h:21
+msgid "Hide notes when the des_ktop is clicked on"
+msgstr "Απόκρυ_ψη σημειώσεων όταν γίνεται κλικ στν επιφάνεια εργασίας"
+
+#: ../stickynotes/stickynotes.ui.h:22
+msgid "Choose whether to hide all notes when selecting on the desktop"
+msgstr "Επιλέξτε αν θα αποκρύπτονται όλες οι σημειώσεις όταν γίνεται επιλογή στην επιφάνεια εργασίας."
+
+#: ../stickynotes/stickynotes.ui.h:23
+msgid "Force _default color and font on notes"
+msgstr "Επιβολή προεπιλεγμένου χρώματος και γραμματοσειράς στις σημειώσεις"
+
+#: ../stickynotes/stickynotes.ui.h:24
+msgid "Choose if the default style is forced on all notes"
+msgstr "Επιλέξτε αν θα ορίζεται προεπιλεγμένο στυλ για όλες τις σημειώσεις"
+
+#: ../stickynotes/stickynotes.ui.h:25
+msgid "_Put notes on all workspaces"
+msgstr "_Τοποθέτηση σημειώσεων σε όλους τους χώρους εργασίας"
+
+#: ../stickynotes/stickynotes.ui.h:26
+msgid "Choose if notes are visible on all workspaces"
+msgstr "Επιλέξτε για το αν οι σημειώσεις θα είναι ορατές σε όλους τους χώρους εργασίας"
+
+#: ../stickynotes/stickynotes.ui.h:27
+msgid "Delete this sticky note?"
+msgstr "Διαγραφή αυτού του sticky note;"
+
+#: ../stickynotes/stickynotes.ui.h:28
+msgid "This cannot be undone."
+msgstr "Αυτή η ενέργεια δεν είναι αναστρέψιμη."
+
+#: ../stickynotes/stickynotes.ui.h:29
+msgid "Delete all sticky notes?"
+msgstr "Διαγραφή όλων των sticky notes;"
+
+#: ../stickynotes/stickynotes.ui.h:30
+msgid "_Delete All"
+msgstr "Διαγρα_φή όλων"
+
+#: ../stickynotes/stickynotes.ui.h:31
+msgid "Sticky Note"
+msgstr "Sticky Note"
+
+#: ../stickynotes/stickynotes.ui.h:32
+msgid "Lock/Unlock note"
+msgstr "Κλείδωμα/Ξεκλείδωμα σημείωσης"
+
+#: ../stickynotes/stickynotes.ui.h:33
+msgid "Delete note"
+msgstr ""
+
+#: ../stickynotes/stickynotes.ui.h:34
+msgid "Resize note"
+msgstr "Αλλαγή μεγέθους σημείωσης"
+
+#: ../stickynotes/stickynotes.ui.h:35
+msgid "Sticky Note Properties"
+msgstr "Ιδιότητες Sticky Note"
+
+#: ../stickynotes/stickynotes.ui.h:36
+msgid "Properties"
+msgstr "Ιδιότητες"
+
+#: ../stickynotes/stickynotes.ui.h:37
+msgid "Choose a font for the note"
+msgstr "Επιλογή γραμματοσειράς για τη σημείωση"
+
+#: ../stickynotes/stickynotes.ui.h:38
+msgid "Pick a font for the sticky note"
+msgstr "Επιλέξτε μια γραμματοσειρά για την sticky σημείωση"
+
+#: ../stickynotes/stickynotes.ui.h:39
+msgid "Use default fo_nt"
+msgstr "Χρήση προεπιλεγμένης _γραμματοσειράς"
+
+#: ../stickynotes/stickynotes.ui.h:40
+msgid "Choose a color for the note"
+msgstr "Επιλογή χρώματος για τη σημείωση"
+
+#: ../stickynotes/stickynotes.ui.h:41
+msgid "Pick a color for the sticky note"
+msgstr "Επιλογή χρώματος για το Sticky Note"
+
+#: ../stickynotes/stickynotes.ui.h:42
+msgid "Note _Color:"
+msgstr "_Χρώμα σημείωσης:"
+
+#: ../stickynotes/stickynotes.ui.h:43
+msgid "Font C_olor:"
+msgstr "Χρώ_μα γραμματοσειράς:"
+
+#: ../stickynotes/stickynotes.ui.h:44
+msgid "Use default co_lor"
+msgstr "Χρήση προεπιλεγμένου _χρώματος"
+
+#: ../stickynotes/stickynotes.ui.h:45
+msgid "Specify a title for the note"
+msgstr "Τίτλος σημείωσης"
+
+#: ../stickynotes/stickynotes.ui.h:46
+msgid "_Title:"
+msgstr "_Τίτλος:"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:1
+msgid "Default width for new notes"
+msgstr "Προεπιλεγμένο πλάτος για νέες σημειώσεις"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:2
+msgid "Default width for new sticky notes in pixels."
+msgstr "Προεπιλεγμένο πλάτος για νέες σημειώσεις σε εικονοστοιχεία."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:3
+msgid "Default height for new notes"
+msgstr "Προεπιλεγμένο ύψος για νέες σημειώσεις"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:4
+msgid "Default height for new sticky notes in pixels."
+msgstr "Προεπιλεγμένο ύψος για νέες σημειώσεις σε εικονοστοιχεία."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:5
+msgid "Default color for new notes"
+msgstr "Προεπιλεγμένο χρώμα για νέες σημειώσεις"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:6
+msgid ""
+"Default color for new sticky notes. This should be in html hex "
+"specification, for example \"#30FF50\"."
+msgstr "Προεπιλεγμένο χρώμα για νέες σημειώσεις. Θα πρέπει να είναι σε html hex όπως \"#30FF50\"."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:7
+msgid "Default color for font"
+msgstr "Προεπιλεγμένο χρώμα για γραμματοσειρά"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:8
+msgid ""
+"Default font color for new sticky notes. This should be in html hex "
+"specification, for example \"#000000\"."
+msgstr "Προεπιλεγμένο χρώμα για νέα sticky notes. Θα πρέπει να είναι σε html hex όπως  \"#000000\"."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:9
+msgid "Default font for new notes"
+msgstr "Προεπιλεγμένη  γραμματοσειρά για νέες σημειώσεις"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:10
+msgid ""
+"Default font for new sticky notes. This should be a Pango Font Name, for "
+"example \"Sans Italic 10\"."
+msgstr "Προεπιλεγμένη γραμματοσειρά για νέες σημειώσεις. Θα πρέπει να είναι σε Pango Font Name όπως \"Sans Italic 10\"."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:11
+msgid "Sticky notes' workspace stickyness"
+msgstr "Sticky notes' workspace stickyness"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:12
+msgid ""
+"Specifies whether the sticky notes are visible on ALL workspaces on the "
+"desktop, or not."
+msgstr "Καθορίζει αν οι sticky notes είναι ορατές σε ΟΛΟΥΣ τους χώρους εργασίας ή όχι."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:13
+msgid "Sticky notes' locked state"
+msgstr "Κατάσταση κλειδώματος sticky notes"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:14
+msgid "Specifies whether the sticky notes are locked (non-editable) or not."
+msgstr "Καθορίζει αν οι sticky notes είναι κλειδωμένες ή όχι."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:15
+msgid "Date format of note's title"
+msgstr "Τύπος ημερομηνίας για τον τίτλο της σημείωσης"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:16
+msgid ""
+"By default, sticky notes are given the current date as the title when they "
+"are created. This format is used; anything that can be parsed by strftime() "
+"is valid."
+msgstr "Ως προεπιλογή δίνεται στις sticky notes η τρέχουσα ημερομηνία ως ο τίτλος κατά τη δημιουργία τους."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:17
+msgid "Whether to use the default system color"
+msgstr "Αν θα γίνεται χρήση των προεπιλεγμένων χρωμάτων θέματος"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:18
+msgid ""
+"If this option is disabled, a custom color can be used as the default color "
+"for all sticky notes."
+msgstr "Αν αυτή η επιλογή απενεργοποιηθεί ενα προσαρμοσμένο χρώμα θα χρησιμοποιηθεί για όλες τις σημειώσεις."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:19
+msgid "Whether to use the default system font"
+msgstr "Αν θα γίνεται χρήση της προεπιλεγμένης γραμματοσειράς συστήματος"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:20
+msgid ""
+"If this option is disabled, a custom font can be used as the default font "
+"for all sticky notes."
+msgstr "Αν αυτή η επιλογή απενεργοποιηθεί μια προσαρμοσμένη γραμματοσειρά θα χρησιμοποιηθεί για όλες τις σημειώσεις."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:21
+msgid "Whether to force the default color and font on all notes"
+msgstr "Αν θα ορίζεται προεπιλεγμένο χρώμα και γραμματοσειρά για όλες τις σημειώσεις"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:22
+msgid ""
+"If this option is enabled, the custom colors and fonts that have been "
+"assigned to individual notes will be ignored."
+msgstr "Αν αυτή η επιλογή ενεργοποιηθεί, τα προσαρμοσμένα χρώματα και γραμματοσειρές που έχουν ορισθεί σε ανεξάρτητες σημειώσεις θα αγνοηθούν."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:23
+msgid "Whether to hide all notes when the desktop is selected"
+msgstr "Αν θα γίνεται απόκρυψη όλων των σημειώσεων όταν επιλογεί η επιφάνεια εργασίας"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:24
+msgid ""
+"If this option is enabled, selecting the desktop in any way will "
+"automatically hide all the open notes."
+msgstr "Αν αυτή η επιλογή είναι ενεργή, η επιλογή της επιφάνειας εργασίας με οποιοδήποτε τρόπο θα οδηγήσει σε αυτόματη απόκρυψη των ανοιχτών σημειώσεων."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:25
+msgid "Whether to ask for confirmation when deleting a note"
+msgstr "Αν θα γίνεται ερώτηση επιβεβαίωσης κατά τη διαγραφή μιας σημείωσης"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:26
+msgid "Empty notes are always deleted without confirmation."
+msgstr "Οι κενές σημειώσεις διαγράφονται πάντα χωρίς επιβεβαίωση."
+
+#: ../stickynotes/stickynotes_applet.c:36
+msgid "Hi_de Notes"
+msgstr "Απόκρυ_ψη σημειώσεων"
+
+#: ../stickynotes/stickynotes_applet.c:39
+msgid "_Delete Notes"
+msgstr "_Διαγραφή Σημειώσεων"
+
+#: ../stickynotes/stickynotes_applet.c:55
+msgid "_Lock Notes"
+msgstr "Κ_λείδωμα Σημειώσεων"
+
+#: ../stickynotes/stickynotes_applet.c:595
+#, c-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] "%d σημείωση "
+msgstr[1] "%d σημειώσεις"
+
+#: ../stickynotes/stickynotes_applet.c:596
+msgid "Show sticky notes"
+msgstr "Προβολή Sticky Notes"
+
+#: ../stickynotes/stickynotes_applet_callbacks.c:378
+msgid "Sticky Notes for the GDE2 Desktop Environment"
+msgstr "Sticky Notes για την επιφάνεια εργασίας του Gde2"
+
+#: ../timerapplet/org.gde2.applets.TimerApplet.gde2-panel-applet.in.in.h:1
+msgid "Timer Factory"
+msgstr "Εργοστάσιο ρολογιού"
+
+#: ../timerapplet/org.gde2.applets.TimerApplet.gde2-panel-applet.in.in.h:2
+msgid "Timer"
+msgstr "Χρονόμετρο"
+
+#: ../timerapplet/org.gde2.applets.TimerApplet.gde2-panel-applet.in.in.h:3
+#: ../timerapplet/timerapplet.c:263
+msgid "Start a timer and receive a notification when it is finished"
+msgstr "Εκκίνηση χρονομετρητή και λήψη ειδοποίησης όταν τελειώσει"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:1
+msgid "Name of timer"
+msgstr "Όνομα χρονοδιακόπτη"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:2
+msgid "Duration of timer in seconds"
+msgstr "Διάρκεια του χρονοδιακόπτη σε δευτερόλεπτα"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:3
+msgid "Show notification popup when timer finish"
+msgstr "Εμφάνιση ειδοποίησης όταν τελειώσει ο χρονοδιακόπτης"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:4
+msgid "Show dialog window when timer finish"
+msgstr "Εμφάνιση παράθυρο διαλόγου όταν τελειώσει ο χρονοδιακόπτης"
+
+#: ../timerapplet/timerapplet.c:82
+msgid "_Start timer"
+msgstr "_Έναρξη χρονοδιακόπτη"
+
+#: ../timerapplet/timerapplet.c:83
+msgid "P_ause timer"
+msgstr "_Παύση χρονοδιακόπτη"
+
+#: ../timerapplet/timerapplet.c:84
+msgid "S_top timer"
+msgstr "_Διακοπή χρονοδιακόπτη"
+
+#: ../timerapplet/timerapplet.c:144
+msgid "Finished"
+msgstr "Ολοκληρώθηκε"
+
+#: ../timerapplet/timerapplet.c:151 ../timerapplet/timerapplet.c:163
+msgid "Timer finished!"
+msgstr "Τέλος χρονοδιακόπτη!"
+
+#: ../timerapplet/timerapplet.c:296
+msgid "Timer Applet Preferences"
+msgstr "Προτιμήσεις της Μικροεφαρμογής Χρονομέτρου"
+
+#: ../timerapplet/timerapplet.c:309
+msgid "Name:"
+msgstr "Όνομα:"
+
+#: ../timerapplet/timerapplet.c:326
+msgid "Hours:"
+msgstr "Ώρες:"
+
+#: ../timerapplet/timerapplet.c:345
+msgid "Minutes:"
+msgstr "Λεπτά:"
+
+#: ../timerapplet/timerapplet.c:364
+msgid "Seconds:"
+msgstr "Δευτερόλεπτα:"
+
+#: ../timerapplet/timerapplet.c:383
+msgid "Show notification popup"
+msgstr "Εμφάνιση αναδυόμενου ειδοποιήσεων"
+
+#: ../timerapplet/timerapplet.c:389
+msgid "Show dialog"
+msgstr "Εμφάνιση διαλόγου"
+
+#: ../timerapplet/timerapplet.c:413
+msgid "Timer Applet"
+msgstr "Μικροεφαρμογή Ειδοποίησης"
+
+#: ../trashapplet/org.gde2.applets.TrashApplet.gde2-panel-applet.in.in.h:1
+msgid "Trash"
+msgstr "Απορρίμματα"
+
+#: ../trashapplet/org.gde2.applets.TrashApplet.gde2-panel-applet.in.in.h:2
+msgid "Go to Trash"
+msgstr "Μετάβαση στα Απορρίμματα"
+
+#: ../trashapplet/src/trashapplet.c:73 ../trashapplet/src/trash-empty.c:353
+msgid "_Empty Trash"
+msgstr "Ά_δειασμα απορριμμάτων"
+
+#: ../trashapplet/src/trashapplet.c:76
+msgid "_Open Trash"
+msgstr "Ά_νοιγμα απορριμμάτων"
+
+#: ../trashapplet/src/trashapplet.c:132
+#, c-format
+msgid "%d Item in Trash"
+msgid_plural "%d Items in Trash"
+msgstr[0] "%d αντικείμενο στα απορρίμματα"
+msgstr[1] "%d αντικείμενα στα απορρίμματα"
+
+#: ../trashapplet/src/trashapplet.c:140
+msgid "No Items in Trash"
+msgstr "Δεν υπάρχουν αντικείμενα στα Απορρίμματα"
+
+#: ../trashapplet/src/trashapplet.c:382
+#, c-format
+msgid ""
+"Error while spawning caja:\n"
+"%s"
+msgstr "Σφάλμα κατά το άνοιγμα του Ναυτίλου:\n%s"
+
+#: ../trashapplet/src/trashapplet.c:436
+msgid ""
+"A GDE2 trash bin that lives in your panel. You can use it to view the trash "
+"or drag and drop items into the trash."
+msgstr "Ο κάδος απορριμμάτων του GDE2 που βρίσκεται στο πίνακα εφαρμογών σας. Μπορείτε να το χρησιμοποιήσετε για να δείτε τα απορρίμματα ή και να σύρετε αντικείμενα στα απορρίμματα."
+
+#: ../trashapplet/src/trashapplet.c:461
+msgid "Delete Immediately?"
+msgstr "Άμεση διαγραφή;"
+
+#: ../trashapplet/src/trashapplet.c:495
+msgid "Cannot move items to trash, do you want to delete them immediately?"
+msgstr "Αδυναμία μετακίνησης αντικειμένων στα απορρίμματα, θέλετε αυτά να διαγραφούν άμεσα;"
+
+#: ../trashapplet/src/trashapplet.c:500
+msgid ""
+"Cannot move some items to trash, do you want to delete these immediately?"
+msgstr "Αδυναμία μετακίνησης μερικών αντικειμένων στα απορρίμματα, θέλετε αυτά να διαγραφούν άμεσα;"
+
+#: ../trashapplet/src/trashapplet.c:638
+msgid "Trash Applet"
+msgstr "Μικροεφαρμογή Απορριμμάτων"
+
+#. Translators: the %s in this string should be read as %d.
+#: ../trashapplet/src/trash-empty.c:80
+#, c-format
+msgid "Removing item %s of %s"
+msgstr "Απομάκρυνση αντικειμένου %s από %s"
+
+#. Translators: %s is a file name
+#: ../trashapplet/src/trash-empty.c:106
+#, c-format
+msgid "Removing: %s"
+msgstr "Απομάκρυνση: %s"
+
+#: ../trashapplet/src/trash-empty.c:332
+msgid "Empty all of the items from the trash?"
+msgstr "Άδειασμα όλων των αντικειμένων από τον κάδο;"
+
+#: ../trashapplet/src/trash-empty.c:339
+msgid ""
+"If you choose to empty the trash, all items in it will be permanently lost. "
+"Please note that you can also delete them separately."
+msgstr "Αν αδειάσετε τα απορρίμματα, τα αντικείμενα θα διαγραφούν μόνιμα. Σημειώστε ότι μπορείτε να τα διαγράψετε και το καθένα ξεχωριστά."
+
+#: ../trashapplet/trashapplet-empty-progress.ui.h:1
+msgid "Emptying the Trash"
+msgstr "Άδειασμα των απορριμμάτων"
+
+#: ../trashapplet/trashapplet-empty-progress.ui.h:2
+msgid "From:"
+msgstr "Από:"

@@ -1,0 +1,79 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+#
+[encoding: UTF-8]
+accessx-status/applet.c
+[type: gettext/ini]accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in
+battstat/battstat_applet.c
+[type: gettext/glade]battstat/battstat_applet.ui
+[type: gettext/ini]battstat/org.gde2.applets.BattstatApplet.gde2-panel-applet.in.in
+[type: gettext/gsettings]battstat/org.gde2.panel.applet.battstat.gschema.xml.in
+battstat/properties.c
+battstat/sounds/gde2-battstat_applet.soundlist.in
+charpick/charpick.c
+[type: gettext/ini]charpick/org.gde2.applets.CharpickerApplet.gde2-panel-applet.in.in
+[type: gettext/gsettings]charpick/org.gde2.panel.applet.charpick.gschema.xml.in
+charpick/properties.c
+command/command.c
+[type: gettext/ini]command/org.gde2.applets.CommandApplet.gde2-panel-applet.in.in
+[type: gettext/gsettings]command/org.gde2.panel.applet.command.gschema.xml.in
+[type: gettext/glade]cpufreq/cpufreq-preferences.ui
+[type: gettext/ini]cpufreq/org.gde2.applets.CPUFreqApplet.gde2-panel-applet.in.in
+[type: gettext/gsettings]cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in
+cpufreq/src/cpufreq-applet.c
+cpufreq/src/cpufreq-prefs.c
+cpufreq/src/cpufreq-monitor-cpuinfo.c
+cpufreq/src/cpufreq-monitor-factory.c
+cpufreq/src/cpufreq-monitor-procfs.c
+cpufreq/src/cpufreq-popup.c
+cpufreq/src/cpufreq-selector/org.gde2.cpufreqselector.policy.in
+drivemount/drive-button.c
+drivemount/drivemount.c
+[type: gettext/ini]drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in
+geyes/geyes.c
+[type: gettext/ini]geyes/org.gde2.applets.GeyesApplet.gde2-panel-applet.in.in
+[type: gettext/gsettings]geyes/org.gde2.panel.applet.geyes.gschema.xml.in
+geyes/themes.c
+gde2weather/gde2weather-about.c
+gde2weather/gde2weather-applet.c
+gde2weather/gde2weather-dialog.c
+gde2weather/gde2weather-pref.c
+gde2weather/main.c
+[type: gettext/ini]gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in
+invest-applet/data/org.gde2.applets.InvestApplet.gde2-panel-applet.in.in
+invest-applet/data/org.gde2.panel.applet.InvestAppletFactory.service.in
+[type: gettext/glade]invest-applet/data/financialchart.ui
+[type: gettext/glade]invest-applet/data/prefs-dialog.ui
+invest-applet/invest/about.py
+invest-applet/invest/applet.py
+invest-applet/invest/chart.py
+invest-applet/invest/invest-applet.py
+invest-applet/invest/preferences.py
+invest-applet/invest/quotes.py
+invest-applet/invest/widgets.py
+# NB. these are actually separate files
+multiload/linux-proc.c
+multiload/load-graph.c
+multiload/main.c
+multiload/netspeed.c
+[type: gettext/ini]multiload/org.gde2.applets.MultiLoadApplet.gde2-panel-applet.in.in
+[type: gettext/gsettings]multiload/org.gde2.panel.applet.multiload.gschema.xml.in
+multiload/properties.c
+[type: gettext/gsettings]netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in
+[type: gettext/ini]netspeed/data/org.gde2.applets.NetspeedApplet.gde2-panel-applet.in.in
+netspeed/src/netspeed.c
+# NB. these are actually separate files
+[type: gettext/ini]stickynotes/org.gde2.applets.StickyNotesApplet.gde2-panel-applet.in.in
+stickynotes/stickynotes.c
+[type: gettext/glade]stickynotes/stickynotes.ui
+[type: gettext/gsettings]stickynotes/org.gde2.stickynotes.gschema.xml.in
+stickynotes/stickynotes_applet.c
+stickynotes/stickynotes_applet_callbacks.c
+stickynotes/stickynotes_callbacks.c
+[type: gettext/ini]timerapplet/org.gde2.applets.TimerApplet.gde2-panel-applet.in.in
+[type: gettext/gsettings]timerapplet/org.gde2.panel.applet.timer.gschema.xml.in
+timerapplet/timerapplet.c
+[type: gettext/ini]trashapplet/org.gde2.applets.TrashApplet.gde2-panel-applet.in.in
+trashapplet/src/trashapplet.c
+trashapplet/src/trash-empty.c
+[type: gettext/glade]trashapplet/trashapplet-empty-progress.ui

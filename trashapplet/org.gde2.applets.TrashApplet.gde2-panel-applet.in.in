@@ -1,0 +1,16 @@
+[Applet Factory]
+Id=TrashAppletFactory
+Location=@LIBEXECDIR@/trashapplet
+Name=Trash Applet Factory
+Description=Trash Applet Factory
+
+[TrashApplet]
+_Name=Trash
+_Description=Go to Trash
+Icon=user-trash-full
+Gde2ComponentId=OAFIID:GDE2_Panel_TrashApplet
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=gde2-applets
+X-GDE2-Bugzilla-Component=trash applet
+X-GDE2-Bugzilla-Version=@VERSION@
+X-GDE2-Bugzilla-OtherBinaries=trashapplet

@@ -1,0 +1,16 @@
+[Applet Factory]
+Id=DriveMountAppletFactory
+Location=@LIBEXECDIR@/gde2-drivemount-applet
+_Name=Drive Mount Applet Factory
+_Description=Factory for drive mount applet
+
+[DriveMountApplet]
+_Name=Disk Mounter
+_Description=Mount local disks and devices
+Icon=media-floppy
+Gde2ComponentId=OAFIID:GDE2_DriveMountApplet
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=gde2-applets
+X-GDE2-Bugzilla-Component=Disk Mounter (drivemount)
+X-GDE2-Bugzilla-Version=@VERSION@
+X-GDE2-Bugzilla-OtherBinaries=drivemount_applet2

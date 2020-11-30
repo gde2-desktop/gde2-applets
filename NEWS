@@ -1,0 +1,93 @@
+Changes in GDE2-Applets 1.14.1
+==============================
+
+  - Accessx-status: fix possible crash when updating layout
+  - Cpufreq: fix build with kernel 4.7
+  - Cpufreq: make build options --enable-frequency-selector
+    and --enable-suid actually work
+  - Netspeed: fix default route
+  - Some more fixes and cleanups
+  - Translations update
+  - Make distcheck use currently selected GTK+ version
+
+Changes in GDE2-Applets 1.14.0
+==============================
+
+  - Drop Gde2Conf migration scripts
+  - Drop null_applet which isn't even buildable these days
+  - Re-license command and timer applets under GPL-2+
+  - Merge netspeed applet from gde2-netspeed project (and discontinue
+    that project)
+  - GTK+3: fix cpufreq applet rendering
+  - GTK+3: fix setting fg/bg colors and font type in stickynotes applet
+  - GTK+3: fix several deprecations
+  - Some more fixes and cleanups
+  - Translations update
+  - Fix Changelog generation
+
+Changes in GDE2-Applets 1.12.1
+==============================
+
+  - Drivemount: fix invisible text with some GTK+3 themes
+  - Translations update
+
+Changes in GDE2-Applets 1.12.0
+==============================
+
+  - Accessx-status, geyes: have applet background automatically painted
+  - Cpufreq: make cpupower the default library
+  - Retrieve strings directly from gschema (requires intltool 0.50.1)
+  - Drop useless dependency on gde2-icon-theme
+  - GTK+3: fix missing icons with custom icon theme
+  - GTK+3: make cpufreq, charpick and drivemount support custom panel
+    themes
+  - Some more GTK+3 fixes
+  - Several small fixes and cleanups
+
+Changes in GDE2-Applets 1.10.3
+==============================
+
+  - Several small help fixes
+  - Rename sticky-notes help directory
+
+Changes in GDE2-Applets 1.10.2
+==============================
+
+  - Charpick, geyes: restore missing button icons in dialogs
+  - Actually install manpages on make install
+  - Multiple help fixes in several applets
+
+Changes in GDE2-Applets 1.10.1
+==============================
+
+  - Battstat applet: fix NetBSD APM support
+  - Invest applet: display proper icon in About dialog
+  - Multiple help fixes in several applets
+  - GTK+3 fixes
+
+Changes in GDE2-Applets 1.10.0
+==============================
+
+  - Use Gde2AboutDialog from libgde2-desktop.
+
+Changes in GDE2-Applets 1.8.0
+=============================
+
+General:
+  - Move from gde2-doc-utils to yelp-tools.
+  - Replace libgde2wnck with gnome's libwnck.
+  - Replace mucharmap in with gucharmap.
+  - Add Gtk+3 support.
+  - New command applet that displays output from a command.
+  - Replace broken timer applet with new applet written in C.
+  - Serveal enhancement to invest-applet.
+  - Remove broken modem-light applet.
+
+Changes in GDE2-Applets 1.5.0
+=============================
+
+General:
+  - Migration to GSettings
+  - Update to latest libgde2panelapplet-4.0
+  - Mixer applet moved to gde2-media
+  - Timer applet is not migrated yet

@@ -1,0 +1,16 @@
+[Applet Factory]
+Id=BattstatAppletFactory
+Location=@LIBEXECDIR@/battstat-applet
+_Name=Battstat Factory
+_Description=Battstat Factory
+
+[BattstatApplet]
+_Name=Battery Charge Monitor
+_Description=Monitor a laptop's remaining power
+Icon=battery
+Gde2ComponentId=OAFIID:GDE2_BattstatApplet
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=gde2-applets
+X-GDE2-Bugzilla-Component=battery
+X-GDE2-Bugzilla-Version=@VERSION@
+X-GDE2-Bugzilla-OtherBinaries=battstat-applet-2

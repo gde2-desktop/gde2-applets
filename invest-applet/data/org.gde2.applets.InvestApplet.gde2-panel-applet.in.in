@@ -1,0 +1,17 @@
+[Applet Factory]
+Id=InvestAppletFactory
+Location=@LIBEXECDIR@/invest-applet
+_Name=Invest Applet Factory
+_Description=Factory for creating the invest applet.
+
+[InvestApplet]
+_Name=Invest
+_Description=Track your invested money.
+Icon=gde2-invest-applet
+BonoboId=OAFIID:Invest_Applet_Factory
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=gde2-applets
+X-GDE2-Bugzilla-Component=invest
+X-GDE2-Bugzilla-Version=@VERSION@
+X-GDE2-Bugzilla-OtherBinaries=invest-applet
+

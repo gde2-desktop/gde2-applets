@@ -1,0 +1,15 @@
+[Applet Factory]
+Id=CPUFreqAppletFactory
+Location=@LIBEXECDIR@/gde2-cpufreq-applet
+_Name=CPU Frequency Scaling Monitor
+_Description=Monitor the CPU Frequency Scaling
+
+[CPUFreqApplet]
+_Name=CPU Frequency Scaling Monitor
+_Description=Monitor the CPU Frequency Scaling
+Icon=gde2-cpu-frequency-applet
+Gde2ComponentId=OAFIID:GDE2_CPUFreqApplet
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=gde2-applets
+X-GDE2-Bugzilla-Component=cpufreq
+X-GDE2-Bugzilla-Version=@VERSION@

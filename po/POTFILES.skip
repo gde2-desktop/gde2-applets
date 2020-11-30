@@ -1,0 +1,19 @@
+# List of source files containing translatable strings that
+# should NOT be translated.
+# Please keep this file sorted alphabetically (in the ASCII sense:
+# upper-case before lower-case).
+#
+accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in
+battstat/org.gde2.applets.BattstatApplet.gde2-panel-applet.in
+charpick/org.gde2.applets.CharpickerApplet.gde2-panel-applet.in
+cpufreq/org.gde2.applets.CPUFreqApplet.gde2-panel-applet.in
+drivemount/drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in
+geyes/org.gde2.applets.GeyesApplet.gde2-panel-applet.in
+gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in
+gde2weather/Locations.xml.in
+invest-applet/data/Invest_Applet.server.in
+mini-commander/src/org.gde2.applets.MiniCommanderApplet.gde2-panel-applet.in
+mixer/org.gde2.applets.MixerApplet.gde2-panel-applet.in
+multiload/org.gde2.applets.MultiLoadApplet.gde2-panel-applet.in
+stickynotes/org.gde2.applets.StickyNotesApplet.gde2-panel-applet.in
+trashapplet/org.gde2.applets.TrashApplet.gde2-panel-applet.in

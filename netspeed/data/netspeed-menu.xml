@@ -1,0 +1,5 @@
+<menuitem name="Gde2NetspeedAppletDetails" action="Gde2NetspeedAppletDetails" />
+<separator/>
+<menuitem name="Gde2NetspeedAppletProperties" action="Gde2NetspeedAppletProperties" />
+<menuitem name="Gde2NetspeedAppletHelp" action="Gde2NetspeedAppletHelp" />
+<menuitem name="Gde2NetspeedAppletAbout" action="Gde2NetspeedAppletAbout" />

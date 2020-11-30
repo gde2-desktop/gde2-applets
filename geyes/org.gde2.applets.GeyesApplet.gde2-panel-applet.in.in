@@ -1,0 +1,16 @@
+[Applet Factory]
+Id=GeyesAppletFactory
+Location=@LIBEXECDIR@/gde2-geyes-applet
+_Name=Geyes Applet Factory
+_Description=Geyes Applet Factory
+
+[GeyesApplet]
+_Name=Eyes
+_Description=A set of eyeballs for your panel
+Icon=gde2-eyes-applet
+Gde2ComponentId=OAFIID:GDE2_GeyesApplet
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=gde2-applets
+X-GDE2-Bugzilla-Component=geyes
+X-GDE2-Bugzilla-Version=@VERSION@
+X-GDE2-Bugzilla-OtherBinaries=geyes_applet2

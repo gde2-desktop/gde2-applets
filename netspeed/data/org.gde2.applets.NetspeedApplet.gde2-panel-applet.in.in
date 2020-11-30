@@ -1,0 +1,15 @@
+[Applet Factory]
+Id=NetspeedAppletFactory
+Location=@LOCATION@
+_Name=Netspeed Applet Factory
+_Description=Netspeed Applet
+ 
+[NetspeedApplet]
+_Name=Network Monitor
+_Description=Netspeed Applet
+Icon=gde2-netspeed-applet
+Gde2ComponentId=OAFIID:GDE2_NetspeedApplet
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=gde2-netspeed
+X-GDE2-Bugzilla-Component=netspeed
+X-GDE2-Bugzilla-Version=@VERSION@

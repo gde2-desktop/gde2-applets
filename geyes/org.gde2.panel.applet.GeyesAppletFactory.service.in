@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.gde2.panel.applet.GeyesAppletFactory
+Exec=@LIBEXECDIR@/gde2-geyes-applet

@@ -1,0 +1,2859 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Copyright (C) 2005 Norayr Chilingaryan, 2005
+# Siranush <ss.m.95@mail.ru>, 2015-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: GDE2 Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-01 10:25+0300\n"
+"PO-Revision-Date: 2016-08-01 07:27+0000\n"
+"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Language-Team: Armenian (http://www.transifex.com/gde2/GDE2/language/hy/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../accessx-status/applet.c:147
+msgid "Shows the state of AccessX features such as latched modifiers"
+msgstr "Ցուցադրում է AccessX–ի հնարավորությունները որպես փակ մոդիֆիկատորներ"
+
+#. about.set_authors("Raphael Slinckx <raphael@slinckx.net>\nEnrico Minack
+#. <enrico-minack@gmx.de>")
+#. about.set_artists([])
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#: ../accessx-status/applet.c:151 ../battstat/battstat_applet.c:1215
+#: ../charpick/charpick.c:666 ../command/command.c:119
+#: ../cpufreq/src/cpufreq-applet.c:704 ../drivemount/drivemount.c:125
+#: ../geyes/geyes.c:200 ../gde2weather/gde2weather-about.c:56
+#: ../invest-applet/invest/about.py:34 ../multiload/main.c:69
+#: ../netspeed/src/netspeed.c:816
+#: ../stickynotes/stickynotes_applet_callbacks.c:382
+#: ../timerapplet/timerapplet.c:264 ../trashapplet/src/trashapplet.c:441
+msgid "translator-credits"
+msgstr "թարգմանչի կրեդիտներ"
+
+#: ../accessx-status/applet.c:167
+#, c-format
+msgid "There was an error launching the help viewer: %s"
+msgstr "Օգնության տողը գործարկելու ընթացքում սխալ է գրանցվել՝ %s"
+
+#: ../accessx-status/applet.c:195
+msgid "Open the keyboard preferences dialog"
+msgstr "Բացեք ստեղնաշարի նախընտրանքների երկխոսությունը"
+
+#: ../accessx-status/applet.c:214
+#, c-format
+msgid "There was an error launching the keyboard preferences dialog: %s"
+msgstr "Սխալ՝ ստեղնաշարի նախընտրանքների dialog–ը գործարկելու ընթացքում. %s"
+
+#: ../accessx-status/applet.c:229
+msgid "_Keyboard Accessibility Preferences"
+msgstr "_Ստեղնաշարի մատչելիության նախընտրանքներ"
+
+#: ../accessx-status/applet.c:230 ../battstat/battstat_applet.c:69
+#: ../charpick/charpick.c:747 ../cpufreq/src/cpufreq-applet.c:137
+#: ../drivemount/drivemount.c:163 ../geyes/geyes.c:383
+#: ../gde2weather/gde2weather-applet.c:122 ../multiload/main.c:463
+#: ../stickynotes/stickynotes_applet.c:45 ../trashapplet/src/trashapplet.c:79
+msgid "_Help"
+msgstr "_Օգնություն"
+
+#: ../accessx-status/applet.c:231 ../battstat/battstat_applet.c:72
+#: ../charpick/charpick.c:750 ../command/command.c:78
+#: ../cpufreq/src/cpufreq-applet.c:140 ../drivemount/drivemount.c:166
+#: ../geyes/geyes.c:386 ../gde2weather/gde2weather-applet.c:125
+#: ../multiload/main.c:466 ../stickynotes/stickynotes_applet.c:48
+#: ../timerapplet/timerapplet.c:86 ../trashapplet/src/trashapplet.c:82
+msgid "_About"
+msgstr "_ Մասին"
+
+#. Note to translators: the first letter of the alphabet, not the indefinite
+#. article
+#: ../accessx-status/applet.c:508 ../accessx-status/applet.c:546
+msgid "a"
+msgstr "մի"
+
+#: ../accessx-status/applet.c:1057 ../accessx-status/applet.c:1123
+#: ../accessx-status/applet.c:1196 ../accessx-status/applet.c:1370
+msgid "AccessX Status"
+msgstr "AccessX կարգավիճակ"
+
+#: ../accessx-status/applet.c:1058 ../accessx-status/applet.c:1197
+msgid "Shows keyboard status when accessibility features are used."
+msgstr "Ցուցադրում է ստեղնաշարի կարգավիճակը՝ մատչելիության հնարավորությունները կիրառելիս։"
+
+#: ../accessx-status/applet.c:1093
+msgid "XKB Extension is not enabled"
+msgstr "XKB ընդարձակումը թույլատրված չէ"
+
+#: ../accessx-status/applet.c:1098
+msgid "Unknown error"
+msgstr "Անհայտ սխալ"
+
+#: ../accessx-status/applet.c:1102
+#, c-format
+msgid "Error: %s"
+msgstr "Սխալ. %s"
+
+#: ../accessx-status/applet.c:1367
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:3
+msgid "Keyboard Accessibility Status"
+msgstr "Ստեղնաշարի մատչելիության կարգավիճակ"
+
+#: ../accessx-status/applet.c:1371
+msgid "Displays current state of keyboard accessibility features"
+msgstr "Ցուցադրում է ստեղնաշարի մատչելիության հնարավորությունների ներկա կարգավիճակը"
+
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:1
+msgid "AccessX Status Applet Factory"
+msgstr "AccessX կարգավիճակի ապլետ գործարան"
+
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:2
+msgid "Keyboard Accessibility Status Applet Factory"
+msgstr "Ստեղնաարի մատչելիության կարգավիճակի գործարան"
+
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:4
+msgid "Shows the status of keyboard accessibility features"
+msgstr "Ցուցադրում է ստեղնաշարի մատչելիության հնարավորությունների կարգավիճակը"
+
+#: ../battstat/battstat_applet.c:66 ../charpick/charpick.c:744
+#: ../command/command.c:77 ../cpufreq/src/cpufreq-applet.c:134
+#: ../geyes/geyes.c:380 ../gde2weather/gde2weather-applet.c:119
+#: ../multiload/main.c:457 ../stickynotes/stickynotes_applet.c:42
+#: ../timerapplet/timerapplet.c:85
+msgid "_Preferences"
+msgstr "_Նախընտրանքներ"
+
+#: ../battstat/battstat_applet.c:77
+msgid "System is running on AC power"
+msgstr "Համակարգն աշխատում է փոփոխական հոսանքով"
+
+#: ../battstat/battstat_applet.c:78
+msgid "System is running on battery power"
+msgstr "Համակարգն աշխատում է մարտկոցով"
+
+#: ../battstat/battstat_applet.c:344
+#, c-format
+msgid "Battery charged (%d%%)"
+msgstr "Մարտկոցը լիցքավորված է (%d%%)"
+
+#: ../battstat/battstat_applet.c:346
+#, c-format
+msgid "Unknown time (%d%%) remaining"
+msgstr "Անհայտ ժամանակ (%d%%) է մնում"
+
+#: ../battstat/battstat_applet.c:348
+#, c-format
+msgid "Unknown time (%d%%) until charged"
+msgstr "Մինչ լիցքավորումը ժամանակը (%d%%) անհայտ է"
+
+#: ../battstat/battstat_applet.c:353
+#, c-format
+msgid "%d minute (%d%%) remaining"
+msgid_plural "%d minutes (%d%%) remaining"
+msgstr[0] "մնացել է %d րոպե (%d%%)"
+msgstr[1] "մնացել է %d րոպե (%d%%)"
+
+#: ../battstat/battstat_applet.c:358
+#, c-format
+msgid "%d minute until charged (%d%%)"
+msgid_plural "%d minutes until charged (%d%%)"
+msgstr[0] "%d րոպե մինչ լիցքավորվելը (%d%%)"
+msgstr[1] "%d րոպե մինչ լիցքավորվելը (%d%%)"
+
+#: ../battstat/battstat_applet.c:364
+#, c-format
+msgid "%d hour (%d%%) remaining"
+msgid_plural "%d hours (%d%%) remaining"
+msgstr[0] "մնացել է %d ժամ (%d%%)"
+msgstr[1] "մնացել է %d ժամ (%d%%)"
+
+#: ../battstat/battstat_applet.c:369
+#, c-format
+msgid "%d hour until charged (%d%%)"
+msgid_plural "%d hours until charged (%d%%)"
+msgstr[0] "%d ժամ մինչ լիցքավորվելը (%d%%)"
+msgstr[1] "%d ժամ մինչ լիցքավորվելը (%d%%)"
+
+#. TRANSLATOR: "%d %s %d %s" are "%d hours %d minutes"
+#. * Swap order with "%2$s %2$d %1$s %1$d if needed
+#: ../battstat/battstat_applet.c:376
+#, c-format
+msgid "%d %s %d %s (%d%%) remaining"
+msgstr "մնացել է %d %s %d %s (%d%%)"
+
+#: ../battstat/battstat_applet.c:377 ../battstat/battstat_applet.c:384
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "ժամ"
+msgstr[1] "ժամ"
+
+#: ../battstat/battstat_applet.c:378 ../battstat/battstat_applet.c:385
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "րոպե"
+msgstr[1] "րոպե"
+
+#. TRANSLATOR: "%d %s %d %s" are "%d hours %d minutes"
+#. * Swap order with "%2$s %2$d %1$s %1$d if needed
+#: ../battstat/battstat_applet.c:383
+#, c-format
+msgid "%d %s %d %s until charged (%d%%)"
+msgstr "%d %s %d %s մինչ լիցքավորվելը (%d%%)"
+
+#: ../battstat/battstat_applet.c:397
+msgid "Battery Monitor"
+msgstr "Մարտկոցի ցուցիչ"
+
+#: ../battstat/battstat_applet.c:407 ../battstat/battstat_applet.c:466
+msgid "Your battery is now fully recharged"
+msgstr "Մարտկոցը ամբողջովին վերալիցքավորված է"
+
+#: ../battstat/battstat_applet.c:443 ../battstat/battstat_applet.c:602
+msgid "Battery Notice"
+msgstr "Մարտկոցի ծանուցում"
+
+#. we don't know the remaining time
+#: ../battstat/battstat_applet.c:547
+#, c-format
+msgid "You have %d%% of your total battery capacity remaining."
+msgstr "ընդհանուր մարտկոցից %d%%–ն է մնացել"
+
+#: ../battstat/battstat_applet.c:553
+#, c-format
+msgid ""
+"You have %d minute of battery power remaining (%d%% of the total capacity)."
+msgid_plural ""
+"You have %d minutes of battery power remaining (%d%% of the total capacity)."
+msgstr[0] "Մարտկոցի լիցքաթափմանը մնացել է %d րոպե (%d%% ընդհանուր հզորությունից)"
+msgstr[1] "Մարտկոցի լիցքաթափմանը մնացել է %d րոպե (հզորության %d%%-ը)"
+
+#. TRANSLATORS: this is a list, it is left as a single string
+#. * to allow you to make it appear like a list would in your
+#. * locale.  This is if the laptop does not support suspend.
+#: ../battstat/battstat_applet.c:565
+msgid ""
+"To avoid losing your work:\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr "Աշխատանքը կորցնելուց խուսափելու համար՝\n • կանգնացրե՛ք համակարգը՝ հոսանքը խնայելու համար,\n • միացրեք լափթոփը արտաքին հոսանքի աղբյուրին, կամ\n • պահպանե՛ք բացած փաստաթղթերը և լափթոփը անջատե՛ք"
+
+#. TRANSLATORS: this is a list, it is left as a single string
+#. * to allow you to make it appear like a list would in your
+#. * locale.  This is if the laptop supports suspend.
+#: ../battstat/battstat_applet.c:573
+msgid ""
+"To avoid losing your work:\n"
+" • suspend your laptop to save power,\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr "Աշխատանքը կորցնելուց խուսափելու համար՝\n • դադարեցրեք լափթոփի աշխատանքը՝ հոսանքը խնայելու համար,\n • միացրեք լափթոփը արտաքին հոսանքի աղբյուրին, կամ\n • պահեք բացված փաստաթղթերը և լափթոփը անջատեք"
+
+#: ../battstat/battstat_applet.c:581
+msgid "Your battery is running low"
+msgstr "Մարտկոցի լիցքը սպառվում է"
+
+#: ../battstat/battstat_applet.c:676
+msgid "No battery present"
+msgstr "Մարտկոցը բացակայում է"
+
+#: ../battstat/battstat_applet.c:679
+msgid "Battery status unknown"
+msgstr "Մարտկոցի կարգավիճակը անհայտ է"
+
+#: ../battstat/battstat_applet.c:859
+msgid "N/A"
+msgstr "Տ/Չ"
+
+#: ../battstat/battstat_applet.c:1159 ../drivemount/drivemount.c:151
+#: ../geyes/geyes.c:368 ../geyes/themes.c:227
+#: ../gde2weather/gde2weather-applet.c:68
+#: ../gde2weather/gde2weather-pref.c:750
+#: ../stickynotes/stickynotes_applet_callbacks.c:344
+#: ../stickynotes/stickynotes_applet_callbacks.c:549
+#: ../trashapplet/src/trashapplet.c:403
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "Սխալ՝ օգնության պատուհանը ցույց տալու ժամանակ. %s"
+
+#: ../battstat/battstat_applet.c:1204
+msgid "This utility shows the status of your laptop battery."
+msgstr "Այս ծրագիրը ցուցադրում է լափթոփի մարտկոցի կարգավիճակը։"
+
+#. true
+#: ../battstat/battstat_applet.c:1206
+msgid "upower backend enabled."
+msgstr "upower backend անջատված է։"
+
+#. false
+#: ../battstat/battstat_applet.c:1207
+msgid "Legacy backend enabled."
+msgstr "Legacy backend անջատված է։"
+
+#: ../battstat/battstat_applet.c:1579 ../battstat/battstat_applet.c:1631
+#: ../battstat/org.gde2.applets.BattstatApplet.gde2-panel-applet.in.in.h:2
+msgid "Battery Charge Monitor"
+msgstr "Մարտկոցի լիցքավորման ցուցիչ"
+
+#: ../battstat/battstat_applet.c:1632
+#: ../battstat/org.gde2.applets.BattstatApplet.gde2-panel-applet.in.in.h:3
+msgid "Monitor a laptop's remaining power"
+msgstr "Վերահսկում է լափթոփի լիցքավորման մնացորդը"
+
+#: ../battstat/battstat_applet.ui.h:1
+msgid "Battery Charge Monitor Preferences"
+msgstr "Մարտկոցի լիցքի ցուցչի նախընտրանքներ"
+
+#: ../battstat/battstat_applet.ui.h:2
+msgid "Appearance"
+msgstr "Արտաքին տեսք"
+
+#: ../battstat/battstat_applet.ui.h:3
+msgid "_Compact view"
+msgstr "_Հակիրճ տեսք"
+
+#: ../battstat/battstat_applet.ui.h:4
+msgid "(shows single image for status and charge)"
+msgstr "<small>(ցուցադրում է մեկ պատկեր կարգավիճակի և լիցքավորման համար)</small>"
+
+#: ../battstat/battstat_applet.ui.h:5
+msgid "_Expanded view"
+msgstr "_Ընդարձակ տեսք"
+
+#: ../battstat/battstat_applet.ui.h:6
+msgid "(two images: one for status, one for charge)"
+msgstr "<small>(երկու պատկեր՝ մեկը կարգավիճակի, մյուսը՝ լիցքի համար)</small>"
+
+#: ../battstat/battstat_applet.ui.h:7
+msgid "_Show time/percentage:"
+msgstr "_Ցուցադրել ժամանակ/տոկոս."
+
+#: ../battstat/battstat_applet.ui.h:8
+msgid "Show _time remaining"
+msgstr "Ցույց տալ մնացյալ _ժամանակը"
+
+#: ../battstat/battstat_applet.ui.h:9
+msgid "Show _percentage remaining"
+msgstr "Ցույց տալ մնացյալ _տոկոսները"
+
+#: ../battstat/battstat_applet.ui.h:10
+msgid "Notifications"
+msgstr "<b>Ծանուցումներ</b>"
+
+#. TRANSLATOR: This is the beginning of the sentence 'Warn when battery charge
+#. drops to: [XX] percent/minutes remaining'
+#: ../battstat/battstat_applet.ui.h:12
+msgid "_Warn when battery charge drops to:"
+msgstr "_Նախազգուշացնել մարտկոցի լիցքաթափման մասին."
+
+#: ../battstat/battstat_applet.ui.h:13
+msgid "_Notify when battery is fully recharged"
+msgstr "_Տեղեկացնել մարտկոցի վերալիցքավորման մասին"
+
+#: ../battstat/org.gde2.applets.BattstatApplet.gde2-panel-applet.in.in.h:1
+msgid "Battstat Factory"
+msgstr "Մարտկոցի կարգավիճակի գործարան"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:1
+msgid "Red value level"
+msgstr "Կարմիր արժեքի մակարդակ"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:2
+msgid ""
+"The battery level below which the battery is displayed as red. Also the "
+"value at which the low battery warning is displayed."
+msgstr "Մարտկոցի լիցքավորման մակարդակը, որից ցածր մարտկոցը պատկերվում է կարմիր գույնով։ Ինչպես նաև այն մակարդակը, որի դեպքում նախազգուշացնում է մարտկոցի լիցքաթափման մասին։"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:3
+msgid "Warn on low time rather than low percentage"
+msgstr "Նախազգուշացում ըստ քիչ ժամանակի, այլ ոչ թե ցածր տոկոսի"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:4
+msgid ""
+"Use the value defined in red_value as a time remaining to show the warning "
+"dialog rather than a percentage."
+msgstr "Կարմիր գույնով նշված արժեքը օգտագործել որպես մնացած ժամանակի ծանուցում, և ոչ տոկոսային ծանուցում։"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:5
+msgid "Low Battery Notification"
+msgstr "Լիվքաթափված մարտկոցի ծանուցում"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:6
+msgid "Notify user when the battery is low."
+msgstr "Տեղեկացնել մարտկոցի լիցքաթափման մասին։"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:7
+msgid "Full Battery Notification"
+msgstr "Լիցքավորված մարտկոցի ծանուցում"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:8
+msgid "Notify user when the battery is full."
+msgstr "Տեղեկացնել մարտկոցի ամբողջական լիցքավորման մասին։"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:9
+msgid "Beep for warnings"
+msgstr "Ազդանշանել նախազգուշացումների դեպքում"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:10
+msgid "Beep when displaying a warning."
+msgstr "Ազդանշանել նախազգուշացման ժամանակ"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:11
+msgid "Drain from top"
+msgstr "Սպառել վերևից"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:12
+msgid ""
+"Show the battery meter draining from the top of the battery. Only "
+"implemented for traditional battery view."
+msgstr "Ցուցադրել մարտկոցի ցուցչի վերից վար իջեցումը։ Կիրառելի է միայն մարտկոցի ավանդական ցուցադրման ժամանակ։"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:13
+msgid "Upright (small) battery"
+msgstr "Ուղղահայաց (փոքր) մարտկոց"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:14
+msgid "Show the upright, smaller battery on the panel."
+msgstr "Ցուցադրել ուղղահայաց, փոքրացված մարտկոցը վահանակի վրա։"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:15
+msgid "Show the horizontal battery"
+msgstr "Ցուցադրել հորիզոնական մարտկոցը"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:16
+msgid "Show the traditional, horizontal battery on the panel."
+msgstr "Ցուցադրել ավանդական, հորիզոնական մարտկոցը վահանակի վրա։"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:17
+msgid "Show the time/percent label"
+msgstr "Ցուցադրել ժամանակ/տոկոս պիտակը"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:18
+msgid "0 for no label, 1 for percentage and 2 for time remaining."
+msgstr "Պիտակի բացակայության համար 0, տոկոսների՝ 1, մնացյալ ժամանակի՝ 2"
+
+#. TRANSLATOR: this is a selectable item in a drop-down menu to end
+#. * this sentence:
+#. *   "Warn when battery charge drops to: [XX] percent".
+#: ../battstat/properties.c:287
+msgid "Percent"
+msgstr "Տոկոս"
+
+#. TRANSLATOR: this is a selectable item in a drop-down menu to end
+#. * this sentence:
+#. *   "Warn when battery charge drops to: [XX] minutes remaining"
+#: ../battstat/properties.c:293
+msgid "Minutes Remaining"
+msgstr "Մնացած րոպեները"
+
+#: ../battstat/sounds/gde2-battstat_applet.soundlist.in.h:1
+msgid "Battery Status Utility"
+msgstr "Մարտկոցի կարգավիճակի ծառայություն"
+
+#: ../battstat/sounds/gde2-battstat_applet.soundlist.in.h:2
+msgid "Battery power low"
+msgstr "Մարտկոցը լիցքաթափված է "
+
+#: ../battstat/sounds/gde2-battstat_applet.soundlist.in.h:3
+msgid "Battery fully re-charged"
+msgstr "Մարտկոցը ամբողջությամբ վերալիցքավորված է "
+
+#: ../charpick/charpick.c:469
+msgid "Available palettes"
+msgstr "Հասանելի ներկապնակներ"
+
+#. TRANSLATOR: This sentance reads something like 'Insert "PILCROW SIGN"'
+#. *             hopefully, the name of the unicode character has already
+#. *             been translated.
+#: ../charpick/charpick.c:529
+#, c-format
+msgid "Insert \"%s\""
+msgstr "Մուտքագրել \"%s\" "
+
+#: ../charpick/charpick.c:532
+msgid "Insert special character"
+msgstr "Մուտքագրել հատուկ նիշ "
+
+#: ../charpick/charpick.c:536
+#, c-format
+msgid "insert special character %s"
+msgstr "մուտքագրել հատուկ նիշ %s "
+
+#: ../charpick/charpick.c:661
+msgid ""
+"Gde2 Panel applet for selecting strange characters that are not on my "
+"keyboard. Released under GNU General Public Licence."
+msgstr "Գնոմ վահանակ ապլետ տարօրինակ նիշերի ընտրության համար, որոնք բացակայում են ստեղնաշարի վրա։  Թողարկված է GNU General Public  արտոնագրով։"
+
+#: ../charpick/charpick.c:773 ../charpick/charpick.c:787
+#: ../charpick/org.gde2.applets.CharpickerApplet.gde2-panel-applet.in.in.h:2
+#: ../charpick/properties.c:460
+msgid "Character Palette"
+msgstr "Նիշի ներկապնակ "
+
+#: ../charpick/charpick.c:773
+#: ../charpick/org.gde2.applets.CharpickerApplet.gde2-panel-applet.in.in.h:3
+msgid "Insert characters"
+msgstr "Մուտքագրել նիշեր "
+
+#: ../charpick/org.gde2.applets.CharpickerApplet.gde2-panel-applet.in.in.h:1
+msgid "Charpicker Applet Factory"
+msgstr "Նիշ ընտրելու ապլետ գործարան"
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:1
+msgid "Characters shown on applet startup"
+msgstr "Նիշերը ցուցադրված են ապլետի մեկնարկում"
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:2
+msgid ""
+"The string that the user had selected when the applet was last used. This "
+"string will be displayed when the user starts the applet."
+msgstr "Գործարկողի կողմից վերջին օգտագործման ժամանակ ընտրված տողը։ Այս տողը կհայտնվի ապլետի հետագա գործարկման ժամանակ "
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:3
+#: ../charpick/properties.c:383
+msgid "List of available palettes"
+msgstr "Հասանելի ներկապնակների ցանկ "
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:4
+msgid "List of strings containing the available palettes."
+msgstr "Առկա ներկապնակները ընդգրկող տողերի ցուցակ։"
+
+#: ../charpick/properties.c:33
+msgid "_Edit"
+msgstr "_Խմբագրել "
+
+#: ../charpick/properties.c:121
+msgid "_Palette:"
+msgstr "_Ներկապնակ "
+
+#: ../charpick/properties.c:129
+msgid "Palette entry"
+msgstr "Ներկապնակի մուտքագրում "
+
+#: ../charpick/properties.c:130
+msgid "Modify a palette by adding or removing characters"
+msgstr "Փոփոխել ներկապնակը՝ նիշեր ավելացնելով կամ հեռացնելով"
+
+#: ../charpick/properties.c:244
+msgid "Add Palette"
+msgstr "Ավելացնել ներկապնակ"
+
+#: ../charpick/properties.c:281
+msgid "Edit Palette"
+msgstr "Խմբագրրել ներկապնակը"
+
+#: ../charpick/properties.c:382
+msgid "Palettes list"
+msgstr "Ներկապնակների ցուցակ "
+
+#: ../charpick/properties.c:465
+msgid "_Palettes:"
+msgstr "_Ներկապնակներ."
+
+#: ../charpick/properties.c:485
+msgid "Add button"
+msgstr "Ավելացնել կոճակ "
+
+#: ../charpick/properties.c:486
+msgid "Click to add a new palette"
+msgstr "Սեղմե՛ք՝ նոր ներկապնակ ավելացնելու համար"
+
+#: ../charpick/properties.c:493
+msgid "Edit button"
+msgstr "Խմբագրելու կոճակ "
+
+#: ../charpick/properties.c:494
+msgid "Click to edit the selected palette"
+msgstr "Սեղմե՛ք՝ ընտրված ներկապնակը խմբագրելու համար"
+
+#: ../charpick/properties.c:501
+msgid "Delete button"
+msgstr "Ջնջելու կոճակ "
+
+#: ../charpick/properties.c:502
+msgid "Click to delete the selected palette"
+msgstr "Սեղմե՛ք՝ ընտրված ներկապնակը ջնջելու համար"
+
+#: ../charpick/properties.c:553
+msgid "Character Palette Preferences"
+msgstr "Նիշի ներկապնակի նախընտրանքներ"
+
+#: ../command/command.c:118
+#: ../command/org.gde2.applets.CommandApplet.gde2-panel-applet.in.in.h:3
+msgid "Shows the output of a command"
+msgstr "Ցույց է տալիս հրամանի արդյունքը"
+
+#: ../command/command.c:136
+msgid "Command Applet Preferences"
+msgstr "Ապլետի Նախընտրանքների Հրաման"
+
+#: ../command/command.c:149
+msgid "Command:"
+msgstr "Հրաման։"
+
+#: ../command/command.c:165
+msgid "Interval (seconds):"
+msgstr "Ինտերվալ (վայրկյան):"
+
+#: ../command/command.c:181
+msgid "Maximum width (chars):"
+msgstr "Առավելագույն լայնությունը (նիշ):"
+
+#: ../command/command.c:197
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:7
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:7
+msgid "Show icon"
+msgstr "Ցուցադրել պատկերակը"
+
+#: ../command/command.c:347
+msgid "Command Applet"
+msgstr "Ապլետի Հրաման"
+
+#: ../command/org.gde2.applets.CommandApplet.gde2-panel-applet.in.in.h:1
+msgid "Command Factory"
+msgstr "Հրահանգի Գործարան"
+
+#: ../command/org.gde2.applets.CommandApplet.gde2-panel-applet.in.in.h:2
+msgid "Command"
+msgstr "Հրահանգ"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:1
+msgid "Command to execute"
+msgstr "Հրահանգ կատարել է"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:2
+msgid "Command/script to execute to get the output"
+msgstr "Հրահանգ/Սցենարը կատարել է ստանալով արդյունք"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:3
+msgid "Interval for the command"
+msgstr "Ինտերվալ հրամանի համար"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:4
+msgid "Interval to execute the command (in seconds)"
+msgstr "Հրամանի կատարման ինտերվալ (վայրկյաններով)"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:5
+msgid "Width of output"
+msgstr "Արդյունքի լայնություն"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:6
+msgid "Number of characters to display"
+msgstr "Ցուցադրված նշանների թիվը"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:8
+msgid "If applet icon is shown or not"
+msgstr "Արդյոք ապլետի պատկերակըցուցադրվում է, թե ոչ"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:1
+msgid "CPU Frequency Monitor Preferences"
+msgstr "Պրոցեսորի հաճախականության մոնիտորի նախընտրանքներ"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:2
+msgid "Monitor Settings"
+msgstr "<b>Մոնիտորի հատկություններ</b>"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:3
+msgid "_Monitored CPU:"
+msgstr "_Վերահսկվող պրոցեսոր՝"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:4
+msgid "Display Settings"
+msgstr "<b>Պատկերման Հատկություններ</b>"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:5
+msgid "_Appearance:"
+msgstr "_Արտաքին Տեսք."
+
+#: ../cpufreq/cpufreq-preferences.ui.h:6
+msgid "Show CPU frequency as _frequency"
+msgstr "Ցուցադրել պրոցեսորի հաճախականությունը  _հաճախականությամբ"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:7
+msgid "Show frequency _units"
+msgstr "Ցուցադրել հաճախականության _միավորները "
+
+#: ../cpufreq/cpufreq-preferences.ui.h:8
+msgid "Show CPU frequency as _percentage"
+msgstr "Ցուցադրել պրոցեսորի հաճախականությունը _տոկոսներով "
+
+#: ../cpufreq/org.gde2.applets.CPUFreqApplet.gde2-panel-applet.in.in.h:1
+#: ../cpufreq/src/cpufreq-applet.c:1060 ../cpufreq/src/cpufreq-applet.c:1115
+msgid "CPU Frequency Scaling Monitor"
+msgstr "Պրոցեսորի հաճախականության մասշտաբավորման ցուցիչ"
+
+#: ../cpufreq/org.gde2.applets.CPUFreqApplet.gde2-panel-applet.in.in.h:2
+msgid "Monitor the CPU Frequency Scaling"
+msgstr "Դիտել պրոցեսորի հաճախականության մասշտաբավորումը"
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:1
+msgid "CPU to Monitor"
+msgstr "Վերահսկվող պրոցեսոր"
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:2
+msgid ""
+"Set the CPU to monitor. In a single processor system you don't have to "
+"change it."
+msgstr "Վերահսկել պրոցեսորը։ Մեկ պրոցեսորային համակարգում փոփոխության կարիք չկա։"
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:3
+msgid "Mode to show CPU usage"
+msgstr ""
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:4
+msgid ""
+"A 0 value means to show the applet in graphic mode (pixmap only), 1 to show "
+"the applet in text mode (not to show the pixmap) and 2 to show the applet in"
+" graphic and text mode."
+msgstr "0 արժեքի դեպքում ապլետը ցուցադրվում է գրաֆիկական ռեժիմում (միայն պատկեր), 1-ի դեպքում ապլետը ցուցադրվում է տեքստային ռեժիմում (պատկերը ցույց չտալ), 2-ի դեպքում ապլետը ցուցադրվում է և գրաֆիկական և տեքստային ռեժիմում"
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:5
+msgid "The type of text to display (if the text is enabled)."
+msgstr "Պատկերվող տեքստի տիպը (եթե տեքստը հասանելի չէ)"
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:6
+msgid ""
+"A 0 value means to show CPU frequency, 1 to show frequency and units, and 2 "
+"to show percentage instead of frequency."
+msgstr ""
+
+#: ../cpufreq/src/cpufreq-applet.c:668 ../cpufreq/src/cpufreq-prefs.c:365
+msgid "Could not open help document"
+msgstr "Չի հաջողվում օգնության փաստաթուղթը բացել "
+
+#: ../cpufreq/src/cpufreq-applet.c:699
+msgid "This utility shows the current CPU Frequency Scaling."
+msgstr "Այս ծառայությունը ցույց է տալիս պրոցեսորի ընթացիկ հաճախականության փոփոխությունը"
+
+#: ../cpufreq/src/cpufreq-applet.c:1116
+msgid "This utility shows the current CPU Frequency"
+msgstr "Այս ծառայությունը ցույց է տալիս պրոցեսորի ընթացիկ հաճախականությունը"
+
+#: ../cpufreq/src/cpufreq-prefs.c:500
+msgid "Graphic"
+msgstr "Գրաֆիկա "
+
+#: ../cpufreq/src/cpufreq-prefs.c:505
+msgid "Text"
+msgstr "Տեքստ "
+
+#: ../cpufreq/src/cpufreq-prefs.c:510
+msgid "Graphic and Text"
+msgstr "Գրաֆիկա և տեքստ"
+
+#: ../cpufreq/src/cpufreq-monitor-cpuinfo.c:121
+msgid "Frequency Scaling Unsupported"
+msgstr "Հաճախականության փոփոխումը չի սպասարկվում "
+
+#. If there is no cpufreq support it shows only the cpu frequency,
+#. * I think is better than do nothing. I have to notify it to the user,
+#. because
+#. * he could think that cpufreq is supported but it doesn't work succesfully
+#: ../cpufreq/src/cpufreq-monitor-factory.c:59
+msgid "CPU frequency scaling unsupported"
+msgstr "Պրոցեսորի հաճախականության փոփոխումը չի սպասարկվում "
+
+#: ../cpufreq/src/cpufreq-monitor-factory.c:60
+msgid ""
+"You will not be able to modify the frequency of your machine.  Your machine "
+"may be misconfigured or not have hardware support for CPU frequency scaling."
+msgstr "Դուք չեք կարող փոխել ձեր մեքենայի պրոցեսորի հաճախականությունը։ Ձեր մեքենան կարող է սխալ կարգավորված լինել կամ չունենա սարքավորման սպասարկում պրոցեսորի հաճախականության փոփոխությոան համար։"
+
+#: ../cpufreq/src/cpufreq-selector/org.gde2.cpufreqselector.policy.in.h:1
+msgid "Change CPU Frequency scaling"
+msgstr "Փոխել պրոցեսորի հաճախականության մասշտաբավորումը"
+
+#: ../cpufreq/src/cpufreq-selector/org.gde2.cpufreqselector.policy.in.h:2
+msgid "Privileges are required to change the CPU Frequency scaling."
+msgstr "Արտոնություններ են հարկավոր պրոցեսորի հաճախականության մասշտաբավորումը փոխելու համար։"
+
+#: ../drivemount/drive-button.c:364 ../drivemount/drive-button.c:377
+msgid "(mounted)"
+msgstr "(միացված է) "
+
+#: ../drivemount/drive-button.c:366
+msgid "(not mounted)"
+msgstr "(միացված չէ) "
+
+#: ../drivemount/drive-button.c:634
+msgid "Cannot execute Caja"
+msgstr "Հնարավոր չէ կատարել Caja֊ն"
+
+#: ../drivemount/drive-button.c:636
+#, c-format
+msgid "Cannot execute '%s'"
+msgstr "Չի կարող կատարել '%s'"
+
+#: ../drivemount/drive-button.c:961
+msgid "_Play DVD"
+msgstr "_Միացնել DVD "
+
+#: ../drivemount/drive-button.c:965
+msgid "_Play CD"
+msgstr "_Միացնել CD  "
+
+#: ../drivemount/drive-button.c:968
+#, c-format
+msgid "_Open %s"
+msgstr "_Բացել %s "
+
+#: ../drivemount/drive-button.c:976
+#, c-format
+msgid "Un_mount %s"
+msgstr "Անջատել %s "
+
+#: ../drivemount/drive-button.c:982
+#, c-format
+msgid "_Mount %s"
+msgstr "_Միացնել %s "
+
+#: ../drivemount/drive-button.c:990
+#, c-format
+msgid "_Eject %s"
+msgstr "_Հանել %s "
+
+#: ../drivemount/drivemount.c:122
+msgid "Applet for mounting and unmounting block volumes."
+msgstr "Դիսկերի միացման և անջատման ապլետ"
+
+#: ../drivemount/drivemount.c:183 ../drivemount/drivemount.c:217
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:3
+msgid "Disk Mounter"
+msgstr "Սկավարակի միացում"
+
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:1
+msgid "Drive Mount Applet Factory"
+msgstr "Սկավարակի միացման ապլետ գործարան"
+
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:2
+msgid "Factory for drive mount applet"
+msgstr "Գործարան սկավառակ միացնելու ապլետի համար"
+
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:4
+msgid "Mount local disks and devices"
+msgstr "Միացնել լոկալ սկավառակներ և սարքեր"
+
+#: ../geyes/geyes.c:195
+msgid "A goofy set of eyes for the GDE2 panel. They follow your mouse."
+msgstr "Հիմար աչքեր Գնոմ վահանակի համար։ Նրանք հետևում են մկնիկին։"
+
+#: ../geyes/geyes.c:413 ../geyes/geyes.c:443 ../geyes/geyes.c:445
+#: ../geyes/org.gde2.applets.GeyesApplet.gde2-panel-applet.in.in.h:2
+msgid "Eyes"
+msgstr "Աչքեր "
+
+#: ../geyes/geyes.c:446
+msgid "The eyes look in the direction of the mouse pointer"
+msgstr "Աչքերը նայում են մկնիկի սլաքի ուղղությամբ "
+
+#: ../geyes/org.gde2.applets.GeyesApplet.gde2-panel-applet.in.in.h:1
+msgid "Geyes Applet Factory"
+msgstr "G աչքերի ապլետ ֆաբրիկա"
+
+#: ../geyes/org.gde2.applets.GeyesApplet.gde2-panel-applet.in.in.h:3
+msgid "A set of eyeballs for your panel"
+msgstr "Աչքեր ձեր վահանակի համար"
+
+#: ../geyes/org.gde2.panel.applet.geyes.gschema.xml.in.h:1
+msgid "Directory in which the theme is located"
+msgstr "Թղթապանակ, որտեղ գտնվում է թեման"
+
+#: ../geyes/themes.c:131
+msgid "Can not launch the eyes applet."
+msgstr "Չի հաջողվում գործարկել աչքերի ապլետը"
+
+#: ../geyes/themes.c:132
+msgid "There was a fatal error while trying to load the theme."
+msgstr "Թեմայի բեռնման ժամանակ լուրջ սխալ է տեղի ունեցել։"
+
+#: ../geyes/themes.c:286
+msgid "Geyes Preferences"
+msgstr "G աչքերի նախընտրանքներ"
+
+#: ../geyes/themes.c:319
+msgid "Themes"
+msgstr "Թեմաներ "
+
+#: ../geyes/themes.c:344
+msgid "_Select a theme:"
+msgstr "_Ընտրել թեմա՝ "
+
+#: ../gde2weather/gde2weather-about.c:53
+msgid "A panel application for monitoring local weather conditions."
+msgstr "Վահանակի ապլետ՝ տեղական եղանակի տեսության ցուցադրման համար։ "
+
+#: ../gde2weather/gde2weather-applet.c:113
+msgid "_Details"
+msgstr "_Մանրամասներ"
+
+#: ../gde2weather/gde2weather-applet.c:116
+#: ../gde2weather/gde2weather-dialog.c:191
+msgid "_Update"
+msgstr "_Նորացնել"
+
+#: ../gde2weather/gde2weather-applet.c:350
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:3
+msgid "Weather Report"
+msgstr "Եղանակի տեսություն"
+
+#: ../gde2weather/gde2weather-applet.c:368
+#: ../gde2weather/gde2weather-applet.c:372
+msgid "GDE2 Weather"
+msgstr "ԳՆՈՄ Եղանակ"
+
+#: ../gde2weather/gde2weather-applet.c:471
+msgid "Weather Forecast"
+msgstr "Եղանակի Տեսություն"
+
+#: ../gde2weather/gde2weather-applet.c:483
+#, c-format
+msgid ""
+"City: %s\n"
+"Sky: %s\n"
+"Temperature: %s"
+msgstr "Քաղաք՝ %s\nԵրկինք՝ %s\nՋերմաստիճան՝ %s"
+
+#: ../gde2weather/gde2weather-applet.c:532
+msgid "Updating..."
+msgstr "Նորացում․․․"
+
+#: ../gde2weather/gde2weather-dialog.c:189
+msgid "Details"
+msgstr "Մանրամասներ"
+
+#: ../gde2weather/gde2weather-dialog.c:231
+msgid "City:"
+msgstr "Քաղաք՝"
+
+#: ../gde2weather/gde2weather-dialog.c:243
+msgid "Last update:"
+msgstr "Վերջին նորացումը՝"
+
+#: ../gde2weather/gde2weather-dialog.c:255
+msgid "Conditions:"
+msgstr "Պայմաններ՝"
+
+#: ../gde2weather/gde2weather-dialog.c:267
+msgid "Sky:"
+msgstr "Երկինք՝"
+
+#: ../gde2weather/gde2weather-dialog.c:279
+msgid "Temperature:"
+msgstr "Ջերմաստիճան՝"
+
+#: ../gde2weather/gde2weather-dialog.c:291
+msgid "Feels like:"
+msgstr "Հարմարավետություն՝"
+
+#: ../gde2weather/gde2weather-dialog.c:303
+msgid "Dew point:"
+msgstr "Ցող՝"
+
+#: ../gde2weather/gde2weather-dialog.c:315
+msgid "Relative humidity:"
+msgstr "Հարաբերական խոնավություն՝"
+
+#: ../gde2weather/gde2weather-dialog.c:327
+msgid "Wind:"
+msgstr "Քամի՝"
+
+#: ../gde2weather/gde2weather-dialog.c:339
+msgid "Pressure:"
+msgstr "Ճնշում՝"
+
+#: ../gde2weather/gde2weather-dialog.c:351
+msgid "Visibility:"
+msgstr "Տեսանելիություն՝"
+
+#: ../gde2weather/gde2weather-dialog.c:363
+msgid "Sunrise:"
+msgstr "Արևածագ՝"
+
+#: ../gde2weather/gde2weather-dialog.c:375
+msgid "Sunset:"
+msgstr "Արևամուտ՝"
+
+#: ../gde2weather/gde2weather-dialog.c:565
+msgid "Current Conditions"
+msgstr "Ընթացիկ պայմաններ"
+
+#: ../gde2weather/gde2weather-dialog.c:582
+msgid "Forecast Report"
+msgstr "Եղանակի Տեսություն"
+
+#: ../gde2weather/gde2weather-dialog.c:582
+msgid "See the ForeCast Details"
+msgstr "Տես եղանակի տեսութան Մանրամասները"
+
+#: ../gde2weather/gde2weather-dialog.c:592
+msgid "Forecast"
+msgstr "Կանխատեսում"
+
+#: ../gde2weather/gde2weather-dialog.c:600
+msgid "Radar Map"
+msgstr "Ռադարային քարտեզ"
+
+#: ../gde2weather/gde2weather-dialog.c:631
+msgid "_Visit Weather.com"
+msgstr "_Այցելեք Weather.com կայք"
+
+#: ../gde2weather/gde2weather-dialog.c:632
+msgid "Visit Weather.com"
+msgstr "Այցելեք Weather.com կայք"
+
+#: ../gde2weather/gde2weather-dialog.c:632
+msgid "Click to Enter Weather.com"
+msgstr "Կտտացրեք՝ Weather.com կայքը այցելելու համար"
+
+#: ../gde2weather/gde2weather-dialog.c:717
+msgid "Forecast not currently available for this location."
+msgstr "Ներկա պահին տվյալ վայրի վերաբերյալ եղանակի տեսությունը հասանելի չէ"
+
+#. Accessible Name and Description for the components in Preference Dialog
+#: ../gde2weather/gde2weather-pref.c:165
+msgid "Location view"
+msgstr "Տեղանքի դիտում"
+
+#: ../gde2weather/gde2weather-pref.c:165
+msgid "Select Location from the list"
+msgstr "Ցուցակից ընտրեք տեղանքը"
+
+#: ../gde2weather/gde2weather-pref.c:166
+msgid "Update spin button"
+msgstr "Նորացման պտտվող կոճակ"
+
+#: ../gde2weather/gde2weather-pref.c:166
+msgid "Spinbutton for updating"
+msgstr "Կոճակ նորացման համար"
+
+#: ../gde2weather/gde2weather-pref.c:167
+msgid "Address Entry"
+msgstr "Հասցեի մուտքագրում"
+
+#: ../gde2weather/gde2weather-pref.c:167
+msgid "Enter the URL"
+msgstr "Մուտքագրեք տեղեկատվության հասցեն"
+
+#: ../gde2weather/gde2weather-pref.c:290
+msgid ""
+"Failed to load the Locations XML database.  Please report this as a bug."
+msgstr "Չհաջողվեց բեռնել Տեղանքի XML բազան։ Խնդրում ենք հայտնել այս սխալի մասին։"
+
+#: ../gde2weather/gde2weather-pref.c:812
+msgid "Weather Preferences"
+msgstr "Եղանակի տեսություն ապլետի պարամետրեր"
+
+#: ../gde2weather/gde2weather-pref.c:839
+#: ../gde2weather/gde2weather-pref.c:1053
+msgid "_Automatically update every:"
+msgstr "_Ավտոմատ նորացնել յուրաքանչյուր՝"
+
+#. * Units settings page.
+#. Temperature Unit
+#: ../gde2weather/gde2weather-pref.c:854
+msgid "_Temperature unit:"
+msgstr "_Ջերմաստիճանի միավոր"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (temp_combo), _("Default"));
+#: ../gde2weather/gde2weather-pref.c:868
+msgid "Kelvin"
+msgstr "Ըստ Կելվինի"
+
+#. TRANSLATORS: Celsius is sometimes referred Centigrade
+#: ../gde2weather/gde2weather-pref.c:870
+msgid "Celsius"
+msgstr "Ըստ Ցելսիուսի"
+
+#: ../gde2weather/gde2weather-pref.c:871
+msgid "Fahrenheit"
+msgstr "Ըստ Ֆարենհեյտի"
+
+#. Speed Unit
+#: ../gde2weather/gde2weather-pref.c:880
+msgid "_Wind speed unit:"
+msgstr "_Քամու արագության միավոր"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (speed_combo), _("Default"));
+#. TRANSLATOR: The wind speed unit "meters per second"
+#: ../gde2weather/gde2weather-pref.c:895
+msgid "m/s"
+msgstr "մ/վ"
+
+#. TRANSLATOR: The wind speed unit "kilometers per hour"
+#: ../gde2weather/gde2weather-pref.c:897
+msgid "km/h"
+msgstr "կմ/ժ"
+
+#. TRANSLATOR: The wind speed unit "miles per hour"
+#: ../gde2weather/gde2weather-pref.c:899
+msgid "mph"
+msgstr "մղոն/ժ"
+
+#. TRANSLATOR: The wind speed unit "knots"
+#: ../gde2weather/gde2weather-pref.c:901
+msgid "knots"
+msgstr "հանգույց"
+
+#: ../gde2weather/gde2weather-pref.c:902
+msgid "Beaufort scale"
+msgstr "Բեոֆորտյան սանդղակ"
+
+#. Pressure Unit
+#: ../gde2weather/gde2weather-pref.c:911
+msgid "_Pressure unit:"
+msgstr "_Ճնշման միավոր"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (pres_combo), _("Default"));
+#. TRANSLATOR: The pressure unit "kiloPascals"
+#: ../gde2weather/gde2weather-pref.c:926
+msgid "kPa"
+msgstr "ԿիլոՊասկալ"
+
+#. TRANSLATOR: The pressure unit "hectoPascals"
+#: ../gde2weather/gde2weather-pref.c:928
+msgid "hPa"
+msgstr "ՀեկտոՊասկալ"
+
+#. TRANSLATOR: The pressure unit "millibars"
+#: ../gde2weather/gde2weather-pref.c:930
+msgid "mb"
+msgstr "Միլիբար"
+
+#. TRANSLATOR: The pressure unit "millibars of mercury"
+#: ../gde2weather/gde2weather-pref.c:932
+msgid "mmHg"
+msgstr "Մմ սնդկիկի սյուն"
+
+#. TRANSLATOR: The pressure unit "inches of mercury"
+#: ../gde2weather/gde2weather-pref.c:934
+msgid "inHg"
+msgstr "Դույմ սնդիկի սյուն"
+
+#. TRANSLATOR: The pressure unit "atmospheres"
+#: ../gde2weather/gde2weather-pref.c:936
+msgid "atm"
+msgstr "ինֆորմացիայի փոխանցման ասիքրոն եղանակ (atm)"
+
+#. Distance Unit
+#: ../gde2weather/gde2weather-pref.c:945
+msgid "_Visibility unit:"
+msgstr "_ՏԵսանելիության միավոր"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (dist_combo), _("Default"));
+#. TRANSLATOR: The distance unit "meters"
+#: ../gde2weather/gde2weather-pref.c:960
+msgid "meters"
+msgstr "մետրեր"
+
+#. TRANSLATOR: The distance unit "kilometers"
+#: ../gde2weather/gde2weather-pref.c:962
+msgid "km"
+msgstr "Կմ"
+
+#. TRANSLATOR: The distance unit "miles"
+#: ../gde2weather/gde2weather-pref.c:964
+msgid "miles"
+msgstr "Մղոն"
+
+#: ../gde2weather/gde2weather-pref.c:990
+msgid "Enable _radar map"
+msgstr "Միացնել _ռադարային քարտեզը"
+
+#: ../gde2weather/gde2weather-pref.c:1006
+msgid "Use _custom address for radar map"
+msgstr "Գործարկողի հասցեն օգտագործել ռադարային քարտեզի համար"
+
+#: ../gde2weather/gde2weather-pref.c:1024
+msgid "A_ddress:"
+msgstr "Հասցե"
+
+#. setup show-notifications button
+#: ../gde2weather/gde2weather-pref.c:1039
+msgid "Show _notifications"
+msgstr "Ցույց տալ _ծանուցումները"
+
+#: ../gde2weather/gde2weather-pref.c:1049
+msgid "Update"
+msgstr "Նորացում"
+
+#: ../gde2weather/gde2weather-pref.c:1066
+msgid "minutes"
+msgstr "րոպեներ"
+
+#: ../gde2weather/gde2weather-pref.c:1084
+msgid "Display"
+msgstr "Պատկերում"
+
+#: ../gde2weather/gde2weather-pref.c:1103
+msgid "General"
+msgstr "Ընդհանուր"
+
+#: ../gde2weather/gde2weather-pref.c:1114
+msgid "_Select a location:"
+msgstr "_Ընտրեք հասցեն"
+
+#: ../gde2weather/gde2weather-pref.c:1140
+msgid "_Find:"
+msgstr "_Գտնել"
+
+#: ../gde2weather/gde2weather-pref.c:1146
+msgid "Find _Next"
+msgstr "Գտնել _հաջորդը"
+
+#: ../gde2weather/gde2weather-pref.c:1167
+msgid "Location"
+msgstr "Տեղադրությունը"
+
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:1
+msgid "Gde2weather Applet Factory"
+msgstr "Gde2 եղանակի Ապլետի Գործարան"
+
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:2
+msgid "Factory for creating the weather applet."
+msgstr "Եղանակի ապլետ ստեղծելու ֆաբրիկա։"
+
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:4
+msgid "Monitor the current weather conditions, and forecasts"
+msgstr "Հետևել ընթացիկ եղանակի տեսությանը և կանխատեսումներին"
+
+#: ../invest-applet/data/financialchart.ui.h:1
+#: ../invest-applet/invest/chart.py:118
+msgid "Financial Chart"
+msgstr "Ֆինանսական գծապատկեր"
+
+#: ../invest-applet/data/financialchart.ui.h:2
+msgid "_Ticker symbol: "
+msgstr "_Նշել սիմվոլը."
+
+#: ../invest-applet/data/financialchart.ui.h:3
+msgid "Auto _refresh"
+msgstr "Ավտոմատ թարմացում"
+
+#: ../invest-applet/data/financialchart.ui.h:4
+msgid "Today"
+msgstr "Այսօր"
+
+#: ../invest-applet/data/financialchart.ui.h:5
+msgid "5 Days"
+msgstr "5 օր"
+
+#: ../invest-applet/data/financialchart.ui.h:6
+msgid "3 Months"
+msgstr "3 ամիս"
+
+#: ../invest-applet/data/financialchart.ui.h:7
+msgid "6 Months"
+msgstr "6 ամիս"
+
+#: ../invest-applet/data/financialchart.ui.h:8
+msgid "1 Year"
+msgstr "1 տարի"
+
+#: ../invest-applet/data/financialchart.ui.h:9
+msgid "5 Years"
+msgstr "5 տարի"
+
+#: ../invest-applet/data/financialchart.ui.h:10
+msgid "Maximum"
+msgstr "Առավելագույն"
+
+#: ../invest-applet/data/financialchart.ui.h:11
+msgid "_Graph style: "
+msgstr "_Գրաֆիկի ոճը."
+
+#. see http://biz.yahoo.com/charts/guide11.html and
+#. http://en.wikipedia.org/wiki/Moving_average
+#: ../invest-applet/data/financialchart.ui.h:13
+msgid "Moving average: "
+msgstr "Փոփոխական միջին."
+
+#. see http://biz.yahoo.com/charts/guide12.html and
+#. http://en.wikipedia.org/wiki/Moving_average#Exponential_moving_average
+#: ../invest-applet/data/financialchart.ui.h:15
+msgid "Exponential moving average: "
+msgstr "Ցուցչային փոփոխական միջին "
+
+#: ../invest-applet/data/financialchart.ui.h:16
+msgid "5"
+msgstr "5"
+
+#: ../invest-applet/data/financialchart.ui.h:17
+msgid "10"
+msgstr "10"
+
+#: ../invest-applet/data/financialchart.ui.h:18
+msgid "20"
+msgstr "20"
+
+#: ../invest-applet/data/financialchart.ui.h:19
+msgid "50"
+msgstr "50"
+
+#: ../invest-applet/data/financialchart.ui.h:20
+msgid "100"
+msgstr "100"
+
+#: ../invest-applet/data/financialchart.ui.h:21
+msgid "200"
+msgstr "200"
+
+#. see http://en.wikipedia.org/wiki/Technical_analysis#Overlays
+#: ../invest-applet/data/financialchart.ui.h:23
+msgid "Overlays: "
+msgstr "Վերադրումներ՝"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide13.html and
+#. http://en.wikipedia.org/wiki/Bollinger_bands
+#: ../invest-applet/data/financialchart.ui.h:25
+msgid "Bollinger"
+msgstr "Պտտել"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide16.html and
+#. http://en.wikipedia.org/wiki/Parabolic_SAR
+#: ../invest-applet/data/financialchart.ui.h:27
+msgid "SAR"
+msgstr "SAR"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide6.html and
+#. http://en.wikipedia.org/wiki/Stock_split
+#: ../invest-applet/data/financialchart.ui.h:29
+msgid "Splits"
+msgstr "Բաժանումներ"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide20.html and
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:31
+msgid "Volumes"
+msgstr "Ձայնածավալ"
+
+#. see http://biz.yahoo.com/charts/guide10.html and
+#. http://en.wikipedia.org/wiki/Technical_indicator#Charting_terms_and_indicators
+#: ../invest-applet/data/financialchart.ui.h:33
+msgid "Indicators: "
+msgstr "Ցուցիչներ՝"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Relative_Strength_Index
+#: ../invest-applet/data/financialchart.ui.h:35
+msgid "RSI"
+msgstr "RSI"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:37
+msgid "Vol"
+msgstr "Vol"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Money_flow_index
+#: ../invest-applet/data/financialchart.ui.h:39
+msgid "MFI"
+msgstr "MFI"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Stochastic_oscillator
+#: ../invest-applet/data/financialchart.ui.h:41
+msgid "Slow stoch"
+msgstr "Դանդաղ stoch"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:43
+msgid "Vol+MA"
+msgstr "Vol+MA"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Rate_of_change_%28technical_analysis%29
+#: ../invest-applet/data/financialchart.ui.h:45
+msgid "ROC"
+msgstr "ROC"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Stochastic_oscillator
+#: ../invest-applet/data/financialchart.ui.h:47
+msgid "Fast stoch"
+msgstr "Արագ stoch"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Williams_%25R
+#: ../invest-applet/data/financialchart.ui.h:50
+#, no-c-format
+msgid "W%R"
+msgstr "W%R"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/MACD
+#: ../invest-applet/data/financialchart.ui.h:52
+msgid "MACD"
+msgstr "MACD"
+
+#: ../invest-applet/data/financialchart.ui.h:53
+msgid "Line"
+msgstr "Տող"
+
+#: ../invest-applet/data/financialchart.ui.h:54
+msgid "Bar"
+msgstr "Գծիկ"
+
+#: ../invest-applet/data/financialchart.ui.h:55
+msgid "Candle"
+msgstr "Մոմ"
+
+#: ../invest-applet/data/financialchart.ui.h:56
+msgid "Scale: "
+msgstr "Սանդղակ:"
+
+#: ../invest-applet/data/financialchart.ui.h:57
+msgid "Linear"
+msgstr "Գծային"
+
+#: ../invest-applet/data/financialchart.ui.h:58
+msgid "Logarithmic"
+msgstr "Լոգարիթմական"
+
+#: ../invest-applet/data/financialchart.ui.h:59
+msgid "_Options"
+msgstr "_Ընտրացանկ"
+
+#: ../invest-applet/data/financialchart.ui.h:60
+msgid "Downloading chart from <b>Yahoo!</b>"
+msgstr "Ներբեռնվող գծապատկեր <b>Yahoo!</b> – ից"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:1
+msgid "Invest Preferences"
+msgstr "Ներդնել նախընտրությունները"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:2
+msgid "label"
+msgstr "պիտակ"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:3
+msgid "Stocks"
+msgstr "Պաշարներ"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:4
+msgid ""
+"<i><small><b>Note:</b> Quotes are delayed at least 15 minutes.\n"
+"<b>Source: </b> Yahoo!</small></i>"
+msgstr "<i><small><b>Note:</b> Հարցումները հետաձգվում են առնվազն 15 րոպե։\n<b>սկզբնաղբյուր: </b> Yahoo!</small></i>"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:6
+msgid "Currency"
+msgstr "Արտարժույթ"
+
+#: ../invest-applet/invest/about.py:22
+msgid "Invest"
+msgstr "Ներդնել"
+
+#: ../invest-applet/invest/about.py:25
+msgid "Track your invested money."
+msgstr "հետագծե՛ք ներդրված գումարը"
+
+#. name, stock_id, label, accellerator, tooltip, callback
+#: ../invest-applet/invest/applet.py:28
+msgid "About"
+msgstr "Մասին"
+
+#: ../invest-applet/invest/applet.py:29 ../netspeed/src/netspeed.c:1418
+msgid "Help"
+msgstr "Օգնություն"
+
+#: ../invest-applet/invest/applet.py:30
+msgid "Preferences"
+msgstr "Հատկություններ"
+
+#: ../invest-applet/invest/applet.py:31
+msgid "Refresh"
+msgstr "Թարմացնել"
+
+#. a) We aren't configured yet
+#: ../invest-applet/invest/applet.py:63
+msgid "<b>You have not entered any stock information yet</b>"
+msgstr "<b>Պահեստային տեղեկություն դեռևս մուտքագրված չէ</b>"
+
+#: ../invest-applet/invest/applet.py:68
+msgid "<b>No stock quotes are currently available</b>"
+msgstr "<b>Պահեստային հարցումները այս պահին անհասանելի են</b>"
+
+#: ../invest-applet/invest/applet.py:69
+msgid ""
+"The server could not be contacted. The computer is either offline or the "
+"servers are down. Try again later."
+msgstr "Սերվերի հետ հնարավոր չէ կապ հաստատել։ Համակարգիչը համացանցից դուրս է կամ սերվերները չեն աշխատում։ Քիչ անց կրկին փորձե՛ք։"
+
+#: ../invest-applet/invest/chart.py:167
+#, python-format
+msgid "Financial Chart - %s"
+msgstr "Ֆինանսական գծապատկեր - %s"
+
+#: ../invest-applet/invest/chart.py:234
+msgid "Opening Chart"
+msgstr "Գծապատկերը բացում է"
+
+#: ../invest-applet/invest/chart.py:249
+msgid "Chart downloaded"
+msgstr "Գծապատկերը ներբեռնված է"
+
+#: ../invest-applet/invest/chart.py:251
+msgid "Chart could not be downloaded"
+msgstr "Գծապատկերը հնարավոր չէ ներբռնել"
+
+#: ../invest-applet/invest/invest-applet.py:44
+msgid "Invest Applet"
+msgstr "Ներդրման ապլետ"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Symbol"
+msgstr "Խորհրդանիշ"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Label"
+msgstr "Պիտակ"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Amount"
+msgstr "Քանակ"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Price"
+msgstr "Արժեք"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Commission"
+msgstr "Հանձնաժողով"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Currency Rate"
+msgstr "Տարադրամի փոխարժեք"
+
+#: ../invest-applet/invest/quotes.py:171
+msgid "Invest could not connect to Yahoo! Finance"
+msgstr "Ներդրվածը չի կարող կապ հաստատել Yahoo–ի հետ. ֆինանսավորում"
+
+#. Translators: This is share-market jargon. It is the average percentage
+#. change of all stock prices. The %s gets replaced with the string value of
+#. the change (localized), including the percent sign.
+#: ../invest-applet/invest/quotes.py:213
+#, python-format
+msgid "Average change: %s"
+msgstr "Միջին փոփոխություն: %s"
+
+#. Translators: This is share-market jargon. It refers to the total difference
+#. between the current price and purchase price for all the shares put
+#. together for a particular currency. i.e. How much money would be earned if
+#. they were sold right now. The first string is the change value, the second
+#. the currency, and the third value is the percentage of the change,
+#. formatted using user's locale.
+#: ../invest-applet/invest/quotes.py:222
+#, python-format
+msgid "Positions balance: %s %s (%s)"
+msgstr "Դիրքերի հավասարակշռություն: %s %s (%s)"
+
+#: ../invest-applet/invest/quotes.py:224
+#, python-format
+msgid "Updated at %s"
+msgstr "Թարմացված %s"
+
+#. model: SYMBOL, LABEL, TICKER_ONLY, BALANCE, BALANCE_PCT, VALUE,
+#. VARIATION_PCT, PB
+#. Translators: these words all refer to a stock. Last is short
+#. for "last price". Gain is referring to the gain since the
+#. stock was purchased.
+#: ../invest-applet/invest/widgets.py:59
+msgid "Ticker"
+msgstr "Թիկեր"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Last"
+msgstr "Վերջին"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Change %"
+msgstr "Փոփոխություն %"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Chart"
+msgstr "Գծապատկեր"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Gain"
+msgstr "Աճ"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Gain %"
+msgstr "Աճ %"
+
+#: ../multiload/main.c:64
+msgid ""
+"A system load monitor capable of displaying graphs for CPU, ram, and swap "
+"space use, plus network traffic."
+msgstr "Համակարգի ստուգման ծրագիրը հնարավորություն ունի պատկերել պրոցեսորի բեռնման, հիշողության, փոխանակման տարածքի օգտագործման և ցանցի բեռնման գրաֆիկներ"
+
+#: ../multiload/main.c:127
+msgid "Start system-monitor"
+msgstr "Սկսել Համակարգի ստուգումը"
+
+#: ../multiload/main.c:148
+#, c-format
+msgid "There was an error executing '%s': %s"
+msgstr "Սխալ է կատարվել  '%s': %s–ը կատարելու ընթացքում"
+
+#: ../multiload/main.c:276 ../multiload/properties.c:604
+msgid "Processor"
+msgstr "Պրոցեսոր"
+
+#: ../multiload/main.c:278 ../multiload/properties.c:612
+msgid "Memory"
+msgstr "Հիշողություն"
+
+#: ../multiload/main.c:280 ../multiload/properties.c:620
+msgid "Network"
+msgstr "Ցանց"
+
+#: ../multiload/main.c:282 ../multiload/properties.c:627
+msgid "Swap Space"
+msgstr "Փոխանակման տարածք"
+
+#: ../multiload/main.c:284 ../multiload/main.c:363
+msgid "Load Average"
+msgstr "Միջին բեռնում"
+
+#: ../multiload/main.c:286
+msgid "Disk"
+msgstr "Դիսկ"
+
+#. xgettext: use and cache are > 1 most of the time,
+#. please assume that they always are.
+#: ../multiload/main.c:302
+#, c-format
+msgid ""
+"%s:\n"
+"%u%% in use by programs\n"
+"%u%% in use as cache"
+msgstr "%s:\n%u% %–ը օգտագործվում է ծրագրերով\n%u%%–ը որպես հիշողություն"
+
+#: ../multiload/main.c:310
+#, c-format
+msgid "The system load average is %0.02f"
+msgstr "Համակարգի միջին բեռնումն է %0.02f"
+
+#. xgettext: same as in graphic tab of g-s-m
+#: ../multiload/main.c:318
+#, c-format
+msgid ""
+"%s:\n"
+"Receiving %s\n"
+"Sending %s"
+msgstr "%s:\nՍտացվող %s\nՈւղղարկվող %s"
+
+#: ../multiload/main.c:334
+#, c-format
+msgid ""
+"%s:\n"
+"%u%% in use"
+msgid_plural ""
+"%s:\n"
+"%u%% in use"
+msgstr[0] "%s:\n%u%% օգտագործվում է"
+msgstr[1] "%s:\n%u%% օգտագործվում է"
+
+#: ../multiload/main.c:359
+msgid "CPU Load"
+msgstr "Պրոցեսորի բեռնում"
+
+#: ../multiload/main.c:360
+msgid "Memory Load"
+msgstr "Հիշողության բեռնում"
+
+#: ../multiload/main.c:361
+msgid "Net Load"
+msgstr "Ցանցի գրաֆիկ"
+
+#: ../multiload/main.c:362
+msgid "Swap Load"
+msgstr "Փոխանակության բեռ"
+
+#: ../multiload/main.c:364
+msgid "Disk Load"
+msgstr "Դիսկի բեռնում"
+
+#: ../multiload/main.c:460
+msgid "_Open System Monitor"
+msgstr "Բացել համակարգի ստուգում ծրագիրը"
+
+#: ../multiload/main.c:488
+#: ../multiload/org.gde2.applets.MultiLoadApplet.gde2-panel-applet.in.in.h:1
+msgid "System Monitor"
+msgstr "Համակարգի ստուգում"
+
+#: ../multiload/netspeed.c:40
+#, c-format
+msgid "%s/s"
+msgstr "%s/s"
+
+#: ../multiload/org.gde2.applets.MultiLoadApplet.gde2-panel-applet.in.in.h:2
+msgid "A system load indicator"
+msgstr "Համակարգի բեռնման ցուցիչ"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:1
+msgid "Enable CPU load graph"
+msgstr "Միացնել պրոցեսորի ծանրաբեռնվածության գրաֆիկը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:2
+msgid "Enable memory load graph"
+msgstr "Միացնել հիշողության ծանրաբեռնվածության գրաֆիկը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:3
+msgid "Enable network load graph"
+msgstr "Միացնել ցանցի ծանրաբեռնվածության գրաֆիկը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:4
+msgid "Enable swap load graph"
+msgstr "Միացնել փոխանակման ծանրաբեռնվածության գրաֆիկը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:5
+msgid "Enable load average graph"
+msgstr "Միացնել ծանրաբեռնվածության միջին գրաֆիկը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:6
+msgid "Enable disk load graph"
+msgstr "Միացնել սկավառակի ծանրաբեռնվածության գրաֆիկը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:7
+msgid "Applet refresh rate in milliseconds"
+msgstr "Ապլետի նորացման հաճախականությունը միլի վայրկյաններում"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:8
+msgid "Graph size"
+msgstr "Գրաֆիկի չափը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:9
+msgid ""
+"For horizontal panels, the width of the graphs in pixels. For vertical "
+"panels, this is the height of the graphs."
+msgstr "Հորիզոնական պանելի համար, գրաֆիկի լայնությունը պիքսելներով։ Ուղղահայաց պանելի համար, գրաֆիկի բարձրությունը։"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:10
+msgid "Graph color for user-related CPU activity"
+msgstr "Գրաֆիկի գույնը պրոցեսորի գործարկողի հետ առնչվող գործունեությունը պատկերելու համար"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:11
+msgid "Graph color for system-related CPU activity"
+msgstr "Գրաֆիկի գույնը պրոցեսորի՝ համակարգի հետ առնչվող գործունեությունը պատկերելու համար"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:12
+msgid "Graph color for nice-related CPU activity"
+msgstr "Գրաֆիկի գույնը պրոցեսորի՝ nice–ի հետ առնչվող գործունեության համար "
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:13
+msgid "Graph color for iowait related CPU activity"
+msgstr "Գրաֆիկի գույնը պրոցեսորի iowait–ի հետ առնչվող գործունեությունը պատկերելու համար"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:14
+msgid "CPU graph background color"
+msgstr "Պրոցեսորի գրաֆիկի ֆոնի գույնը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:15
+msgid "Graph color for user-related memory usage"
+msgstr "Գրաֆիկի գույնը գործարկողի կողմից օգտագործվող հիշողությունը պատկերելու համար"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:16
+msgid "Graph color for shared memory"
+msgstr "Գրաֆիկի գույնը առանձնացված հիշողությունը պատկերելու համար"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:17
+msgid "Graph color for buffer memory"
+msgstr "Բուֆերային հիշողության գրաֆիկի գույնը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:18
+msgid "Graph color for cached memory"
+msgstr "Պահված հիշողության պատկերման գրաֆիկի գույնը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:19
+msgid "Memory graph background color"
+msgstr "ՀԻշողության գրաֆիկի ֆոնի գույնը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:20
+msgid "Graph color for input network activity"
+msgstr "Մուտքային ցանցի գործունեության գրաֆիկի գույնը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:21
+msgid "Graph color for output network activity"
+msgstr "Ելքային ցանցի գործունեության գրաֆիկի գույնը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:22
+msgid "Graph color for loopback network usage"
+msgstr "Գրաֆիկի գույնը ցանցի այլ օգտագործման համար"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:23
+msgid "Network graph background color"
+msgstr "Ցանցի գրաֆիկի ֆոնի գույնը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:24
+msgid "Graph color for user-related swap usage"
+msgstr "Գրաֆիկի գույնը գործարկողի կողմից փոխանակման ծրագրի օգտագործումը պատկերելու համար"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:25
+msgid "Swap graph background color"
+msgstr "Փոխանակային ծրագրի ֆոնի գույնը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:26
+msgid "Graph color for load average"
+msgstr "Գրաֆիկի գույնը միջին բեռի պատկերման համար"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:27
+msgid "Load graph background color"
+msgstr "Բեռնել գրաֆիկի ֆոնի գույնը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:28
+msgid "Graph color for disk read"
+msgstr "Սկավառակը կարդալու գրակիֆի գույնը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:29
+msgid "Graph color for disk write"
+msgstr "Գրաֆիկի գույնը դիսկը ձայնագրելու համար"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:30
+msgid "Background color for disk load graph"
+msgstr "Սկավառակիկի ծանրաբեռնվածության գրաֆիկի ֆոնի գույնը"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:31
+msgid "The desktop description file to execute as the system monitor"
+msgstr "Աշխատանքային սեղանի նկարագրական ֆայլը ձևակերպել որպես համակարգային ցուցասարք"
+
+#: ../multiload/properties.c:338
+msgid "Monitored Resources"
+msgstr "Ստուգվող ռեսուրսներ"
+
+#: ../multiload/properties.c:367
+msgid "_Processor"
+msgstr "Պրոցեսոր"
+
+#: ../multiload/properties.c:380
+msgid "_Memory"
+msgstr "Հիշողություն"
+
+#: ../multiload/properties.c:393
+msgid "_Network"
+msgstr "Ցանց"
+
+#: ../multiload/properties.c:406
+msgid "S_wap Space"
+msgstr "Փոխանակության տարածք"
+
+#: ../multiload/properties.c:419
+msgid "_Load"
+msgstr "Բեռնում"
+
+#: ../multiload/properties.c:432
+msgid "_Harddisk"
+msgstr "Ամուր դիսկ"
+
+#: ../multiload/properties.c:447
+msgid "Options"
+msgstr "Տարբերակներ"
+
+#: ../multiload/properties.c:481
+msgid "System m_onitor width: "
+msgstr "Համակարգի մոնիտորի լայնությունը"
+
+#: ../multiload/properties.c:483
+msgid "System m_onitor height: "
+msgstr "Համակարգի մոնիտորի բարձրությունը"
+
+#: ../multiload/properties.c:518
+msgid "pixels"
+msgstr "պիքսել"
+
+#: ../multiload/properties.c:530
+msgid "Sys_tem monitor update interval: "
+msgstr "Համակարգի մոնիտորի նորացման արագություն"
+
+#: ../multiload/properties.c:560
+msgid "milliseconds"
+msgstr "Միլի վայրկյաններ"
+
+#: ../multiload/properties.c:575
+msgid "Colors"
+msgstr "Գույներ"
+
+#: ../multiload/properties.c:606 ../multiload/properties.c:614
+msgid "_User"
+msgstr "Գործարկող"
+
+#: ../multiload/properties.c:607
+msgid "S_ystem"
+msgstr "Համակարգ"
+
+#: ../multiload/properties.c:608
+msgid "N_ice"
+msgstr "Առաջնայնություն"
+
+#: ../multiload/properties.c:609
+msgid "I_OWait"
+msgstr "I_OWait"
+
+#: ../multiload/properties.c:610
+msgid "I_dle"
+msgstr "Պարապուրդ"
+
+#: ../multiload/properties.c:615
+msgid "Sh_ared"
+msgstr "Տարանջատված"
+
+#: ../multiload/properties.c:616
+msgid "_Buffers"
+msgstr "Բուֆերներ"
+
+#: ../multiload/properties.c:617
+msgid "Cach_ed"
+msgstr "Հիշողություն"
+
+#: ../multiload/properties.c:618
+msgid "F_ree"
+msgstr "Ազատ"
+
+#: ../multiload/properties.c:622
+msgid "_In"
+msgstr "_Մեջ"
+
+#: ../multiload/properties.c:623
+msgid "_Out"
+msgstr "_Դուրս"
+
+#: ../multiload/properties.c:624
+msgid "_Local"
+msgstr "_Տեղային"
+
+#: ../multiload/properties.c:625 ../multiload/properties.c:635
+#: ../multiload/properties.c:641
+msgid "_Background"
+msgstr "Ֆոն"
+
+#: ../multiload/properties.c:629
+msgid "_Used"
+msgstr "Օգտագործված"
+
+#: ../multiload/properties.c:630
+msgid "_Free"
+msgstr "Ազատ"
+
+#: ../multiload/properties.c:632
+msgid "Load"
+msgstr "Բեռնում"
+
+#: ../multiload/properties.c:634
+msgid "_Average"
+msgstr "Միջին"
+
+#: ../multiload/properties.c:637
+msgid "Harddisk"
+msgstr "Ամուր դիսկ"
+
+#: ../multiload/properties.c:639
+msgid "_Read"
+msgstr "Ընթերցում"
+
+#: ../multiload/properties.c:640
+msgid "_Write"
+msgstr "Գրել"
+
+#: ../multiload/properties.c:665
+msgid "System Monitor Preferences"
+msgstr "Համակարգի մոնիտորի պարամետրեր"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:1
+msgid "Device to monitor"
+msgstr "Սարքերի վերահսկում"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:2
+msgid "The name of the device to monitor"
+msgstr "Վերահսկող սարքի անունը"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:3
+msgid "Show sum speed"
+msgstr "Ցույց տալ գումարային արագությունը"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:4
+msgid "If true, show sum of inbound/outbound speed instead of separated ones."
+msgstr "Եթե ճիշտ է, ցույց տալ մուտքյին/ելքային արագությունների գումաը առանձնացվածների փոխարեն։"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:5
+msgid "Show bits"
+msgstr "Ցույց տալ բիթերը"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:6
+msgid "If true, show speed in bits instead of bytes."
+msgstr "Եթե ճիշտ է, ցույց տալ արագությունը բիթերով բայտերի փոխարեն։"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:8
+msgid "If true, show main icon."
+msgstr "Եթե ճիշտ է, ցույց տալ հիմնական պատկերակը:"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:9
+msgid "Short unit legend"
+msgstr "Կարճ միավորի պարզաբանագիր"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:10
+msgid ""
+"If true, shorten unit legend to one letter: lowercase for bits / uppercase "
+"for Bytes."
+msgstr "Եթե ճիշտ է, ապա կրճատել լեգենդի միավորի մեկ տառը․ բիթերի համար փոքրատառ/ բայթերի համար մեծատառ "
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:11
+msgid "Change icon"
+msgstr "Փոխել պատկերանշանը"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:12
+msgid "If true, change the icon due to selected device."
+msgstr "Եթե ճիշտ է, ապա փոխել պատկերանշանը ընտրված սարքի շնորհիվ։"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:13
+msgid "Auto change device"
+msgstr "Սարքի ինքնափոփոխում"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:14
+msgid "If true, change automatically the selected device."
+msgstr "Եթե ճիշտ է, ապա ինքնաբերաբար փոխել ընտրված սարքը։"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:15
+msgid "In color"
+msgstr "Գույնի մեջ"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:16
+msgid "The color of the graph of the inbound traffic"
+msgstr "Ներգնա երթևեկության գրաֆիկի գույնը"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:17
+msgid "Out color"
+msgstr "Գույնից դուրս"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:18
+msgid "The color of the graph of the outbound traffic"
+msgstr "ՈՒղեվորվող երթևեկության գրաֆիկի գույնը"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:19
+msgid "Up command"
+msgstr "Վերին հրաման"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:20
+msgid "Command the execute to activate the device"
+msgstr "Կատարել սարքի ակտիվացման հարամանը"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:21
+msgid "Down command"
+msgstr "Ներքևի հրաման"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:22
+msgid "Command the execute to shut down the device"
+msgstr "Կատարել սարքի աշխատանքի դադարեցման հրամանը"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:23
+msgid "Show signal quality icon"
+msgstr "Ցույց տալ ազդանշանի որակի պատկերանշանը"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:24
+msgid "If true, show signal quality icon for wireless devices."
+msgstr "Եթե ճիշտ է, ցույց տալ ազդանշանի որակի պատկերանշանը անլար սարքերի համար։"
+
+#: ../netspeed/data/org.gde2.applets.NetspeedApplet.gde2-panel-applet.in.in.h:1
+msgid "Netspeed Applet Factory"
+msgstr "Արագության ապլետի Գործարան"
+
+#: ../netspeed/data/org.gde2.applets.NetspeedApplet.gde2-panel-applet.in.in.h:2
+msgid "Netspeed Applet"
+msgstr "Արագության Ապլետ"
+
+#: ../netspeed/data/org.gde2.applets.NetspeedApplet.gde2-panel-applet.in.in.h:3
+msgid "Network Monitor"
+msgstr "Ցանցի Մոնիտոր"
+
+#. translators: bits (short)
+#: ../netspeed/src/netspeed.c:394
+msgid "b"
+msgstr "b"
+
+#. translators: Bytes (short)
+#: ../netspeed/src/netspeed.c:394
+msgid "B"
+msgstr "B"
+
+#: ../netspeed/src/netspeed.c:396
+msgid "b/s"
+msgstr "բ/վ"
+
+#: ../netspeed/src/netspeed.c:396
+msgid "B/s"
+msgstr "Բ/վ"
+
+#: ../netspeed/src/netspeed.c:399
+msgid "bits"
+msgstr "բիթեր"
+
+#: ../netspeed/src/netspeed.c:399
+msgid "bytes"
+msgstr "բայթեր"
+
+#. translators: kilobits (short)
+#: ../netspeed/src/netspeed.c:407
+msgid "k"
+msgstr "կ"
+
+#. translators: Kilobytes (short)
+#: ../netspeed/src/netspeed.c:407
+msgid "K"
+msgstr "K"
+
+#: ../netspeed/src/netspeed.c:409
+msgid "kb/s"
+msgstr "կբ/վ"
+
+#: ../netspeed/src/netspeed.c:409
+msgid "KiB/s"
+msgstr "ԿԲ/վ"
+
+#: ../netspeed/src/netspeed.c:412
+msgid "kb"
+msgstr "կբ"
+
+#: ../netspeed/src/netspeed.c:412
+msgid "KiB"
+msgstr "ԿԲ"
+
+#. translators: megabits (short)
+#: ../netspeed/src/netspeed.c:422
+msgid "m"
+msgstr "մ"
+
+#. translators: Megabytes (short)
+#: ../netspeed/src/netspeed.c:422
+msgid "M"
+msgstr "Մ"
+
+#: ../netspeed/src/netspeed.c:424
+msgid "Mb/s"
+msgstr "Մբ/վ"
+
+#: ../netspeed/src/netspeed.c:424
+msgid "MiB/s"
+msgstr "ՄիԲ/վ"
+
+#: ../netspeed/src/netspeed.c:427
+msgid "Mb"
+msgstr "Մբ"
+
+#: ../netspeed/src/netspeed.c:427
+msgid "MiB"
+msgstr "ՄիԲ"
+
+#: ../netspeed/src/netspeed.c:769
+#, c-format
+msgid ""
+"There was an error displaying help:\n"
+"%s"
+msgstr "Օգնության ցուցադրման ժամանակ սխալ է տեղի ունեցել․\n%s"
+
+#: ../netspeed/src/netspeed.c:813
+msgid ""
+"A little applet that displays some information on the traffic on the "
+"specified network device"
+msgstr "Փոքր ենթածրագիրը ցուցադրում է որոշ տեղեկություններ նշված ցանցային սարքերի երթևեկության վերաբերյալ։"
+
+#: ../netspeed/src/netspeed.c:974
+msgid "Gde2 Netspeed Preferences"
+msgstr "Gde2 Netspeed Հատկությունները"
+
+#: ../netspeed/src/netspeed.c:996
+msgid "General Settings"
+msgstr "Հիմնական Պարամետրեր"
+
+#: ../netspeed/src/netspeed.c:1022
+msgid "Network _device:"
+msgstr "Ցանցի _սարքեր։"
+
+#. Default means device with default route set
+#: ../netspeed/src/netspeed.c:1038
+msgid "Default"
+msgstr "Հիմնական"
+
+#: ../netspeed/src/netspeed.c:1051
+msgid "Show _sum instead of in & out"
+msgstr "Ցույց տալ գումարը & ելքի փոխարեն"
+
+#: ../netspeed/src/netspeed.c:1055
+msgid "Show _bits instead of bytes"
+msgstr "Ցույց տալ բիթերը բայթերի փոխարեն"
+
+#: ../netspeed/src/netspeed.c:1059
+msgid "Shorten _unit legend"
+msgstr "Կրճատել _միավոր լեգենդը"
+
+#: ../netspeed/src/netspeed.c:1063
+msgid "_Change icon according to the selected device"
+msgstr "Փոխել պատկերակը համաձայն ընտրված սարքի"
+
+#: ../netspeed/src/netspeed.c:1067
+msgid "Show _icon"
+msgstr "Ցույց տալ _պատկերանշանը"
+
+#: ../netspeed/src/netspeed.c:1071
+msgid "Show signal _quality icon for wireless devices"
+msgstr "Ցույց տալ ազդանշանի որակի պատկերանշանը անլար սարքերի համար"
+
+#: ../netspeed/src/netspeed.c:1202
+#, c-format
+msgid "Device Details for %s"
+msgstr "Սարքի Մանրամասներ %s համար"
+
+#: ../netspeed/src/netspeed.c:1227
+msgid "_In graph color"
+msgstr "_Գրաֆիկի մուտքի գույն"
+
+#: ../netspeed/src/netspeed.c:1228
+msgid "_Out graph color"
+msgstr "_Գրաֆիկի ելքի գույն"
+
+#: ../netspeed/src/netspeed.c:1244
+msgid "Internet Address:"
+msgstr "Ինտերնետ Հասցե:"
+
+#: ../netspeed/src/netspeed.c:1245
+msgid "Netmask:"
+msgstr "Netmask:"
+
+#: ../netspeed/src/netspeed.c:1246
+msgid "Hardware Address:"
+msgstr "Ապարատային ապահովման հասցեն։"
+
+#: ../netspeed/src/netspeed.c:1247
+msgid "P-t-P Address:"
+msgstr "P-t-P Հասցե։"
+
+#: ../netspeed/src/netspeed.c:1248
+msgid "Bytes in:"
+msgstr "Մուտքի բայթեր։"
+
+#: ../netspeed/src/netspeed.c:1249
+msgid "Bytes out:"
+msgstr "Ելքի բայթերը։"
+
+#: ../netspeed/src/netspeed.c:1251 ../netspeed/src/netspeed.c:1252
+#: ../netspeed/src/netspeed.c:1253 ../netspeed/src/netspeed.c:1254
+msgid "none"
+msgstr "չկա"
+
+#: ../netspeed/src/netspeed.c:1320
+msgid "IPV6 Address:"
+msgstr "IPV6 Հասցեն։"
+
+#: ../netspeed/src/netspeed.c:1359
+msgid "Signal Strength:"
+msgstr "Ազդանշանի ՈՒժգնություն:"
+
+#: ../netspeed/src/netspeed.c:1360
+msgid "ESSID:"
+msgstr "ESSID:"
+
+#: ../netspeed/src/netspeed.c:1414
+msgid "Device _Details"
+msgstr "Սարքի _Մանրամասներ"
+
+#: ../netspeed/src/netspeed.c:1416
+msgid "Preferences..."
+msgstr "Հատկություններ․․․"
+
+#: ../netspeed/src/netspeed.c:1420
+msgid "About..."
+msgstr "Մասին․․․"
+
+#: ../netspeed/src/netspeed.c:1461
+#, c-format
+msgid "Do you want to disconnect %s now?"
+msgstr "Ցանկանում եք անջատել %s հիմա՞"
+
+#: ../netspeed/src/netspeed.c:1465
+#, c-format
+msgid "Do you want to connect %s now?"
+msgstr "Ցանկանում եք միացնել %s հիմա՞"
+
+#: ../netspeed/src/netspeed.c:1492
+#, c-format
+msgid ""
+"<b>Running command %s failed</b>\n"
+"%s"
+msgstr "<b>Գործարվող հրամանը %s ձախողվեց</b> \n%s"
+
+#: ../netspeed/src/netspeed.c:1551
+#, c-format
+msgid "%s is down"
+msgstr "%s ներքև է"
+
+#: ../netspeed/src/netspeed.c:1556
+#, c-format
+msgid ""
+"%s: %s\n"
+"in: %s out: %s"
+msgstr "%s: %s\nմեջ: %s դուրս: %s"
+
+#: ../netspeed/src/netspeed.c:1558 ../netspeed/src/netspeed.c:1567
+msgid "has no ip"
+msgstr "չունի IP"
+
+#: ../netspeed/src/netspeed.c:1565
+#, c-format
+msgid ""
+"%s: %s\n"
+"sum: %s"
+msgstr "%s: %s\nգումար: %s"
+
+#: ../netspeed/src/netspeed.c:1574
+#, c-format
+msgid ""
+"\n"
+"ESSID: %s\n"
+"Strength: %d %%"
+msgstr "\nESSID: %s\nԱմրություն։ %d %%"
+
+#: ../netspeed/src/netspeed.c:1575
+msgid "unknown"
+msgstr "անհայտ"
+
+#: ../netspeed/src/netspeed.c:1626
+msgid "Gde2 Netspeed"
+msgstr "Gde2 Netspeed"
+
+#: ../stickynotes/org.gde2.applets.StickyNotesApplet.gde2-panel-applet.in.in.h:1
+msgid "Sticky Notes Applet Factory"
+msgstr "Կպչուն գրառումների ապլետ ֆաբրիկա"
+
+#: ../stickynotes/org.gde2.applets.StickyNotesApplet.gde2-panel-applet.in.in.h:2
+#: ../stickynotes/stickynotes_applet.c:163
+#: ../stickynotes/stickynotes_applet.c:405
+msgid "Sticky Notes"
+msgstr "Կպչուն գրառումներ"
+
+#: ../stickynotes/org.gde2.applets.StickyNotesApplet.gde2-panel-applet.in.in.h:3
+msgid "Create, view, and manage sticky notes on the desktop"
+msgstr "Էկրանի վրա կերտում, դիտում և կպչուն գրառումների կառավարում "
+
+#: ../stickynotes/stickynotes.c:690
+msgid "This note is locked."
+msgstr "Այս գրառումը արգելափակված է"
+
+#: ../stickynotes/stickynotes.c:694
+msgid "This note is unlocked."
+msgstr "Այս գրառումը վերաբացված է"
+
+#: ../stickynotes/stickynotes.ui.h:1 ../stickynotes/stickynotes_applet.c:33
+msgid "_New Note"
+msgstr "Նոր գրառումներ"
+
+#: ../stickynotes/stickynotes.ui.h:2
+msgid "_Delete Note..."
+msgstr "_Հեռացնել գրառումը..."
+
+#: ../stickynotes/stickynotes.ui.h:3
+msgid "_Lock Note"
+msgstr "_Արգելափակել Գրառումը"
+
+#: ../stickynotes/stickynotes.ui.h:4
+msgid "_Properties"
+msgstr "Հատկանիշներ"
+
+#: ../stickynotes/stickynotes.ui.h:5
+msgid "Sticky Notes Preferences"
+msgstr "Կպչուն գրառման պարամետրերը"
+
+#: ../stickynotes/stickynotes.ui.h:6
+msgid "Default Note Properties"
+msgstr "Գրառումների հաստատուն հատկանիշներ"
+
+#: ../stickynotes/stickynotes.ui.h:7
+msgid "Choose a font to use for all sticky notes"
+msgstr "Ընտրեք բոլոր կպչուն գրառումների տառատեսակը"
+
+#: ../stickynotes/stickynotes.ui.h:8
+msgid "Pick a default sticky note font"
+msgstr "Ընտրեք կպչուն գրառման հիմնական տառատեսակ"
+
+#: ../stickynotes/stickynotes.ui.h:9
+msgid "_Font:"
+msgstr "_Տառատեսակ"
+
+#: ../stickynotes/stickynotes.ui.h:10
+msgid "Use fo_nt from the system theme"
+msgstr "Օգտագործել համակարգային թեմայի տառատեսակը"
+
+#: ../stickynotes/stickynotes.ui.h:11
+msgid "Note C_olor:"
+msgstr "Գրառման գույնը."
+
+#: ../stickynotes/stickynotes.ui.h:12
+msgid "Font Co_lor:"
+msgstr "Տառատեսակի գույնը."
+
+#: ../stickynotes/stickynotes.ui.h:13
+msgid "Choose a base color to use for all sticky notes"
+msgstr "Ընտրեք բոլոր կպչուն գրառումների համար օգտագործվող գույնը"
+
+#: ../stickynotes/stickynotes.ui.h:14
+msgid "Pick a default sticky note color"
+msgstr "Ընտրեք կպչուն գրառման հիմնական գույնը"
+
+#: ../stickynotes/stickynotes.ui.h:15
+msgid "Use co_lor from the system theme"
+msgstr "Օգտագործել համակարգային թեմայի գույնը"
+
+#: ../stickynotes/stickynotes.ui.h:16
+msgid "Specify the default height (in pixels) of new notes"
+msgstr "Նշեք նոր գրառումների հիմնական բարձրությունը պիքսելներով"
+
+#: ../stickynotes/stickynotes.ui.h:17
+msgid "Specify the default width (in pixels) of new notes"
+msgstr "Նշեք նոր գրառումների հիմնական լայնությունը պիկքելներով"
+
+#: ../stickynotes/stickynotes.ui.h:18
+msgid "H_eight:"
+msgstr "Բարձրություն"
+
+#: ../stickynotes/stickynotes.ui.h:19
+msgid "_Width:"
+msgstr "_Լայնք՝"
+
+#: ../stickynotes/stickynotes.ui.h:20
+msgid "Behavior"
+msgstr "Վարքագիծ"
+
+#: ../stickynotes/stickynotes.ui.h:21
+msgid "Hide notes when the des_ktop is clicked on"
+msgstr "Թաքցնել նշումները երբ աշխատասեղանին վրա կտտացրվել է"
+
+#: ../stickynotes/stickynotes.ui.h:22
+msgid "Choose whether to hide all notes when selecting on the desktop"
+msgstr "Ընտրել, թե արդյոք պետք է թաքցնել բոլոր նշումները, երբ ընտր ում է աշխատասեղանի վրա"
+
+#: ../stickynotes/stickynotes.ui.h:23
+msgid "Force _default color and font on notes"
+msgstr "Բոլոր գրառումների համար օգտագործել հիմնական գույն և տառատեսակ"
+
+#: ../stickynotes/stickynotes.ui.h:24
+msgid "Choose if the default style is forced on all notes"
+msgstr "Ստուգեք արդյո՞ք հիմնական ընտրությունը կիրառվել է բոլոր գրառումների համար"
+
+#: ../stickynotes/stickynotes.ui.h:25
+msgid "_Put notes on all workspaces"
+msgstr "Գրառումները տեղադրել բոլոր աշխատանքային տարածքներում"
+
+#: ../stickynotes/stickynotes.ui.h:26
+msgid "Choose if notes are visible on all workspaces"
+msgstr "Գրառումները ցույցադրել բոլոր աշխատանքային տարածքներում"
+
+#: ../stickynotes/stickynotes.ui.h:27
+msgid "Delete this sticky note?"
+msgstr "Ջնջե՞լ կպչուն գրառումը։"
+
+#: ../stickynotes/stickynotes.ui.h:28
+msgid "This cannot be undone."
+msgstr "Չի կարող ետ բերել։"
+
+#: ../stickynotes/stickynotes.ui.h:29
+msgid "Delete all sticky notes?"
+msgstr "Ջնջե՞լ բոլոր կպչուն գրառումները։"
+
+#: ../stickynotes/stickynotes.ui.h:30
+msgid "_Delete All"
+msgstr "Ամբողջը հեռացնել"
+
+#: ../stickynotes/stickynotes.ui.h:31
+msgid "Sticky Note"
+msgstr "Կպչուն գրառում"
+
+#: ../stickynotes/stickynotes.ui.h:32
+msgid "Lock/Unlock note"
+msgstr "Գրառումը բացել/փակել"
+
+#: ../stickynotes/stickynotes.ui.h:33
+msgid "Delete note"
+msgstr "Հեռացնել գրառումը"
+
+#: ../stickynotes/stickynotes.ui.h:34
+msgid "Resize note"
+msgstr "Փոփոխել գրառման չափսերը"
+
+#: ../stickynotes/stickynotes.ui.h:35
+msgid "Sticky Note Properties"
+msgstr "Կպչուն գրառման հատկությունները"
+
+#: ../stickynotes/stickynotes.ui.h:36
+msgid "Properties"
+msgstr "Հատկանիշներ"
+
+#: ../stickynotes/stickynotes.ui.h:37
+msgid "Choose a font for the note"
+msgstr "Ընտրեք գրառման տառատեսակը"
+
+#: ../stickynotes/stickynotes.ui.h:38
+msgid "Pick a font for the sticky note"
+msgstr "Ընտրեք կպչուն գրառման տառատեսակ"
+
+#: ../stickynotes/stickynotes.ui.h:39
+msgid "Use default fo_nt"
+msgstr "Օգտագործել հիմնական տառատեսակ"
+
+#: ../stickynotes/stickynotes.ui.h:40
+msgid "Choose a color for the note"
+msgstr "Ընտրեք գրառման գույնը"
+
+#: ../stickynotes/stickynotes.ui.h:41
+msgid "Pick a color for the sticky note"
+msgstr "Ընտրեք կպչուն գրառման գույնը"
+
+#: ../stickynotes/stickynotes.ui.h:42
+msgid "Note _Color:"
+msgstr "Գրառման գույնը."
+
+#: ../stickynotes/stickynotes.ui.h:43
+msgid "Font C_olor:"
+msgstr "Տառատեսակի գույնը"
+
+#: ../stickynotes/stickynotes.ui.h:44
+msgid "Use default co_lor"
+msgstr "Օգտագործել հիմնական գույն"
+
+#: ../stickynotes/stickynotes.ui.h:45
+msgid "Specify a title for the note"
+msgstr "Նշեք գրառման վերնագիրը"
+
+#: ../stickynotes/stickynotes.ui.h:46
+msgid "_Title:"
+msgstr "Վերնագիր"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:1
+msgid "Default width for new notes"
+msgstr "Դեֆոլտ լայնություն նոր գրառումների համար"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:2
+msgid "Default width for new sticky notes in pixels."
+msgstr "Նոր կպչուն գրառումների հիմնական լայնություն պիքսելներով"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:3
+msgid "Default height for new notes"
+msgstr "Նոր գրառումների բարձրության հիմնական"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:4
+msgid "Default height for new sticky notes in pixels."
+msgstr "Նոր կպչուն գրառումների հիմնական բարձրություն պիքսելներով"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:5
+msgid "Default color for new notes"
+msgstr "Նոր գրառումների հիմնական գույնը"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:6
+msgid ""
+"Default color for new sticky notes. This should be in html hex "
+"specification, for example \"#30FF50\"."
+msgstr "Նոր կպչուն գրառումների հիմնական գույնը։  Գույնը պետք է համապատասխանի html տասնվեցանգամյա պայմանին, օրինակ \"#30FF50\""
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:7
+msgid "Default color for font"
+msgstr "Տառատեսակի հիմնական գույնը"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:8
+msgid ""
+"Default font color for new sticky notes. This should be in html hex "
+"specification, for example \"#000000\"."
+msgstr "Նոր կպչուն գրառումների հիմնական գույնը։  Գույնը պետք է համապատասխանի html տասնվեցանգամյա պայմանին, օրինակ \"#000000\""
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:9
+msgid "Default font for new notes"
+msgstr "Նոր գրառումների համար հիմնական տառատեսակ"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:10
+msgid ""
+"Default font for new sticky notes. This should be a Pango Font Name, for "
+"example \"Sans Italic 10\"."
+msgstr "Նոր կպչուն գրառումների համար հիմնական տառատեսակ։  Տառատեսակի անվանումը պետք է լինի Pango ֆորմատի, օրինակ \"Sans Italic 10\":"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:11
+msgid "Sticky notes' workspace stickyness"
+msgstr "Գրառումների կպչունությունը աշխատանքային տարածքին"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:12
+msgid ""
+"Specifies whether the sticky notes are visible on ALL workspaces on the "
+"desktop, or not."
+msgstr "Տեղեկացնում է արդյո՞ք կպչուն գրառումները տեսանելի են բոլոր աշխատանքային տարածքներում թե ոչ"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:13
+msgid "Sticky notes' locked state"
+msgstr "Կպչուն գրառումների ֆիքսման կարգավիճակը"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:14
+msgid "Specifies whether the sticky notes are locked (non-editable) or not."
+msgstr "Նշում է արդյո՞ք կպչուն գրառումը արգելափակված է(ենթակա չէ խմբագրման) թե ոչ"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:15
+msgid "Date format of note's title"
+msgstr "Ամսաթվի ֆորմատը և գրառման վերնագիրը"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:16
+msgid ""
+"By default, sticky notes are given the current date as the title when they "
+"are created. This format is used; anything that can be parsed by strftime() "
+"is valid."
+msgstr "Ըստ հիմնական դրվածքի կպչուն գրառումները վերնագրվում են ընթացիկ ամսաթվով։  Օգտագործվում է այդ ֆորմատը։  Այն ինչը կարող է ճշգրիտ վերլուծության ենթարկվել strftime  () ֆունկցիայով համարվում է ճիշտ"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:17
+msgid "Whether to use the default system color"
+msgstr "Օգտագործե՞լ համակարգի հիմնական գույնը"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:18
+msgid ""
+"If this option is disabled, a custom color can be used as the default color "
+"for all sticky notes."
+msgstr "Եթե այս տարբերակը անջատված է ապա գործարկողի կողմից ընտրված գույնը կարող է օգտագործվել որպես հիմնական գույն բոլոր կպչուն գրառումների համար"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:19
+msgid "Whether to use the default system font"
+msgstr "Օգտագործե՞լ համակարգի հիմնական տառատեսակը"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:20
+msgid ""
+"If this option is disabled, a custom font can be used as the default font "
+"for all sticky notes."
+msgstr "Եթե այս տարբերակը անջատված է ապա գործարկողի կողմից ընտրված տառատեսակը կարող է օգտագործվել որպես հիմնական տառատեսակ բոլոր կպչուն գրառումների համար"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:21
+msgid "Whether to force the default color and font on all notes"
+msgstr "Կիրառե՞լ հիմնական գույնը և տառատեսակը բոլոր գրառումների համար"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:22
+msgid ""
+"If this option is enabled, the custom colors and fonts that have been "
+"assigned to individual notes will be ignored."
+msgstr "Եթե տարբերակը միացված է ապա գործարկողի կողմից առանձին գրառումների համար նշված գույնը և տառատեսակը չի օգտագործվում"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:23
+msgid "Whether to hide all notes when the desktop is selected"
+msgstr "Արդյոք թաքցնել բոլոր նշումները երբ աշխատասեղանը ընտրված է"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:24
+msgid ""
+"If this option is enabled, selecting the desktop in any way will "
+"automatically hide all the open notes."
+msgstr "Եթե այս ընտրանքը միացված է, ընտրվում է աշխատասեղանի որևէ ճանապարհը, պետք է ավտոմատ կերպով թաքցնել բոլոր բաց նշումները:"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:25
+msgid "Whether to ask for confirmation when deleting a note"
+msgstr "Գրառումը հեռացնելիս հավանություն խնդրել"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:26
+msgid "Empty notes are always deleted without confirmation."
+msgstr "Դատարկ գրառումները միշտ ջնջվում են առանց տեղեկացման"
+
+#: ../stickynotes/stickynotes_applet.c:36
+msgid "Hi_de Notes"
+msgstr "Գրառումներ"
+
+#: ../stickynotes/stickynotes_applet.c:39
+msgid "_Delete Notes"
+msgstr "Հեռացնել գրառումները"
+
+#: ../stickynotes/stickynotes_applet.c:55
+msgid "_Lock Notes"
+msgstr "Արգելափակել գրառումները"
+
+#: ../stickynotes/stickynotes_applet.c:595
+#, c-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] "%d գրառում"
+msgstr[1] "%d գրառումներ"
+
+#: ../stickynotes/stickynotes_applet.c:596
+msgid "Show sticky notes"
+msgstr "Կպչուն գրառումներ"
+
+#: ../stickynotes/stickynotes_applet_callbacks.c:378
+msgid "Sticky Notes for the GDE2 Desktop Environment"
+msgstr "Կպչուն գրառումներ գնոմ միջավայրի համար"
+
+#: ../timerapplet/org.gde2.applets.TimerApplet.gde2-panel-applet.in.in.h:1
+msgid "Timer Factory"
+msgstr "Ժամանակաչափի Գործարան"
+
+#: ../timerapplet/org.gde2.applets.TimerApplet.gde2-panel-applet.in.in.h:2
+msgid "Timer"
+msgstr "Ժամանակաչափ"
+
+#: ../timerapplet/org.gde2.applets.TimerApplet.gde2-panel-applet.in.in.h:3
+#: ../timerapplet/timerapplet.c:263
+msgid "Start a timer and receive a notification when it is finished"
+msgstr "Սկսել ժամանակաչափը և ստանալ ծանուցում, թե երբ է այն ավարտվում"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:1
+msgid "Name of timer"
+msgstr "Ժամանակաչափի անունը"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:2
+msgid "Duration of timer in seconds"
+msgstr "ժամանակաչափի տևողությունը վարկյաններով"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:3
+msgid "Show notification popup when timer finish"
+msgstr "Ցույց տալ ծանուցումը թռուցիկ, երբ ժամանակաչափը ավարտվի"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:4
+msgid "Show dialog window when timer finish"
+msgstr "Ցույց տալ երկխոսության պատուհանը, երբ ժամանակաչափը ավարտվի"
+
+#: ../timerapplet/timerapplet.c:82
+msgid "_Start timer"
+msgstr "_Ժամանակաչափի սկիզբ"
+
+#: ../timerapplet/timerapplet.c:83
+msgid "P_ause timer"
+msgstr "ժամանակաչափ Դադար"
+
+#: ../timerapplet/timerapplet.c:84
+msgid "S_top timer"
+msgstr "Ժամանակաչափի կանգ"
+
+#: ../timerapplet/timerapplet.c:144
+msgid "Finished"
+msgstr "Ավարտված է"
+
+#: ../timerapplet/timerapplet.c:151 ../timerapplet/timerapplet.c:163
+msgid "Timer finished!"
+msgstr "Ժամանակաչափը ավարտել է."
+
+#: ../timerapplet/timerapplet.c:296
+msgid "Timer Applet Preferences"
+msgstr "Ժամանակաչափ Ապլետի Նախընտրանքներ"
+
+#: ../timerapplet/timerapplet.c:309
+msgid "Name:"
+msgstr "Անուն։"
+
+#: ../timerapplet/timerapplet.c:326
+msgid "Hours:"
+msgstr "ժամեր։"
+
+#: ../timerapplet/timerapplet.c:345
+msgid "Minutes:"
+msgstr "Րոպեներ։"
+
+#: ../timerapplet/timerapplet.c:364
+msgid "Seconds:"
+msgstr "Վայրկյաններ։"
+
+#: ../timerapplet/timerapplet.c:383
+msgid "Show notification popup"
+msgstr "Ծանուցումը ցույց տալ թռուցիկ"
+
+#: ../timerapplet/timerapplet.c:389
+msgid "Show dialog"
+msgstr "Ցույց տալ երկխոսությունը"
+
+#: ../timerapplet/timerapplet.c:413
+msgid "Timer Applet"
+msgstr "Ժամանակաչափ Ապլետ"
+
+#: ../trashapplet/org.gde2.applets.TrashApplet.gde2-panel-applet.in.in.h:1
+msgid "Trash"
+msgstr "Թափոնի զամբյուղ"
+
+#: ../trashapplet/org.gde2.applets.TrashApplet.gde2-panel-applet.in.in.h:2
+msgid "Go to Trash"
+msgstr "Ուղարկել թափոնի զամբյուղ"
+
+#: ../trashapplet/src/trashapplet.c:73 ../trashapplet/src/trash-empty.c:353
+msgid "_Empty Trash"
+msgstr "Թափոն զամբյուղը դատարկել"
+
+#: ../trashapplet/src/trashapplet.c:76
+msgid "_Open Trash"
+msgstr "_Բացել թափոնի զամբյուղը"
+
+#: ../trashapplet/src/trashapplet.c:132
+#, c-format
+msgid "%d Item in Trash"
+msgid_plural "%d Items in Trash"
+msgstr[0] "%d տարրը զամբյուղում է"
+msgstr[1] "%d տարրերը զամբյուղում են"
+
+#: ../trashapplet/src/trashapplet.c:140
+msgid "No Items in Trash"
+msgstr "Զամբյուղը դատարկ է"
+
+#: ../trashapplet/src/trashapplet.c:382
+#, c-format
+msgid ""
+"Error while spawning caja:\n"
+"%s"
+msgstr "Caja–ի գործարկման սխալ:\n%s"
+
+#: ../trashapplet/src/trashapplet.c:436
+msgid ""
+"A GDE2 trash bin that lives in your panel. You can use it to view the trash "
+"or drag and drop items into the trash."
+msgstr "Գնոմ միջավայրի զամբյուղը, որը գտնվում է ձեր վահանակի վրա։  Դուք կարող եք օգտագործել այն զամբյուղի պարունակությունը տեսնելու համար և կարող եք տարրերը քաշելով գցել զամբյուղի մեջ"
+
+#: ../trashapplet/src/trashapplet.c:461
+msgid "Delete Immediately?"
+msgstr "Անմիջապես հեռացնե՞լ"
+
+#: ../trashapplet/src/trashapplet.c:495
+msgid "Cannot move items to trash, do you want to delete them immediately?"
+msgstr "Բոլոր տարրերը զամբյուղ տեղափոխել չի հաջողվում, ցանկանու՞մ եք ջնջել դրանք անմիջապես։"
+
+#: ../trashapplet/src/trashapplet.c:500
+msgid ""
+"Cannot move some items to trash, do you want to delete these immediately?"
+msgstr "Որոշ տարրեր չի հաջողվում տեղափոխել զամբյուղ, ցանկանու՞մ եք ջնջել դրանք անմիջապես։"
+
+#: ../trashapplet/src/trashapplet.c:638
+msgid "Trash Applet"
+msgstr "Զամբյուղի ապլետ"
+
+#. Translators: the %s in this string should be read as %d.
+#: ../trashapplet/src/trash-empty.c:80
+#, c-format
+msgid "Removing item %s of %s"
+msgstr "%s Տարրերի հեռացւմ %s"
+
+#. Translators: %s is a file name
+#: ../trashapplet/src/trash-empty.c:106
+#, c-format
+msgid "Removing: %s"
+msgstr "<i>%s –ի հեռացումը </i>"
+
+#: ../trashapplet/src/trash-empty.c:332
+msgid "Empty all of the items from the trash?"
+msgstr "Դատարկե՞լ զամբյուղի բոլոր տարրերը։"
+
+#: ../trashapplet/src/trash-empty.c:339
+msgid ""
+"If you choose to empty the trash, all items in it will be permanently lost. "
+"Please note that you can also delete them separately."
+msgstr "Եթե դուք զամբյուղը դատարկեք, տարրերը վերջնականապես կվերանան։  Հիշեք, որ դրանք կարելի է հեռացնել նաև առանձին առանձին։"
+
+#: ../trashapplet/trashapplet-empty-progress.ui.h:1
+msgid "Emptying the Trash"
+msgstr "Զամբյուղը դատարկվում է"
+
+#: ../trashapplet/trashapplet-empty-progress.ui.h:2
+msgid "From:"
+msgstr "–ից"

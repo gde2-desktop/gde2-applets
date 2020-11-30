@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.gde2.CPUFreqSelector
+Exec=@BINDIR@/gde2-cpufreq-selector
+User=root

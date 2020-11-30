@@ -1,0 +1,16 @@
+[Applet Factory]
+Id=CharpickerAppletFactory
+Location=@LIBEXECDIR@/gde2-charpick-applet
+_Name=Charpicker Applet Factory
+_Description=Charpicker Applet Factory
+
+[CharpickerApplet]
+_Name=Character Palette
+_Description=Insert characters
+Icon=accessories-character-map
+Gde2ComponentId=OAFIID:GDE2_CharpickerApplet
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=gde2-applets
+X-GDE2-Bugzilla-Component=charpick
+X-GDE2-Bugzilla-Version=@VERSION@
+X-GDE2-Bugzilla-OtherBinaries=charpick_applet2

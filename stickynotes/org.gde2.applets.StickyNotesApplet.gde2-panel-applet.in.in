@@ -1,0 +1,16 @@
+[Applet Factory]
+Id=StickyNotesAppletFactory
+Location=@LIBEXECDIR@/stickynotes-applet
+_Name=Sticky Notes Applet Factory
+_Description=Sticky Notes Applet Factory
+
+[StickyNotesApplet]
+_Name=Sticky Notes
+_Description=Create, view, and manage sticky notes on the desktop
+Icon=gde2-sticky-notes-applet
+Gde2ComponentId=OAFIID:GDE2_StickyNotesApplet
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=gde2-applets
+X-GDE2-Bugzilla-Component=stickynotes
+X-GDE2-Bugzilla-Version=@VERSION@
+X-GDE2-Bugzilla-OtherBinaries=stickynotes-applet

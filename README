@@ -1,0 +1,49 @@
+GDE2-Applets
+=============
+
+https://github.com/gde2-desktop/gde2-applets
+
+This package contains applets for use with the GDE2 panel.  Therefore, it
+requires gde2-core to be installed.  To build all applets additional
+libraries may be needed.
+
+This list is by no means definitive.
+
+GDE2-Applets is a fork of GNOME-Applets.
+
+
+Requirements
+------------
+
+You need at least:
+
+    gde2-panel
+    gtk+-2.24.0
+    glib-2.36.0
+    libgtop-2.12.0
+    libwnck
+
+Some extras that improve functionality:
+
+    libnotify
+    dbus-0.34
+
+
+Mailing List
+------------
+
+The mailing list for GDE2-Applets is gde2-dev@ml.gde2-desktop.org
+
+
+Contributing to GDE2-Applets
+-----------------------------
+
+Read the HACKING file
+
+
+Reporting Bugs
+--------------
+
+Bugs should be reported via GitHub
+<https://github.com/gde2-desktop/gde2-applets/issues/>.
+

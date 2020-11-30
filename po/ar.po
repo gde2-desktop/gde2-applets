@@ -1,0 +1,2914 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004
+# Abou Manal <aboumanal@gmail.com>, 2008
+# alibacha19 <alibacha19@gmail.com>, 2015
+# Anas Afif Emad <anas.e87@gmail.com, 2008
+# Arafat Medini <lumina@silverpen.de>, 2003
+# Ayman Hourieh <aymanh@gmail.com>, 2004
+# Djihed Afifi <djihed@gmail.com>, 2007-2008
+# free_voice <free8voice@gmail.com>, 2014
+# free_voice <free8voice@gmail.com>, 2014
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002
+# Khaled Hosny <khaledhosny@eglug.org>, 2006-2010
+# مهدي السطيفي <chinoune.mehdi@gmail.com>, 2014
+# Mosaab Alzoubi <moceap@hotmail.com>, 2013-2014
+# noureddin <noureddin@barid.com>, 2012
+# noureddin <noureddin@barid.com>, 2012
+# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002
+# مهدي السطيفي <chinoune.mehdi@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: GDE2 Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-01 10:25+0300\n"
+"PO-Revision-Date: 2016-08-01 07:27+0000\n"
+"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Language-Team: Arabic (http://www.transifex.com/gde2/GDE2/language/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: ../accessx-status/applet.c:147
+msgid "Shows the state of AccessX features such as latched modifiers"
+msgstr "يعرض حالة ميزات AccessX مثل المغيرات المثبتة"
+
+#. about.set_authors("Raphael Slinckx <raphael@slinckx.net>\nEnrico Minack
+#. <enrico-minack@gmx.de>")
+#. about.set_artists([])
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#: ../accessx-status/applet.c:151 ../battstat/battstat_applet.c:1215
+#: ../charpick/charpick.c:666 ../command/command.c:119
+#: ../cpufreq/src/cpufreq-applet.c:704 ../drivemount/drivemount.c:125
+#: ../geyes/geyes.c:200 ../gde2weather/gde2weather-about.c:56
+#: ../invest-applet/invest/about.py:34 ../multiload/main.c:69
+#: ../netspeed/src/netspeed.c:816
+#: ../stickynotes/stickynotes_applet_callbacks.c:382
+#: ../timerapplet/timerapplet.c:264 ../trashapplet/src/trashapplet.c:441
+msgid "translator-credits"
+msgstr "مترجمو غنوم 2"
+
+#: ../accessx-status/applet.c:167
+#, c-format
+msgid "There was an error launching the help viewer: %s"
+msgstr "حصل خطأ أثناء تشغيل عارض المساعدة: %s"
+
+#: ../accessx-status/applet.c:195
+msgid "Open the keyboard preferences dialog"
+msgstr ""
+
+#: ../accessx-status/applet.c:214
+#, c-format
+msgid "There was an error launching the keyboard preferences dialog: %s"
+msgstr "حصل خطأ أثناء تشغيل حوار تفضيلات لوحة المفاتيح: %s"
+
+#: ../accessx-status/applet.c:229
+msgid "_Keyboard Accessibility Preferences"
+msgstr "تفضيلات إعانة _لوحة المفاتيح"
+
+#: ../accessx-status/applet.c:230 ../battstat/battstat_applet.c:69
+#: ../charpick/charpick.c:747 ../cpufreq/src/cpufreq-applet.c:137
+#: ../drivemount/drivemount.c:163 ../geyes/geyes.c:383
+#: ../gde2weather/gde2weather-applet.c:122 ../multiload/main.c:463
+#: ../stickynotes/stickynotes_applet.c:45 ../trashapplet/src/trashapplet.c:79
+msgid "_Help"
+msgstr "_مساعدة"
+
+#: ../accessx-status/applet.c:231 ../battstat/battstat_applet.c:72
+#: ../charpick/charpick.c:750 ../command/command.c:78
+#: ../cpufreq/src/cpufreq-applet.c:140 ../drivemount/drivemount.c:166
+#: ../geyes/geyes.c:386 ../gde2weather/gde2weather-applet.c:125
+#: ../multiload/main.c:466 ../stickynotes/stickynotes_applet.c:48
+#: ../timerapplet/timerapplet.c:86 ../trashapplet/src/trashapplet.c:82
+msgid "_About"
+msgstr "_عنْ"
+
+#. Note to translators: the first letter of the alphabet, not the indefinite
+#. article
+#: ../accessx-status/applet.c:508 ../accessx-status/applet.c:546
+msgid "a"
+msgstr "أ"
+
+#: ../accessx-status/applet.c:1057 ../accessx-status/applet.c:1123
+#: ../accessx-status/applet.c:1196 ../accessx-status/applet.c:1370
+msgid "AccessX Status"
+msgstr "حالة AccessX"
+
+#: ../accessx-status/applet.c:1058 ../accessx-status/applet.c:1197
+msgid "Shows keyboard status when accessibility features are used."
+msgstr "يعرض حالة لوحة المفاتيح عند استخدام ميزات الإعانة."
+
+#: ../accessx-status/applet.c:1093
+msgid "XKB Extension is not enabled"
+msgstr "امتداد XKB غير مفعّل"
+
+#: ../accessx-status/applet.c:1098
+msgid "Unknown error"
+msgstr "خطأ مجهول"
+
+#: ../accessx-status/applet.c:1102
+#, c-format
+msgid "Error: %s"
+msgstr "خطأ: %s"
+
+#: ../accessx-status/applet.c:1367
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:3
+msgid "Keyboard Accessibility Status"
+msgstr "حالة الإعانة للوحة المفاتيح"
+
+#: ../accessx-status/applet.c:1371
+msgid "Displays current state of keyboard accessibility features"
+msgstr "يعرض الحالة الحالية لميزات الإعانة للوحة المفاتيح"
+
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:1
+msgid "AccessX Status Applet Factory"
+msgstr "مصنع بريمج حالة AccessX"
+
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:2
+msgid "Keyboard Accessibility Status Applet Factory"
+msgstr "مصنع بريمج حالة الإعانة للوحة المفاتيح"
+
+#: ../accessx-status/org.gde2.applets.AccessxStatusApplet.gde2-panel-applet.in.in.h:4
+msgid "Shows the status of keyboard accessibility features"
+msgstr "يعرض حالة ميزات الإعانة للوحة المفاتيح"
+
+#: ../battstat/battstat_applet.c:66 ../charpick/charpick.c:744
+#: ../command/command.c:77 ../cpufreq/src/cpufreq-applet.c:134
+#: ../geyes/geyes.c:380 ../gde2weather/gde2weather-applet.c:119
+#: ../multiload/main.c:457 ../stickynotes/stickynotes_applet.c:42
+#: ../timerapplet/timerapplet.c:85
+msgid "_Preferences"
+msgstr "ال_تفضيلات"
+
+#: ../battstat/battstat_applet.c:77
+msgid "System is running on AC power"
+msgstr "النظام يعمل على طاقة التيار المتناوب"
+
+#: ../battstat/battstat_applet.c:78
+msgid "System is running on battery power"
+msgstr "النظام يعمل على طاقة البطارية"
+
+#: ../battstat/battstat_applet.c:344
+#, c-format
+msgid "Battery charged (%d%%)"
+msgstr "شُحِنت البطارية (%d%%)"
+
+#: ../battstat/battstat_applet.c:346
+#, c-format
+msgid "Unknown time (%d%%) remaining"
+msgstr "بقي وقت غير معروف (%d%%)"
+
+#: ../battstat/battstat_applet.c:348
+#, c-format
+msgid "Unknown time (%d%%) until charged"
+msgstr "بقي وقت غير معروف (%d%%) حتى تُشحن"
+
+#: ../battstat/battstat_applet.c:353
+#, c-format
+msgid "%d minute (%d%%) remaining"
+msgid_plural "%d minutes (%d%%) remaining"
+msgstr[0] "بقيت أقل من دقيقة (%d%%)"
+msgstr[1] "بقيت دقيقةٌ (%d%%)"
+msgstr[2] "بقيت دقيقتان (%d%%)"
+msgstr[3] "بقيت %d دقائق (%d%%)"
+msgstr[4] "بقيت %d دقيقة (%d%%)"
+msgstr[5] "بقيت %d دقيقة (%d%%)"
+
+#: ../battstat/battstat_applet.c:358
+#, c-format
+msgid "%d minute until charged (%d%%)"
+msgid_plural "%d minutes until charged (%d%%)"
+msgstr[0] "أقل من دقيقة حتى تُشحن (%d%%)"
+msgstr[1] "دقيقةٌ حتى تُشحن (%d%%)"
+msgstr[2] "دقيقتان حتى تٌشحن (%d%%)"
+msgstr[3] "%d دقيقة حتى تُشحن (%d%%)"
+msgstr[4] "%d دقيقة حتى تُشحن (%d%%)"
+msgstr[5] "%d دقيقة حتى تُشحن (%d%%)"
+
+#: ../battstat/battstat_applet.c:364
+#, c-format
+msgid "%d hour (%d%%) remaining"
+msgid_plural "%d hours (%d%%) remaining"
+msgstr[0] "بقيت أقل من ساعة (%d%%)"
+msgstr[1] "بقيت ساعةٌ (%d%%)"
+msgstr[2] "بقيت ساعتان (%d%%)"
+msgstr[3] "بقيت %d ساعات (%d%%)"
+msgstr[4] "بقيت %d ساعة (%d%%)"
+msgstr[5] "بقيت %d ساعة (%d%%)"
+
+#: ../battstat/battstat_applet.c:369
+#, c-format
+msgid "%d hour until charged (%d%%)"
+msgid_plural "%d hours until charged (%d%%)"
+msgstr[0] "أقل من ساعة حتى تُشحن (%d%%)"
+msgstr[1] "ساعةٌ حتى تُشحن (%d%%)"
+msgstr[2] "ساعتان حتى تُشحن (%d%%)"
+msgstr[3] "%d ساعات حتى تُشحن (%d%%)"
+msgstr[4] "%d ساعة حتى تُشحن (%d%%)"
+msgstr[5] "%d ساعة حتى تُشحن (%d%%)"
+
+#. TRANSLATOR: "%d %s %d %s" are "%d hours %d minutes"
+#. * Swap order with "%2$s %2$d %1$s %1$d if needed
+#: ../battstat/battstat_applet.c:376
+#, c-format
+msgid "%d %s %d %s (%d%%) remaining"
+msgstr "بقيت %d %s %d %s (%d%%)"
+
+#: ../battstat/battstat_applet.c:377 ../battstat/battstat_applet.c:384
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "أقل من ساعة"
+msgstr[1] "ساعة"
+msgstr[2] "ساعتان"
+msgstr[3] "ساعات"
+msgstr[4] "ساعة"
+msgstr[5] "ساعة"
+
+#: ../battstat/battstat_applet.c:378 ../battstat/battstat_applet.c:385
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "أقل من دقيقة"
+msgstr[1] "دقيقة"
+msgstr[2] "دقيقتان"
+msgstr[3] "دقائق"
+msgstr[4] "دقيقة"
+msgstr[5] "دقيقة"
+
+#. TRANSLATOR: "%d %s %d %s" are "%d hours %d minutes"
+#. * Swap order with "%2$s %2$d %1$s %1$d if needed
+#: ../battstat/battstat_applet.c:383
+#, c-format
+msgid "%d %s %d %s until charged (%d%%)"
+msgstr "%d %s %d %s حتى تُشحن (%d%%)"
+
+#: ../battstat/battstat_applet.c:397
+msgid "Battery Monitor"
+msgstr "مراقب البطارية"
+
+#: ../battstat/battstat_applet.c:407 ../battstat/battstat_applet.c:466
+msgid "Your battery is now fully recharged"
+msgstr "امتلأت البطارية"
+
+#: ../battstat/battstat_applet.c:443 ../battstat/battstat_applet.c:602
+msgid "Battery Notice"
+msgstr "ملاحظة البطارية"
+
+#. we don't know the remaining time
+#: ../battstat/battstat_applet.c:547
+#, c-format
+msgid "You have %d%% of your total battery capacity remaining."
+msgstr "بقي %d%% من سعة البطارية الكلية."
+
+#: ../battstat/battstat_applet.c:553
+#, c-format
+msgid ""
+"You have %d minute of battery power remaining (%d%% of the total capacity)."
+msgid_plural ""
+"You have %d minutes of battery power remaining (%d%% of the total capacity)."
+msgstr[0] "تبقى لديك أقل من دقيقة من طاقة البطارية (%d%% من السعة الكلية)."
+msgstr[1] "تبقى لديك دقيقةٌ من طاقة البطارية (%d%% من السعة الكلية)."
+msgstr[2] "تبقى لديك دقيقتان من طاقة البطارية (%d%% من السعة الكلية)."
+msgstr[3] "تبقى لديك %d دقائق من طاقة البطارية (%d%% من السعة الكلية)."
+msgstr[4] "تبقى لديك %d دقيقة من طاقة البطارية (%d%% من السعة الكلية)."
+msgstr[5] "تبقى لديك %d دقيقة من طاقة البطارية (%d%% من السعة الكلية)."
+
+#. TRANSLATORS: this is a list, it is left as a single string
+#. * to allow you to make it appear like a list would in your
+#. * locale.  This is if the laptop does not support suspend.
+#: ../battstat/battstat_applet.c:565
+msgid ""
+"To avoid losing your work:\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr "لتجنب فقدان عملك:\n • صل الحاسوب المحمول بالطاقة، أو \n • احفظ المستندات المفتوحة ثم أطفئ حاسوبك المحمول."
+
+#. TRANSLATORS: this is a list, it is left as a single string
+#. * to allow you to make it appear like a list would in your
+#. * locale.  This is if the laptop supports suspend.
+#: ../battstat/battstat_applet.c:573
+msgid ""
+"To avoid losing your work:\n"
+" • suspend your laptop to save power,\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr "لتجنب فقدان عملك:\n • علّق حاسوبك المحمول لحفظ الطاقة، أو\n • صل الحاسوب المحمول بالطاقة، أو \n • احفظ المستندات المفتوحة ثم أطفئ حاسوبك المحمول."
+
+#: ../battstat/battstat_applet.c:581
+msgid "Your battery is running low"
+msgstr "بطاريتك منخفضة"
+
+#: ../battstat/battstat_applet.c:676
+msgid "No battery present"
+msgstr "لا توجد بطّارية"
+
+#: ../battstat/battstat_applet.c:679
+msgid "Battery status unknown"
+msgstr "حالة البطارية مجهولة"
+
+#: ../battstat/battstat_applet.c:859
+msgid "N/A"
+msgstr "غير متوفر"
+
+#: ../battstat/battstat_applet.c:1159 ../drivemount/drivemount.c:151
+#: ../geyes/geyes.c:368 ../geyes/themes.c:227
+#: ../gde2weather/gde2weather-applet.c:68
+#: ../gde2weather/gde2weather-pref.c:750
+#: ../stickynotes/stickynotes_applet_callbacks.c:344
+#: ../stickynotes/stickynotes_applet_callbacks.c:549
+#: ../trashapplet/src/trashapplet.c:403
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "حصل خطأ عند عرض المساعدة: %s"
+
+#: ../battstat/battstat_applet.c:1204
+msgid "This utility shows the status of your laptop battery."
+msgstr "هذه الأداة تظهر حالة بطارية حاسوبك المحمول."
+
+#. true
+#: ../battstat/battstat_applet.c:1206
+msgid "upower backend enabled."
+msgstr "تم تمكين upower في الخلفية"
+
+#. false
+#: ../battstat/battstat_applet.c:1207
+msgid "Legacy backend enabled."
+msgstr ""
+
+#: ../battstat/battstat_applet.c:1579 ../battstat/battstat_applet.c:1631
+#: ../battstat/org.gde2.applets.BattstatApplet.gde2-panel-applet.in.in.h:2
+msgid "Battery Charge Monitor"
+msgstr "مراقب شحن البطارية"
+
+#: ../battstat/battstat_applet.c:1632
+#: ../battstat/org.gde2.applets.BattstatApplet.gde2-panel-applet.in.in.h:3
+msgid "Monitor a laptop's remaining power"
+msgstr "مراقبة طاقة البطارية المتبقية"
+
+#: ../battstat/battstat_applet.ui.h:1
+msgid "Battery Charge Monitor Preferences"
+msgstr "تفضيلات مراقب شحن البطارية"
+
+#: ../battstat/battstat_applet.ui.h:2
+msgid "Appearance"
+msgstr "المظهر"
+
+#: ../battstat/battstat_applet.ui.h:3
+msgid "_Compact view"
+msgstr "_منظور متضام"
+
+#: ../battstat/battstat_applet.ui.h:4
+msgid "(shows single image for status and charge)"
+msgstr "(اعرض صورة واحدة للحالة والشحن)"
+
+#: ../battstat/battstat_applet.ui.h:5
+msgid "_Expanded view"
+msgstr "منظور مُو_سَّع"
+
+#: ../battstat/battstat_applet.ui.h:6
+msgid "(two images: one for status, one for charge)"
+msgstr "(صورتان، واحدة للحالة والأخرى للشحن)"
+
+#: ../battstat/battstat_applet.ui.h:7
+msgid "_Show time/percentage:"
+msgstr "ا_عرض الوقت\\النسبة:"
+
+#: ../battstat/battstat_applet.ui.h:8
+msgid "Show _time remaining"
+msgstr "اعرض الو_قت المتبقي"
+
+#: ../battstat/battstat_applet.ui.h:9
+msgid "Show _percentage remaining"
+msgstr "اعرض ال_نسبة المتبقية"
+
+#: ../battstat/battstat_applet.ui.h:10
+msgid "Notifications"
+msgstr "التنبيهات"
+
+#. TRANSLATOR: This is the beginning of the sentence 'Warn when battery charge
+#. drops to: [XX] percent/minutes remaining'
+#: ../battstat/battstat_applet.ui.h:12
+msgid "_Warn when battery charge drops to:"
+msgstr "_حذّر عندما يقل شحن البطارية عن:"
+
+#: ../battstat/battstat_applet.ui.h:13
+msgid "_Notify when battery is fully recharged"
+msgstr "نبّه عندما تمتلئ البطارية"
+
+#: ../battstat/org.gde2.applets.BattstatApplet.gde2-panel-applet.in.in.h:1
+msgid "Battstat Factory"
+msgstr "مصنع حالة البطارية"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:1
+msgid "Red value level"
+msgstr "مستوى القيمة الحمراء"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:2
+msgid ""
+"The battery level below which the battery is displayed as red. Also the "
+"value at which the low battery warning is displayed."
+msgstr "مستوى البطارية الذي تحته تُعرض البطارية بلون أحمر. أيضا القيمة التي يتم عندها عرض تنبيه."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:3
+msgid "Warn on low time rather than low percentage"
+msgstr "تحذير عند انخفاض الوقت المتبقي بدلا من انخفاض النسبة المئوية"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:4
+msgid ""
+"Use the value defined in red_value as a time remaining to show the warning "
+"dialog rather than a percentage."
+msgstr "استخدم القيمة المعرّفة في red_value كوقت متبقٍ بدلًا من النسبة المئوية لعرض حوار التحذير."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:5
+msgid "Low Battery Notification"
+msgstr "تنبيه انخفاض البطارية"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:6
+msgid "Notify user when the battery is low."
+msgstr "تنبيه المستخدم عندما تكون البطارية منخفضة."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:7
+msgid "Full Battery Notification"
+msgstr "تنبيه امتلاء البطارية"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:8
+msgid "Notify user when the battery is full."
+msgstr "تنبيه المستخدم عندما تكون البطارية ممتلئة."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:9
+msgid "Beep for warnings"
+msgstr "صفّر للتنبيه"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:10
+msgid "Beep when displaying a warning."
+msgstr "صفّر عند عرض تنبيه."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:11
+msgid "Drain from top"
+msgstr "أفرغ من أعلى"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:12
+msgid ""
+"Show the battery meter draining from the top of the battery. Only "
+"implemented for traditional battery view."
+msgstr "اعرض مسطرة البطارية وهي تفرغ من أعلى البطارية. موجود فقط في عرض البطارية التقليدي."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:13
+msgid "Upright (small) battery"
+msgstr "بطارية (صغيرة) نحو الأعلى"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:14
+msgid "Show the upright, smaller battery on the panel."
+msgstr "عرض البطارية الأصغر الواقفة على اللوحة."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:15
+msgid "Show the horizontal battery"
+msgstr "اعرض البطارية الأفقية"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:16
+msgid "Show the traditional, horizontal battery on the panel."
+msgstr "عرض البطارية الأفقية التقليدية على اللوحة."
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:17
+msgid "Show the time/percent label"
+msgstr "اعرض الوقت\\النسبة"
+
+#: ../battstat/org.gde2.panel.applet.battstat.gschema.xml.in.h:18
+msgid "0 for no label, 1 for percentage and 2 for time remaining."
+msgstr "0 لغير معنون، 1 للنسبة المئوية و 2 للوقت المتبقي."
+
+#. TRANSLATOR: this is a selectable item in a drop-down menu to end
+#. * this sentence:
+#. *   "Warn when battery charge drops to: [XX] percent".
+#: ../battstat/properties.c:287
+msgid "Percent"
+msgstr "بالمائة"
+
+#. TRANSLATOR: this is a selectable item in a drop-down menu to end
+#. * this sentence:
+#. *   "Warn when battery charge drops to: [XX] minutes remaining"
+#: ../battstat/properties.c:293
+msgid "Minutes Remaining"
+msgstr "دقيقة\\دقائق متبقية"
+
+#: ../battstat/sounds/gde2-battstat_applet.soundlist.in.h:1
+msgid "Battery Status Utility"
+msgstr "أداة حالة البطارية"
+
+#: ../battstat/sounds/gde2-battstat_applet.soundlist.in.h:2
+msgid "Battery power low"
+msgstr "طاقة البطارية منخفضة"
+
+#: ../battstat/sounds/gde2-battstat_applet.soundlist.in.h:3
+msgid "Battery fully re-charged"
+msgstr "أُعيد شحن البطارية بالكامل"
+
+#: ../charpick/charpick.c:469
+msgid "Available palettes"
+msgstr "اللوحات المتوفرة"
+
+#. TRANSLATOR: This sentance reads something like 'Insert "PILCROW SIGN"'
+#. *             hopefully, the name of the unicode character has already
+#. *             been translated.
+#: ../charpick/charpick.c:529
+#, c-format
+msgid "Insert \"%s\""
+msgstr "أدرج  \"%s\""
+
+#: ../charpick/charpick.c:532
+msgid "Insert special character"
+msgstr "أدرِج محرفًا خاصًا"
+
+#: ../charpick/charpick.c:536
+#, c-format
+msgid "insert special character %s"
+msgstr "أدرِج محرفًا خاصًا %s"
+
+#: ../charpick/charpick.c:661
+msgid ""
+"Gde2 Panel applet for selecting strange characters that are not on my "
+"keyboard. Released under GNU General Public Licence."
+msgstr "بريمج لوحة متّة لاختيار المحارِف الغريبة التي لا توجد على لوحة مفاتيحي. منشور تحت ترخيص غنّو العام."
+
+#: ../charpick/charpick.c:773 ../charpick/charpick.c:787
+#: ../charpick/org.gde2.applets.CharpickerApplet.gde2-panel-applet.in.in.h:2
+#: ../charpick/properties.c:460
+msgid "Character Palette"
+msgstr "لوحة المحارِف"
+
+#: ../charpick/charpick.c:773
+#: ../charpick/org.gde2.applets.CharpickerApplet.gde2-panel-applet.in.in.h:3
+msgid "Insert characters"
+msgstr "أدرِج محارِفا"
+
+#: ../charpick/org.gde2.applets.CharpickerApplet.gde2-panel-applet.in.in.h:1
+msgid "Charpicker Applet Factory"
+msgstr "مصنع بريمج منتقي المحارِف"
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:1
+msgid "Characters shown on applet startup"
+msgstr "المحارف التي ستعرض عند بدء البريمج"
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:2
+msgid ""
+"The string that the user had selected when the applet was last used. This "
+"string will be displayed when the user starts the applet."
+msgstr "السلسلة التي اختارها المستخدم آخر مرة استخدم فيها البريمج. ستعرض هذه السلسلة عند بدء المستخدم للبريمج"
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:3
+#: ../charpick/properties.c:383
+msgid "List of available palettes"
+msgstr "قائمة اللوحات المتوفرة"
+
+#: ../charpick/org.gde2.panel.applet.charpick.gschema.xml.in.h:4
+msgid "List of strings containing the available palettes."
+msgstr "قائمة السلاسل المحتوية على اللوحات المتوفرة."
+
+#: ../charpick/properties.c:33
+msgid "_Edit"
+msgstr "_تحرير"
+
+#: ../charpick/properties.c:121
+msgid "_Palette:"
+msgstr "ال_لوحة:"
+
+#: ../charpick/properties.c:129
+msgid "Palette entry"
+msgstr "خانة اللوحة"
+
+#: ../charpick/properties.c:130
+msgid "Modify a palette by adding or removing characters"
+msgstr "غيّر لوحة بإضافة أو حذف محارِف منها"
+
+#: ../charpick/properties.c:244
+msgid "Add Palette"
+msgstr "أضِف لوحة"
+
+#: ../charpick/properties.c:281
+msgid "Edit Palette"
+msgstr "حرّر اللوحة"
+
+#: ../charpick/properties.c:382
+msgid "Palettes list"
+msgstr "قائمة اللوحات"
+
+#: ../charpick/properties.c:465
+msgid "_Palettes:"
+msgstr "ال_لوحات:"
+
+#: ../charpick/properties.c:485
+msgid "Add button"
+msgstr "أضِف زرًا"
+
+#: ../charpick/properties.c:486
+msgid "Click to add a new palette"
+msgstr "انقر لإضافة لوحة جديدة"
+
+#: ../charpick/properties.c:493
+msgid "Edit button"
+msgstr "حرّر الزر"
+
+#: ../charpick/properties.c:494
+msgid "Click to edit the selected palette"
+msgstr "انقر لتحرير اللوحة المختارة"
+
+#: ../charpick/properties.c:501
+msgid "Delete button"
+msgstr "احذف الزر"
+
+#: ../charpick/properties.c:502
+msgid "Click to delete the selected palette"
+msgstr "انقر لحذف اللوحة المختارة"
+
+#: ../charpick/properties.c:553
+msgid "Character Palette Preferences"
+msgstr "تفضيلات لوحة المحارِف"
+
+#: ../command/command.c:118
+#: ../command/org.gde2.applets.CommandApplet.gde2-panel-applet.in.in.h:3
+msgid "Shows the output of a command"
+msgstr "يعرض مُخرج أمر"
+
+#: ../command/command.c:136
+msgid "Command Applet Preferences"
+msgstr "اعدادات تطبيق الأوامر"
+
+#: ../command/command.c:149
+msgid "Command:"
+msgstr "الاوامر:"
+
+#: ../command/command.c:165
+msgid "Interval (seconds):"
+msgstr "المجال الزمني (ثواني):"
+
+#: ../command/command.c:181
+msgid "Maximum width (chars):"
+msgstr ""
+
+#: ../command/command.c:197
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:7
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:7
+msgid "Show icon"
+msgstr "اظهر أيقونة"
+
+#: ../command/command.c:347
+msgid "Command Applet"
+msgstr "تطبيق الأوامر"
+
+#: ../command/org.gde2.applets.CommandApplet.gde2-panel-applet.in.in.h:1
+msgid "Command Factory"
+msgstr ""
+
+#: ../command/org.gde2.applets.CommandApplet.gde2-panel-applet.in.in.h:2
+msgid "Command"
+msgstr ""
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:1
+msgid "Command to execute"
+msgstr "الأمر الذي سينفّذ"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:2
+msgid "Command/script to execute to get the output"
+msgstr "الأمر\\السكربت الذي ينفّذ للحصول على المُخرج"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:3
+msgid "Interval for the command"
+msgstr "المجال الزمني للأمر"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:4
+msgid "Interval to execute the command (in seconds)"
+msgstr "المجال الزمني لتنفيذ الأمر (بالثواني)"
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:5
+msgid "Width of output"
+msgstr ""
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:6
+msgid "Number of characters to display"
+msgstr ""
+
+#: ../command/org.gde2.panel.applet.command.gschema.xml.in.h:8
+msgid "If applet icon is shown or not"
+msgstr "اذا كانت أيقونات التطبيق ظاهرة أو لا"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:1
+msgid "CPU Frequency Monitor Preferences"
+msgstr "تفضيلات مراقب تردد المعالج"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:2
+msgid "Monitor Settings"
+msgstr "إعدادات المُراقب"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:3
+msgid "_Monitored CPU:"
+msgstr "ال_معالج المُراقب:"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:4
+msgid "Display Settings"
+msgstr "إعدادات العرض"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:5
+msgid "_Appearance:"
+msgstr "ال_مظهر:"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:6
+msgid "Show CPU frequency as _frequency"
+msgstr "اعرض تردد المعالج ك_تردد"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:7
+msgid "Show frequency _units"
+msgstr "أظهر و_حدات التردد"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:8
+msgid "Show CPU frequency as _percentage"
+msgstr "اعرض تردد المعالج ك_نسبة"
+
+#: ../cpufreq/org.gde2.applets.CPUFreqApplet.gde2-panel-applet.in.in.h:1
+#: ../cpufreq/src/cpufreq-applet.c:1060 ../cpufreq/src/cpufreq-applet.c:1115
+msgid "CPU Frequency Scaling Monitor"
+msgstr "مراقب تمديد تردد المعالج"
+
+#: ../cpufreq/org.gde2.applets.CPUFreqApplet.gde2-panel-applet.in.in.h:2
+msgid "Monitor the CPU Frequency Scaling"
+msgstr "ارصد زيادة سرعة المعالج"
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:1
+msgid "CPU to Monitor"
+msgstr ""
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:2
+msgid ""
+"Set the CPU to monitor. In a single processor system you don't have to "
+"change it."
+msgstr ""
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:3
+msgid "Mode to show CPU usage"
+msgstr ""
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:4
+msgid ""
+"A 0 value means to show the applet in graphic mode (pixmap only), 1 to show "
+"the applet in text mode (not to show the pixmap) and 2 to show the applet in"
+" graphic and text mode."
+msgstr ""
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:5
+msgid "The type of text to display (if the text is enabled)."
+msgstr ""
+
+#: ../cpufreq/org.gde2.panel.applet.cpufreq.gschema.xml.in.h:6
+msgid ""
+"A 0 value means to show CPU frequency, 1 to show frequency and units, and 2 "
+"to show percentage instead of frequency."
+msgstr ""
+
+#: ../cpufreq/src/cpufreq-applet.c:668 ../cpufreq/src/cpufreq-prefs.c:365
+msgid "Could not open help document"
+msgstr "لا يمكن فتح مستند المساعدة"
+
+#: ../cpufreq/src/cpufreq-applet.c:699
+msgid "This utility shows the current CPU Frequency Scaling."
+msgstr "هذه الأداة تُظهر تردد المعالج الحالي."
+
+#: ../cpufreq/src/cpufreq-applet.c:1116
+msgid "This utility shows the current CPU Frequency"
+msgstr "تظهر هذه الأداة تردد المعالج الحالي."
+
+#: ../cpufreq/src/cpufreq-prefs.c:500
+msgid "Graphic"
+msgstr "رسومي"
+
+#: ../cpufreq/src/cpufreq-prefs.c:505
+msgid "Text"
+msgstr "نصّي"
+
+#: ../cpufreq/src/cpufreq-prefs.c:510
+msgid "Graphic and Text"
+msgstr "نصّي و رسومي"
+
+#: ../cpufreq/src/cpufreq-monitor-cpuinfo.c:121
+msgid "Frequency Scaling Unsupported"
+msgstr "تغيير التردد غير مدعوم"
+
+#. If there is no cpufreq support it shows only the cpu frequency,
+#. * I think is better than do nothing. I have to notify it to the user,
+#. because
+#. * he could think that cpufreq is supported but it doesn't work succesfully
+#: ../cpufreq/src/cpufreq-monitor-factory.c:59
+msgid "CPU frequency scaling unsupported"
+msgstr "تغيير تردد المعالج غير مدعوم"
+
+#: ../cpufreq/src/cpufreq-monitor-factory.c:60
+msgid ""
+"You will not be able to modify the frequency of your machine.  Your machine "
+"may be misconfigured or not have hardware support for CPU frequency scaling."
+msgstr "لن تكون قادرا على تغيير تردد جهازك. ربما لا يكون جهازك معدًا بشكل صحيح أو لا يدعم معالجك تغيير السرعة."
+
+#: ../cpufreq/src/cpufreq-selector/org.gde2.cpufreqselector.policy.in.h:1
+msgid "Change CPU Frequency scaling"
+msgstr "غيّر قياس تردد المعالج"
+
+#: ../cpufreq/src/cpufreq-selector/org.gde2.cpufreqselector.policy.in.h:2
+msgid "Privileges are required to change the CPU Frequency scaling."
+msgstr "الصلاحيات مطلوبة لتغيير قياس تردد المعالج"
+
+#: ../drivemount/drive-button.c:364 ../drivemount/drive-button.c:377
+msgid "(mounted)"
+msgstr "(موصول)"
+
+#: ../drivemount/drive-button.c:366
+msgid "(not mounted)"
+msgstr "(غير موصول)"
+
+#: ../drivemount/drive-button.c:634
+msgid "Cannot execute Caja"
+msgstr "لا يمكن تنفيذ كاجا"
+
+#: ../drivemount/drive-button.c:636
+#, c-format
+msgid "Cannot execute '%s'"
+msgstr "لا يمكن تنفيذ '%s'"
+
+#: ../drivemount/drive-button.c:961
+msgid "_Play DVD"
+msgstr "_شغّل DVD"
+
+#: ../drivemount/drive-button.c:965
+msgid "_Play CD"
+msgstr "_شغّل اسطوانة"
+
+#: ../drivemount/drive-button.c:968
+#, c-format
+msgid "_Open %s"
+msgstr "ا_فتح %s"
+
+#: ../drivemount/drive-button.c:976
+#, c-format
+msgid "Un_mount %s"
+msgstr "ا_فصِل %s"
+
+#: ../drivemount/drive-button.c:982
+#, c-format
+msgid "_Mount %s"
+msgstr "_صِل %s"
+
+#: ../drivemount/drive-button.c:990
+#, c-format
+msgid "_Eject %s"
+msgstr "أ_خرج %s"
+
+#: ../drivemount/drivemount.c:122
+msgid "Applet for mounting and unmounting block volumes."
+msgstr "بريمج لوصل وفصْل الأقراص."
+
+#: ../drivemount/drivemount.c:183 ../drivemount/drivemount.c:217
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:3
+msgid "Disk Mounter"
+msgstr "مُوصِل الأقراص"
+
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:1
+msgid "Drive Mount Applet Factory"
+msgstr "مصنع بريمج موصل الأقراص"
+
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:2
+msgid "Factory for drive mount applet"
+msgstr "مصنع لبريمج وصْل الأقراص"
+
+#: ../drivemount/org.gde2.applets.DriveMountApplet.gde2-panel-applet.in.in.h:4
+msgid "Mount local disks and devices"
+msgstr "وصّل الأقراص و الأجهزة المحلية"
+
+#: ../geyes/geyes.c:195
+msgid "A goofy set of eyes for the GDE2 panel. They follow your mouse."
+msgstr "برنامج يقدم عيونا تتبع الفأرة."
+
+#: ../geyes/geyes.c:413 ../geyes/geyes.c:443 ../geyes/geyes.c:445
+#: ../geyes/org.gde2.applets.GeyesApplet.gde2-panel-applet.in.in.h:2
+msgid "Eyes"
+msgstr "عيون"
+
+#: ../geyes/geyes.c:446
+msgid "The eyes look in the direction of the mouse pointer"
+msgstr "العيون تنظر في اتجاه مؤشر الفأرة"
+
+#: ../geyes/org.gde2.applets.GeyesApplet.gde2-panel-applet.in.in.h:1
+msgid "Geyes Applet Factory"
+msgstr "مصنع بريمج عيون متّة"
+
+#: ../geyes/org.gde2.applets.GeyesApplet.gde2-panel-applet.in.in.h:3
+msgid "A set of eyeballs for your panel"
+msgstr "مجموعة عيون لشريطك"
+
+#: ../geyes/org.gde2.panel.applet.geyes.gschema.xml.in.h:1
+msgid "Directory in which the theme is located"
+msgstr "الدليل الذي بِه السِمة"
+
+#: ../geyes/themes.c:131
+msgid "Can not launch the eyes applet."
+msgstr "لا يمكن تشغيل بريمج العيون."
+
+#: ../geyes/themes.c:132
+msgid "There was a fatal error while trying to load the theme."
+msgstr "حصل خطأ فادح عند محاولة تحميل السِمة."
+
+#: ../geyes/themes.c:286
+msgid "Geyes Preferences"
+msgstr "تفضيلات عيون متّة"
+
+#: ../geyes/themes.c:319
+msgid "Themes"
+msgstr "السِمات"
+
+#: ../geyes/themes.c:344
+msgid "_Select a theme:"
+msgstr "ا_ختر سِمة:"
+
+#: ../gde2weather/gde2weather-about.c:53
+msgid "A panel application for monitoring local weather conditions."
+msgstr "تطبيق لوحي لمراقبة حالات الطقس المحلية."
+
+#: ../gde2weather/gde2weather-applet.c:113
+msgid "_Details"
+msgstr "ال_تفاصيل"
+
+#: ../gde2weather/gde2weather-applet.c:116
+#: ../gde2weather/gde2weather-dialog.c:191
+msgid "_Update"
+msgstr "_حدّث"
+
+#: ../gde2weather/gde2weather-applet.c:350
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:3
+msgid "Weather Report"
+msgstr "تقرير حالة الطقس"
+
+#: ../gde2weather/gde2weather-applet.c:368
+#: ../gde2weather/gde2weather-applet.c:372
+msgid "GDE2 Weather"
+msgstr "طقس متّة"
+
+#: ../gde2weather/gde2weather-applet.c:471
+msgid "Weather Forecast"
+msgstr "تقرير الطقس"
+
+#: ../gde2weather/gde2weather-applet.c:483
+#, c-format
+msgid ""
+"City: %s\n"
+"Sky: %s\n"
+"Temperature: %s"
+msgstr "المدينة: %s\nالسماء: %s\nدرجة الحرارة: %s"
+
+#: ../gde2weather/gde2weather-applet.c:532
+msgid "Updating..."
+msgstr "يُحدِّث..."
+
+#: ../gde2weather/gde2weather-dialog.c:189
+msgid "Details"
+msgstr "التّفاصيل"
+
+#: ../gde2weather/gde2weather-dialog.c:231
+msgid "City:"
+msgstr "المدينة:"
+
+#: ../gde2weather/gde2weather-dialog.c:243
+msgid "Last update:"
+msgstr "آخر تحديث:"
+
+#: ../gde2weather/gde2weather-dialog.c:255
+msgid "Conditions:"
+msgstr "الحالة:"
+
+#: ../gde2weather/gde2weather-dialog.c:267
+msgid "Sky:"
+msgstr "السماء:"
+
+#: ../gde2weather/gde2weather-dialog.c:279
+msgid "Temperature:"
+msgstr "درجة الحرارة:"
+
+#: ../gde2weather/gde2weather-dialog.c:291
+msgid "Feels like:"
+msgstr "تبدو كـ:"
+
+#: ../gde2weather/gde2weather-dialog.c:303
+msgid "Dew point:"
+msgstr "نقطة الندى:"
+
+#: ../gde2weather/gde2weather-dialog.c:315
+msgid "Relative humidity:"
+msgstr "الرّطوبة النّسبيّة:"
+
+#: ../gde2weather/gde2weather-dialog.c:327
+msgid "Wind:"
+msgstr "الرياح:"
+
+#: ../gde2weather/gde2weather-dialog.c:339
+msgid "Pressure:"
+msgstr "الضغط:"
+
+#: ../gde2weather/gde2weather-dialog.c:351
+msgid "Visibility:"
+msgstr "مدى الرؤية:"
+
+#: ../gde2weather/gde2weather-dialog.c:363
+msgid "Sunrise:"
+msgstr "الشروق:"
+
+#: ../gde2weather/gde2weather-dialog.c:375
+msgid "Sunset:"
+msgstr "الغروب:"
+
+#: ../gde2weather/gde2weather-dialog.c:565
+msgid "Current Conditions"
+msgstr "الحالة الحالية"
+
+#: ../gde2weather/gde2weather-dialog.c:582
+msgid "Forecast Report"
+msgstr "تقرير النشرة الجوّية"
+
+#: ../gde2weather/gde2weather-dialog.c:582
+msgid "See the ForeCast Details"
+msgstr "راجع تفاصيل النشرة الجوية"
+
+#: ../gde2weather/gde2weather-dialog.c:592
+msgid "Forecast"
+msgstr "النشرة الجوية"
+
+#: ../gde2weather/gde2weather-dialog.c:600
+msgid "Radar Map"
+msgstr "خريطة الرادار"
+
+#: ../gde2weather/gde2weather-dialog.c:631
+msgid "_Visit Weather.com"
+msgstr "_زُرْ Weather.com"
+
+#: ../gde2weather/gde2weather-dialog.c:632
+msgid "Visit Weather.com"
+msgstr "زُرْ Weather.com"
+
+#: ../gde2weather/gde2weather-dialog.c:632
+msgid "Click to Enter Weather.com"
+msgstr "انقر لدخول Weather.com"
+
+#: ../gde2weather/gde2weather-dialog.c:717
+msgid "Forecast not currently available for this location."
+msgstr "النّشرة الجّويّة غير متوفّرة حاليًّا لهذا المكان."
+
+#. Accessible Name and Description for the components in Preference Dialog
+#: ../gde2weather/gde2weather-pref.c:165
+msgid "Location view"
+msgstr "مشهد المكان"
+
+#: ../gde2weather/gde2weather-pref.c:165
+msgid "Select Location from the list"
+msgstr "اختر مكانًا من القائمة"
+
+#: ../gde2weather/gde2weather-pref.c:166
+msgid "Update spin button"
+msgstr "حدّث الزر اللولبي"
+
+#: ../gde2weather/gde2weather-pref.c:166
+msgid "Spinbutton for updating"
+msgstr "الزر اللولبي للتحديث"
+
+#: ../gde2weather/gde2weather-pref.c:167
+msgid "Address Entry"
+msgstr "خانة العنوان"
+
+#: ../gde2weather/gde2weather-pref.c:167
+msgid "Enter the URL"
+msgstr "أدخل الرّابط"
+
+#: ../gde2weather/gde2weather-pref.c:290
+msgid ""
+"Failed to load the Locations XML database.  Please report this as a bug."
+msgstr "فشل تحميل قاعدة بيانات XML المواقع. من فضلك أرسل تقريرًا بهذه العلّة."
+
+#: ../gde2weather/gde2weather-pref.c:812
+msgid "Weather Preferences"
+msgstr "تفضيلات حالة الطقس"
+
+#: ../gde2weather/gde2weather-pref.c:839
+#: ../gde2weather/gde2weather-pref.c:1053
+msgid "_Automatically update every:"
+msgstr "_حدّث آليًا كل:"
+
+#. * Units settings page.
+#. Temperature Unit
+#: ../gde2weather/gde2weather-pref.c:854
+msgid "_Temperature unit:"
+msgstr "وحدة ال_حرارة:"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (temp_combo), _("Default"));
+#: ../gde2weather/gde2weather-pref.c:868
+msgid "Kelvin"
+msgstr "كلفن"
+
+#. TRANSLATORS: Celsius is sometimes referred Centigrade
+#: ../gde2weather/gde2weather-pref.c:870
+msgid "Celsius"
+msgstr "مئوي"
+
+#: ../gde2weather/gde2weather-pref.c:871
+msgid "Fahrenheit"
+msgstr "فهرنهايت"
+
+#. Speed Unit
+#: ../gde2weather/gde2weather-pref.c:880
+msgid "_Wind speed unit:"
+msgstr "وحدة سرعة ال_رياح:"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (speed_combo), _("Default"));
+#. TRANSLATOR: The wind speed unit "meters per second"
+#: ../gde2weather/gde2weather-pref.c:895
+msgid "m/s"
+msgstr "م\\ثا"
+
+#. TRANSLATOR: The wind speed unit "kilometers per hour"
+#: ../gde2weather/gde2weather-pref.c:897
+msgid "km/h"
+msgstr "كم\\سا"
+
+#. TRANSLATOR: The wind speed unit "miles per hour"
+#: ../gde2weather/gde2weather-pref.c:899
+msgid "mph"
+msgstr "ميل\\سا"
+
+#. TRANSLATOR: The wind speed unit "knots"
+#: ../gde2weather/gde2weather-pref.c:901
+msgid "knots"
+msgstr "عقدة"
+
+#: ../gde2weather/gde2weather-pref.c:902
+msgid "Beaufort scale"
+msgstr "مقياس بيوفور"
+
+#. Pressure Unit
+#: ../gde2weather/gde2weather-pref.c:911
+msgid "_Pressure unit:"
+msgstr "وحدة ال_ضغط:"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (pres_combo), _("Default"));
+#. TRANSLATOR: The pressure unit "kiloPascals"
+#: ../gde2weather/gde2weather-pref.c:926
+msgid "kPa"
+msgstr "كيلوباسكال"
+
+#. TRANSLATOR: The pressure unit "hectoPascals"
+#: ../gde2weather/gde2weather-pref.c:928
+msgid "hPa"
+msgstr "هكتوباسكال"
+
+#. TRANSLATOR: The pressure unit "millibars"
+#: ../gde2weather/gde2weather-pref.c:930
+msgid "mb"
+msgstr "ميلي بار"
+
+#. TRANSLATOR: The pressure unit "millibars of mercury"
+#: ../gde2weather/gde2weather-pref.c:932
+msgid "mmHg"
+msgstr "مم زئبقي"
+
+#. TRANSLATOR: The pressure unit "inches of mercury"
+#: ../gde2weather/gde2weather-pref.c:934
+msgid "inHg"
+msgstr "بوصة زئبقية"
+
+#. TRANSLATOR: The pressure unit "atmospheres"
+#: ../gde2weather/gde2weather-pref.c:936
+msgid "atm"
+msgstr "جو"
+
+#. Distance Unit
+#: ../gde2weather/gde2weather-pref.c:945
+msgid "_Visibility unit:"
+msgstr "وحدة ال_رؤية:"
+
+#. gtk_combo_box_append_text (GTK_COMBO_BOX (dist_combo), _("Default"));
+#. TRANSLATOR: The distance unit "meters"
+#: ../gde2weather/gde2weather-pref.c:960
+msgid "meters"
+msgstr "م"
+
+#. TRANSLATOR: The distance unit "kilometers"
+#: ../gde2weather/gde2weather-pref.c:962
+msgid "km"
+msgstr "كم"
+
+#. TRANSLATOR: The distance unit "miles"
+#: ../gde2weather/gde2weather-pref.c:964
+msgid "miles"
+msgstr "ميل"
+
+#: ../gde2weather/gde2weather-pref.c:990
+msgid "Enable _radar map"
+msgstr "فعّل خريطة ال_رادار"
+
+#: ../gde2weather/gde2weather-pref.c:1006
+msgid "Use _custom address for radar map"
+msgstr "استخدم عنوانًا _خاصًا لخريطة الرادار"
+
+#: ../gde2weather/gde2weather-pref.c:1024
+msgid "A_ddress:"
+msgstr "ال_عنوان:"
+
+#. setup show-notifications button
+#: ../gde2weather/gde2weather-pref.c:1039
+msgid "Show _notifications"
+msgstr "اعرض التنبيهات"
+
+#: ../gde2weather/gde2weather-pref.c:1049
+msgid "Update"
+msgstr "حدّث"
+
+#: ../gde2weather/gde2weather-pref.c:1066
+msgid "minutes"
+msgstr "دقائق"
+
+#: ../gde2weather/gde2weather-pref.c:1084
+msgid "Display"
+msgstr "اعرض"
+
+#: ../gde2weather/gde2weather-pref.c:1103
+msgid "General"
+msgstr "عام"
+
+#: ../gde2weather/gde2weather-pref.c:1114
+msgid "_Select a location:"
+msgstr "ا_ختر موقعًا:"
+
+#: ../gde2weather/gde2weather-pref.c:1140
+msgid "_Find:"
+msgstr "ا_بحث:"
+
+#: ../gde2weather/gde2weather-pref.c:1146
+msgid "Find _Next"
+msgstr "ابحث عن ال_تالي"
+
+#: ../gde2weather/gde2weather-pref.c:1167
+msgid "Location"
+msgstr "المكان"
+
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:1
+msgid "Gde2weather Applet Factory"
+msgstr "مصنع بريمج طقس متّة"
+
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:2
+msgid "Factory for creating the weather applet."
+msgstr "مصنع لإنشاء بريمج حالة الطقس."
+
+#: ../gde2weather/org.gde2.applets.Gde2WeatherApplet.gde2-panel-applet.in.in.h:4
+msgid "Monitor the current weather conditions, and forecasts"
+msgstr "راقب أحوال و توقعات الطقس الحالي"
+
+#: ../invest-applet/data/financialchart.ui.h:1
+#: ../invest-applet/invest/chart.py:118
+msgid "Financial Chart"
+msgstr "مخطط مالي"
+
+#: ../invest-applet/data/financialchart.ui.h:2
+msgid "_Ticker symbol: "
+msgstr "رمز البور_صة:"
+
+#: ../invest-applet/data/financialchart.ui.h:3
+msgid "Auto _refresh"
+msgstr "_حدِّث تلقائيًا"
+
+#: ../invest-applet/data/financialchart.ui.h:4
+msgid "Today"
+msgstr "اليوم"
+
+#: ../invest-applet/data/financialchart.ui.h:5
+msgid "5 Days"
+msgstr "5 أيام"
+
+#: ../invest-applet/data/financialchart.ui.h:6
+msgid "3 Months"
+msgstr "3 أشهر"
+
+#: ../invest-applet/data/financialchart.ui.h:7
+msgid "6 Months"
+msgstr "6 أشهر"
+
+#: ../invest-applet/data/financialchart.ui.h:8
+msgid "1 Year"
+msgstr "سنة"
+
+#: ../invest-applet/data/financialchart.ui.h:9
+msgid "5 Years"
+msgstr "5 سنوات"
+
+#: ../invest-applet/data/financialchart.ui.h:10
+msgid "Maximum"
+msgstr "الحد الأقصى"
+
+#: ../invest-applet/data/financialchart.ui.h:11
+msgid "_Graph style: "
+msgstr "أ_سلوب الرسم البياني:"
+
+#. see http://biz.yahoo.com/charts/guide11.html and
+#. http://en.wikipedia.org/wiki/Moving_average
+#: ../invest-applet/data/financialchart.ui.h:13
+msgid "Moving average: "
+msgstr "متوسط الحركة:  "
+
+#. see http://biz.yahoo.com/charts/guide12.html and
+#. http://en.wikipedia.org/wiki/Moving_average#Exponential_moving_average
+#: ../invest-applet/data/financialchart.ui.h:15
+msgid "Exponential moving average: "
+msgstr "معدل الحركات الأسيّة:"
+
+#: ../invest-applet/data/financialchart.ui.h:16
+msgid "5"
+msgstr "5"
+
+#: ../invest-applet/data/financialchart.ui.h:17
+msgid "10"
+msgstr "10"
+
+#: ../invest-applet/data/financialchart.ui.h:18
+msgid "20"
+msgstr "20"
+
+#: ../invest-applet/data/financialchart.ui.h:19
+msgid "50"
+msgstr "50"
+
+#: ../invest-applet/data/financialchart.ui.h:20
+msgid "100"
+msgstr "100"
+
+#: ../invest-applet/data/financialchart.ui.h:21
+msgid "200"
+msgstr "200"
+
+#. see http://en.wikipedia.org/wiki/Technical_analysis#Overlays
+#: ../invest-applet/data/financialchart.ui.h:23
+msgid "Overlays: "
+msgstr "التّراكبات:"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide13.html and
+#. http://en.wikipedia.org/wiki/Bollinger_bands
+#: ../invest-applet/data/financialchart.ui.h:25
+msgid "Bollinger"
+msgstr "بولينغر"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide16.html and
+#. http://en.wikipedia.org/wiki/Parabolic_SAR
+#: ../invest-applet/data/financialchart.ui.h:27
+msgid "SAR"
+msgstr "SAR"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide6.html and
+#. http://en.wikipedia.org/wiki/Stock_split
+#: ../invest-applet/data/financialchart.ui.h:29
+msgid "Splits"
+msgstr "الانقسامات"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide20.html and
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:31
+msgid "Volumes"
+msgstr "الحجوم"
+
+#. see http://biz.yahoo.com/charts/guide10.html and
+#. http://en.wikipedia.org/wiki/Technical_indicator#Charting_terms_and_indicators
+#: ../invest-applet/data/financialchart.ui.h:33
+msgid "Indicators: "
+msgstr "المؤشرات:"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Relative_Strength_Index
+#: ../invest-applet/data/financialchart.ui.h:35
+msgid "RSI"
+msgstr "RSI"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:37
+msgid "Vol"
+msgstr "Vol"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Money_flow_index
+#: ../invest-applet/data/financialchart.ui.h:39
+msgid "MFI"
+msgstr "MFI"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Stochastic_oscillator
+#: ../invest-applet/data/financialchart.ui.h:41
+msgid "Slow stoch"
+msgstr "stoch البطيئة"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:43
+msgid "Vol+MA"
+msgstr "Vol+MA"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Rate_of_change_%28technical_analysis%29
+#: ../invest-applet/data/financialchart.ui.h:45
+msgid "ROC"
+msgstr "ROC"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Stochastic_oscillator
+#: ../invest-applet/data/financialchart.ui.h:47
+msgid "Fast stoch"
+msgstr "stoch السّريع"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Williams_%25R
+#: ../invest-applet/data/financialchart.ui.h:50
+#, no-c-format
+msgid "W%R"
+msgstr "W%R"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/MACD
+#: ../invest-applet/data/financialchart.ui.h:52
+msgid "MACD"
+msgstr "MACD"
+
+#: ../invest-applet/data/financialchart.ui.h:53
+msgid "Line"
+msgstr ""
+
+#: ../invest-applet/data/financialchart.ui.h:54
+msgid "Bar"
+msgstr ""
+
+#: ../invest-applet/data/financialchart.ui.h:55
+msgid "Candle"
+msgstr ""
+
+#: ../invest-applet/data/financialchart.ui.h:56
+msgid "Scale: "
+msgstr ""
+
+#: ../invest-applet/data/financialchart.ui.h:57
+msgid "Linear"
+msgstr ""
+
+#: ../invest-applet/data/financialchart.ui.h:58
+msgid "Logarithmic"
+msgstr ""
+
+#: ../invest-applet/data/financialchart.ui.h:59
+msgid "_Options"
+msgstr "ال_خيارات"
+
+#: ../invest-applet/data/financialchart.ui.h:60
+msgid "Downloading chart from <b>Yahoo!</b>"
+msgstr "يجري تنزيل الرسم البياني من <b>ياهو</b>"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:1
+msgid "Invest Preferences"
+msgstr "تفضيلات الاستثمار"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:2
+msgid "label"
+msgstr "العنوان"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:3
+msgid "Stocks"
+msgstr "الأسهم"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:4
+msgid ""
+"<i><small><b>Note:</b> Quotes are delayed at least 15 minutes.\n"
+"<b>Source: </b> Yahoo!</small></i>"
+msgstr "<i><small><b>ملاحظة:</b> تتأخر الاقتباسات 15 دقيقة على الأقل.\n<b>المصدر:</b> ياهو</small></i>"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:6
+msgid "Currency"
+msgstr "العملة"
+
+#: ../invest-applet/invest/about.py:22
+msgid "Invest"
+msgstr "استثمر"
+
+#: ../invest-applet/invest/about.py:25
+msgid "Track your invested money."
+msgstr "تتبّع مالَكَ المستثمر."
+
+#. name, stock_id, label, accellerator, tooltip, callback
+#: ../invest-applet/invest/applet.py:28
+msgid "About"
+msgstr "عنْ"
+
+#: ../invest-applet/invest/applet.py:29 ../netspeed/src/netspeed.c:1418
+msgid "Help"
+msgstr "مساعدة"
+
+#: ../invest-applet/invest/applet.py:30
+msgid "Preferences"
+msgstr "التفضيلات"
+
+#: ../invest-applet/invest/applet.py:31
+msgid "Refresh"
+msgstr "تحديث"
+
+#. a) We aren't configured yet
+#: ../invest-applet/invest/applet.py:63
+msgid "<b>You have not entered any stock information yet</b>"
+msgstr "<b>لم تُدخل أيّة معلومات للأسهم حتى الآن </b>"
+
+#: ../invest-applet/invest/applet.py:68
+msgid "<b>No stock quotes are currently available</b>"
+msgstr "<b>أسعار الأسهم غير متاحة حاليًا</b>"
+
+#: ../invest-applet/invest/applet.py:69
+msgid ""
+"The server could not be contacted. The computer is either offline or the "
+"servers are down. Try again later."
+msgstr "تعذّر الاتصال بالمخدّم. إما أن الكمبيوتر يعمل بدون اتصال أو أن المخدّمات متوقفة. حاول مرةً أخرى لاحقاً."
+
+#: ../invest-applet/invest/chart.py:167
+#, python-format
+msgid "Financial Chart - %s"
+msgstr "رسم بياني مالي - %s"
+
+#: ../invest-applet/invest/chart.py:234
+msgid "Opening Chart"
+msgstr "يجري فتح الرسم البياني"
+
+#: ../invest-applet/invest/chart.py:249
+msgid "Chart downloaded"
+msgstr "تم تحميل المخطط"
+
+#: ../invest-applet/invest/chart.py:251
+msgid "Chart could not be downloaded"
+msgstr "تعذّر تحميل المخطط"
+
+#: ../invest-applet/invest/invest-applet.py:44
+msgid "Invest Applet"
+msgstr "بريمج المستثمر"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Symbol"
+msgstr "رمز"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Label"
+msgstr "العنوان"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Amount"
+msgstr "الكميّة"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Price"
+msgstr "السّعر"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Commission"
+msgstr "عمولة"
+
+#: ../invest-applet/invest/preferences.py:36
+msgid "Currency Rate"
+msgstr "سعر العملة"
+
+#: ../invest-applet/invest/quotes.py:171
+msgid "Invest could not connect to Yahoo! Finance"
+msgstr "لم يستَطع المستثمر الاتصال بـ ماليات ياهو"
+
+#. Translators: This is share-market jargon. It is the average percentage
+#. change of all stock prices. The %s gets replaced with the string value of
+#. the change (localized), including the percent sign.
+#: ../invest-applet/invest/quotes.py:213
+#, python-format
+msgid "Average change: %s"
+msgstr "التغيّر الوسطي في الأسعار: %s"
+
+#. Translators: This is share-market jargon. It refers to the total difference
+#. between the current price and purchase price for all the shares put
+#. together for a particular currency. i.e. How much money would be earned if
+#. they were sold right now. The first string is the change value, the second
+#. the currency, and the third value is the percentage of the change,
+#. formatted using user's locale.
+#: ../invest-applet/invest/quotes.py:222
+#, python-format
+msgid "Positions balance: %s %s (%s)"
+msgstr "موازنة الصفقات: %s ‏%s ‏(%s)"
+
+#: ../invest-applet/invest/quotes.py:224
+#, python-format
+msgid "Updated at %s"
+msgstr "حُدّث في %s"
+
+#. model: SYMBOL, LABEL, TICKER_ONLY, BALANCE, BALANCE_PCT, VALUE,
+#. VARIATION_PCT, PB
+#. Translators: these words all refer to a stock. Last is short
+#. for "last price". Gain is referring to the gain since the
+#. stock was purchased.
+#: ../invest-applet/invest/widgets.py:59
+msgid "Ticker"
+msgstr "مؤشر الأسهم"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Last"
+msgstr "الأخير"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Change %"
+msgstr "التغيّر %"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Chart"
+msgstr "مخطط"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Gain"
+msgstr "الربح"
+
+#: ../invest-applet/invest/widgets.py:59
+msgid "Gain %"
+msgstr "الربح %"
+
+#: ../multiload/main.c:64
+msgid ""
+"A system load monitor capable of displaying graphs for CPU, ram, and swap "
+"space use, plus network traffic."
+msgstr "مراقب لحالة النظام يستطيع عرض رسوم بيانية للمعالج و الذاكرة و مستوى استخدام ملف التبديل بالإضافة إلى حالة الشبكة."
+
+#: ../multiload/main.c:127
+msgid "Start system-monitor"
+msgstr ""
+
+#: ../multiload/main.c:148
+#, c-format
+msgid "There was an error executing '%s': %s"
+msgstr "حدث خطأ عند تنفيذ '%s' : %s"
+
+#: ../multiload/main.c:276 ../multiload/properties.c:604
+msgid "Processor"
+msgstr "المعالج"
+
+#: ../multiload/main.c:278 ../multiload/properties.c:612
+msgid "Memory"
+msgstr "الذاكرة"
+
+#: ../multiload/main.c:280 ../multiload/properties.c:620
+msgid "Network"
+msgstr "الشبكة"
+
+#: ../multiload/main.c:282 ../multiload/properties.c:627
+msgid "Swap Space"
+msgstr "مساحة التبديل"
+
+#: ../multiload/main.c:284 ../multiload/main.c:363
+msgid "Load Average"
+msgstr "متوسط الحِمْل"
+
+#: ../multiload/main.c:286
+msgid "Disk"
+msgstr "القرص"
+
+#. xgettext: use and cache are > 1 most of the time,
+#. please assume that they always are.
+#: ../multiload/main.c:302
+#, c-format
+msgid ""
+"%s:\n"
+"%u%% in use by programs\n"
+"%u%% in use as cache"
+msgstr "%s:\n%u%% مستخدَمة من طرف برامج\n%u%% مستعملة كذاكرة مؤقّتة"
+
+#: ../multiload/main.c:310
+#, c-format
+msgid "The system load average is %0.02f"
+msgstr "متوسّط حِمْل النظام  %0.02f"
+
+#. xgettext: same as in graphic tab of g-s-m
+#: ../multiload/main.c:318
+#, c-format
+msgid ""
+"%s:\n"
+"Receiving %s\n"
+"Sending %s"
+msgstr "%s:\nالتلقي %s\nالإرسال %s"
+
+#: ../multiload/main.c:334
+#, c-format
+msgid ""
+"%s:\n"
+"%u%% in use"
+msgid_plural ""
+"%s:\n"
+"%u%% in use"
+msgstr[0] "%s:\n%u%% مستعملة"
+msgstr[1] "%s:\n%u%% مستعملة"
+msgstr[2] "%s:\n%u%% مستعملة"
+msgstr[3] "%s:\n%u%% مستعملة"
+msgstr[4] "%s:\n%u%% مستعملة"
+msgstr[5] "%s:\n%u%% مستعملة"
+
+#: ../multiload/main.c:359
+msgid "CPU Load"
+msgstr "حِمْل المعالج"
+
+#: ../multiload/main.c:360
+msgid "Memory Load"
+msgstr "حمل الذاكرة"
+
+#: ../multiload/main.c:361
+msgid "Net Load"
+msgstr "حمل الشبكة"
+
+#: ../multiload/main.c:362
+msgid "Swap Load"
+msgstr "حِمْل التبديل"
+
+#: ../multiload/main.c:364
+msgid "Disk Load"
+msgstr "حِمْل القرص"
+
+#: ../multiload/main.c:460
+msgid "_Open System Monitor"
+msgstr "ا_فتح مراقب النظام"
+
+#: ../multiload/main.c:488
+#: ../multiload/org.gde2.applets.MultiLoadApplet.gde2-panel-applet.in.in.h:1
+msgid "System Monitor"
+msgstr "مراقب النظام"
+
+#: ../multiload/netspeed.c:40
+#, c-format
+msgid "%s/s"
+msgstr "%s\\ثا"
+
+#: ../multiload/org.gde2.applets.MultiLoadApplet.gde2-panel-applet.in.in.h:2
+msgid "A system load indicator"
+msgstr "موضّح حِمْل النظام"
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:1
+msgid "Enable CPU load graph"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:2
+msgid "Enable memory load graph"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:3
+msgid "Enable network load graph"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:4
+msgid "Enable swap load graph"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:5
+msgid "Enable load average graph"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:6
+msgid "Enable disk load graph"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:7
+msgid "Applet refresh rate in milliseconds"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:8
+msgid "Graph size"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:9
+msgid ""
+"For horizontal panels, the width of the graphs in pixels. For vertical "
+"panels, this is the height of the graphs."
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:10
+msgid "Graph color for user-related CPU activity"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:11
+msgid "Graph color for system-related CPU activity"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:12
+msgid "Graph color for nice-related CPU activity"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:13
+msgid "Graph color for iowait related CPU activity"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:14
+msgid "CPU graph background color"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:15
+msgid "Graph color for user-related memory usage"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:16
+msgid "Graph color for shared memory"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:17
+msgid "Graph color for buffer memory"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:18
+msgid "Graph color for cached memory"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:19
+msgid "Memory graph background color"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:20
+msgid "Graph color for input network activity"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:21
+msgid "Graph color for output network activity"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:22
+msgid "Graph color for loopback network usage"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:23
+msgid "Network graph background color"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:24
+msgid "Graph color for user-related swap usage"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:25
+msgid "Swap graph background color"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:26
+msgid "Graph color for load average"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:27
+msgid "Load graph background color"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:28
+msgid "Graph color for disk read"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:29
+msgid "Graph color for disk write"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:30
+msgid "Background color for disk load graph"
+msgstr ""
+
+#: ../multiload/org.gde2.panel.applet.multiload.gschema.xml.in.h:31
+msgid "The desktop description file to execute as the system monitor"
+msgstr ""
+
+#: ../multiload/properties.c:338
+msgid "Monitored Resources"
+msgstr "الموارد المراقَبة"
+
+#: ../multiload/properties.c:367
+msgid "_Processor"
+msgstr "الم_عالج"
+
+#: ../multiload/properties.c:380
+msgid "_Memory"
+msgstr "ال_ذاكرة"
+
+#: ../multiload/properties.c:393
+msgid "_Network"
+msgstr "ال_شبكة"
+
+#: ../multiload/properties.c:406
+msgid "S_wap Space"
+msgstr "مساحة الت_بديل"
+
+#: ../multiload/properties.c:419
+msgid "_Load"
+msgstr "ال_حِمْل"
+
+#: ../multiload/properties.c:432
+msgid "_Harddisk"
+msgstr "القرص ال_صلب"
+
+#: ../multiload/properties.c:447
+msgid "Options"
+msgstr "الخيارات"
+
+#: ../multiload/properties.c:481
+msgid "System m_onitor width: "
+msgstr "عُرض مر_قاب النظام: "
+
+#: ../multiload/properties.c:483
+msgid "System m_onitor height: "
+msgstr "ارتفاع مرق_اب النظام: "
+
+#: ../multiload/properties.c:518
+msgid "pixels"
+msgstr "بكسل"
+
+#: ../multiload/properties.c:530
+msgid "Sys_tem monitor update interval: "
+msgstr "المجال الزمني لتحديث مرقاب ال_نظام: "
+
+#: ../multiload/properties.c:560
+msgid "milliseconds"
+msgstr "ملي ثانية"
+
+#: ../multiload/properties.c:575
+msgid "Colors"
+msgstr "الألوان"
+
+#: ../multiload/properties.c:606 ../multiload/properties.c:614
+msgid "_User"
+msgstr "الم_ستخدِم"
+
+#: ../multiload/properties.c:607
+msgid "S_ystem"
+msgstr "الن_ظام"
+
+#: ../multiload/properties.c:608
+msgid "N_ice"
+msgstr "_تحسين"
+
+#: ../multiload/properties.c:609
+msgid "I_OWait"
+msgstr "I_OWait"
+
+#: ../multiload/properties.c:610
+msgid "I_dle"
+msgstr "_خامل"
+
+#: ../multiload/properties.c:615
+msgid "Sh_ared"
+msgstr "مش_ترك"
+
+#: ../multiload/properties.c:616
+msgid "_Buffers"
+msgstr "الذاكرة ال_وسيطة"
+
+#: ../multiload/properties.c:617
+msgid "Cach_ed"
+msgstr "_مختزن"
+
+#: ../multiload/properties.c:618
+msgid "F_ree"
+msgstr "_خالي"
+
+#: ../multiload/properties.c:622
+msgid "_In"
+msgstr "_داخل"
+
+#: ../multiload/properties.c:623
+msgid "_Out"
+msgstr "_خارج"
+
+#: ../multiload/properties.c:624
+msgid "_Local"
+msgstr "_محلي"
+
+#: ../multiload/properties.c:625 ../multiload/properties.c:635
+#: ../multiload/properties.c:641
+msgid "_Background"
+msgstr "ال_خلفية"
+
+#: ../multiload/properties.c:629
+msgid "_Used"
+msgstr "مُ_ستخدَم"
+
+#: ../multiload/properties.c:630
+msgid "_Free"
+msgstr "_خالي"
+
+#: ../multiload/properties.c:632
+msgid "Load"
+msgstr "الحِمْل"
+
+#: ../multiload/properties.c:634
+msgid "_Average"
+msgstr "ال_متوسط"
+
+#: ../multiload/properties.c:637
+msgid "Harddisk"
+msgstr "القرص الصلب"
+
+#: ../multiload/properties.c:639
+msgid "_Read"
+msgstr "_قراءة"
+
+#: ../multiload/properties.c:640
+msgid "_Write"
+msgstr "_كتابة"
+
+#: ../multiload/properties.c:665
+msgid "System Monitor Preferences"
+msgstr "تفضيلات مراقب النظام"
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:1
+msgid "Device to monitor"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:2
+msgid "The name of the device to monitor"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:3
+msgid "Show sum speed"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:4
+msgid "If true, show sum of inbound/outbound speed instead of separated ones."
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:5
+msgid "Show bits"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:6
+msgid "If true, show speed in bits instead of bytes."
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:8
+msgid "If true, show main icon."
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:9
+msgid "Short unit legend"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:10
+msgid ""
+"If true, shorten unit legend to one letter: lowercase for bits / uppercase "
+"for Bytes."
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:11
+msgid "Change icon"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:12
+msgid "If true, change the icon due to selected device."
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:13
+msgid "Auto change device"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:14
+msgid "If true, change automatically the selected device."
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:15
+msgid "In color"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:16
+msgid "The color of the graph of the inbound traffic"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:17
+msgid "Out color"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:18
+msgid "The color of the graph of the outbound traffic"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:19
+msgid "Up command"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:20
+msgid "Command the execute to activate the device"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:21
+msgid "Down command"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:22
+msgid "Command the execute to shut down the device"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:23
+msgid "Show signal quality icon"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.panel.applet.netspeed.gschema.xml.in.h:24
+msgid "If true, show signal quality icon for wireless devices."
+msgstr ""
+
+#: ../netspeed/data/org.gde2.applets.NetspeedApplet.gde2-panel-applet.in.in.h:1
+msgid "Netspeed Applet Factory"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.applets.NetspeedApplet.gde2-panel-applet.in.in.h:2
+msgid "Netspeed Applet"
+msgstr ""
+
+#: ../netspeed/data/org.gde2.applets.NetspeedApplet.gde2-panel-applet.in.in.h:3
+msgid "Network Monitor"
+msgstr ""
+
+#. translators: bits (short)
+#: ../netspeed/src/netspeed.c:394
+msgid "b"
+msgstr ""
+
+#. translators: Bytes (short)
+#: ../netspeed/src/netspeed.c:394
+msgid "B"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:396
+msgid "b/s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:396
+msgid "B/s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:399
+msgid "bits"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:399
+msgid "bytes"
+msgstr ""
+
+#. translators: kilobits (short)
+#: ../netspeed/src/netspeed.c:407
+msgid "k"
+msgstr ""
+
+#. translators: Kilobytes (short)
+#: ../netspeed/src/netspeed.c:407
+msgid "K"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:409
+msgid "kb/s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:409
+msgid "KiB/s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:412
+msgid "kb"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:412
+msgid "KiB"
+msgstr ""
+
+#. translators: megabits (short)
+#: ../netspeed/src/netspeed.c:422
+msgid "m"
+msgstr ""
+
+#. translators: Megabytes (short)
+#: ../netspeed/src/netspeed.c:422
+msgid "M"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:424
+msgid "Mb/s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:424
+msgid "MiB/s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:427
+msgid "Mb"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:427
+msgid "MiB"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:769
+#, c-format
+msgid ""
+"There was an error displaying help:\n"
+"%s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:813
+msgid ""
+"A little applet that displays some information on the traffic on the "
+"specified network device"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:974
+msgid "Gde2 Netspeed Preferences"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:996
+msgid "General Settings"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1022
+msgid "Network _device:"
+msgstr ""
+
+#. Default means device with default route set
+#: ../netspeed/src/netspeed.c:1038
+msgid "Default"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1051
+msgid "Show _sum instead of in & out"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1055
+msgid "Show _bits instead of bytes"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1059
+msgid "Shorten _unit legend"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1063
+msgid "_Change icon according to the selected device"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1067
+msgid "Show _icon"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1071
+msgid "Show signal _quality icon for wireless devices"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1202
+#, c-format
+msgid "Device Details for %s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1227
+msgid "_In graph color"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1228
+msgid "_Out graph color"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1244
+msgid "Internet Address:"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1245
+msgid "Netmask:"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1246
+msgid "Hardware Address:"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1247
+msgid "P-t-P Address:"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1248
+msgid "Bytes in:"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1249
+msgid "Bytes out:"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1251 ../netspeed/src/netspeed.c:1252
+#: ../netspeed/src/netspeed.c:1253 ../netspeed/src/netspeed.c:1254
+msgid "none"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1320
+msgid "IPV6 Address:"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1359
+msgid "Signal Strength:"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1360
+msgid "ESSID:"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1414
+msgid "Device _Details"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1416
+msgid "Preferences..."
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1420
+msgid "About..."
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1461
+#, c-format
+msgid "Do you want to disconnect %s now?"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1465
+#, c-format
+msgid "Do you want to connect %s now?"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1492
+#, c-format
+msgid ""
+"<b>Running command %s failed</b>\n"
+"%s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1551
+#, c-format
+msgid "%s is down"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1556
+#, c-format
+msgid ""
+"%s: %s\n"
+"in: %s out: %s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1558 ../netspeed/src/netspeed.c:1567
+msgid "has no ip"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1565
+#, c-format
+msgid ""
+"%s: %s\n"
+"sum: %s"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1574
+#, c-format
+msgid ""
+"\n"
+"ESSID: %s\n"
+"Strength: %d %%"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1575
+msgid "unknown"
+msgstr ""
+
+#: ../netspeed/src/netspeed.c:1626
+msgid "Gde2 Netspeed"
+msgstr ""
+
+#: ../stickynotes/org.gde2.applets.StickyNotesApplet.gde2-panel-applet.in.in.h:1
+msgid "Sticky Notes Applet Factory"
+msgstr "مصنع بريمج الملاحظات اللاصقة"
+
+#: ../stickynotes/org.gde2.applets.StickyNotesApplet.gde2-panel-applet.in.in.h:2
+#: ../stickynotes/stickynotes_applet.c:163
+#: ../stickynotes/stickynotes_applet.c:405
+msgid "Sticky Notes"
+msgstr "ملاحظات لاصقة"
+
+#: ../stickynotes/org.gde2.applets.StickyNotesApplet.gde2-panel-applet.in.in.h:3
+msgid "Create, view, and manage sticky notes on the desktop"
+msgstr "أنشئ و اعرض و أدر ملاحظات لاصقة على سطح مكتبك"
+
+#: ../stickynotes/stickynotes.c:690
+msgid "This note is locked."
+msgstr "هذه الملاحظة موصدة."
+
+#: ../stickynotes/stickynotes.c:694
+msgid "This note is unlocked."
+msgstr "هذه الملاحظة غير موصدة."
+
+#: ../stickynotes/stickynotes.ui.h:1 ../stickynotes/stickynotes_applet.c:33
+msgid "_New Note"
+msgstr "ملاحظة _جديدة"
+
+#: ../stickynotes/stickynotes.ui.h:2
+msgid "_Delete Note..."
+msgstr "ا_حذف الملاحظة..."
+
+#: ../stickynotes/stickynotes.ui.h:3
+msgid "_Lock Note"
+msgstr "أ_وصِد الملاحظة"
+
+#: ../stickynotes/stickynotes.ui.h:4
+msgid "_Properties"
+msgstr "ال_خصائص"
+
+#: ../stickynotes/stickynotes.ui.h:5
+msgid "Sticky Notes Preferences"
+msgstr "تفضيلات الملاحظات اللاصقة"
+
+#: ../stickynotes/stickynotes.ui.h:6
+msgid "Default Note Properties"
+msgstr "خصائص الملاحظة المبدئية"
+
+#: ../stickynotes/stickynotes.ui.h:7
+msgid "Choose a font to use for all sticky notes"
+msgstr "اختر خطًا ليُستخدم في كلّ الملاحظات اللاصقة"
+
+#: ../stickynotes/stickynotes.ui.h:8
+msgid "Pick a default sticky note font"
+msgstr "اختر خطًا افتراضيًا للملاحظات اللاصقة"
+
+#: ../stickynotes/stickynotes.ui.h:9
+msgid "_Font:"
+msgstr "ال_خط:"
+
+#: ../stickynotes/stickynotes.ui.h:10
+msgid "Use fo_nt from the system theme"
+msgstr "استخدم خط سِمة ال_نّظام"
+
+#: ../stickynotes/stickynotes.ui.h:11
+msgid "Note C_olor:"
+msgstr "_لون الملاحظة:"
+
+#: ../stickynotes/stickynotes.ui.h:12
+msgid "Font Co_lor:"
+msgstr "لون ال_خط:"
+
+#: ../stickynotes/stickynotes.ui.h:13
+msgid "Choose a base color to use for all sticky notes"
+msgstr "اختر لونًا أساسيًا ليُستخدم في كل الملاحظات اللاصقة"
+
+#: ../stickynotes/stickynotes.ui.h:14
+msgid "Pick a default sticky note color"
+msgstr "اختر لونًا افتراضيًا للملاحظات اللاصقة"
+
+#: ../stickynotes/stickynotes.ui.h:15
+msgid "Use co_lor from the system theme"
+msgstr "استخدم ألوان سِمة ال_نّظام"
+
+#: ../stickynotes/stickynotes.ui.h:16
+msgid "Specify the default height (in pixels) of new notes"
+msgstr "حدّد الارتفاع الافتراضي للملاحظات الجديدة (بالبكسل)"
+
+#: ../stickynotes/stickynotes.ui.h:17
+msgid "Specify the default width (in pixels) of new notes"
+msgstr "حدّد العرض الافتراضي للملاحظات الجديدة (بالبكسل)"
+
+#: ../stickynotes/stickynotes.ui.h:18
+msgid "H_eight:"
+msgstr "الار_تفاع:"
+
+#: ../stickynotes/stickynotes.ui.h:19
+msgid "_Width:"
+msgstr "ال_عرض:"
+
+#: ../stickynotes/stickynotes.ui.h:20
+msgid "Behavior"
+msgstr "السلوك"
+
+#: ../stickynotes/stickynotes.ui.h:21
+msgid "Hide notes when the des_ktop is clicked on"
+msgstr "أخف الملاحظات عند النّقر على _سطح المكتب"
+
+#: ../stickynotes/stickynotes.ui.h:22
+msgid "Choose whether to hide all notes when selecting on the desktop"
+msgstr "اختر ما إذا ستُخفى كل الملاحظات عند إظهار سطح المكتب"
+
+#: ../stickynotes/stickynotes.ui.h:23
+msgid "Force _default color and font on notes"
+msgstr "افرض كلًا من اللّون و الخط الافتراضيين على كل الملاحظات"
+
+#: ../stickynotes/stickynotes.ui.h:24
+msgid "Choose if the default style is forced on all notes"
+msgstr "اختر فرض التنسيق الافتراضي على كل الملاحظات"
+
+#: ../stickynotes/stickynotes.ui.h:25
+msgid "_Put notes on all workspaces"
+msgstr "_ضع الملاحظات على كل مساحات العمل"
+
+#: ../stickynotes/stickynotes.ui.h:26
+msgid "Choose if notes are visible on all workspaces"
+msgstr "اختر ظهور الملاحظات في كل مساحات العمل"
+
+#: ../stickynotes/stickynotes.ui.h:27
+msgid "Delete this sticky note?"
+msgstr "أأحذف هذه الملاحظة اللاصقة؟"
+
+#: ../stickynotes/stickynotes.ui.h:28
+msgid "This cannot be undone."
+msgstr "لا يُمكن التّراجع عن هذا."
+
+#: ../stickynotes/stickynotes.ui.h:29
+msgid "Delete all sticky notes?"
+msgstr "أأحذف كل الملاحظات اللاصقة؟"
+
+#: ../stickynotes/stickynotes.ui.h:30
+msgid "_Delete All"
+msgstr "احذف ال_كل"
+
+#: ../stickynotes/stickynotes.ui.h:31
+msgid "Sticky Note"
+msgstr "ملاحظة لاصقة"
+
+#: ../stickynotes/stickynotes.ui.h:32
+msgid "Lock/Unlock note"
+msgstr "أوصِد\\افتح الملاحظة"
+
+#: ../stickynotes/stickynotes.ui.h:33
+msgid "Delete note"
+msgstr ""
+
+#: ../stickynotes/stickynotes.ui.h:34
+msgid "Resize note"
+msgstr "غيّر حجم الملاحظة"
+
+#: ../stickynotes/stickynotes.ui.h:35
+msgid "Sticky Note Properties"
+msgstr "خصائص الملاحظة اللاصقة"
+
+#: ../stickynotes/stickynotes.ui.h:36
+msgid "Properties"
+msgstr "الخصائص"
+
+#: ../stickynotes/stickynotes.ui.h:37
+msgid "Choose a font for the note"
+msgstr "اختر خطًا للملاحظة"
+
+#: ../stickynotes/stickynotes.ui.h:38
+msgid "Pick a font for the sticky note"
+msgstr "اختر خطًا للملاحظة اللاصقة"
+
+#: ../stickynotes/stickynotes.ui.h:39
+msgid "Use default fo_nt"
+msgstr "استخدم ال_خط الافتراضي"
+
+#: ../stickynotes/stickynotes.ui.h:40
+msgid "Choose a color for the note"
+msgstr "اختر لونًا للملاحظة"
+
+#: ../stickynotes/stickynotes.ui.h:41
+msgid "Pick a color for the sticky note"
+msgstr "اختر لونًا للملاحظة اللاصقة"
+
+#: ../stickynotes/stickynotes.ui.h:42
+msgid "Note _Color:"
+msgstr "لون ال_ملاحظة:"
+
+#: ../stickynotes/stickynotes.ui.h:43
+msgid "Font C_olor:"
+msgstr "_لون الخط:"
+
+#: ../stickynotes/stickynotes.ui.h:44
+msgid "Use default co_lor"
+msgstr "استخدم ال_لون الافتراضي"
+
+#: ../stickynotes/stickynotes.ui.h:45
+msgid "Specify a title for the note"
+msgstr "حدّد عنوانًا للملاحظة"
+
+#: ../stickynotes/stickynotes.ui.h:46
+msgid "_Title:"
+msgstr "ال_عنوان:"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:1
+msgid "Default width for new notes"
+msgstr "العرض الافتراضي للملاحظات الجديدة"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:2
+msgid "Default width for new sticky notes in pixels."
+msgstr "العرض الافتراضي للملاحظة اللاصقة الجديدة بالبكسل."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:3
+msgid "Default height for new notes"
+msgstr "الارتفاع الافتراضي للملاحظات الجديدة"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:4
+msgid "Default height for new sticky notes in pixels."
+msgstr "الارتفاع الافتراضي للملاحظات اللاصقة الجديدة بالبكسل."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:5
+msgid "Default color for new notes"
+msgstr "اللون الافتراضي للملاحظات الجديدة"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:6
+msgid ""
+"Default color for new sticky notes. This should be in html hex "
+"specification, for example \"#30FF50\"."
+msgstr "اللون الافتراضي للملاحظات اللاصقة. يجب أن يكون بمواصفات html hex، مثلا \"#30FF50\"."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:7
+msgid "Default color for font"
+msgstr "اللون الافتراضي للخط"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:8
+msgid ""
+"Default font color for new sticky notes. This should be in html hex "
+"specification, for example \"#000000\"."
+msgstr "الخط الافتراضي للملاحظات اللاصقة. يجب أن يكون بمواصفات html hex، مثلا \"#000000\"."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:9
+msgid "Default font for new notes"
+msgstr "الخط الافتراضي للملاحظات الجديدة"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:10
+msgid ""
+"Default font for new sticky notes. This should be a Pango Font Name, for "
+"example \"Sans Italic 10\"."
+msgstr "الخط الافتراضي للملاحظات اللاصقة الجديدة. يجب أن يكون اسم خط بانغو، مثلا \"Sans Italic 10\"."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:11
+msgid "Sticky notes' workspace stickyness"
+msgstr "التصاق الملاحظات اللاصقة على مساحات العمل"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:12
+msgid ""
+"Specifies whether the sticky notes are visible on ALL workspaces on the "
+"desktop, or not."
+msgstr "يحدّد ما إذا كانت الملاحظات اللاصقة مرئية على جميع مساحات العمل أم لا."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:13
+msgid "Sticky notes' locked state"
+msgstr "حالة وصد للملاحظات اللاصقة"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:14
+msgid "Specifies whether the sticky notes are locked (non-editable) or not."
+msgstr "يحدّد ما إذا كانت الملاحظات اللاصقة موصدة أم لا (غير قالبة للتحرير)."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:15
+msgid "Date format of note's title"
+msgstr "صيغة التاريخ في عنوان الملاحظة"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:16
+msgid ""
+"By default, sticky notes are given the current date as the title when they "
+"are created. This format is used; anything that can be parsed by strftime() "
+"is valid."
+msgstr "مبدئيا، عنوان الملاحظات اللاصقة هو التاريخ الحالي. هذه الصّيغة مستخدمة؛ أي شيء يمكن تحليله من قبل ‪strftime()‬ مقبول."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:17
+msgid "Whether to use the default system color"
+msgstr "حول استخدام لون النظام المبدئي"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:18
+msgid ""
+"If this option is disabled, a custom color can be used as the default color "
+"for all sticky notes."
+msgstr "إذا عطّل هذا الخيار، سيمكن استخدام لون مخصّص كلون مبدئي لجميع الملاحظات اللّاصقة."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:19
+msgid "Whether to use the default system font"
+msgstr "حول استخدام خط النظام المبدئي"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:20
+msgid ""
+"If this option is disabled, a custom font can be used as the default font "
+"for all sticky notes."
+msgstr "إذا عطّل هذا الخيار، سيمكن استخدام خط خاص كخط مبدئي لجميع الملاحظات اللّاصقة."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:21
+msgid "Whether to force the default color and font on all notes"
+msgstr "حول إجبار استخدام اللون و الخط المبدئيين على كل الملاحظات"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:22
+msgid ""
+"If this option is enabled, the custom colors and fonts that have been "
+"assigned to individual notes will be ignored."
+msgstr "إذا فعّل هذا الخيار، ستُتَجاهل الألوان و الخطوط الخاصّة المرتبطة بالملاحظات الشخصيّة."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:23
+msgid "Whether to hide all notes when the desktop is selected"
+msgstr "حول إخفاء كل الملاحظات عند إظهار سطح المكتب"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:24
+msgid ""
+"If this option is enabled, selecting the desktop in any way will "
+"automatically hide all the open notes."
+msgstr "عند تفعيل هذا الخيار ، النّقر في سطح المكتب بأي طريقة سيخفي كل الملاحظات المفتوحة تلقائيًا."
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:25
+msgid "Whether to ask for confirmation when deleting a note"
+msgstr "حول طلب التأكيد عند حذف ملاحظة"
+
+#: ../stickynotes/org.gde2.stickynotes.gschema.xml.in.h:26
+msgid "Empty notes are always deleted without confirmation."
+msgstr "الملاحظات الفارغة تُحذف دومًا دون طلب تأكيد."
+
+#: ../stickynotes/stickynotes_applet.c:36
+msgid "Hi_de Notes"
+msgstr "ا_خفِ الملاحظات"
+
+#: ../stickynotes/stickynotes_applet.c:39
+msgid "_Delete Notes"
+msgstr "ا_حذف الملاحظات"
+
+#: ../stickynotes/stickynotes_applet.c:55
+msgid "_Lock Notes"
+msgstr "أ_وصِد الملاحظات"
+
+#: ../stickynotes/stickynotes_applet.c:595
+#, c-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] "لا ملاحظات"
+msgstr[1] "ملاحظة"
+msgstr[2] "ملاحظتان"
+msgstr[3] "%d ملاحظات"
+msgstr[4] "%d ملاحظة"
+msgstr[5] "%d ملاحظة"
+
+#: ../stickynotes/stickynotes_applet.c:596
+msgid "Show sticky notes"
+msgstr "اعرض الملاحظات اللاصقة"
+
+#: ../stickynotes/stickynotes_applet_callbacks.c:378
+msgid "Sticky Notes for the GDE2 Desktop Environment"
+msgstr "ملاحظات لاصقة لبيئة سطح المكتب متّة"
+
+#: ../timerapplet/org.gde2.applets.TimerApplet.gde2-panel-applet.in.in.h:1
+msgid "Timer Factory"
+msgstr ""
+
+#: ../timerapplet/org.gde2.applets.TimerApplet.gde2-panel-applet.in.in.h:2
+msgid "Timer"
+msgstr ""
+
+#: ../timerapplet/org.gde2.applets.TimerApplet.gde2-panel-applet.in.in.h:3
+#: ../timerapplet/timerapplet.c:263
+msgid "Start a timer and receive a notification when it is finished"
+msgstr "ابدأ مؤقّتًا و استقبل تنبيها بالإكمال"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:1
+msgid "Name of timer"
+msgstr "اسم عداد الوقت"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:2
+msgid "Duration of timer in seconds"
+msgstr "مدة المؤقّت بالثواني"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:3
+msgid "Show notification popup when timer finish"
+msgstr "أظهر تنبيهًا منبثقًا عند انتهاء المؤقّت"
+
+#: ../timerapplet/org.gde2.panel.applet.timer.gschema.xml.in.h:4
+msgid "Show dialog window when timer finish"
+msgstr "اظهر نافذة الحوار عند انتهاء المؤقت"
+
+#: ../timerapplet/timerapplet.c:82
+msgid "_Start timer"
+msgstr "ابدأ المؤقّت"
+
+#: ../timerapplet/timerapplet.c:83
+msgid "P_ause timer"
+msgstr "أوقف المؤقّت"
+
+#: ../timerapplet/timerapplet.c:84
+msgid "S_top timer"
+msgstr "انه المؤقّت"
+
+#: ../timerapplet/timerapplet.c:144
+msgid "Finished"
+msgstr "انتهى"
+
+#: ../timerapplet/timerapplet.c:151 ../timerapplet/timerapplet.c:163
+msgid "Timer finished!"
+msgstr "انتهى المؤقّت !"
+
+#: ../timerapplet/timerapplet.c:296
+msgid "Timer Applet Preferences"
+msgstr "إعدادات تطبيق المؤقّت"
+
+#: ../timerapplet/timerapplet.c:309
+msgid "Name:"
+msgstr "الاسم:"
+
+#: ../timerapplet/timerapplet.c:326
+msgid "Hours:"
+msgstr "الساعات:"
+
+#: ../timerapplet/timerapplet.c:345
+msgid "Minutes:"
+msgstr "الدقائق:"
+
+#: ../timerapplet/timerapplet.c:364
+msgid "Seconds:"
+msgstr "الثواني:"
+
+#: ../timerapplet/timerapplet.c:383
+msgid "Show notification popup"
+msgstr "أظهر تنبيهًا مُنبثقًا"
+
+#: ../timerapplet/timerapplet.c:389
+msgid "Show dialog"
+msgstr "أعرض الحوار"
+
+#: ../timerapplet/timerapplet.c:413
+msgid "Timer Applet"
+msgstr "بريمج المؤقّت"
+
+#: ../trashapplet/org.gde2.applets.TrashApplet.gde2-panel-applet.in.in.h:1
+msgid "Trash"
+msgstr "المهملات"
+
+#: ../trashapplet/org.gde2.applets.TrashApplet.gde2-panel-applet.in.in.h:2
+msgid "Go to Trash"
+msgstr "اذهب إلى المهملات"
+
+#: ../trashapplet/src/trashapplet.c:73 ../trashapplet/src/trash-empty.c:353
+msgid "_Empty Trash"
+msgstr "أ_فرِغ المهملات"
+
+#: ../trashapplet/src/trashapplet.c:76
+msgid "_Open Trash"
+msgstr "ا_فتح المهملات"
+
+#: ../trashapplet/src/trashapplet.c:132
+#, c-format
+msgid "%d Item in Trash"
+msgid_plural "%d Items in Trash"
+msgstr[0] "لا عناصر في المهملات"
+msgstr[1] "عنصر في المهملات"
+msgstr[2] "عنصران في المهملات"
+msgstr[3] "%d عناصر في المهملات"
+msgstr[4] "%d عنصراَ في المهملات"
+msgstr[5] "%d عنصر في المهملات"
+
+#: ../trashapplet/src/trashapplet.c:140
+msgid "No Items in Trash"
+msgstr "لا عناصر في المهملات"
+
+#: ../trashapplet/src/trashapplet.c:382
+#, c-format
+msgid ""
+"Error while spawning caja:\n"
+"%s"
+msgstr "خطأ أثناء بدء كاجا:\n%s"
+
+#: ../trashapplet/src/trashapplet.c:436
+msgid ""
+"A GDE2 trash bin that lives in your panel. You can use it to view the trash "
+"or drag and drop items into the trash."
+msgstr "سلّة مهملات متّة التي تسكن في اللوحة. يمكنك استخدامها لعرض المهملات أو اسحب وأسقط العناصر إلى المهملات."
+
+#: ../trashapplet/src/trashapplet.c:461
+msgid "Delete Immediately?"
+msgstr "أأحذف في الحال؟"
+
+#: ../trashapplet/src/trashapplet.c:495
+msgid "Cannot move items to trash, do you want to delete them immediately?"
+msgstr "لا يمكن نقل العناصر إلى المهملات، هل تريد حذفها فورًا؟"
+
+#: ../trashapplet/src/trashapplet.c:500
+msgid ""
+"Cannot move some items to trash, do you want to delete these immediately?"
+msgstr "لا يمكن نقل بعض العناصر إلى المهملات، هل تريد حذفها فورًا؟"
+
+#: ../trashapplet/src/trashapplet.c:638
+msgid "Trash Applet"
+msgstr "بريمج المهملات"
+
+#. Translators: the %s in this string should be read as %d.
+#: ../trashapplet/src/trash-empty.c:80
+#, c-format
+msgid "Removing item %s of %s"
+msgstr "يحذف العنصر  %s من %s"
+
+#. Translators: %s is a file name
+#: ../trashapplet/src/trash-empty.c:106
+#, c-format
+msgid "Removing: %s"
+msgstr "يحذف: %s"
+
+#: ../trashapplet/src/trash-empty.c:332
+msgid "Empty all of the items from the trash?"
+msgstr "هل أفرغ كل العناصر من المهملات؟"
+
+#: ../trashapplet/src/trash-empty.c:339
+msgid ""
+"If you choose to empty the trash, all items in it will be permanently lost. "
+"Please note that you can also delete them separately."
+msgstr "إذا اخترت إفراغ المهملات، ستفقد كل العناصر الموجودة بها نهائيًا. لاحظ رجاءً إمكانية حذفهم بشكل منفصل."
+
+#: ../trashapplet/trashapplet-empty-progress.ui.h:1
+msgid "Emptying the Trash"
+msgstr "يجري إفراغ المهملات"
+
+#: ../trashapplet/trashapplet-empty-progress.ui.h:2
+msgid "From:"
+msgstr "من:"
