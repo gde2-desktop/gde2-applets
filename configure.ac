@@ -86,32 +86,14 @@ dnl ***************************************************************************
 dnl ***************************************************************************
 dnl *** Check for GTK+ version to use                                       ***
 dnl ***************************************************************************
-AC_MSG_CHECKING([which gtk+ version to compile against])
-AC_ARG_WITH([gtk],
-  [AS_HELP_STRING([--with-gtk=2.0|3.0],[which gtk+ version to compile against (default: 2.0)])],
-  [case "$with_gtk" in
-     2.0|3.0) ;;
-     *) AC_MSG_ERROR([invalid gtk version specified]) ;;
-   esac],
-  [with_gtk=2.0])
-AC_MSG_RESULT([$with_gtk])
 
-case "$with_gtk" in
-  2.0) GTK_API_VERSION=2.0
-       GTK_REQUIRED=2.24.0
-       LIBWNCK_API_VERSION=1.0
-       LIBWNCK_REQUIRED=2.30.0
-       GUCHARMAP_API_VERSION=2
-       GUCHARMAP_REQUIRED=2.32.1
-       ;;
-  3.0) GTK_API_VERSION=3.0
-       GTK_REQUIRED=3.0.0
-       LIBWNCK_API_VERSION=3.0
-       LIBWNCK_REQUIRED=3.0.0
-       GUCHARMAP_API_VERSION=2.90
-       GUCHARMAP_REQUIRED=3.0.0
-       ;;
-esac
+GTK_API_VERSION=2.0
+GTK_REQUIRED=2.24.0
+LIBWNCK_API_VERSION=1.0
+LIBWNCK_REQUIRED=2.30.0
+GUCHARMAP_API_VERSION=2
+GUCHARMAP_REQUIRED=2.32.1
+
 AC_SUBST(GTK_API_VERSION)
 
 dnl ***************************************************************************
