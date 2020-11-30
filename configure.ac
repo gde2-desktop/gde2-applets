@@ -1,7 +1,7 @@
 dnl ***************************************************************************
 dnl *** configure.in for GDE2-APPLETS                                      ***
 dnl ***************************************************************************
-AC_INIT(gde2-applets, 1.14.1)
+AC_INIT(gde2-applets, 1.1.0)
 AC_PREREQ(2.59)
 
 AC_CONFIG_HEADERS(config.h)
@@ -13,9 +13,9 @@ dnl *** Minimum library versions for GDE2-APPLETS                          ***
 dnl ***************************************************************************
 GLIB_REQUIRED=2.36.0
 GIO_REQUIRED=2.15.3
-LIBPANEL4_REQUIRED=1.7.0
+LIBPANEL4_REQUIRED=1.1.0
 LIBGTOP_REQUIRED=2.11.92
-LIBGDE2_DESKTOP_REQUIRED=1.9.0
+LIBGDE2_DESKTOP_REQUIRED=1.1.0
 LIBNOTIFY_REQUIRED=0.7.0
 UPOWER_REQUIRED=0.9.4
 DBUS_REQUIRED=1.1.2
